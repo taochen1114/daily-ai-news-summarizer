@@ -26,7 +26,7 @@ const Header: React.FC = () => {
             <span>關於</span>
           </Link>
           <a
-            href="https://github.com/yourusername/dains"
+            href="https://github.com/taochen1114/daily-ai-news-summarizer"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-400 flex items-center"
