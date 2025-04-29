@@ -13,7 +13,7 @@ from config import GOOGLE_APPLICATION_CREDENTIALS, AUDIO_DIR
 class GoogleTTS:
     """Google TTS服务"""
     
-    def __init__(self, language_code="zh-CN", voice_name="zh-CN-Standard-A"):
+    def __init__(self, language_code="zh-TW", voice_name="cmn-TW-Standard-A"):
         # 设置环境变量以使用Google凭证
         if GOOGLE_APPLICATION_CREDENTIALS:
             os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = GOOGLE_APPLICATION_CREDENTIALS
