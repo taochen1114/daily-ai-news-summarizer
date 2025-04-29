@@ -48,7 +48,6 @@ build/
 
 # 数据文件
 *.csv
-*.json
 *.sqlite
 *.db
 
