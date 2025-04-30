@@ -19,7 +19,7 @@ from scripts.config import DATA_DIR, AUDIO_DIR
 app = FastAPI(
     title="DAINS API",
     description="每日AI新聞和論文摘要API",
-    version="0.1.0"
+    version="1.0.0"
 )
 
 # 設定CORS
