@@ -1,0 +1,76 @@
+{
+  "date": "2025-05-02",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "ArXiv CS.AI",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2505.00018",
+      "title": "Position Paper: Towards Open Complex Human-AI Agents Collaboration System for Problem-Solving and Knowledge Management",
+      "url": "https://arxiv.org/abs/2505.00018",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個新的概念架構，旨在促進人工智慧與人類之間更深層次的合作。通過整合多智能體協調、知識管理、回饋迴路和高階控制機制，該架構有助於改進舊有方法並激發新的研究。這項研究的價值在於提供了人工智慧與人類認知更緊密合作的契機，為未來設計或擴展人工智慧系統提供了重要參考。",
+      "audio_file": "2505.00018.mp3",
+      "published_date": "Fri, 02 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.00173",
+      "title": "First Order Logic with Fuzzy Semantics for Describing and Recognizing Nerves in Medical Images",
+      "url": "https://arxiv.org/abs/2505.00173",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一種利用模糊語義和一階邏輯來描述和辨識醫學影像中的神經纖維的方法。通過將解剖學知識形式化，提出了一種語言來表示空間實體、實體之間的關係和量詞。這種方法可以幫助外科醫生在兒科影像中識別骨盆神經，幫助手術規劃。這項研究的創新之處在於將模糊語義應用於神經描述，提供了一種新的空間推理算法，有助於影像分割和神經識別。",
+      "audio_file": "2505.00173.mp3",
+      "published_date": "Fri, 02 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.00174",
+      "title": "Real-World Gaps in AI Governance Research",
+      "url": "https://arxiv.org/abs/2505.00174",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文主要探討AI治理研究中的現實缺口。研究發現，企業在AI研究中越來越專注於模型對齊和測試，而對模型偏見等部署階段問題的關注卻減少了。在高風險領域，如醫療、金融、假訊息等，存在重大研究缺口。建議擴大外部研究人員對部署數據的訪問權，以及對市場中AI行為的系統觀察。這項研究提出了重要的觀察，有助於填補AI治理領域的研究空白。",
+      "audio_file": "2505.00174.mp3",
+      "published_date": "Fri, 02 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "29dbdc643db9e0e93ab47b7b8d12b372",
+      "title": "Hidden costs in AI deployment: Why Claude models may be 20-30% more expensive than GPT in enterprise settings",
+      "url": "https://venturebeat.com/ai/hidden-costs-in-ai-deployment-why-claude-models-may-be-20-30-more-expensive-than-gpt-in-enterprise-settings/",
+      "source": "VentureBeat AI",
+      "summary": "這篇新聞談到在企業AI應用中，Anthropic的Claude模型可能比OpenAI的GPT模型貴20-30%，原因在於Claude模型的tokenizer效率較低，導致同樣的輸入會被分成更多的token，增加成本。儘管Claude的輸入token價格較低，但總體運行成本仍較高。這提醒企業在部署AI模型時要留意隱藏的成本，選擇適合且經濟有效的模型。",
+      "audio_file": "29dbdc643db9e0e93ab47b7b8d12b372.mp3",
+      "published_date": "Thu, 01 May 2025 20:14:04 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "0be900b8a90caabcc322a5791fc3ac59",
+      "title": "Astronomer’s $93M raise underscores a new reality: Orchestration is king in AI infrastructure",
+      "url": "https://venturebeat.com/ai/astronomer-93m-raise-underscores-a-new-reality-orchestration-is-king-in-ai-infrastructure/",
+      "source": "VentureBeat AI",
+      "summary": "最新消息指出，Astronomer公司籌得9300萬美元資金，強調在AI基礎設施中，管控是王道。他們的資金將用於研發和擴展業務，特別是在歐洲、澳洲和紐西蘭地區。企業正積極尋求通過更好地管理數據管道來實現AI計劃。數據管控被視為成功部署AI的關鍵，幫助企業克服技術和組織障礙。",
+      "audio_file": "0be900b8a90caabcc322a5791fc3ac59.mp3",
+      "published_date": "Thu, 01 May 2025 13:00:00 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "f20d263c2063d01fbea44ba6515ad649",
+      "title": "Microsoft launches Phi-4-Reasoning-Plus, a small, powerful, open weights reasoning model!",
+      "url": "https://venturebeat.com/ai/microsoft-launches-phi-4-reasoning-plus-a-small-powerful-open-weights-reasoning-model/",
+      "source": "VentureBeat AI",
+      "summary": "微軟推出了Phi-4-Reasoning-Plus，這是一個小巧、強大、開放權重的推理模型。這個模型在數學、科學、編碼和邏輯任務上表現出色，並且比大型模型表現更優秀。Phi-4-Reasoning-Plus採用了監督微調和強化學習，強調品質而非規模，並且可以廣泛應用於商業和企業應用中。這個模型的推出展示了微軟對訓練小型模型的重視，這些小型模型在性能上可以與大型系統匹敵。",
+      "audio_file": "f20d263c2063d01fbea44ba6515ad649.mp3",
+      "published_date": "Thu, 01 May 2025 12:41:29 +0000",
+      "content_type": "news"
+    }
+  ]
+}
