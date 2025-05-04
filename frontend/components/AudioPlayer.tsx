@@ -101,28 +101,34 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
     const audio = audioRef.current;
     if (!audio) return;
 
-    // 停止當前播放
+    // 重置音頻狀態
     audio.pause();
     audio.currentTime = 0;
+    setCurrentTime(0);
     setIsPlaying(false);
 
+    // 設置新的音頻源
+    audio.src = audioUrl;
+
     // 開始新的播放
-    try {
+    const playNewAudio = () => {
+
       audio.play().then(() => {
         setIsPlaying(true);
       }).catch(err => {
-        console.error('自动播放失败:', err);
+        console.error('播放失敗:', err);
         setIsPlaying(false);
       });
-    } catch (err) {
-      console.error('播放出错:', err);
-      setIsPlaying(false);
-    }
+    };
+
+    // 等待音頻加載完成後播放
+    audio.addEventListener('loadeddata', playNewAudio);
 
     return () => {
+      audio.removeEventListener('loadeddata', playNewAudio);
       audio.pause();
     };
-  }, [article.id]); // 當文章ID改變時重新執行
+  }, [article.id, audioUrl]);
 
   return (
     <div className="fixed bottom-0 left-0 w-full bg-white shadow-lg border-t border-gray-200 z-50">
