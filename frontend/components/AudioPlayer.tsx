@@ -34,10 +34,15 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
 
     if (isPlaying) {
       audio.pause();
+      setIsPlaying(false);
     } else {
-      audio.play();
+      audio.play().then(() => {
+        setIsPlaying(true);
+      }).catch(err => {
+        console.error('播放失败:', err);
+        setIsPlaying(false);
+      });
     }
-    setIsPlaying(!isPlaying);
   };
 
   // 静音
@@ -107,6 +112,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
 
     // 開始新的播放
     const playNewAudio = () => {
+
       audio.play().then(() => {
         setIsPlaying(true);
       }).catch(err => {

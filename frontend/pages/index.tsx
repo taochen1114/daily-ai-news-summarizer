@@ -92,6 +92,7 @@ export default function Home() {
       // 直接切換到新的文章，不需要先停止當前播放
       setCurrentPlayingId(articleId);
     }
+
   };
 
   // 格式化日期顯示
@@ -130,7 +131,7 @@ export default function Home() {
             <DateSelector 
               dates={availableDates}
               selectedDate={selectedDate}
-              onSelectDate={setSelectedDate}
+              onSelectDate={handleDateChange}
             />
           </div>
 
