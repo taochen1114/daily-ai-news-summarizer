@@ -11,7 +11,7 @@ load_dotenv()
 RSS_SOURCES = [
     {
         "name": "ArXiv CS.AI",
-        "url": "http://export.arxiv.org/rss/cs.AI",
+        "url": "https://export.arxiv.org/rss/cs.AI",
         "type": "academic",
         "parser": "arxiv"
     },
@@ -25,8 +25,8 @@ RSS_SOURCES = [
 ]
 
 # 應用程式設定
-MAX_ARTICLES_PER_SOURCE = int(os.getenv("MAX_ARTICLES_PER_SOURCE", 10))
-FETCH_INTERVAL = int(os.getenv("FETCH_INTERVAL", 86400))  # 預設24小時
+MAX_ARTICLES_PER_SOURCE = int(os.getenv("MAX_ARTICLES_PER_SOURCE", "10"))
+FETCH_INTERVAL = int(os.getenv("FETCH_INTERVAL", "86400"))  # 預設24小時
 STORAGE_TYPE = os.getenv("STORAGE_TYPE", "local")
 TTS_PROVIDER = os.getenv("TTS_PROVIDER", "elevenlabs")
 
