@@ -83,6 +83,13 @@ export default function Home() {
     fetchDailyData();
   }, [selectedDate]);
 
+  // 處理日期切換
+  const handleDateChange = (date: string) => {
+    setSelectedDate(date);
+    // 切換日期時停止當前播放
+    setCurrentPlayingId(null);
+  };
+
   // 播放音訊
   const handlePlay = (articleId: string) => {
     // 如果點擊的是當前正在播放的文章，則停止播放
