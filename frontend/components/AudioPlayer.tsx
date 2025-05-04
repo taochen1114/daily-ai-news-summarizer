@@ -34,10 +34,15 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
 
     if (isPlaying) {
       audio.pause();
+      setIsPlaying(false);
     } else {
-      audio.play();
+      audio.play().then(() => {
+        setIsPlaying(true);
+      }).catch(err => {
+        console.error('播放失败:', err);
+        setIsPlaying(false);
+      });
     }
-    setIsPlaying(!isPlaying);
   };
 
   // 静音
@@ -96,6 +101,12 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
     const audio = audioRef.current;
     if (!audio) return;
 
+    // 停止當前播放
+    audio.pause();
+    audio.currentTime = 0;
+    setIsPlaying(false);
+
+    // 開始新的播放
     try {
       audio.play().then(() => {
         setIsPlaying(true);
@@ -111,7 +122,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
     return () => {
       audio.pause();
     };
-  }, []);
+  }, [article.id]); // 當文章ID改變時重新執行
 
   return (
     <div className="fixed bottom-0 left-0 w-full bg-white shadow-lg border-t border-gray-200 z-50">
