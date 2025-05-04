@@ -88,6 +88,12 @@ export default function Home() {
     setCurrentPlayingId(articleId);
   };
 
+  // 處理日期選擇
+  const handleDateChange = (date: string) => {
+    setSelectedDate(date);
+    setCurrentPlayingId(null); // 切換日期時停止播放
+  };
+
   // 格式化日期顯示
   const formatDisplayDate = (dateStr: string) => {
     try {
@@ -124,7 +130,7 @@ export default function Home() {
             <DateSelector 
               dates={availableDates}
               selectedDate={selectedDate}
-              onSelectDate={setSelectedDate}
+              onSelectDate={handleDateChange}
             />
           </div>
 
