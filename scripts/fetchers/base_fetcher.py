@@ -4,6 +4,7 @@
 import json
 import os
 import datetime
+import logging
 from abc import ABC, abstractmethod
 import feedparser
 import requests
@@ -11,8 +12,11 @@ from bs4 import BeautifulSoup
 
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from config import DATA_DIR, MAX_ARTICLES_PER_SOURCE
+from config import DATA_DIR, MAX_ARTICLES_PER_SOURCE, DATABASE_URL
 
+# 配置日誌
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 class BaseFetcher(ABC):
     """基礎內容抓取器"""
@@ -22,10 +26,16 @@ class BaseFetcher(ABC):
         self.name = source_config["name"]
         self.url = source_config["url"]
         self.source_type = source_config["type"]
+        self.db = None
         
+        # 初始化資料庫連接
+        if DATABASE_URL.startswith('sqlite'):
+            from database import Database
+            self.db = Database()
+    
     def fetch(self):
         """抓取內容並儲存為JSON"""
-        print(f"正在從 {self.name} 抓取內容...")
+        logger.info(f"正在從 {self.name} 抓取內容...")
         
         feed = feedparser.parse(self.url)
         articles = []
@@ -37,7 +47,7 @@ class BaseFetcher(ABC):
                 if article:
                     articles.append(article)
             except Exception as e:
-                print(f"解析文章時出錯: {e}")
+                logger.error(f"解析文章時出錯: {str(e)}")
         
         # 儲存文章
         if articles:
@@ -51,12 +61,21 @@ class BaseFetcher(ABC):
         pass
     
     def save_articles(self, articles):
-        """將文章儲存為JSON檔案"""
+        """將文章儲存到資料庫和JSON檔案"""
         date_str = datetime.datetime.now().strftime("%Y-%m-%d")
         source_dir = os.path.join(DATA_DIR, self.name.lower().replace(" ", "_"))
         os.makedirs(source_dir, exist_ok=True)
         
         file_path = os.path.join(source_dir, f"{date_str}.json")
+        
+        # 如果使用資料庫，先儲存到資料庫
+        if self.db:
+            for article in articles:
+                try:
+                    self.db.save_article(article)
+                    logger.info(f"已儲存文章到資料庫: {article['title']}")
+                except Exception as e:
+                    logger.error(f"儲存文章到資料庫時出錯: {str(e)}")
         
         # 如果檔案已存在，載入現有內容並合併
         if os.path.exists(file_path):
@@ -80,7 +99,7 @@ class BaseFetcher(ABC):
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(articles, f, ensure_ascii=False, indent=2)
             
-        print(f"已儲存 {len(articles)} 篇文章到 {file_path}")
+        logger.info(f"已儲存 {len(articles)} 篇文章到 {file_path}")
     
     def get_full_text(self, url):
         """獲取文章的完整文字內容"""
@@ -103,5 +122,5 @@ class BaseFetcher(ABC):
             
             return text
         except Exception as e:
-            print(f"獲取完整文字時出錯: {e}")
+            logger.error(f"獲取完整文字時出錯: {str(e)}")
             return None 
