@@ -85,7 +85,13 @@ export default function Home() {
 
   // 播放音訊
   const handlePlay = (articleId: string) => {
-    setCurrentPlayingId(articleId);
+    if (currentPlayingId === articleId) {
+      // 如果點擊的是當前正在播放的文章，則暫停
+      setCurrentPlayingId(null);
+    } else {
+      // 否則播放新的文章
+      setCurrentPlayingId(articleId);
+    }
   };
 
   // 格式化日期顯示
