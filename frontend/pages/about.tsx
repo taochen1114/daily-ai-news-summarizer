@@ -70,10 +70,11 @@ const About = () => {
           </div>
 
           <div className="flex justify-center mt-8">
-            <Link href="/">
-              <a className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
-                返回首頁
-              </a>
+            <Link 
+              href="/"
+              className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300"
+            >
+              返回首頁
             </Link>
           </div>
         </div>
