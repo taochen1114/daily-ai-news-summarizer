@@ -1,0 +1,146 @@
+{
+  "date": "2025-05-06",
+  "total_articles": 13,
+  "sources": [
+    {
+      "name": "ArXiv CS.AI",
+      "count": 10
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2505.00733",
+      "title": "ROSA: A Knowledge-based Solution for Robot Self-Adaptation",
+      "url": "https://arxiv.org/abs/2505.00733",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文介紹了一個名為ROSA的新型知識型框架，可以讓機器人在運作時根據環境自主調整任務執行和軟體架構，提升適應性。ROSA透過知識模型在運行時推理，決定何時以及如何進行調整。研究者還提供了基於ROS 2的開源參考實現，並在水下機器人應用中評估其可行性和效能。實驗結果顯示ROSA在設計自適應機器人系統時具有重用性和開發效益的優勢。",
+      "audio_file": "2505.00733.mp3",
+      "published_date": "Mon, 05 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.00795",
+      "title": "Howard's Policy Iteration is Subexponential for Deterministic Markov Decision Problems with Rewards of Fixed Bit-size and Arbitrary Discount Factor",
+      "url": "https://arxiv.org/abs/2505.00795",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個重要的改進，針對解決馬可夫決策問題的經典算法Howard's Policy Iteration (HPI)。他們成功地找到了一個比指數時間更有效率的方法，特別適用於具有固定位元大小獎勵和任意折扣因子的問題。這項研究有助於提高在特定情況下解決MDPs的效率，對於優化決策過程有重要的意義。",
+      "audio_file": "2505.00795.mp3",
+      "published_date": "Mon, 05 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.00802",
+      "title": "Explanations as Bias Detectors: A Critical Study of Local Post-hoc XAI Methods for Fairness Exploration",
+      "url": "https://arxiv.org/abs/2505.00802",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文探討了如何利用解釋性方法來偵測和解釋不公平現象，特別針對對受保護群體的影響。研究提出了一個整合了局部事後解釋方法的流程，用來獲取與公平相關的見解。研究結果顯示，解釋方法在公平性方面有潛力，同時也強調了需要仔細考慮一些關鍵方面，例如不同解釋方法的一致性和結果品質，以及局部解釋的聚合策略對群體公平評估的影響等。這項研究有助於推動負責任的人工智慧系統，提高透明度和公平性。",
+      "audio_file": "2505.00802.mp3",
+      "published_date": "Mon, 05 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.00827",
+      "title": "MIMIC-\\RNum{4}-Ext-22MCTS: A 22 Millions-Event Temporal Clinical Time-Series Dataset with Relative Timestamp for Risk Prediction",
+      "url": "https://arxiv.org/abs/2505.00827",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文介紹了一個新的醫療時間序列資料集 MIMIC-\\RNum{4}-Ext-22MCTS，包含了超過2200萬個臨床事件，有助於進行風險預測。研究團隊提出了一個新的方法，從長篇的出院摘要中提取臨床事件和時間戳記，讓機器學習模型更準確地預測醫療風險。這個資料集的應用讓標準模型在醫療領域有顯著進步，例如基於該資料集微調的BERT模型在醫學問答任務上準確率提升了10%，GPT-2模型在臨床問題上也有更可靠的結果。",
+      "audio_file": "2505.00827.mp3",
+      "published_date": "Mon, 05 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.00875",
+      "title": "Thoughts without Thinking: Reconsidering the Explanatory Value of Chain-of-Thought Reasoning in LLMs through Agentic Pipelines",
+      "url": "https://arxiv.org/abs/2505.00875",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇研究討論了在人工智慧領域中，如何讓模型的內部運作更透明且可操作。他們發現，單靠思維連鎖推理並不能提升模型的輸出品質或可解釋性。研究團隊透過量化和質化分析，探討了在協作型模型中，思維連鎖推理的運作方式。這項研究的重要發現是，單靠思維連鎖推理無法提供更好的解釋，也無法讓使用者更好地理解系統或實現目標。",
+      "audio_file": "2505.00875.mp3",
+      "published_date": "Mon, 05 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.00876",
+      "title": "Car Sensors Health Monitoring by Verification Based on Autoencoder and Random Forest Regression",
+      "url": "https://arxiv.org/abs/2505.00876",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文介紹了一個創新的汽車感應器健康監控系統，利用機器學習和深度學習技術來評估汽車感應器的狀況。通過比對感應器數據，系統可以提前檢測故障感應器並準確估計感應器數值，進而提醒駕駛員和維修部門。這種主動式方法在實驗中展現出高達99%的準確率，為汽車行業帶來了重要的價值和創新。",
+      "audio_file": "2505.00876.mp3",
+      "published_date": "Mon, 05 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.00972",
+      "title": "Seeking to Collide: Online Safety-Critical Scenario Generation for Autonomous Driving with Retrieval Augmented Large Language Models",
+      "url": "https://arxiv.org/abs/2505.00972",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個新方法，利用大型語言模型來即時生成自駕車安全關鍵的行車情境。透過分析其他車輛的行為，系統可以預測潛在的危險意圖，並生成對應的對抗性軌跡，以幫助自駕車應對危險情況。經過實驗驗證，這個方法可以顯著降低碰撞風險，提高自駕車的安全性能。",
+      "audio_file": "2505.00972.mp3",
+      "published_date": "Mon, 05 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.01009",
+      "title": "Improving Large Language Model Planning with Action Sequence Similarity",
+      "url": "https://arxiv.org/abs/2505.01009",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文主要提出了一種新方法，能夠透過在上下文中學習，改善大型語言模型的規劃能力，讓模型在各種任務中能夠更有效地預測未來行動。經過實驗驗證，這個方法能夠顯著提升規劃任務的表現，並且在處理較難的問題時，使用簡單問題作為範例，也能獲得更好的結果。這項研究有助於提升人工智慧系統的預測能力，對於未來的相關應用有相當大的價值。",
+      "audio_file": "2505.01009.mp3",
+      "published_date": "Mon, 05 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.01028",
+      "title": "Adaptive Wizard for Removing Cross-Tier Misconfigurations in Active Directory",
+      "url": "https://arxiv.org/abs/2505.01028",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇研究提出了一個名為「Adaptive Wizard」的方法，幫助管理者在Windows Active Directory系統中快速修復安全漏洞，減少人工審核的工作量。透過一個向IT管理員提供多個選項的精靈，讓管理者能夠快速選擇要移除的漏洞，以降低修復過程中的互動次數。研究團隊提出了一系列解決方案，其中最佳的啟發式算法DPR在處理大型圖表時表現優異，並在多個實驗中驗證了演算法的有效性。這項研究有助於提升AD系統的安全性，減少人力成本。",
+      "audio_file": "2505.01028.mp3",
+      "published_date": "Mon, 05 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.01073",
+      "title": "Retrieval Augmented Learning: A Retrial-based Large Language Model Self-Supervised Learning and Autonomous Knowledge Generation",
+      "url": "https://arxiv.org/abs/2505.01073",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一種新的自我監督學習框架，稱為Retrial-Augmented Learning (RAL)，可以幫助大型語言模型在特定應用中生成知識而無需額外訓練。通過引入Retrieval-Augmented Generation (RAG) 模組，實現了三階段的自主知識生成過程，包括提出假設、驗證假設和生成知識。研究結果顯示，這種方法可以有效降低虛幻生成，提升決策性能，同時在成本極低的情況下具有潛力應用於不同領域的任務，是一個具有效果且節省成本的解決方案。",
+      "audio_file": "2505.01073.mp3",
+      "published_date": "Mon, 05 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "efb8eb15c9072f45b85dc80134f5e8c2",
+      "title": "Meta, Cisco put open-source LLMs at the core of next-gen SOC workflows",
+      "url": "https://venturebeat.com/ai/rsac-2025-cisco-and-meta-put-open-source-ai-at-the-heart-of-enterprise-threat-defense/",
+      "source": "VentureBeat AI",
+      "summary": "Cisco和Meta在RSAC 2025會議上宣布，將開源大型語言模型(LLMs)納入下一代安全運營中心(SOC)工作流程的核心，這將有助於加速開發和部署適應性強、成本效益高的防禦系統，以應對快速演變的威脅。開源LLMs提供更快的上市時間、更大的適應性和更低的成本，為建立安全基礎奠定了基礎。這項創新將協助全球資安領導者和新創公司共同應對複雜威脅，推動開源在資安領域的未來發展。",
+      "audio_file": "efb8eb15c9072f45b85dc80134f5e8c2.mp3",
+      "published_date": "2025-05-06T00:08:44+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "7c7ac66eaf1eb2950baf8dffd0fe983c",
+      "title": "Nvidia launches fully open source transcription AI model Parakeet-TDT-0.6B-V2 on Hugging Face",
+      "url": "https://venturebeat.com/ai/nvidia-launches-fully-open-source-transcription-ai-model-parakeet-tdt-0-6b-v2-on-hugging-face/",
+      "source": "VentureBeat AI",
+      "summary": "Nvidia在Hugging Face上推出全新的開源轉錄AI模型Parakeet-TDT-0.6B-V2，能在1秒內轉錄60分鐘的語音。這個模型在Hugging Face Open ASR Leaderboard上表現優異，錯字率僅6.05%，接近一些專有模型的水準。Nvidia不僅生產硬體，也積極釋出免費的AI模型供研究人員和開發者使用，這對AI領域的發展具有重要價值。",
+      "audio_file": "7c7ac66eaf1eb2950baf8dffd0fe983c.mp3",
+      "published_date": "2025-05-05T19:17:19+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "e7d548f8e8455bdd1887d79c9112fccc",
+      "title": "Visa launches ‘Intelligent Commerce’ platform, letting AI agents swipe your card—safely, it says",
+      "url": "https://venturebeat.com/ai/visa-launches-intelligent-commerce-platform-letting-ai-agents-swipe-your-card-safely-it-says/",
+      "source": "VentureBeat AI",
+      "summary": "Visa推出了「智慧商務」平台，讓AI代理人可以安全地幫你刷信用卡。這個系統讓AI助手不僅能推薦商品，還能完成交易。Visa與多家領先的AI公司合作，將支付功能直接嵌入AI系統，讓消費者更方便地發現和購買商品。這項新舉措填補了現有AI商務領域的一個關鍵缺口，讓AI助手可以幫助用戶完成線上購物。",
+      "audio_file": "e7d548f8e8455bdd1887d79c9112fccc.mp3",
+      "published_date": "2025-05-05T18:01:17+00:00",
+      "content_type": "news"
+    }
+  ]
+}
