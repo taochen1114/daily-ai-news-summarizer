@@ -1,0 +1,146 @@
+{
+  "date": "2025-05-22",
+  "total_articles": 13,
+  "sources": [
+    {
+      "name": "ArXiv CS.AI",
+      "count": 10
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2505.13466",
+      "title": "AgentSGEN: Multi-Agent LLM in the Loop for Semantic Collaboration and GENeration of Synthetic Data",
+      "url": "https://arxiv.org/abs/2505.13466",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個新的多智能體框架，可以協同生成合成資料，應用在建築安全等領域。透過兩個智能體的互動，一個評估者智能體和一個編輯者智能體，來產生符合安全標準且具有語義深度的合成影像。這個設計能夠根據真實需求生成符合安全要求和視覺語義的場景，有助於解決多媒體安全應用中資料稀缺的問題。",
+      "audio_file": "2505.13466.mp3",
+      "published_date": "Wed, 21 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.13484",
+      "title": "Evaluating Large Language Models for Real-World Engineering Tasks",
+      "url": "https://arxiv.org/abs/2505.13484",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文主要探討大型語言模型在工程任務中的應用價值。研究發現，目前對語言模型在工程領域的評估存在兩個主要問題：一是測試場景過於簡化，二是缺乏真實工程能力的考量。為了彌補這個缺口，研究團隊建立了一個包含100多個真實工程場景問題的資料庫，用來評估四種最先進的語言模型在複雜工程任務中的表現。研究結果顯示，這些語言模型在基本時間和結構推理方面表現優異，但在抽象推理、正式建模和上下文敏感的工程邏輯方面則表現較差。",
+      "audio_file": "2505.13484.mp3",
+      "published_date": "Wed, 21 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.13489",
+      "title": "Contrastive Cross-Course Knowledge Tracing via Concept Graph Guided Knowledge Transfer",
+      "url": "https://arxiv.org/abs/2505.13489",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一種新的知識追蹤方法，名為TransKT，可以跨不同課程領域進行知識追蹤，幫助預測學習者未來的表現。他們利用概念圖引導知識轉移，建立了跨課程概念圖，讓模型能更好地理解學習者的知識狀態。透過整合語義特徵和對比目標，提升了模型對學習者整體知識狀態的準確性和鮮明度。这個方法有助於提升教育領域的智能化水準。",
+      "audio_file": "2505.13489.mp3",
+      "published_date": "Wed, 21 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.13496",
+      "title": "ADALog: Adaptive Unsupervised Anomaly detection in Logs with Self-attention Masked Language Model",
+      "url": "https://arxiv.org/abs/2505.13496",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個名為ADALog的新方法，可以在複雜的日誌數據中自適應地偵測異常，不需要事先標記的資料。他們使用了一種基於transformer的預訓練編碼器，通過適應性閾值處理正常數據，從而動態適應系統行為，並避免傳統系統中常見的嚴格閾值。研究結果顯示，這個方法在各種真實環境中表現良好，與最先進的監督和非監督方法相比具有競爭力。進一步的研究還探討了掩碼、微調和標記位置對模型行為和可解釋性的影響。",
+      "audio_file": "2505.13496.mp3",
+      "published_date": "Wed, 21 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.13511",
+      "title": "Can AI Freelancers Compete? Benchmarking Earnings, Reliability, and Task Success at Scale",
+      "url": "https://arxiv.org/abs/2505.13511",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇研究探討了大型語言模型在自由工作者領域的應用，特別是在自由軟體開發方面。研究者們建立了一個新的基準測試，評估了四個現代語言模型在自由程式設計和資料分析任務上的表現。他們發現，其中一個名叫Claude 3.5 Haiku的模型表現最佳，賺取了約152萬美元，顯示了AI在自由開發者領域的潛力。這項研究的價值在於提供了一個自動化的評估方法，幫助我們了解AI在處理結構化任務和真實自由工作之間的差異。",
+      "audio_file": "2505.13511.mp3",
+      "published_date": "Wed, 21 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.13522",
+      "title": "A Heuristic Algorithm Based on Beam Search and Iterated Local Search for the Maritime Inventory Routing Problem",
+      "url": "https://arxiv.org/abs/2505.13522",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一種新的啟發式演算法，結合光束搜尋和反覆局部搜尋，用來解決海上庫存路線問題。這個方法在72個測試案例中，成功改進了十個案例的最佳解決方案，並在合理的時間內完成。這對於全球海上商業的整合至關重要，因為目前尚無法有效解決這個複雜問題的方法。這個研究有助於促進海上庫存路線問題的研究和比較成果。",
+      "audio_file": "2505.13522.mp3",
+      "published_date": "Wed, 21 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.13529",
+      "title": "BARREL: Boundary-Aware Reasoning for Factual and Reliable LRMs",
+      "url": "https://arxiv.org/abs/2505.13529",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個名為BARREL的新框架，可以幫助大型推理模型更準確地做出答案，並且能夠承認自己不知道的情況。他們發現目前的模型常常在不確定時表現得過於自信，容易出錯。BARREL能夠幫助模型更有邊界意識地進行推理，提高了可靠性。研究結果顯示，使用BARREL訓練後，模型的可靠性從39.33%提升到61.48%，同時仍然保持了和其他模型相當的準確性。這項研究有助於建立更可靠和真實的推理模型。",
+      "audio_file": "2505.13529.mp3",
+      "published_date": "Wed, 21 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.13533",
+      "title": "FinMaster: A Holistic Benchmark for Mastering Full-Pipeline Financial Workflows with LLMs",
+      "url": "https://arxiv.org/abs/2505.13533",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文介紹了一個名為FinMaster的全方位金融工作流程評估基準，旨在評估大型語言模型在金融領域的應用能力。透過FinMaster，可以測試語言模型在金融知識、會計、審計和諮詢等方面的表現。研究發現，當面對複雜的金融情境時，語言模型的準確度明顯下降，顯示了在多步驟推理過程中的計算錯誤。這個基準的建立有助於將研究成果應用到實際金融實踐中，提高效率和準確性。",
+      "audio_file": "2505.13533.mp3",
+      "published_date": "Wed, 21 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.13546",
+      "title": "Prompt Stability Matters: Evaluating and Optimizing Auto-Generated Prompt in General-Purpose Systems",
+      "url": "https://arxiv.org/abs/2505.13546",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文研究了如何評估和優化AI系統中自動生成提示的穩定性，強調了提示的穩定性對於建立可靠且有效的提示生成系統的重要性。研究者提出了「語義穩定性」作為評估提示一致性的標準，並開發了一個以穩定性為重點的提示生成系統，透過穩定性反饋來不斷提升提示品質和系統性能。研究結果顯示，這個穩定性感知框架不僅提高了準確性，也改善了輸出的一致性，為建立更可信賴的通用系統提供了實用工具。",
+      "audio_file": "2505.13546.mp3",
+      "published_date": "Wed, 21 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.13551",
+      "title": "Counter-Inferential Behavior in Natural and Artificial Cognitive Systems",
+      "url": "https://arxiv.org/abs/2505.13551",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇研究探討自然和人工智慧系統中反推論行為的出現，也就是指代理人錯誤歸因實證成功或抑制適應，導致認知僵化或適應不良的模式。研究發現這種行為不是來自於設計缺陷，而是透過內部信息模型、實證回饋和高階評估機制之間的結構化互動而產生。這些發現強調在穩定環境下保留最小適應激活的重要性，並提出了抵抗資訊壓力下僵化的認知架構設計原則。",
+      "audio_file": "2505.13551.mp3",
+      "published_date": "Wed, 21 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "deda7f9ce10b3f1f00f7f2f708878576",
+      "title": "OpenAI updates its new Responses API rapidly with MCP support, GPT-4o native image gen, and more enterprise features",
+      "url": "https://venturebeat.com/programming-development/openai-updates-its-new-responses-api-rapidly-with-mcp-support-gpt-4o-native-image-gen-and-more-enterprise-features/",
+      "source": "VentureBeat AI",
+      "summary": "OpenAI 迅速更新了新的 Responses API，加入了 MCP 支援、GPT-4o 原生圖像生成等功能，並提供更多企業級功能。這些更新讓開發者和企業更容易建立智能應用程式，讓應用更具行動性。Responses API 自去年三月推出以來，已處理了數以兆計的 tokens，支援各種應用案例，從市場研究到教育和金融分析。企業可以整合 OpenAI 的技術，如 ChatGPT，到他們的產品和服務中。",
+      "audio_file": "deda7f9ce10b3f1f00f7f2f708878576.mp3",
+      "published_date": "2025-05-21T15:30:22+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "374c509f2f7310e79270e7c014ec167c",
+      "title": "Mistral AI launches Devstral, powerful new open source SWE agent model that runs on laptops",
+      "url": "https://venturebeat.com/ai/mistral-ai-launches-devstral-powerful-new-open-source-swe-agent-model-that-runs-on-laptops/",
+      "source": "VentureBeat AI",
+      "summary": "Mistral AI推出全新的開源SWE代理模型Devstral，可在筆記型電腦上運行，專為軟體工程開發而設計。這個模型相較於其他競爭對手的模型更小，只有2400萬個參數，因此需要更少的運算能力，適合在筆記型電腦上運行。Devstral不同於傳統的模型，能夠全面理解程式碼、導覽大型程式庫並解決實際問題。這個模型現在以寬鬆的Apache 2.0許可證免費提供給開發者和組織使用。",
+      "audio_file": "374c509f2f7310e79270e7c014ec167c.mp3",
+      "published_date": "2025-05-21T14:57:15+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "eb3a91ddb2687cc1d6185d1ce361cb9f",
+      "title": "AMD unveils new Threadripper CPUs and Radeon GPUs for gamers at Computex 2025",
+      "url": "https://venturebeat.com/games/amd-unveils-new-threadripper-cpus-and-radeon-gpus-for-gamers-at-computex-2025/",
+      "source": "VentureBeat AI",
+      "summary": "AMD在2025年的Computex展示了新款Threadripper CPU和Radeon GPU，針對遊戲玩家推出。這些新硬體提供更高效能和功能，適用於遊戲、內容創作、專業產業和AI開發等領域。其中，Radeon RX 9060 XT GPU具備新功能，提升遊戲表現。同時，AMD也加強與ASUS的合作，推出搭載AI加速功能的商用PC。這些產品將帶來更快速、更高效的AI增強生產力，並提供企業級安全和管理功能。",
+      "audio_file": "eb3a91ddb2687cc1d6185d1ce361cb9f.mp3",
+      "published_date": "2025-05-21T03:00:00+00:00",
+      "content_type": "news"
+    }
+  ]
+}
