@@ -17,7 +17,7 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-05-08T14:12:25.201958",
     "audio_file": "2505.03770.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/2505.03770.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.03770.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-05-08T14:12:56.003028"
   },
@@ -40,7 +40,7 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-05-08T14:12:28.792912",
     "audio_file": "2505.03800.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/2505.03800.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.03800.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-05-08T14:12:57.489431"
   },
@@ -62,7 +62,7 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-05-08T14:12:30.842864",
     "audio_file": "2505.03941.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/2505.03941.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.03941.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-05-08T14:12:58.760100"
   },
@@ -84,7 +84,7 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-05-08T14:12:34.131697",
     "audio_file": "2505.03947.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/2505.03947.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.03947.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-05-08T14:13:00.416598"
   },
@@ -108,7 +108,7 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-05-08T14:12:35.919722",
     "audio_file": "2505.03961.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/2505.03961.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.03961.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-05-08T14:13:01.645781"
   },
@@ -130,7 +130,7 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-05-08T14:12:38.134519",
     "audio_file": "2505.03985.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/2505.03985.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.03985.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-05-08T14:13:03.145696"
   },
@@ -152,7 +152,7 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-05-08T14:12:41.085482",
     "audio_file": "2505.03989.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/2505.03989.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.03989.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-05-08T14:13:04.461022"
   },
@@ -174,7 +174,7 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-05-08T14:12:43.169778",
     "audio_file": "2505.04019.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/2505.04019.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.04019.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-05-08T14:13:05.947336"
   },
@@ -196,7 +196,7 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-05-08T14:12:46.119383",
     "audio_file": "2505.04115.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/2505.04115.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.04115.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-05-08T14:13:07.384851"
   },
@@ -219,7 +219,7 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-05-08T14:12:48.986749",
     "audio_file": "2505.04310.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/2505.04310.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.04310.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-05-08T14:13:08.904671"
   }

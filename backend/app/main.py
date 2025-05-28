@@ -66,7 +66,7 @@ def get_daily_report(date: Optional[str] = None):
         date = datetime.now().strftime("%Y-%m-%d")
         
     # 查找日報檔案
-    daily_dir = os.path.join(DATA_DIR, "daily")
+    daily_dir = os.path.join(DATA_DIR, "articles", "daily")
     file_path = os.path.join(daily_dir, f"{date}.json")
     
     if not os.path.exists(file_path):
@@ -117,7 +117,7 @@ def get_audio(article_id: str):
 def get_sources():
     """獲取所有新聞來源"""
     try:
-        daily_dir = os.path.join(DATA_DIR, "daily")
+        daily_dir = os.path.join(DATA_DIR, "articles", "daily")
         
         # 獲取最新的日報
         files = [f for f in os.listdir(daily_dir) if f.endswith(".json")]
@@ -140,7 +140,7 @@ def get_sources():
 def get_available_dates():
     """獲取所有可用的日期"""
     try:
-        daily_dir = os.path.join(DATA_DIR, "daily")
+        daily_dir = os.path.join(DATA_DIR, "articles", "daily")
         
         # 獲取所有日報檔案
         files = [f.replace(".json", "") for f in os.listdir(daily_dir) if f.endswith(".json")]

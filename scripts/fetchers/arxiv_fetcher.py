@@ -122,7 +122,7 @@ class ArxivFetcher(BaseFetcher):
             # 保存文章到文件
             if articles:
                 self.save_articles(articles)
-                logger.info(f"成功保存 {len(articles)} 篇文章到 {self.source_config.get('output_dir', 'data/arxiv_cs.ai')}")
+                logger.info(f"成功保存 {len(articles)} 篇文章到 {self.source_config.get('output_dir', 'data/articles/arxiv')}")
                     
             logger.info(f"成功從 Arxiv 獲取 {len(articles)} 篇文章")
             return articles

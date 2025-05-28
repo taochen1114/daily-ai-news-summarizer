@@ -15,7 +15,7 @@
     "processed_date": "2025-04-29T14:03:57.429080",
     "audio_error": "400 Voice 'zh-CN-Standard-A' does not exist. Is it misspelled?",
     "audio_file": "0b5bb5991446cd4c753cd986bafb9c9a.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/0b5bb5991446cd4c753cd986bafb9c9a.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/0b5bb5991446cd4c753cd986bafb9c9a.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-04-29T14:12:36.936073"
   },
@@ -35,7 +35,7 @@
     "processed_date": "2025-04-29T14:03:59.513636",
     "audio_error": "400 Voice 'zh-CN-Standard-A' does not exist. Is it misspelled?",
     "audio_file": "212da5177372aa5f10cf5dee00506aad.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/212da5177372aa5f10cf5dee00506aad.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/212da5177372aa5f10cf5dee00506aad.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-04-29T14:12:38.577427"
   },
@@ -55,7 +55,7 @@
     "processed_date": "2025-04-29T14:04:02.078997",
     "audio_error": "400 Voice 'zh-CN-Standard-A' does not exist. Is it misspelled?",
     "audio_file": "36bbd6b07959b4f70444dfb3bfed4727.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/backend/data/audio/36bbd6b07959b4f70444dfb3bfed4727.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/36bbd6b07959b4f70444dfb3bfed4727.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-04-29T14:12:39.874810"
   }
