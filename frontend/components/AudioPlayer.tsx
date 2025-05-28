@@ -25,7 +25,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
   const audioRef = useRef<HTMLAudioElement>(null);
 
   // 获取音频URL
-  const audioUrl = `${process.env.API_URL}/audio/${article.id}`;
+  const audioUrl = `${process.env.NEXT_PUBLIC_API_URL}/audio/${article.id}`;
 
   // 播放暂停
   const togglePlay = () => {
@@ -112,7 +112,6 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
 
     // 開始新的播放
     const playNewAudio = () => {
-
       audio.play().then(() => {
         setIsPlaying(true);
       }).catch(err => {
