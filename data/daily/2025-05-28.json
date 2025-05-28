@@ -1,13 +1,47 @@
 {
   "date": "2025-05-28",
-  "total_articles": 3,
+  "total_articles": 6,
   "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
     {
       "name": "VentureBeat AI",
       "count": 3
     }
   ],
   "articles": [
+    {
+      "id": "2505.20306",
+      "title": "Multi-Modal Artificial Intelligence of Embryo Grading and Pregnancy Prediction in Assisted Reproductive Technology: A Review",
+      "url": "https://arxiv.org/abs/2505.20306",
+      "source": "Arxiv",
+      "summary": "這篇新聞談的是利用多模式人工智慧技術在輔助生殖科技中進行胚胎分級和懷孕預測的研究。簡單來說，就是透過AI來幫助醫生評估胚胎品質和預測懷孕情況。這項研究有助於提高輔助生殖技術的成功率，對想要懷孕的夫妻來說是一個很有價值的發展。",
+      "audio_file": "2505.20306.mp3",
+      "published_date": "2025-05-28",
+      "content_type": "news"
+    },
+    {
+      "id": "2505.20310",
+      "title": "Manalyzer: End-to-end Automated Meta-analysis with Multi-agent System",
+      "url": "https://arxiv.org/abs/2505.20310",
+      "source": "Arxiv",
+      "summary": "這篇新聞介紹了一個名為Manalyzer的系統，可以自動進行AI研究中的元分析，幫助研究人員更有效地整合和分析大量研究成果。Manalyzer採用多智能體系統，能夠自動化整個分析過程，省去研究人員大量時間和精力。這個系統的出現讓AI研究更具效率，有助於提升研究品質和加速學術進展。",
+      "audio_file": "2505.20310.mp3",
+      "published_date": "2025-05-28",
+      "content_type": "news"
+    },
+    {
+      "id": "2505.20313",
+      "title": "Reasoning in Neurosymbolic AI",
+      "url": "https://arxiv.org/abs/2505.20313",
+      "source": "Arxiv",
+      "summary": "最近有關於「神經符號AI的推理」的新聞，主要在探討如何結合神經網路和符號推理，讓AI可以更聰明地思考和解決問題。這項技術的重要性在於讓AI可以更接近人類的思考方式，提升其智能水準，未來可能帶來更多應用和突破。",
+      "audio_file": "2505.20313.mp3",
+      "published_date": "2025-05-28",
+      "content_type": "news"
+    },
     {
       "id": "7fe2384156a68b60d4c0ee3cc6826210",
       "title": "Everyone’s looking to get in on vibe coding — and Google is no different with Stitch, its follow-up to Jules",
