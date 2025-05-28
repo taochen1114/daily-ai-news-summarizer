@@ -1,0 +1,42 @@
+{
+  "date": "2025-05-28",
+  "total_articles": 3,
+  "sources": [
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "7fe2384156a68b60d4c0ee3cc6826210",
+      "title": "Everyone’s looking to get in on vibe coding — and Google is no different with Stitch, its follow-up to Jules",
+      "url": "https://venturebeat.com/ai/everyones-looking-to-get-in-on-vibe-coding-and-google-is-no-different-with-stitch-its-follow-up-to-jules/",
+      "source": "VentureBeat AI",
+      "summary": "Google推出了名為Stitch的新工具，進入了「vibe coding」的潮流，這是一種利用AI和自然語言提示來完成基本程式碼的趨勢。這個工具設計使用者介面(UI)只需一個提示，開發者對此讚不絕口。這種新概念超越了現有的AI助手和拖放式編程工具，專注於結果而非過程。其他大公司也紛紛加入這個領域，競相推出類似的工具，希望在這個領域佔有一席之地。",
+      "audio_file": "7fe2384156a68b60d4c0ee3cc6826210.mp3",
+      "published_date": "2025-05-28T00:49:33+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "38b7cab93d7bfa78119bd679ead875d6",
+      "title": "Spott’s AI-native recruiting platform scores $3.2M to end hiring software chaos",
+      "url": "https://venturebeat.com/ai/spotts-ai-native-recruiting-platform-scores-3-2m-to-end-hiring-software-chaos/",
+      "source": "VentureBeat AI",
+      "summary": "一家名為Spott的公司籌集了320萬美元種子輪資金，打造了一個AI原生招聘平台，旨在結束招聘軟體混亂局面。他們的平台承諾改變招聘業務運作方式，讓招聘公司能更有效率地工作。這家總部位於舊金山的新創公司最近完成了Y Combinator的加速器計畫，並獲得多家投資機構和天使投資者的支持。Spott的創始人表示，他們的平台將整合候選人來源、篩選和安置等流程，解決了現有招聘軟體的問題。",
+      "audio_file": "38b7cab93d7bfa78119bd679ead875d6.mp3",
+      "published_date": "2025-05-28T00:07:05+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "647e416f849959c4b39d3f5ed6c58477",
+      "title": "Anthropic debuts Claude conversational voice mode on mobile that searches your Google Docs, Drive, Calendar",
+      "url": "https://venturebeat.com/ai/anthropic-debuts-conversational-voice-mode-for-claude-mobile-apps/",
+      "source": "VentureBeat AI",
+      "summary": "Anthropic推出了Claude對話式語音模式，讓使用者可以透過手機應用程式在Google Docs、Drive和行事曆中進行搜尋。這個更新讓Claude更具彈性和更容易被更廣泛的人群接受。此外，他們也計畫在未來幾週內將這個功能推廣給所有手機應用程式使用者。這項更新讓Claude的語音模式更加強大，並提供了一些其他競爭對手沒有的功能。",
+      "audio_file": "647e416f849959c4b39d3f5ed6c58477.mp3",
+      "published_date": "2025-05-27T23:23:21+00:00",
+      "content_type": "news"
+    }
+  ]
+}
