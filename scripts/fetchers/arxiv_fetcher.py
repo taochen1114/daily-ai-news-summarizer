@@ -7,7 +7,11 @@ import logging
 import feedparser
 import requests
 from urllib.parse import urlparse, urlunparse
-from .base_fetcher import BaseFetcher
+from .base_fetcher import BaseFetcher, MAX_ARTICLES_PER_SOURCE
+from typing import List, Dict, Any
+import time
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # 配置日誌
 logging.basicConfig(level=logging.INFO)
@@ -16,6 +20,19 @@ logger = logging.getLogger(__name__)
 class ArxivFetcher(BaseFetcher):
     """ArXiv論文擷取器"""
     
+    def __init__(self, source_config: Dict[str, Any]):
+        super().__init__(source_config)
+        self.rss_url = source_config.get("rss_url", "https://export.arxiv.org/rss/cs.AI")
+        # 設置重試策略
+        self.session = requests.Session()
+        retries = Retry(
+            total=5,  # 總重試次數
+            backoff_factor=1,  # 重試間隔
+            status_forcelist=[500, 502, 503, 504]  # 需要重試的HTTP狀態碼
+        )
+        self.session.mount('https://', HTTPAdapter(max_retries=retries))
+        self.session.mount('http://', HTTPAdapter(max_retries=retries))
+
     def _ensure_https_url(self, url):
         """確保URL使用HTTPS"""
         parsed = urlparse(url)
@@ -32,70 +49,90 @@ class ArxivFetcher(BaseFetcher):
         skip_days = [day.lower() for day in feed.feed.skipdays]
         return current_day.lower() in skip_days
     
-    def fetch(self):
-        """擷取ArXiv的RSS內容"""
+    def fetch(self) -> List[Dict[str, Any]]:
+        """從Arxiv RSS獲取文章"""
+        logger.info(f"開始從 {self.rss_url} 擷取內容...")
+        articles = []
+        
         try:
-            url = self._ensure_https_url(self.url)
-            logger.info(f"開始從 {url} 擷取內容...")
+            # 使用 session 發送請求
+            response = self.session.get(self.rss_url, timeout=30)
+            response.raise_for_status()  # 檢查HTTP錯誤
             
-            # 配置請求會話
-            session = requests.Session()
-            session.headers.update({
-                'User-Agent': 'Mozilla/5.0 (compatible; ArxivFetcher/1.0; +https://github.com/yourusername/daily-ai-news-summarizer)'
-            })
+            # 解析RSS內容
+            feed = feedparser.parse(response.content)
             
-            # 首先嘗試直接訪問URL
-            try:
-                response = session.get(url, timeout=30, allow_redirects=True)
-                response.raise_for_status()
-                logger.info(f"成功獲取RSS URL，狀態碼: {response.status_code}")
-                logger.info(f"回傳內容類型: {response.headers.get('content-type', 'unknown')}")
-                
-                # 如果重新導向，更新URL
-                if response.history:
-                    url = self._ensure_https_url(response.url)
-                    logger.info(f"跟隨重新導向到: {url}")
-                
-            except requests.exceptions.RequestException as e:
-                logger.error(f"請求RSS URL時出錯: {str(e)}")
-                return
-            
-            # 使用 feedparser 解析
-            feed = feedparser.parse(url)
-            
-            # 檢查 feedparser 的狀態
-            if hasattr(feed, 'status'):
-                logger.info(f"Feedparser 狀態碼: {feed.status}")
-            if hasattr(feed, 'bozo') and feed.bozo:
-                logger.error(f"RSS解析錯誤: {feed.bozo_exception}")
-            
-            # 檢查是否為跳過日
-            if self._is_skip_day(feed):
-                logger.info("今天是跳過日，沒有新文章更新")
-                return
-            
-            if not feed or not feed.entries:
-                logger.info("目前沒有新文章")
-                return
-            
-            logger.info(f"成功獲取RSS內容，共 {len(feed.entries)} 條記錄")
-            articles = []
-            for entry in feed.entries[:int(self.source_config.get("max_articles", 10))]:
+            if not feed.entries:
+                logger.warning("RSS feed 中沒有找到文章")
+                return articles
+
+            for entry in feed.entries[:MAX_ARTICLES_PER_SOURCE]:
                 try:
-                    article = self.parse_entry(entry)
+                    # 解析發布日期 - 支持多種格式
+                    try:
+                        # 嘗試解析 ISO 格式
+                        published_date = datetime.datetime.strptime(
+                            entry.published, 
+                            "%Y-%m-%dT%H:%M:%SZ"
+                        ).strftime("%Y-%m-%d")
+                    except ValueError:
+                        try:
+                            # 嘗試解析 RSS 格式 (Wed, 28 May 2025 00:00:00 -0400)
+                            published_date = datetime.datetime.strptime(
+                                entry.published,
+                                "%a, %d %b %Y %H:%M:%S %z"
+                            ).strftime("%Y-%m-%d")
+                        except ValueError:
+                            # 如果都失敗，使用當前日期
+                            logger.warning(f"無法解析日期格式: {entry.published}，使用當前日期")
+                            published_date = datetime.datetime.now().strftime("%Y-%m-%d")
+                    
+                    # 提取摘要並清理格式
+                    summary = entry.summary.replace('\n', ' ').strip()
+                    
+                    # 獲取論文ID
+                    paper_id = entry.link.split("/")[-1]
+                    
+                    # 獲取作者
+                    authors = [author.name for author in entry.get('authors', [])]
+                    author_str = ", ".join(authors) if authors else "Unknown"
+                    
+                    # 獲取分類
+                    categories = [category.term for category in entry.get('tags', [])]
+                    
+                    article = {
+                        "id": paper_id,
+                        "title": entry.title,
+                        "url": entry.link,
+                        "authors": author_str,
+                        "categories": categories,
+                        "summary": summary,
+                        "published_date": published_date,
+                        "source": "Arxiv",
+                        "content_type": "academic",
+                        "processed": False,
+                        "fetch_date": datetime.datetime.now().isoformat()
+                    }
                     articles.append(article)
-                    logger.info(f"成功解析文章: {article['title']}")
+                    
                 except Exception as e:
-                    logger.error(f"處理條目時出錯: {str(e)}")
+                    logger.error(f"處理文章時出錯: {str(e)}")
+                    continue
             
-            # 儲存文章
+            # 保存文章到文件
             if articles:
                 self.save_articles(articles)
-                logger.info(f"成功儲存 {len(articles)} 篇文章")
+                logger.info(f"成功保存 {len(articles)} 篇文章到 {self.source_config.get('output_dir', 'data/arxiv_cs.ai')}")
                     
+            logger.info(f"成功從 Arxiv 獲取 {len(articles)} 篇文章")
+            return articles
+            
+        except requests.exceptions.RequestException as e:
+            logger.error(f"請求RSS URL時出錯: {str(e)}")
+            return []
         except Exception as e:
-            logger.error(f"擷取過程中出錯: {str(e)}")
-            raise
+            logger.error(f"處理RSS feed時出錯: {str(e)}")
+            return []
     
     def parse_entry(self, entry):
         """解析ArXiv的RSS條目"""

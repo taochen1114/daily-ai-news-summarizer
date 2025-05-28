@@ -7,22 +7,12 @@ import AudioPlayer from '../components/AudioPlayer';
 import ArticleCard from '../components/ArticleCard';
 import Header from '../components/Header';
 import DateSelector from '../components/DateSelector';
+import { Article } from '../types';
 
 // 定義類型
 interface Source {
   name: string;
   count: number;
-}
-
-interface Article {
-  id: string;
-  title: string;
-  url: string;
-  source: string;
-  summary: string;
-  audio_file: string;
-  published_date?: string;
-  content_type: string;
 }
 
 interface DailyReport {
@@ -32,85 +22,141 @@ interface DailyReport {
   articles: Article[];
 }
 
+// 獲取今天的日期字串
+const getTodayDate = (): string => {
+  return format(new Date(), 'yyyy-MM-dd');
+};
+
 export default function Home() {
-  const [dailyData, setDailyData] = useState<DailyReport | null>(null);
-  const [loading, setLoading] = useState<boolean>(true);
+  const [articles, setArticles] = useState<Article[]>([]);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [selectedDate, setSelectedDate] = useState<string | null>(null);
-  const [availableDates, setAvailableDates] = useState<string[]>([]);
+  const [selectedDate, setSelectedDate] = useState<string>(getTodayDate());
   const [currentPlayingId, setCurrentPlayingId] = useState<string | null>(null);
+  const [loadedDates, setLoadedDates] = useState<Set<string>>(new Set([getTodayDate()]));
+  const [availableDates, setAvailableDates] = useState<string[]>([]);
+  // 添加文章緩存
+  const [articlesCache, setArticlesCache] = useState<Record<string, Article[]>>({});
 
-  // 獲取可用日期
-  useEffect(() => {
-    const fetchDates = async () => {
-      try {
-        const response = await axios.get(`${process.env.API_URL}/dates`);
-        setAvailableDates(response.data.dates || []);
-        
-        // 如果沒有選擇日期，預設選擇最新的
-        if (!selectedDate && response.data.dates && response.data.dates.length > 0) {
-          setSelectedDate(response.data.dates[0]);
-        }
-      } catch (err) {
-        console.error('獲取日期失敗', err);
-      }
-    };
-    
-    fetchDates();
-  }, [selectedDate]);
+  // 獲取日期列表
+  const fetchDates = async () => {
+    try {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/dates`);
+      if (!response.ok) throw new Error('獲取日期列表失敗');
+      const data = await response.json();
+      const dates = Array.isArray(data) ? data : (data.dates || []);
+      setAvailableDates(dates);
+      return dates;
+    } catch (error) {
+      console.error('獲取日期列表時出錯:', error);
+      setAvailableDates([]);
+      return [];
+    }
+  };
 
-  // 獲取每日資料
-  useEffect(() => {
-    const fetchDailyData = async () => {
-      if (!selectedDate) return;
-      
+  // 獲取指定日期的文章
+  const fetchArticles = async (date: string) => {
+    try {
       setLoading(true);
-      setError(null);
-      
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/daily?date=${date}`);
+      if (!response.ok) throw new Error('獲取文章失敗');
+      const data = await response.json();
+      const articles = data.articles || [];
+      // 更新緩存
+      setArticlesCache(prev => ({
+        ...prev,
+        [date]: articles
+      }));
+      return articles;
+    } catch (error) {
+      console.error('獲取文章時出錯:', error);
+      return [];
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // 獲取最近的日期
+  const getLatestDate = (dates: string[]): string => {
+    if (!dates.length) return getTodayDate();
+    
+    // 將日期字串轉換為 Date 對象並排序
+    const sortedDates = dates
+      .map(date => new Date(date))
+      .sort((a, b) => b.getTime() - a.getTime());
+    
+    // 返回最近的日期字串
+    return format(sortedDates[0], 'yyyy-MM-dd');
+  };
+
+  // 初始加載最新日期的文章和日期列表
+  useEffect(() => {
+    const loadInitialData = async () => {
       try {
-        const response = await axios.get<DailyReport>(
-          `${process.env.API_URL}/daily${selectedDate ? `?date=${selectedDate}` : ''}`
-        );
-        setDailyData(response.data);
-      } catch (err: any) {
-        console.error('獲取資料失敗', err);
-        setError(err.response?.data?.detail || '載入資料時出錯');
+        setLoading(true);
+        // 先獲取日期列表
+        const dates = await fetchDates();
+        // 獲取最近的日期
+        const latestDate = getLatestDate(dates);
+        // 加載最近日期的文章
+        const articles = await fetchArticles(latestDate);
+        
+        setArticles(articles);
+        setSelectedDate(latestDate);
+        setAvailableDates(dates);
+        // 初始化緩存
+        setArticlesCache({ [latestDate]: articles });
+        // 更新已加載日期集合
+        setLoadedDates(new Set([latestDate]));
+      } catch (error) {
+        setError('加載文章時出錯');
+        console.error('加載文章時出錯:', error);
       } finally {
         setLoading(false);
       }
     };
-    
-    fetchDailyData();
-  }, [selectedDate]);
+
+    loadInitialData();
+  }, []);
 
   // 處理日期切換
-  const handleDateChange = (date: string) => {
+  const handleDateChange = async (date: string) => {
     setSelectedDate(date);
-    // 切換日期時停止當前播放
     setCurrentPlayingId(null);
+
+    // 如果該日期的文章已經在緩存中，直接使用
+    if (articlesCache[date]) {
+      setArticles(articlesCache[date]);
+      return;
+    }
+
+    // 如果該日期的文章尚未加載，則加載它
+    if (!loadedDates.has(date)) {
+      try {
+        setLoading(true);
+        const data = await fetchArticles(date);
+        setArticles(data);
+        setLoadedDates(new Set([...Array.from(loadedDates), date]));
+      } catch (error) {
+        setError('加載文章時出錯');
+        console.error('加載文章時出錯:', error);
+      } finally {
+        setLoading(false);
+      }
+    }
   };
 
-  // 播放音訊
-  const handlePlay = (articleId: string) => {
-    // 如果點擊的是當前正在播放的文章，則停止播放
-    if (currentPlayingId === articleId) {
+  // 處理播放
+  const handlePlay = (article: Article) => {
+    if (currentPlayingId === article.id) {
       setCurrentPlayingId(null);
     } else {
-      // 直接切換到新的文章，不需要先停止當前播放
-      setCurrentPlayingId(articleId);
-    }
-
-  };
-
-  // 格式化日期顯示
-  const formatDisplayDate = (dateStr: string) => {
-    try {
-      const date = new Date(dateStr);
-      return format(date, 'yyyy年MM月dd日 EEEE', { locale: zhTW });
-    } catch (e) {
-      return dateStr;
+      setCurrentPlayingId(article.id);
     }
   };
+
+  // 獲取當前播放的文章
+  const currentPlayingArticle = articles.find(article => article.id === currentPlayingId);
 
   return (
     <>
@@ -128,9 +174,9 @@ export default function Home() {
           <div className="mb-8 flex flex-col md:flex-row justify-between items-start md:items-center">
             <div>
               <h1 className="text-3xl font-bold text-gray-800">每日AI新聞和論文摘要</h1>
-              {dailyData && (
+              {articles.length > 0 && (
                 <p className="text-gray-600 mt-2">
-                  {formatDisplayDate(dailyData.date)} · 共 {dailyData.total_articles} 篇內容
+                  {format(new Date(articles[0].published_date || ''), 'yyyy年MM月dd日 EEEE', { locale: zhTW })} · 共 {articles.length} 篇內容
                 </p>
               )}
             </div>
@@ -156,18 +202,18 @@ export default function Home() {
                 重試
               </button>
             </div>
-          ) : dailyData ? (
+          ) : articles.length > 0 ? (
             <div className="grid grid-cols-1 gap-6">
-              {dailyData.articles.map((article) => (
+              {articles.map((article) => (
                 <ArticleCard
                   key={article.id}
                   article={article}
                   isPlaying={currentPlayingId === article.id}
-                  onPlay={() => handlePlay(article.id)}
+                  onPlay={() => handlePlay(article)}
                 />
               ))}
               
-              {dailyData.articles.length === 0 && (
+              {articles.length === 0 && (
                 <div className="text-center py-10 text-gray-500">
                   當天沒有內容
                 </div>
@@ -176,9 +222,9 @@ export default function Home() {
           ) : null}
         </main>
         
-        {currentPlayingId && dailyData && (
+        {currentPlayingArticle && (
           <AudioPlayer
-            article={dailyData.articles.find(a => a.id === currentPlayingId)!}
+            article={currentPlayingArticle}
             onClose={() => setCurrentPlayingId(null)}
           />
         )}
