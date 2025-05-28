@@ -101,7 +101,7 @@ def get_audio(article_id: str):
     """獲取文章的音訊檔案"""
     # 查找音訊檔案
     audio_file = f"{article_id}.mp3"
-    audio_path = os.path.join(AUDIO_DIR, audio_file)
+    audio_path = os.path.join(DATA_DIR, "audio", "articles", audio_file)
     
     if not os.path.exists(audio_path):
         raise HTTPException(status_code=404, detail=f"找不到音訊檔案: {article_id}")
