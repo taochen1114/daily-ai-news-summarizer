@@ -8,10 +8,13 @@ import feedparser
 import requests
 from urllib.parse import urlparse, urlunparse
 from .base_fetcher import BaseFetcher, MAX_ARTICLES_PER_SOURCE
+from config import DATA_DIR
 from typing import List, Dict, Any
 import time
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import os
+import json
 
 # 配置日誌
 logging.basicConfig(level=logging.INFO)

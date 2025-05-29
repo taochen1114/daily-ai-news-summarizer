@@ -63,7 +63,11 @@ class BaseFetcher(ABC):
     def save_articles(self, articles):
         """將文章儲存到資料庫和JSON檔案"""
         date_str = datetime.datetime.now().strftime("%Y-%m-%d")
-        source_dir = os.path.join(DATA_DIR, self.name.lower().replace(" ", "_"))
+        
+        # 处理源名称，保持原始目录名
+        source_name = self.name.lower()
+        source_name = source_name.replace(" ", "_")
+        source_dir = os.path.join(DATA_DIR, "articles", source_name)
         os.makedirs(source_dir, exist_ok=True)
         
         file_path = os.path.join(source_dir, f"{date_str}.json")

@@ -117,7 +117,11 @@ class OpenAISummarizer:
         if date is None:
             date = datetime.datetime.now().strftime("%Y-%m-%d")
             
-        source_dir = os.path.join(DATA_DIR, source_name.lower().replace(" ", "_"))
+        # 处理源名称，保持原始目录名
+        source_dir_name = source_name.lower()
+        source_dir_name = source_dir_name.replace(" ", "_")
+            
+        source_dir = os.path.join(DATA_DIR, "articles", source_dir_name)
         file_path = os.path.join(source_dir, f"{date}.json")
         
         if not os.path.exists(file_path):

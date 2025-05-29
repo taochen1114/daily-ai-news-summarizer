@@ -37,7 +37,7 @@ GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS", "")
 
 # 儲存路徑
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-AUDIO_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "backend", "data", "audio")
+AUDIO_DIR = os.path.join(DATA_DIR, "audio")
 
 # 確保目錄存在
 os.makedirs(DATA_DIR, exist_ok=True)

@@ -84,7 +84,7 @@ class ArticleProcessor:
                 
             try:
                 # 检查是否已有音频文件
-                if article.get("audio_file") and os.path.exists(os.path.join(AUDIO_DIR, article["audio_file"])):
+                if article.get("audio_file") and os.path.exists(os.path.join(AUDIO_DIR, "articles", article["audio_file"])):
                     processed_articles.append(article)
                     continue
                     
@@ -95,10 +95,15 @@ class ArticleProcessor:
                 # 为语音添加前缀
                 tts_text = f"{article['title']}。{summary}"
                 
+                # 确保音频目录存在
+                audio_articles_dir = os.path.join(AUDIO_DIR, "articles")
+                os.makedirs(audio_articles_dir, exist_ok=True)
+                
                 # 生成音频文件
                 audio_path = self.tts_service.text_to_speech(
                     text=tts_text,
-                    article_id=article_id
+                    article_id=article_id,
+                    output_path=os.path.join(audio_articles_dir, f"{article_id}.mp3")
                 )
                 
                 # 更新文章信息
@@ -134,7 +139,10 @@ class ArticleProcessor:
         # 按源保存
         date = datetime.datetime.now().strftime("%Y-%m-%d")
         for source, source_articles in articles_by_source.items():
-            source_dir = os.path.join(DATA_DIR, source.lower().replace(" ", "_"))
+            # 处理源名称，保持原始目录名
+            source_name = source.lower()
+            source_name = source_name.replace(" ", "_")
+            source_dir = os.path.join(DATA_DIR, "articles", source_name)
             os.makedirs(source_dir, exist_ok=True)
             
             file_path = os.path.join(source_dir, f"{date}.json")
@@ -183,7 +191,7 @@ class ArticleProcessor:
         }
         
         # 保存日报
-        daily_dir = os.path.join(DATA_DIR, "daily")
+        daily_dir = os.path.join(DATA_DIR, "articles", "daily")
         os.makedirs(daily_dir, exist_ok=True)
         
         file_path = os.path.join(daily_dir, f"{date}.json")
@@ -216,7 +224,11 @@ def main():
         all_articles = []
         for source_config in RSS_SOURCES:
             source_name = source_config["name"]
-            source_dir = os.path.join(DATA_DIR, source_name.lower().replace(" ", "_"))
+            # 处理源名称，保持原始目录名
+            source_dir_name = source_name.lower()
+            source_dir_name = source_dir_name.replace(" ", "_")
+                
+            source_dir = os.path.join(DATA_DIR, "articles", source_dir_name)
             file_path = os.path.join(source_dir, f"{date}.json")
             
             if os.path.exists(file_path):
