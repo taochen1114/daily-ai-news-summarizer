@@ -1,0 +1,59 @@
+[
+  {
+    "id": "2505.23881",
+    "title": "Using Reasoning Models to Generate Search Heuristics that Solve Open Instances of Combinatorial Design Problems",
+    "url": "https://arxiv.org/abs/2505.23881",
+    "authors": "Christopher D. Rosin",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "math.CO"
+    ],
+    "summary": "這篇論文主要探討如何運用推理模型來生成搜尋啟發式，以解決組合設計問題中的開放實例。簡單來說，就是利用推理方式來找出解決問題的方法。這個方法的創新之處在於可以幫助我們更有效率地處理複雜的設計問題，提供了一個新的思路和工具，讓我們在處理組合設計問題時更有把握。這對於提升設計效率和品質有很大的幫助，也有助於加速解決問題的速度。",
+    "published_date": "2025-06-02",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-03T08:20:53.474104",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-03T08:20:58.536139"
+  },
+  {
+    "id": "2505.23885",
+    "title": "OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
+    "url": "https://arxiv.org/abs/2505.23885",
+    "authors": "Mengkang Hu, Yuhang Zhou, Wendong Fan, Yuzhou Nie, Bowei Xia, Tao Sun, Ziyu Ye, Zhaoxuan Jin, Yingru Li, Qiguang Chen, Zeyu Zhang, Yifeng Wang, Qianshuo Ye, Bernard Ghanem, Ping Luo, Guohao Li",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "summary": "這篇論文提出了一個名為OWL的方法，可以優化多智能體協助真實世界任務自動化的學習。簡單來說，就是讓多個智能體在協助人們完成任務時更有效率。這個方法的創新之處在於能夠提高工作效率，讓多個智能體更好地合作，以達到更好的任務完成效果。這對於實際應用中的任務自動化有很大的幫助，可以提升工作效率，減少人力成本，同時提高任務完成的準確性。",
+    "published_date": "2025-06-02",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-03T08:20:53.474133",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-03T08:21:00.579266"
+  },
+  {
+    "id": "2505.23946",
+    "title": "Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and Improve",
+    "url": "https://arxiv.org/abs/2505.23946",
+    "authors": "Yuanzhe Liu, Ryan Deng, Tim Kaler, Xuhao Chen, Charles E. Leiserson, Yao Ma, Jie Chen",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.MA",
+      "cs.SE"
+    ],
+    "summary": "這篇論文提出了一個名為「Lessons Learned」的多智能體框架，讓程式碼語言模型（Code LLMs）能夠學習和改進。這個框架的核心創新在於讓不同智能體之間分享彼此的經驗和知識，以提升程式碼生成的效能。簡單來說，就是讓AI系統能夠互相學習，進而改進程式碼生成的能力。這個方法有助於提高程式碼生成的準確性和效率，對於提升AI在軟體開發領域的應用價值有相當大的幫助。",
+    "published_date": "2025-06-02",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-03T08:20:53.474156",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-03T08:21:02.449814"
+  }
+]
