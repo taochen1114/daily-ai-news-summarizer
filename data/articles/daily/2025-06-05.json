@@ -1,0 +1,76 @@
+{
+  "date": "2025-06-05",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2506.03205",
+      "title": "Q-ARDNS-Multi: A Multi-Agent Quantum Reinforcement Learning Framework with Meta-Cognitive Adaptation for Complex 3D Environments",
+      "url": "https://arxiv.org/abs/2506.03205",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個名為Q-ARDNS-Multi的新型多智能體量子強化學習框架，專為處理複雜的3D環境而設計。最大的創新點在於框架中加入了元認知適應功能，讓智能體能夠根據環境的變化自主調整學習策略，提高了在複雜環境中的應對能力。這項研究有助於提升量子強化學習在處理現實世界複雜場景時的效能，對於推動人工智慧技術在實際應用中的發展具有重要價值。",
+      "audio_file": "2506.03205.mp3",
+      "published_date": "2025-06-05",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.03233",
+      "title": "A Trustworthiness-based Metaphysics of Artificial Intelligence Systems",
+      "url": "https://arxiv.org/abs/2506.03233",
+      "source": "Arxiv",
+      "summary": "這篇論文探討了基於信任度的人工智慧系統形上學。作者Andrea Ferrario提出，我們應該將人工智慧系統看作是具有信任度的實體，而非僅僅是工具。這種觀點有助於我們更好地理解人工智慧系統在社會和倫理層面的影響。總括來說，這篇論文的核心價值在於提出一種新的思考方式，幫助我們更深入地思考人工智慧在日常生活中的角色與影響。",
+      "audio_file": "2506.03233.mp3",
+      "published_date": "2025-06-05",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.03315",
+      "title": "Axiomatics of Restricted Choices by Linear Orders of Sets with Minimum as Fallback",
+      "url": "https://arxiv.org/abs/2506.03315",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討如何在集合中做出有限選擇，並以最小值作為後備方案。簡單來說，就是討論如何在有限選擇的情況下，找到最小值。這個研究的價值在於提供了一套關於集合中有限選擇的準則，讓我們更有效率地處理這類問題。作者通過引入一些公理，建立了一個系統化的方法來處理這個問題，這對於未來相關研究和應用有很大的幫助。",
+      "audio_file": "2506.03315.mp3",
+      "published_date": "2025-06-05",
+      "content_type": "academic"
+    },
+    {
+      "id": "4c0083c72363294de62dc8e5247244ac",
+      "title": "How much information do LLMs really memorize? Now we know, thanks to Meta, Google, Nvidia and Cornell",
+      "url": "https://venturebeat.com/ai/how-much-information-do-llms-really-memorize-now-we-know-thanks-to-meta-google-nvidia-and-cornell/",
+      "source": "VentureBeat AI",
+      "summary": "最新研究顯示，像GPT這樣的AI模型每個參數大約只能記住3.6個位元的資訊。這項研究是由Meta、Google、Nvidia和康奈爾大學合作完成的。這個發現有助於我們了解語言模型到底有多少資訊能力，對未來AI發展有重要意義。",
+      "audio_file": "4c0083c72363294de62dc8e5247244ac.mp3",
+      "published_date": "2025-06-05T15:35:34+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "b8dbd28afc5a3e5d1d6e3d5e5ca0b7cd",
+      "title": "Databricks and Noma tackle CISOs’ AI nightmares around inference vulnerabilities",
+      "url": "https://venturebeat.com/security/databricks-noma-tackle-cisos-ai-inference-nightmare/",
+      "source": "VentureBeat AI",
+      "summary": "Databricks和Noma攜手解決CISO在AI推論階段面臨的安全夢魘，專注於保護企業免受入侵、資料外洩和模型破解等威脅。他們結合了32百萬美元的資金，致力填補企業AI部署中存在的安全漏洞。這個合作夥伴關係將提供即時威脅分析、進階推論層保護和主動的AI紅隊測試，讓組織能夠安全自信地加速AI應用。",
+      "audio_file": "b8dbd28afc5a3e5d1d6e3d5e5ca0b7cd.mp3",
+      "published_date": "2025-06-05T14:13:05+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "341ad5be765bd43158904be9e92d885a",
+      "title": "Stop guessing why your LLMs break: Anthropic’s new tool shows you exactly what goes wrong",
+      "url": "https://venturebeat.com/ai/stop-guessing-why-your-llms-break-anthropics-new-tool-shows-you-exactly-what-goes-wrong/",
+      "source": "VentureBeat AI",
+      "summary": "Anthropic推出新工具，讓你不再猜測大型語言模型(LLMs)出錯的原因，直接顯示問題所在。這個工具可以幫助開發者和研究人員了解和控制模型的內部運作，解決企業面對LLMs不可預測性的問題。透過追蹤模型內部活動，生成屬性圖，解析模型處理資訊並產生輸出的過程，幫助精細調整LLMs。這項技術讓人更了解AI模型的內在邏輯，提升對模型運作的掌握和控制能力。",
+      "audio_file": "341ad5be765bd43158904be9e92d885a.mp3",
+      "published_date": "2025-06-04T22:39:09+00:00",
+      "content_type": "news"
+    }
+  ]
+}
