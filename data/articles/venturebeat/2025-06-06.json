@@ -13,7 +13,7 @@
     "fetch_date": "2025-06-06T10:35:07.393209",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T10:35:11.912214",
-    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 280 credits are required for this request."
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/e17223848108feacf1e1127f066f7b70.mp3'"
   },
   {
     "id": "6cfc61877382a4047338df3fc31ce992",
@@ -29,7 +29,7 @@
     "fetch_date": "2025-06-06T10:35:07.530444",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T10:35:15.024835",
-    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 281 credits are required for this request."
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/6cfc61877382a4047338df3fc31ce992.mp3'"
   },
   {
     "id": "11f7670fb9b766696a2d2757c462da38",
@@ -45,7 +45,7 @@
     "fetch_date": "2025-06-06T10:35:07.637962",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T10:35:16.553074",
-    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 247 credits are required for this request."
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/11f7670fb9b766696a2d2757c462da38.mp3'"
   },
   {
     "id": "4c0083c72363294de62dc8e5247244ac",
@@ -61,7 +61,7 @@
     "fetch_date": "2025-06-06T10:35:07.814956",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T10:35:18.723377",
-    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 245 credits are required for this request."
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/4c0083c72363294de62dc8e5247244ac.mp3'"
   },
   {
     "id": "b8dbd28afc5a3e5d1d6e3d5e5ca0b7cd",
@@ -77,7 +77,7 @@
     "fetch_date": "2025-06-06T10:35:07.906752",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T10:35:19.971497",
-    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 217 credits are required for this request."
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/b8dbd28afc5a3e5d1d6e3d5e5ca0b7cd.mp3'"
   },
   {
     "id": "73f744fb0a396e399e5c091fd72e9c00",
@@ -93,7 +93,7 @@
     "fetch_date": "2025-06-06T10:35:07.991772",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T10:35:23.388257",
-    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 205 credits are required for this request."
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/73f744fb0a396e399e5c091fd72e9c00.mp3'"
   },
   {
     "id": "8b3315cdbb07a4ec92c5fab66d05bdd1",
@@ -109,7 +109,7 @@
     "fetch_date": "2025-06-06T10:35:08.229264",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T10:35:25.151223",
-    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 222 credits are required for this request."
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/8b3315cdbb07a4ec92c5fab66d05bdd1.mp3'"
   },
   {
     "id": "f3094b23ad22589ebe24e12c90c425c4",
@@ -125,7 +125,7 @@
     "fetch_date": "2025-06-06T10:35:08.388791",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T10:35:28.332799",
-    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 281 credits are required for this request."
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/f3094b23ad22589ebe24e12c90c425c4.mp3'"
   },
   {
     "id": "1de570ff120092d2518e6bf9a4c038b2",
@@ -141,7 +141,7 @@
     "fetch_date": "2025-06-06T10:35:08.531824",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T10:35:31.445322",
-    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 231 credits are required for this request."
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/1de570ff120092d2518e6bf9a4c038b2.mp3'"
   },
   {
     "id": "008f328c766d914bdfb6c2f5418c2ce2",
@@ -157,6 +157,6 @@
     "fetch_date": "2025-06-06T10:35:08.617386",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T10:35:33.711619",
-    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 225 credits are required for this request."
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/008f328c766d914bdfb6c2f5418c2ce2.mp3'"
   }
 ]
