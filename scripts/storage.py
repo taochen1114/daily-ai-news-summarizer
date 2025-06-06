@@ -4,7 +4,8 @@ from supabase import create_client, Client
 from dotenv import load_dotenv
 from pathlib import Path
 
-load_dotenv()
+# 確保在文件開頭就加載 .env 文件
+load_dotenv(override=True)  # 添加 override=True 確保覆蓋已存在的環境變數
 
 class StorageProvider(ABC):
     """存儲提供者接口"""
@@ -52,69 +53,86 @@ class LocalStorage(StorageProvider):
 
 class SupabaseStorage(StorageProvider):
     """Supabase Storage 實現"""
-    def __init__(self):
-        supabase_url = os.getenv("SUPABASE_URL")
-        supabase_key = os.getenv("SUPABASE_KEY")
-        self.bucket = os.getenv("SUPABASE_BUCKET")
-        
-        if not all([supabase_url, supabase_key, self.bucket]):
-            raise ValueError("Missing required Supabase configuration")
-            
-        print(f"Initializing Supabase storage with bucket: {self.bucket}")
-        self.supabase: Client = create_client(supabase_url, supabase_key)
+    def __init__(self, bucket_name: str):
+        self.bucket_name = bucket_name
+        self.supabase = create_client(
+            os.getenv("SUPABASE_URL"),
+            os.getenv("SUPABASE_KEY")
+        )
+        print(f"初始化 Supabase 存儲，使用 bucket: {bucket_name}")
 
-    def upload_file(self, file_path: str, destination_path: str) -> str:
-        """上傳文件到 Supabase Storage"""
+    def upload_file(self, file_path: str, storage_path: str) -> str:
         try:
-            print(f"Uploading file {file_path} to {destination_path}")
-            
-            with open(file_path, 'rb') as f:
+            print(f"開始上傳文件到 Supabase: {file_path} -> {storage_path}")
+            with open(file_path, "rb") as f:
                 file_data = f.read()
                 
-            # 上傳文件
-            result = self.supabase.storage.from_(self.bucket).upload(
-                destination_path,
-                file_data,
-                {"upsert": True}  # 如果文件已存在則更新
+            # 根據文件類型設置 content-type
+            content_type = "audio/mpeg" if file_path.endswith('.mp3') else "application/json"
+            print(f"設置 content-type: {content_type}")
+                
+            # 上傳文件到 Supabase Storage
+            print(f"正在上傳到 bucket: {self.bucket_name}, 路徑: {storage_path}")
+            result = self.supabase.storage.from_(self.bucket_name).upload(
+                path=storage_path,
+                file=file_data,
+                file_options={
+                    "content-type": content_type
+                }
             )
             
-            print(f"Upload result: {result}")
+            # 檢查上傳結果
+            if result is False:
+                raise Exception("Supabase 上傳失敗")
+                
+            print(f"文件上傳成功: {storage_path}")
             
-            # 獲取公開 URL
-            url = self.supabase.storage.from_(self.bucket).get_public_url(destination_path)
-            print(f"File URL: {url}")
+            # 獲取文件的公開 URL
+            url = self.get_file_url(storage_path)
+            print(f"獲取到文件 URL: {url}")
             return url
             
         except Exception as e:
-            print(f"Error uploading file to Supabase: {str(e)}")
+            print(f"上傳文件到 Supabase 時發生錯誤: {str(e)}")
             raise
 
     def get_file_url(self, file_path: str) -> str:
-        """獲取文件的公開 URL"""
         try:
-            url = self.supabase.storage.from_(self.bucket).get_public_url(file_path)
-            print(f"Getting file URL for {file_path}: {url}")
+            print(f"正在獲取文件 URL: {file_path}")
+            url = self.supabase.storage.from_(self.bucket_name).get_public_url(file_path)
+            print(f"成功獲取文件 URL: {url}")
             return url
         except Exception as e:
-            print(f"Error getting file URL: {str(e)}")
+            print(f"獲取文件 URL 時發生錯誤: {str(e)}")
             raise
 
     def file_exists(self, file_path: str) -> bool:
-        """檢查文件是否存在"""
         try:
-            print(f"Checking if file exists: {file_path}")
-            self.supabase.storage.from_(self.bucket).download(file_path)
-            print(f"File exists: {file_path}")
-            return True
+            print(f"檢查文件是否存在: {file_path}")
+            result = self.supabase.storage.from_(self.bucket_name).list(os.path.dirname(file_path))
+            exists = any(item["name"] == os.path.basename(file_path) for item in result)
+            print(f"文件存在檢查結果: {exists}")
+            return exists
         except Exception as e:
-            print(f"File does not exist or error checking: {str(e)}")
+            print(f"檢查文件是否存在時發生錯誤: {str(e)}")
             return False
 
 def get_storage_provider() -> StorageProvider:
     """獲取存儲提供者實例"""
-    provider_type = os.getenv("STORAGE_TYPE", "local")
+    # 重新加載環境變數
+    load_dotenv(override=True)
     
-    if provider_type.lower() == "supabase":
-        return SupabaseStorage()
+    provider_type = os.getenv("STORAGE_TYPE", "local").lower()
+    print(f"Environment variables:")
+    print(f"STORAGE_TYPE: {os.getenv('STORAGE_TYPE')}")
+    print(f"SUPABASE_URL: {os.getenv('SUPABASE_URL')}")
+    print(f"SUPABASE_BUCKET: {os.getenv('SUPABASE_BUCKET')}")
+    print(f"Using storage provider: {provider_type}")
+    
+    if provider_type == "supabase":
+        bucket = os.getenv("SUPABASE_BUCKET")
+        if not bucket:
+            raise ValueError("SUPABASE_BUCKET environment variable is not set")
+        return SupabaseStorage(bucket)
     else:
         return LocalStorage() 

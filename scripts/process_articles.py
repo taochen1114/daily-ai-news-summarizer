@@ -7,6 +7,17 @@ import json
 import argparse
 import datetime
 from pathlib import Path
+from typing import List, Dict, Any
+from dotenv import load_dotenv
+
+# 確保在文件開頭就加載 .env 文件
+load_dotenv(override=True)
+
+# 打印環境變數狀態
+print("Environment variables:")
+print(f"STORAGE_TYPE: {os.getenv('STORAGE_TYPE')}")
+print(f"SUPABASE_URL: {os.getenv('SUPABASE_URL')}")
+print(f"SUPABASE_BUCKET: {os.getenv('SUPABASE_BUCKET')}")
 
 # 导入自定义模块
 from config import RSS_SOURCES, DATA_DIR, AUDIO_DIR
@@ -83,14 +94,20 @@ class ArticleProcessor:
             if not article.get("summary"):
                 processed_articles.append(article)
                 continue
-                
+
             try:
                 # 检查是否已有音频文件
                 audio_filename = f"{article['id']}.mp3"
                 audio_path = os.path.join("audio", "articles", audio_filename)
                 
                 if article.get("audio_file") and self.storage.file_exists(audio_path):
-                    article["audio_url"] = self.storage.get_file_url(audio_path)
+                    # 根據 STORAGE_TYPE 設置音頻路徑
+                    if os.getenv("STORAGE_TYPE", "local").lower() == "local":
+                        article["audio_path"] = os.path.abspath(audio_path)
+                    else:
+                        article["audio_path"] = self.storage.get_file_url(audio_path)
+                    # 確保 audio_file 使用正確的格式
+                    article["audio_file"] = f"audio/articles/{audio_filename}"
                     processed_articles.append(article)
                     continue
                     
@@ -115,26 +132,32 @@ class ArticleProcessor:
                 
                 # 上传到存储
                 storage_path = f"audio/articles/{audio_filename}"
-                audio_url = self.storage.upload_file(temp_audio_path, storage_path)
+                if os.getenv("STORAGE_TYPE", "local").lower() == "local":
+                    # 本地存儲：直接複製文件
+                    target_path = self.storage.upload_file(temp_audio_path, storage_path)
+                    article["audio_path"] = target_path
+                else:
+                    # 遠端存儲：上傳並獲取 URL
+                    audio_url = self.storage.upload_file(temp_audio_path, storage_path)
+                    article["audio_path"] = audio_url
                 
                 # 清理临时文件
                 os.remove(temp_audio_path)
                 os.rmdir(temp_dir)
                 
                 # 更新文章信息
-                article["audio_file"] = audio_filename
-                article["audio_url"] = audio_url
+                article["audio_file"] = storage_path  # 使用完整的存儲路徑
                 article["audio_generated"] = True
                 article["audio_generated_date"] = datetime.datetime.now().isoformat()
                 
                 processed_articles.append(article)
                 print(f"已为文章生成语音: {article['title']}")
-                
+                    
             except Exception as e:
                 print(f"Error processing article {article['id']}: {str(e)}")
                 article["audio_error"] = str(e)
                 processed_articles.append(article)
-        
+                
         # 保存更新后的文章
         self._save_articles_with_audio(processed_articles)
         
@@ -170,7 +193,7 @@ class ArticleProcessor:
         # 筛选有摘要和音频的文章
         valid_articles = [
             article for article in articles 
-            if article.get("summary") and article.get("audio_file")
+            if article.get("summary")
         ]
         
         # 创建精简版本，只包含必要信息
@@ -182,7 +205,10 @@ class ArticleProcessor:
                 "url": article["url"],
                 "source": article["source"],
                 "summary": article["summary"],
-                "audio_file": article["audio_file"],
+                "audio_file": article.get("audio_file", ""),
+                "audio_path": article.get("audio_path", ""),
+                "audio_generated": article.get("audio_generated", False),
+                "audio_generated_date": article.get("audio_generated_date", ""),
                 "published_date": article.get("published_date", ""),
                 "content_type": article.get("content_type", "news")
             }
@@ -215,6 +241,31 @@ class ArticleProcessor:
         print(f"已生成日报: {file_path}")
         return daily_report
 
+    def save_articles_to_json(self, articles: List[Dict[str, Any]], source: str, date: str) -> None:
+        """保存文章到 JSON 文件"""
+        try:
+            # 確保目錄存在
+            os.makedirs(os.path.dirname(self.get_json_path(source, date)), exist_ok=True)
+            
+            # 保存到本地文件
+            json_path = self.get_json_path(source, date)
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(articles, f, ensure_ascii=False, indent=2)
+            print(f"已保存 {len(articles)} 篇文章到 {json_path}")
+            
+            # 如果使用 Supabase 存儲，也上傳 JSON 文件
+            if os.getenv("STORAGE_TYPE", "local").lower() == "supabase":
+                try:
+                    storage_path = f"articles/{source}/{date}.json"
+                    self.storage.upload_file(json_path, storage_path)
+                    print(f"已上傳 JSON 文件到 Supabase: {storage_path}")
+                except Exception as e:
+                    print(f"上傳 JSON 文件到 Supabase 時發生錯誤: {str(e)}")
+                
+        except Exception as e:
+            print(f"保存文章到 JSON 時發生錯誤: {str(e)}")
+            raise
+
 
 def main():
     """主函数"""
@@ -242,7 +293,7 @@ def main():
             source_dir_name = source_name.lower()
             source_dir_name = source_dir_name.replace(" ", "_")
                 
-            source_dir = os.path.join(DATA_DIR, "articles", source_dir_name)
+            source_dir = os.path.join(DATA_DIR, "articles", source_dir_name)  # 修正：添加 "articles" 目录
             file_path = os.path.join(source_dir, f"{date}.json")
             
             if os.path.exists(file_path):
