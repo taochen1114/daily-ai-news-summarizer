@@ -5,11 +5,16 @@ on:
     - cron: '0 5 * * *'  # 每天凌晨 5 點執行
   workflow_dispatch:      # 允許手動觸發
 
+permissions:
+  contents: write        # 添加寫入權限
+
 jobs:
   process:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GITHUB_TOKEN
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -30,7 +35,7 @@ jobs:
         
       - name: Commit and push if changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add data/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update articles [skip ci]" && git push) 
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update articles [skip ci]" && git push)
