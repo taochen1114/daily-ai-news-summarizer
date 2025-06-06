@@ -15,10 +15,7 @@
     "fetch_date": "2025-06-06T16:28:04.602857",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T16:28:09.607598",
-    "audio_file": "2506.04244.mp3",
-    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04244.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-06T09:04:31.374583"
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/2506.04244.mp3'"
   },
   {
     "id": "2506.04245",
@@ -38,10 +35,7 @@
     "fetch_date": "2025-06-06T16:28:04.602890",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T16:28:11.759472",
-    "audio_file": "2506.04245.mp3",
-    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04245.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-06T09:04:40.412629"
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/2506.04245.mp3'"
   },
   {
     "id": "2506.04251",
@@ -61,10 +55,7 @@
     "fetch_date": "2025-06-06T16:28:04.602911",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T16:28:15.276924",
-    "audio_file": "2506.04251.mp3",
-    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04251.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-06T09:04:50.016987"
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/2506.04251.mp3'"
   },
   {
     "id": "2506.04252",
@@ -84,10 +75,7 @@
     "fetch_date": "2025-06-06T09:03:42.957003",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T09:03:48.951757",
-    "audio_file": "2506.04252.mp3",
-    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04252.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-06T09:05:01.267145"
+    "audio_error": "[Errno 2] No such file or directory: 'audio/articles/2506.04252.mp3'"
   },
   {
     "id": "2506.04253",
@@ -105,10 +93,7 @@
     "fetch_date": "2025-06-06T09:03:42.957046",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T09:03:52.101921",
-    "audio_file": "2506.04253.mp3",
-    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04253.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-06T09:05:10.106418"
+    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 202 credits are required for this request."
   },
   {
     "id": "2506.04287",
@@ -127,10 +112,7 @@
     "fetch_date": "2025-06-06T09:03:42.957088",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T09:03:53.894802",
-    "audio_file": "2506.04287.mp3",
-    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04287.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-06T09:05:19.392163"
+    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 237 credits are required for this request."
   },
   {
     "id": "2506.04374",
@@ -148,10 +130,7 @@
     "fetch_date": "2025-06-06T09:03:42.957127",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T09:03:57.732736",
-    "audio_file": "2506.04374.mp3",
-    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04374.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-06T09:05:30.510697"
+    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 236 credits are required for this request."
   },
   {
     "id": "2506.04410",
@@ -171,10 +150,7 @@
     "fetch_date": "2025-06-06T09:03:42.957169",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T09:03:59.658316",
-    "audio_file": "2506.04410.mp3",
-    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04410.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-06T09:05:40.954404"
+    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 281 credits are required for this request."
   },
   {
     "id": "2506.04427",
@@ -192,10 +168,7 @@
     "fetch_date": "2025-06-06T09:03:42.957208",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T09:04:01.466808",
-    "audio_file": "2506.04427.mp3",
-    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04427.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-06T09:05:52.374828"
+    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 244 credits are required for this request."
   },
   {
     "id": "2506.04429",
@@ -213,9 +186,6 @@
     "fetch_date": "2025-06-06T09:03:42.957246",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T09:04:05.018206",
-    "audio_file": "2506.04429.mp3",
-    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04429.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-06T09:06:02.402615"
+    "audio_error": "This request exceeds your quota of 10000. You have 78 credits remaining, while 237 credits are required for this request."
   }
 ]
