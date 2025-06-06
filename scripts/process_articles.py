@@ -87,7 +87,7 @@ class ArticleProcessor:
             try:
                 # 检查是否已有音频文件
                 audio_filename = f"{article['id']}.mp3"
-                audio_path = f"audio/articles/{audio_filename}"
+                audio_path = os.path.join("audio", "articles", audio_filename)
                 
                 if article.get("audio_file") and self.storage.file_exists(audio_path):
                     article["audio_url"] = self.storage.get_file_url(audio_path)
@@ -101,16 +101,25 @@ class ArticleProcessor:
                 # 为语音添加前缀
                 tts_text = f"{article['title']}。{summary}"
                 
+                # 创建临时目录用于生成音频
+                temp_dir = os.path.join(os.getcwd(), "temp_audio")
+                os.makedirs(temp_dir, exist_ok=True)
+                temp_audio_path = os.path.join(temp_dir, audio_filename)
+                
                 # 生成音频文件
-                audio_path = self.tts_service.text_to_speech(
+                self.tts_service.text_to_speech(
                     text=tts_text,
                     article_id=article_id,
-                    output_path=audio_path
+                    output_path=temp_audio_path
                 )
                 
                 # 上传到存储
                 storage_path = f"audio/articles/{audio_filename}"
-                audio_url = self.storage.upload_file(audio_path, storage_path)
+                audio_url = self.storage.upload_file(temp_audio_path, storage_path)
+                
+                # 清理临时文件
+                os.remove(temp_audio_path)
+                os.rmdir(temp_dir)
                 
                 # 更新文章信息
                 article["audio_file"] = audio_filename
