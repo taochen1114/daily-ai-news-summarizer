@@ -60,33 +60,54 @@ class SupabaseStorage(StorageProvider):
         if not all([supabase_url, supabase_key, self.bucket]):
             raise ValueError("Missing required Supabase configuration")
             
+        print(f"Initializing Supabase storage with bucket: {self.bucket}")
         self.supabase: Client = create_client(supabase_url, supabase_key)
 
     def upload_file(self, file_path: str, destination_path: str) -> str:
         """上傳文件到 Supabase Storage"""
-        with open(file_path, 'rb') as f:
-            file_data = f.read()
+        try:
+            print(f"Uploading file {file_path} to {destination_path}")
             
-        # 上傳文件
-        self.supabase.storage.from_(self.bucket).upload(
-            destination_path,
-            file_data,
-            {"upsert": True}  # 如果文件已存在則更新
-        )
-        
-        # 獲取公開 URL
-        return self.supabase.storage.from_(self.bucket).get_public_url(destination_path)
+            with open(file_path, 'rb') as f:
+                file_data = f.read()
+                
+            # 上傳文件
+            result = self.supabase.storage.from_(self.bucket).upload(
+                destination_path,
+                file_data,
+                {"upsert": True}  # 如果文件已存在則更新
+            )
+            
+            print(f"Upload result: {result}")
+            
+            # 獲取公開 URL
+            url = self.supabase.storage.from_(self.bucket).get_public_url(destination_path)
+            print(f"File URL: {url}")
+            return url
+            
+        except Exception as e:
+            print(f"Error uploading file to Supabase: {str(e)}")
+            raise
 
     def get_file_url(self, file_path: str) -> str:
         """獲取文件的公開 URL"""
-        return self.supabase.storage.from_(self.bucket).get_public_url(file_path)
+        try:
+            url = self.supabase.storage.from_(self.bucket).get_public_url(file_path)
+            print(f"Getting file URL for {file_path}: {url}")
+            return url
+        except Exception as e:
+            print(f"Error getting file URL: {str(e)}")
+            raise
 
     def file_exists(self, file_path: str) -> bool:
         """檢查文件是否存在"""
         try:
+            print(f"Checking if file exists: {file_path}")
             self.supabase.storage.from_(self.bucket).download(file_path)
+            print(f"File exists: {file_path}")
             return True
-        except:
+        except Exception as e:
+            print(f"File does not exist or error checking: {str(e)}")
             return False
 
 def get_storage_provider() -> StorageProvider:
