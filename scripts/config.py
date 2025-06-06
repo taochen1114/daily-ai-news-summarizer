@@ -3,21 +3,29 @@
 """
 import os
 from dotenv import load_dotenv
+from pathlib import Path
 
 # 載入環境變數
 load_dotenv()
 
+# 獲取專案根目錄
+ROOT_DIR = Path(__file__).parent.parent
+
+# 資料目錄
+DATA_DIR = os.path.join(ROOT_DIR, "data")
+AUDIO_DIR = os.path.join(DATA_DIR, "audio")
+
 # RSS來源設定
 RSS_SOURCES = [
     {
-        "name": "ArXiv CS.AI",
-        "url": "https://export.arxiv.org/rss/cs.AI",
+        "name": "arXiv CS.AI",
+        "url": "http://export.arxiv.org/rss/cs.AI",
         "type": "academic",
         "parser": "arxiv"
     },
     {
-        "name": "VentureBeat AI",
-        "url": "https://venturebeat.com/category/ai/feed/",
+        "name": "VentureBeat",
+        "url": "https://venturebeat.com/feed/",
         "type": "news",
         "parser": "venturebeat"
     },
@@ -34,10 +42,6 @@ TTS_PROVIDER = os.getenv("TTS_PROVIDER", "elevenlabs")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "")
 GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS", "")
-
-# 儲存路徑
-DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-AUDIO_DIR = os.path.join(DATA_DIR, "audio")
 
 # 確保目錄存在
 os.makedirs(DATA_DIR, exist_ok=True)

@@ -27,6 +27,11 @@ const getTodayDate = (): string => {
   return format(new Date(), 'yyyy-MM-dd');
 };
 
+// 在獲取音訊文件時使用相對路徑
+const getAudioUrl = (audioFile: string) => {
+  return `/api/audio/${audioFile}`;
+};
+
 export default function Home() {
   const [articles, setArticles] = useState<Article[]>([]);
   const [loading, setLoading] = useState(true);

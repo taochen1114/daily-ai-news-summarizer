@@ -84,7 +84,11 @@ class ArticleProcessor:
                 
             try:
                 # 检查是否已有音频文件
-                if article.get("audio_file") and os.path.exists(os.path.join(AUDIO_DIR, "articles", article["audio_file"])):
+                audio_filename = f"{article['id']}.mp3"
+                audio_path = os.path.join(AUDIO_DIR, "articles", audio_filename)
+                
+                if article.get("audio_file") and os.path.exists(audio_path):
+                    article["audio_path"] = audio_path
                     processed_articles.append(article)
                     continue
                     
@@ -103,11 +107,10 @@ class ArticleProcessor:
                 audio_path = self.tts_service.text_to_speech(
                     text=tts_text,
                     article_id=article_id,
-                    output_path=os.path.join(audio_articles_dir, f"{article_id}.mp3")
+                    output_path=audio_path
                 )
                 
                 # 更新文章信息
-                audio_filename = os.path.basename(audio_path)
                 article["audio_file"] = audio_filename
                 article["audio_path"] = audio_path
                 article["audio_generated"] = True
