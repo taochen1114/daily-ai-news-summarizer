@@ -1,14 +1,14 @@
 {
   "date": "2025-06-06",
-  "total_articles": 5,
+  "total_articles": 20,
   "sources": [
     {
       "name": "Arxiv",
-      "count": 3
+      "count": 10
     },
     {
       "name": "VentureBeat AI",
-      "count": 2
+      "count": 10
     }
   ],
   "articles": [
@@ -43,6 +43,76 @@
       "content_type": "academic"
     },
     {
+      "id": "2506.04252",
+      "title": "A Graph-Retrieval-Augmented Generation Framework Enhances Decision-Making in the Circular Economy",
+      "url": "https://arxiv.org/abs/2506.04252",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個名為「圖檢索增強生成框架」，可以增強在循環經濟中的決策能力。簡單來說，就是透過圖形檢索技術來幫助決策。這個方法的創新之處在於可以更有效地處理循環經濟中的資訊，提升決策的準確性和效率。這對於推動循環經濟發展非常有幫助，有助於更好地利用資源，減少浪費。這個研究有助於提高循環經濟領域的決策品質，對於環境保護和資源利用都有正面影響。",
+      "audio_file": "2506.04252.mp3",
+      "published_date": "2025-06-06",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.04253",
+      "title": "HADA: Human-AI Agent Decision Alignment Architecture",
+      "url": "https://arxiv.org/abs/2506.04253",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個名為HADA的架構，旨在讓人類與AI代理人之間的決策更加一致。簡單來說，就是讓人類和AI在做決定時能夠更好地溝通和協作。這個架構的核心創新點在於提供了一個方法，讓人類和AI之間的決策過程更加透明和有效。這對於未來人類與AI共同工作的場景有很大的幫助，可以提高工作效率和溝通流暢度。",
+      "audio_file": "2506.04253.mp3",
+      "published_date": "2025-06-06",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.04287",
+      "title": "Automated Skill Discovery for Language Agents through Exploration and Iterative Feedback",
+      "url": "https://arxiv.org/abs/2506.04287",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討如何透過探索和反覆的回饋來自動發現語言代理人的技能。簡單來說，就是讓AI代理人能夠自主學習和改進語言技能，而不需人為設定太多規則。這項研究的核心價值在於提供了一個新的方法，讓AI代理人可以更有效地學習語言技能，並且不斷進步。這對於未來發展智能對話系統或語言處理技術有相當大的幫助。",
+      "audio_file": "2506.04287.mp3",
+      "published_date": "2025-06-06",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.04374",
+      "title": "A Statistical Physics of Language Model Reasoning",
+      "url": "https://arxiv.org/abs/2506.04374",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討了一種基於統計物理學的語言模型推理方法。簡單來說，就是利用物理學的原理來幫助語言模型進行推理，提升其效能。這種方法的創新之處在於能夠更有效地處理語言理解和推理任務，有助於提升人工智慧系統在自然語言處理領域的表現。透過統計物理學的觀點，可以更深入地理解語言結構和語義關係，從而改善語言模型的準確性和效率。這項研究有助於推動語言模型在人工智慧領域的應用和發展。",
+      "audio_file": "2506.04374.mp3",
+      "published_date": "2025-06-06",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.04410",
+      "title": "Matter-of-Fact: A Benchmark for Verifying the Feasibility of Literature-Supported Claims in Materials Science",
+      "url": "https://arxiv.org/abs/2506.04410",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個名為\"Matter-of-Fact\"的新基準，專門用來驗證材料科學領域文獻支持的主張是否可行。簡單來說，就是要檢驗文獻中提到的材料科學理論是否真的可行。這個方法可以幫助研究人員更有效地評估文獻中的科學主張，提高研究的準確性和可信度。這個新基準的提出有助於材料科學領域的研究者們更有信心地應用文獻中的理論，推動相關研究的進展。",
+      "audio_file": "2506.04410.mp3",
+      "published_date": "2025-06-06",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.04427",
+      "title": "Plugging Schema Graph into Multi-Table QA: A Human-Guided Framework for Reducing LLM Reliance",
+      "url": "https://arxiv.org/abs/2506.04427",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個人類引導的框架，將模式圖應用到多表格問答中，以降低大型語言模型的依賴程度。簡單來說，就是讓人類的指導幫助AI更有效地回答問題。這個方法的創新之處在於結合了人類的智慧和AI的能力，讓系統更準確地理解問題並給出答案。這對提升問答系統的效能和準確性有很大的幫助，是一個很有價值的研究方向。",
+      "audio_file": "2506.04427.mp3",
+      "published_date": "2025-06-06",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.04429",
+      "title": "An AI-Based Public Health Data Monitoring System",
+      "url": "https://arxiv.org/abs/2506.04429",
+      "source": "Arxiv",
+      "summary": "這篇論文介紹了一個基於人工智慧的公共衛生數據監控系統，由Ananya Joshi等人共同研究。他們開發了一個系統，可以即時監測並分析大量的公共衛生數據，幫助政府和醫療機構更有效地應對疾病爆發和健康危機。這個系統能夠提供準確的數據預測和即時警報，讓相關單位能夠及時採取應對措施，保護民眾健康。這項研究的價值在於提高了公共衛生數據監控的效率和準確性，有助於提升社會整體的防疫能力。",
+      "audio_file": "2506.04429.mp3",
+      "published_date": "2025-06-06",
+      "content_type": "academic"
+    },
+    {
       "id": "e17223848108feacf1e1127f066f7b70",
       "title": "Google claims Gemini 2.5 Pro preview beats DeepSeek R1 and Grok 3 Beta in coding performance",
       "url": "https://venturebeat.com/ai/google-claims-gemini-2-5-pro-preview-beats-deepseek-r1-and-grok-3-beta-in-coding-performance/",
@@ -60,6 +130,86 @@
       "summary": "Solidroad剛籌集了650萬美元，打算用人工智慧來改進客戶服務，不是取代。他們的平台可以訓練客服代表，提升AI助手的效能，幫助企業在處理高達每月1萬次以上的對話時，保持高品質的客戶體驗。這項創新解決方案幫助企業在提升客戶滿意度和控制成本之間取得平衡，避免傳統方法帶來的問題。",
       "audio_file": "11f7670fb9b766696a2d2757c462da38.mp3",
       "published_date": "2025-06-05T17:39:53+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "4c0083c72363294de62dc8e5247244ac",
+      "title": "How much information do LLMs really memorize? Now we know, thanks to Meta, Google, Nvidia and Cornell",
+      "url": "https://venturebeat.com/ai/how-much-information-do-llms-really-memorize-now-we-know-thanks-to-meta-google-nvidia-and-cornell/",
+      "source": "VentureBeat AI",
+      "summary": "這篇新聞講的是大型語言模型（LLMs）到底有多少資訊是真的記住的，透過Meta、Google、Nvidia和康奈爾大學的研究，我們終於有答案了。LLMs透過海量資料訓練，學會了語言的統計規律，並將這些知識轉化成數十億個參數，影響它們回應使用者輸入的方式。這項研究有助於了解人工智慧模型如何處理語言資訊，對未來AI發展有重要價值。",
+      "audio_file": "4c0083c72363294de62dc8e5247244ac.mp3",
+      "published_date": "2025-06-05T15:35:34+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "b8dbd28afc5a3e5d1d6e3d5e5ca0b7cd",
+      "title": "Securing AI at scale: Databricks and Noma close the inference vulnerability gap",
+      "url": "https://venturebeat.com/security/databricks-noma-tackle-cisos-ai-inference-nightmare/",
+      "source": "VentureBeat AI",
+      "summary": "Databricks和Noma攜手解決企業AI推理階段的安全漏洞，專注於即時威脅分析、推理層保護和主動AI紅隊測試，以加速企業AI部署的安全性。他們的合作填補了企業在部署AI時遇到的關鍵安全漏洞，讓企業能夠更安全、更有信心地推動AI項目。這項舉措強調了AI推理階段的重要性，並提供了即時分析和運行時防禦，以應對威脅。",
+      "audio_file": "b8dbd28afc5a3e5d1d6e3d5e5ca0b7cd.mp3",
+      "published_date": "2025-06-05T14:13:05+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "341ad5be765bd43158904be9e92d885a",
+      "title": "Stop guessing why your LLMs break: Anthropic’s new tool shows you exactly what goes wrong",
+      "url": "https://venturebeat.com/ai/stop-guessing-why-your-llms-break-anthropics-new-tool-shows-you-exactly-what-goes-wrong/",
+      "source": "VentureBeat AI",
+      "summary": "Anthropic推出新工具，讓企業不再猜測大型語言模型(LLMs)出錯原因，直接看到問題所在。這個工具可以幫助開發者和研究人員了解和控制模型的內部運作，解決LLMs的不可預測性問題。透過追蹤模型內部活動，可以找出錯誤和意外行為，並精細調整模型以符合特定內部功能。這個工具的核心在於生成歸因圖，追蹤模型處理資訊和生成輸出時特徵之間的互動，讓使用者更了解AI的內部邏輯。",
+      "audio_file": "341ad5be765bd43158904be9e92d885a.mp3",
+      "published_date": "2025-06-04T22:39:09+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "6a4eb2a64038bb01ed5244ce83a2b1d0",
+      "title": "OpenAI hits 3M business users and launches workplace tools to take on Microsoft",
+      "url": "https://venturebeat.com/ai/openai-hits-3m-business-users-and-launches-workplace-tools-to-take-on-microsoft/",
+      "source": "VentureBeat AI",
+      "summary": "OpenAI宣布他們的企業用戶數已達到300萬，並推出新的工作場所工具，直接挑戰微軟。他們推出了多項新功能，包括與常用商業應用程式整合的\"connectors\"、會議轉錄功能\"Record Mode\"，以及改良版的編碼工具\"Deep Research\"和\"Codex\"。OpenAI積極進軍企業市場，提供可靠、安全的AI工具，並以尖端AI能力為賣點，吸引了眾多客戶。這顯示了OpenAI在企業領域的強勢競爭力。",
+      "audio_file": "6a4eb2a64038bb01ed5244ce83a2b1d0.mp3",
+      "published_date": "2025-06-04T17:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "7e682fd5d7f60104f698741ab2550e87",
+      "title": "Mistral AI’s new coding assistant takes direct aim at GitHub Copilot",
+      "url": "https://venturebeat.com/ai/mistral-ais-new-coding-assistant-takes-direct-aim-at-github-copilot/",
+      "source": "VentureBeat AI",
+      "summary": "法國人工智慧公司Mistral AI推出了全新的企業代碼助手Mistral Code，直接挑戰GitHub Copilot等競爭對手。這款產品提供更多客製化和本地部署選項，針對有嚴格安全要求的大型企業設計。Mistral強調資料隱私和歐洲法規遵循，讓公司在自己的基礎設施中部署整個人工智慧系統，確保專有代碼不外洩。這是他們與美國競爭對手區分的策略之一。",
+      "audio_file": "7e682fd5d7f60104f698741ab2550e87.mp3",
+      "published_date": "2025-06-04T14:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "a8a795a6f0ee4d810c94f3cd9c9c74b8",
+      "title": "Nvidia says its Blackwell chips lead benchmarks in training AI LLMs",
+      "url": "https://venturebeat.com/games/nvidia-says-its-blackwell-chips-lead-benchmarks-in-training-ai-llms/",
+      "source": "VentureBeat AI",
+      "summary": "Nvidia表示他們的Blackwell晶片在訓練AI大型語言模型方面表現優異，引領了相關基準測試。這些晶片被應用在數據中心和AI工廠，加速下一代AI應用的訓練和部署。在最新的MLPerf基準測試中，Nvidia的AI平台在各項測試中表現出色，特別是在大型語言模型的測試上。Blackwell晶片的性能提升了2.2倍，顯示了其在AI領域的領先地位。",
+      "audio_file": "a8a795a6f0ee4d810c94f3cd9c9c74b8.mp3",
+      "published_date": "2025-06-04T13:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "3ba951d6fc0dfad8404d4cbc1534a92e",
+      "title": "Your AI models are failing in production—Here’s how to fix model selection",
+      "url": "https://venturebeat.com/ai/your-ai-models-are-failing-in-production-heres-how-to-fix-model-selection/",
+      "source": "VentureBeat AI",
+      "summary": "這篇新聞講的是如何修正AI模型在實際應用中失敗的問題，重點在於修正模型選擇。Allen Institute for AI 推出了更新版的 RewardBench 2，幫助企業更準確評估模型在真實情境下的表現，這有助於模型與企業目標和標準的契合度。這個工具主要針對獎勵模型，能夠評估模型的輸出，並透過人類反饋來引導強化學習。這個更新版的工具更加嚴格，能更好地反映模型的表現。",
+      "audio_file": "3ba951d6fc0dfad8404d4cbc1534a92e.mp3",
+      "published_date": "2025-06-03T23:47:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "384d8ad64383919edb969a2fac5a3082",
+      "title": "Nvidia CEO Jensen Huang sings praises of processor in Nintendo Switch 2",
+      "url": "https://venturebeat.com/gaming-business/nvidia-ceo-jensen-huang-sings-praises-of-processor-in-nintendo-switch-2/",
+      "source": "VentureBeat AI",
+      "summary": "Nvidia CEO黃仁勳讚揚了任天堂Switch 2的處理器，感謝任天堂與Nvidia超過十年的合作。Switch 2擁有自定義的Nvidia處理器T239，搭載Ampere GPU，性能強大。黃仁勳提到，這款處理器在家用模式下可提供3.07 TeraFLOPS的運算能力，便攜模式下則為1.71 TeraFLOPS。這次合作讓任天堂的夢想得以延續，帶來更先進的遊戲體驗。",
+      "audio_file": "384d8ad64383919edb969a2fac5a3082.mp3",
+      "published_date": "2025-06-03T22:48:00+00:00",
       "content_type": "news"
     }
   ]

@@ -16,9 +16,9 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T16:28:09.607598",
     "audio_file": "2506.04244.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2506.04244.mp3",
+    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04244.mp3",
     "audio_generated": true,
-    "audio_generated_date": "2025-06-06T16:28:20.798256"
+    "audio_generated_date": "2025-06-06T09:04:31.374583"
   },
   {
     "id": "2506.04245",
@@ -39,9 +39,9 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T16:28:11.759472",
     "audio_file": "2506.04245.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2506.04245.mp3",
+    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04245.mp3",
     "audio_generated": true,
-    "audio_generated_date": "2025-06-06T16:28:21.887363"
+    "audio_generated_date": "2025-06-06T09:04:40.412629"
   },
   {
     "id": "2506.04251",
@@ -62,8 +62,160 @@
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-06T16:28:15.276924",
     "audio_file": "2506.04251.mp3",
-    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2506.04251.mp3",
+    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04251.mp3",
     "audio_generated": true,
-    "audio_generated_date": "2025-06-06T16:28:23.474429"
+    "audio_generated_date": "2025-06-06T09:04:50.016987"
+  },
+  {
+    "id": "2506.04252",
+    "title": "A Graph-Retrieval-Augmented Generation Framework Enhances Decision-Making in the Circular Economy",
+    "url": "https://arxiv.org/abs/2506.04252",
+    "authors": "Yang Zhao, Chengxiao Dai, Dusit Niyato, Chuan Fu Tan, Keyi Xiang, Yueyang Wang, Zhiquan Yeo, Daren Tan Zong Loong, Jonathan Low Zhaozhi, Eugene H. Z. HO",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "summary": "這篇論文提出了一個名為「圖檢索增強生成框架」，可以增強在循環經濟中的決策能力。簡單來說，就是透過圖形檢索技術來幫助決策。這個方法的創新之處在於可以更有效地處理循環經濟中的資訊，提升決策的準確性和效率。這對於推動循環經濟發展非常有幫助，有助於更好地利用資源，減少浪費。這個研究有助於提高循環經濟領域的決策品質，對於環境保護和資源利用都有正面影響。",
+    "published_date": "2025-06-06",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-06T09:03:42.957003",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-06T09:03:48.951757",
+    "audio_file": "2506.04252.mp3",
+    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04252.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-06T09:05:01.267145"
+  },
+  {
+    "id": "2506.04253",
+    "title": "HADA: Human-AI Agent Decision Alignment Architecture",
+    "url": "https://arxiv.org/abs/2506.04253",
+    "authors": "Tapio Pitk\\\"aranta, Leena Pitk\\\"aranta",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一個名為HADA的架構，旨在讓人類與AI代理人之間的決策更加一致。簡單來說，就是讓人類和AI在做決定時能夠更好地溝通和協作。這個架構的核心創新點在於提供了一個方法，讓人類和AI之間的決策過程更加透明和有效。這對於未來人類與AI共同工作的場景有很大的幫助，可以提高工作效率和溝通流暢度。",
+    "published_date": "2025-06-06",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-06T09:03:42.957046",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-06T09:03:52.101921",
+    "audio_file": "2506.04253.mp3",
+    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04253.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-06T09:05:10.106418"
+  },
+  {
+    "id": "2506.04287",
+    "title": "Automated Skill Discovery for Language Agents through Exploration and Iterative Feedback",
+    "url": "https://arxiv.org/abs/2506.04287",
+    "authors": "Yongjin Yang, Sinjae Kang, Juyong Lee, Dongjun Lee, Se-Young Yun, Kimin Lee",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文主要探討如何透過探索和反覆的回饋來自動發現語言代理人的技能。簡單來說，就是讓AI代理人能夠自主學習和改進語言技能，而不需人為設定太多規則。這項研究的核心價值在於提供了一個新的方法，讓AI代理人可以更有效地學習語言技能，並且不斷進步。這對於未來發展智能對話系統或語言處理技術有相當大的幫助。",
+    "published_date": "2025-06-06",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-06T09:03:42.957088",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-06T09:03:53.894802",
+    "audio_file": "2506.04287.mp3",
+    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04287.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-06T09:05:19.392163"
+  },
+  {
+    "id": "2506.04374",
+    "title": "A Statistical Physics of Language Model Reasoning",
+    "url": "https://arxiv.org/abs/2506.04374",
+    "authors": "Jack David Carson, Amir Reisizadeh",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討了一種基於統計物理學的語言模型推理方法。簡單來說，就是利用物理學的原理來幫助語言模型進行推理，提升其效能。這種方法的創新之處在於能夠更有效地處理語言理解和推理任務，有助於提升人工智慧系統在自然語言處理領域的表現。透過統計物理學的觀點，可以更深入地理解語言結構和語義關係，從而改善語言模型的準確性和效率。這項研究有助於推動語言模型在人工智慧領域的應用和發展。",
+    "published_date": "2025-06-06",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-06T09:03:42.957127",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-06T09:03:57.732736",
+    "audio_file": "2506.04374.mp3",
+    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04374.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-06T09:05:30.510697"
+  },
+  {
+    "id": "2506.04410",
+    "title": "Matter-of-Fact: A Benchmark for Verifying the Feasibility of Literature-Supported Claims in Materials Science",
+    "url": "https://arxiv.org/abs/2506.04410",
+    "authors": "Peter Jansen, Samiah Hassan, Ruoyao Wang",
+    "categories": [
+      "cs.AI",
+      "cond-mat.mtrl-sci",
+      "cs.CL"
+    ],
+    "summary": "這篇論文提出了一個名為\"Matter-of-Fact\"的新基準，專門用來驗證材料科學領域文獻支持的主張是否可行。簡單來說，就是要檢驗文獻中提到的材料科學理論是否真的可行。這個方法可以幫助研究人員更有效地評估文獻中的科學主張，提高研究的準確性和可信度。這個新基準的提出有助於材料科學領域的研究者們更有信心地應用文獻中的理論，推動相關研究的進展。",
+    "published_date": "2025-06-06",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-06T09:03:42.957169",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-06T09:03:59.658316",
+    "audio_file": "2506.04410.mp3",
+    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04410.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-06T09:05:40.954404"
+  },
+  {
+    "id": "2506.04427",
+    "title": "Plugging Schema Graph into Multi-Table QA: A Human-Guided Framework for Reducing LLM Reliance",
+    "url": "https://arxiv.org/abs/2506.04427",
+    "authors": "Xixi Wang, Miguel Costa, Jordanka Kovaceva, Shuai Wang, Francisco C. Pereira",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一個人類引導的框架，將模式圖應用到多表格問答中，以降低大型語言模型的依賴程度。簡單來說，就是讓人類的指導幫助AI更有效地回答問題。這個方法的創新之處在於結合了人類的智慧和AI的能力，讓系統更準確地理解問題並給出答案。這對提升問答系統的效能和準確性有很大的幫助，是一個很有價值的研究方向。",
+    "published_date": "2025-06-06",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-06T09:03:42.957208",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-06T09:04:01.466808",
+    "audio_file": "2506.04427.mp3",
+    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04427.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-06T09:05:52.374828"
+  },
+  {
+    "id": "2506.04429",
+    "title": "An AI-Based Public Health Data Monitoring System",
+    "url": "https://arxiv.org/abs/2506.04429",
+    "authors": "Ananya Joshi, Nolan Gormley, Richa Gadgil, Tina Townes, Roni Rosenfeld, Bryan Wilder",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文介紹了一個基於人工智慧的公共衛生數據監控系統，由Ananya Joshi等人共同研究。他們開發了一個系統，可以即時監測並分析大量的公共衛生數據，幫助政府和醫療機構更有效地應對疾病爆發和健康危機。這個系統能夠提供準確的數據預測和即時警報，讓相關單位能夠及時採取應對措施，保護民眾健康。這項研究的價值在於提高了公共衛生數據監控的效率和準確性，有助於提升社會整體的防疫能力。",
+    "published_date": "2025-06-06",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-06T09:03:42.957246",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-06T09:04:05.018206",
+    "audio_file": "2506.04429.mp3",
+    "audio_path": "/home/runner/work/daily-ai-news-summarizer/daily-ai-news-summarizer/data/audio/articles/2506.04429.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-06T09:06:02.402615"
   }
 ]
