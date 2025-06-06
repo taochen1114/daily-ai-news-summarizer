@@ -13,6 +13,7 @@ from config import RSS_SOURCES, DATA_DIR, AUDIO_DIR
 from fetchers import create_fetcher
 from summarizers.openai_summarizer import OpenAISummarizer
 from audio.tts_factory import create_tts_service
+from storage import get_storage_provider
 
 
 class ArticleProcessor:
@@ -22,6 +23,7 @@ class ArticleProcessor:
         """初始化处理器"""
         self.summarizer = OpenAISummarizer()
         self.tts_service = create_tts_service()
+        self.storage = get_storage_provider()
         
         # 确保目录存在
         os.makedirs(DATA_DIR, exist_ok=True)
@@ -85,10 +87,10 @@ class ArticleProcessor:
             try:
                 # 检查是否已有音频文件
                 audio_filename = f"{article['id']}.mp3"
-                audio_path = os.path.join(AUDIO_DIR, "articles", audio_filename)
+                audio_path = f"audio/articles/{audio_filename}"
                 
-                if article.get("audio_file") and os.path.exists(audio_path):
-                    article["audio_path"] = audio_path
+                if article.get("audio_file") and self.storage.file_exists(audio_path):
+                    article["audio_url"] = self.storage.get_file_url(audio_path)
                     processed_articles.append(article)
                     continue
                     
@@ -99,10 +101,6 @@ class ArticleProcessor:
                 # 为语音添加前缀
                 tts_text = f"{article['title']}。{summary}"
                 
-                # 确保音频目录存在
-                audio_articles_dir = os.path.join(AUDIO_DIR, "articles")
-                os.makedirs(audio_articles_dir, exist_ok=True)
-                
                 # 生成音频文件
                 audio_path = self.tts_service.text_to_speech(
                     text=tts_text,
@@ -110,9 +108,13 @@ class ArticleProcessor:
                     output_path=audio_path
                 )
                 
+                # 上传到存储
+                storage_path = f"audio/articles/{audio_filename}"
+                audio_url = self.storage.upload_file(audio_path, storage_path)
+                
                 # 更新文章信息
                 article["audio_file"] = audio_filename
-                article["audio_path"] = audio_path
+                article["audio_url"] = audio_url
                 article["audio_generated"] = True
                 article["audio_generated_date"] = datetime.datetime.now().isoformat()
                 
@@ -120,7 +122,7 @@ class ArticleProcessor:
                 print(f"已为文章生成语音: {article['title']}")
                 
             except Exception as e:
-                print(f"为文章生成语音时出错: {e}")
+                print(f"Error processing article {article['id']}: {str(e)}")
                 article["audio_error"] = str(e)
                 processed_articles.append(article)
         
