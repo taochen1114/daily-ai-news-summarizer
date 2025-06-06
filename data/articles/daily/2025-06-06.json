@@ -1,0 +1,66 @@
+{
+  "date": "2025-06-06",
+  "total_articles": 5,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 2
+    }
+  ],
+  "articles": [
+    {
+      "id": "2506.04244",
+      "title": "Zero-Shot Adaptation of Parameter-Efficient Fine-Tuning in Diffusion Models",
+      "url": "https://arxiv.org/abs/2506.04244",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討在擴散模型中如何實現零-shot適應參數高效微調。簡單來說，就是提出了一種方法，讓模型在沒有額外標註資料的情況下，可以快速調整參數以適應新任務。這個方法的價值在於能夠節省大量標註資料的成本，同時提高模型的適應性和效率。透過這種方式，我們可以更快速地將AI模型應用到新的任務上，並且不需要花費太多的人力和時間來調整。",
+      "audio_file": "2506.04244.mp3",
+      "published_date": "2025-06-06",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.04245",
+      "title": "Contextual Integrity in LLMs via Reasoning and Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2506.04245",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討如何透過推理和強化學習來維護語境完整性，作者包括蘭光晨、Huseyin A. Inan等人。他們的研究關注於語言模型中的語境完整性，提出了新的方法來保護個人隱私。簡單來說，他們的研究有助於提高人工智慧系統對於隱私保護的效率和準確性，這對於未來的AI發展具有重要意義。",
+      "audio_file": "2506.04245.mp3",
+      "published_date": "2025-06-06",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.04251",
+      "title": "Language-Guided Multi-Agent Learning in Simulations: A Unified Framework and Evaluation",
+      "url": "https://arxiv.org/abs/2506.04251",
+      "source": "Arxiv",
+      "summary": "這篇論文主要提出了一個統一框架，讓語言引導下的多智能體在模擬環境中學習。簡單來說，就是讓AI系統透過語言指導來學習在模擬環境中合作。這個方法的創新之處在於能夠讓多個智能體透過語言溝通來共同學習，提升合作效率。透過這個框架，研究者們可以更有效地訓練出在模擬環境中合作的智能體，有助於未來發展更具智能的AI系統。",
+      "audio_file": "2506.04251.mp3",
+      "published_date": "2025-06-06",
+      "content_type": "academic"
+    },
+    {
+      "id": "e17223848108feacf1e1127f066f7b70",
+      "title": "Google claims Gemini 2.5 Pro preview beats DeepSeek R1 and Grok 3 Beta in coding performance",
+      "url": "https://venturebeat.com/ai/google-claims-gemini-2-5-pro-preview-beats-deepseek-r1-and-grok-3-beta-in-coding-performance/",
+      "source": "VentureBeat AI",
+      "summary": "Google宣稱Gemini 2.5 Pro預覽版本在編碼表現上擊敗了DeepSeek R1和Grok 3 Beta。Gemini 2.5 Pro是Google最智能的模型之一，表現優異並具有更具創造性的回應。這個更新版本在編碼、推理等方面有顯著進步，將很快正式推出。Gemini 2.5 Pro被認為是Google目前最佳的編碼模型，並且在性能上有顯著提升。",
+      "audio_file": "e17223848108feacf1e1127f066f7b70.mp3",
+      "published_date": "2025-06-05T21:30:12+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "11f7670fb9b766696a2d2757c462da38",
+      "title": "Solidroad just raised $6.5M to reinvent customer service with AI that coaches, not replaces",
+      "url": "https://venturebeat.com/ai/solidroad-just-raised-6-5m-to-reinvent-customer-service-with-ai-that-coaches-not-replaces/",
+      "source": "VentureBeat AI",
+      "summary": "Solidroad剛籌集了650萬美元，打算用人工智慧來改進客戶服務，不是取代。他們的平台可以訓練客服代表，提升AI助手的效能，幫助企業在處理高達每月1萬次以上的對話時，保持高品質的客戶體驗。這項創新解決方案幫助企業在提升客戶滿意度和控制成本之間取得平衡，避免傳統方法帶來的問題。",
+      "audio_file": "11f7670fb9b766696a2d2757c462da38.mp3",
+      "published_date": "2025-06-05T17:39:53+00:00",
+      "content_type": "news"
+    }
+  ]
+}
