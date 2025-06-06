@@ -1,6 +1,6 @@
 # DAINS - 每日AI新聞與論文摘要
 
-版本: 1.0.0
+版本: 1.2.0
 
 DAINS (Daily AI News and Paper Summarizer) 是一個自動抓取、摘要AI領域新聞和論文的應用程式，提供語音播報功能，讓使用者可以像聽 Podcast 一樣了解AI領域的最新動態。
 
