@@ -1,0 +1,174 @@
+[
+  {
+    "id": "2506.06282",
+    "title": "Understanding Financial Reasoning in AI: A Multimodal Benchmark and Error Learning Approach",
+    "url": "https://arxiv.org/abs/2506.06282",
+    "authors": "Shuangyan Deng, Haizhou Peng, Jiachen Xu, Chunhou Liu, Ciprian Doru Giurcuaneanu, Jiamou Liu",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討在人工智慧領域中理解金融推理的重要性，提出了一種多模態基準和錯誤學習方法。簡單來說，就是希望讓AI能夠更好地理解金融領域的推理過程，並從錯誤中學習。這個方法可以幫助AI在金融領域中更準確地進行推理和決策，提高其效能和準確性。這對於金融領域的應用有很大的幫助，也有助於提升AI在金融領域的應用價值。",
+    "published_date": "2025-06-10",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-10T05:10:20.415082",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-10T05:10:25.722896"
+  },
+  {
+    "id": "2506.06284",
+    "title": "Unreal Patterns",
+    "url": "https://arxiv.org/abs/2506.06284",
+    "authors": "John Beverley, Jim Logan",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文名為《虛幻圖案》，由John Beverley和Jim Logan共同撰寫。他們提出了一種新的AI技術，能夠辨識和生成虛幻的圖案，這在圖像處理領域具有重大意義。這項技術不僅可以幫助我們更好地理解圖像中的模式和結構，還能應用在許多領域，如藝術創作、設計和數據分析等。透過這項研究，我們有望開啟一個全新的視覺世界，讓AI能夠更深入地理解和創造圖像。",
+    "published_date": "2025-06-10",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-10T05:10:20.415142",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-10T05:10:28.432623"
+  },
+  {
+    "id": "2506.06285",
+    "title": "NFISiS: New Perspectives on Fuzzy Inference Systems for Renewable Energy Forecasting",
+    "url": "https://arxiv.org/abs/2506.06285",
+    "authors": "Kaike Sa Teles Rocha Alves, Eduardo Pestana de Aguiar",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文探討了在可再生能源預測中的模糊推論系統新觀點，提出了NFISiS方法。簡單來說，就是用新的方式來預測再生能源的發電量，讓預測更準確。這個方法可以幫助我們更有效地利用太陽能和風能等再生能源。總結來說，這個研究的價值在於提供了一個新的角度和方法，讓我們更好地預測再生能源的產量，有助於推動綠色能源的發展。",
+    "published_date": "2025-06-10",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-10T05:10:20.415190",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-10T05:10:30.714725"
+  },
+  {
+    "id": "2506.06287",
+    "title": "Deep Research Bench: Evaluating AI Web Research Agents",
+    "url": "https://arxiv.org/abs/2506.06287",
+    "authors": "FutureSearch,  :, Nikos I. Bosse, Jon Evans, Robert G. Gambee, Daniel Hnyk, Peter M\\\"uhlbacher, Lawrence Phillips, Dan Schwarz, Jack Wildman",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要介紹了一個名為「Deep Research Bench」的AI網頁研究代理評估工具。這個工具的核心創新在於能夠自動化評估各種AI研究代理在網頁上的表現。簡單來說，就是幫助研究人員評估不同AI系統在網路上的表現如何。這對於提升AI研究的效率和準確性有很大的幫助，讓研究人員能更快速地找到最佳的AI系統。這個工具有助於推動AI研究領域的發展，讓人工智慧技術更上一層樓。",
+    "published_date": "2025-06-10",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-10T05:10:20.415234",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-10T05:10:33.337363"
+  },
+  {
+    "id": "2506.06301",
+    "title": "Large Language Models and Their Applications in Roadway Safety and Mobility Enhancement: A Comprehensive Review",
+    "url": "https://arxiv.org/abs/2506.06301",
+    "authors": "Muhammad Monjurul Karim, Yan Shi, Shucheng Zhang, Bingzhang Wang, Mehrdad Nasri, Yinhai Wang",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討大型語言模型在道路安全和行動性提升上的應用。簡單來說，就是利用AI技術來改善道路安全和交通流動。研究團隊提出了一個全面的回顧，探討了這些語言模型的重要性和應用價值。這項研究的創新之處在於將AI技術應用在交通領域，有助於提升道路安全和行車效率。透過這些大型語言模型，未來有望改善我們的交通系統，讓行車更加安全順暢。",
+    "published_date": "2025-06-10",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-10T05:10:20.415277",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-10T05:10:37.011926"
+  },
+  {
+    "id": "2506.06324",
+    "title": "Mapping Human-Agent Co-Learning and Co-Adaptation: A Scoping Review",
+    "url": "https://arxiv.org/abs/2506.06324",
+    "authors": "Shruti Kumar, Xiaoyu Chen, Xiaomei Wang",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討人類與智能代理之間的共同學習和共同適應。研究發現，當人類和智能代理共同學習時，彼此之間的互動和適應是非常重要的。透過這種合作，可以提高學習效率和成果。作者們透過文獻回顧，整理出了這個領域的研究現況和未來發展方向。這項研究有助於我們更深入了解人類與智能代理之間的互動，並提出了一些有價值的啟示，有助於未來相關研究的發展。",
+    "published_date": "2025-06-10",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-10T05:10:20.415350",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-10T05:10:40.605916"
+  },
+  {
+    "id": "2506.06326",
+    "title": "Memory OS of AI Agent",
+    "url": "https://arxiv.org/abs/2506.06326",
+    "authors": "Jiazheng Kang, Mingming Ji, Zhe Zhao, Ting Bai",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文探討了AI智能體的「記憶操作系統」。簡單來說，就是讓AI智能體更聰明更有記憶力。研究團隊提出了一種新的方法，讓AI智能體可以更有效地記住之前學習到的知識，並在需要時迅速應用。這個方法可以讓AI在處理複雜任務時更有效率，提高學習效果。這項研究的價值在於提升了AI智能體的學習和應用能力，有助於未來發展更強大的人工智慧技術。",
+    "published_date": "2025-06-10",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-10T05:10:20.415395",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-10T05:10:44.091924"
+  },
+  {
+    "id": "2506.06352",
+    "title": "Will artificial agents pursue power by default?",
+    "url": "https://arxiv.org/abs/2506.06352",
+    "authors": "Christian Tarsney",
+    "categories": [
+      "cs.AI",
+      "cs.CY"
+    ],
+    "summary": "這篇論文討論了人工智慧代理是否會預設追求權力。作者 Christian Tarsney 提出了這個有趣的問題，探討人工智慧代理在沒有特定指示下是否會自動追求權力。他認為這個問題關係到人工智慧的倫理議題，也引發了對於人工智慧代理設計的重要思考。這篇論文的核心價值在於提出了一個深入且具有啟發性的問題，引導我們思考人工智慧的發展方向及可能的風險。",
+    "published_date": "2025-06-10",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-10T05:10:20.415443",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-10T05:10:46.495050"
+  },
+  {
+    "id": "2506.06367",
+    "title": "Towards Foundation Model on Temporal Knowledge Graph Reasoning",
+    "url": "https://arxiv.org/abs/2506.06367",
+    "authors": "Jiaxin Pan, Mojtaba Nayyeri, Osama Mohammed, Daniel Hernandez, Rongchuan Zhang, Cheng Cheng, Steffen Staab",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討在時間知識圖證明方面的基礎模型。研究團隊提出了一種新方法，可以更有效地處理時間數據在知識圖中的推理問題。他們的創新點在於結合了時間因素，讓機器能夠更好地理解知識圖中事件之間的時間關係，進而提升推理準確性。這項研究有助於改善人工智慧系統在處理時間相關知識時的效率和準確性，對於提升機器智能水準有重要價值。",
+    "published_date": "2025-06-10",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-10T05:10:20.415484",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-10T05:10:50.176248"
+  },
+  {
+    "id": "2506.06470",
+    "title": "SIGMA: Refining Large Language Model Reasoning via Sibling-Guided Monte Carlo Augmentation",
+    "url": "https://arxiv.org/abs/2506.06470",
+    "authors": "Yanwei Ren, Haotian Zhang, Fuxiang Wu, Jiayan Qiu, Jiaxing Huang, Baosheng Yu, Liu Liu",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文提出了一種名為SIGMA的方法，通過兄弟引導的蒙特卡羅增強技術，來提升大型語言模型的推理能力。簡單來說，就是讓語言模型更聰明地理解和回答問題。這個方法的創新之處在於引入了兄弟引導機制，讓模型能夠更有效地學習和推理。這對於提升語言模型的性能和準確性有很大的幫助，對於提升人工智慧技術在自然語言處理領域的應用具有重要價值。",
+    "published_date": "2025-06-10",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-10T05:10:20.415525",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-10T05:10:52.223698"
+  }
+]
