@@ -73,12 +73,13 @@ class SupabaseStorage(StorageProvider):
                 
             # 上傳文件到 Supabase Storage
             print(f"正在上傳到 bucket: {self.bucket_name}, 路徑: {storage_path}")
+            file_options = {
+                "content-type": "audio/mpeg"
+            }
             result = self.supabase.storage.from_(self.bucket_name).upload(
                 path=storage_path,
                 file=file_data,
-                file_options={
-                    "content-type": content_type
-                }
+                file_options=file_options
             )
             
             # 檢查上傳結果
@@ -100,8 +101,9 @@ class SupabaseStorage(StorageProvider):
         try:
             print(f"正在獲取文件 URL: {file_path}")
             url = self.supabase.storage.from_(self.bucket_name).get_public_url(file_path)
-            print(f"成功獲取文件 URL: {url}")
-            return url
+            if isinstance(url, dict) and 'publicURL' in url:
+                return url['publicURL'].rstrip('?')
+            return url.rstrip('?') if isinstance(url, str) else url
         except Exception as e:
             print(f"獲取文件 URL 時發生錯誤: {str(e)}")
             raise

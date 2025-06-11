@@ -5,6 +5,7 @@ export interface Article {
   source: string;
   summary: string;
   audio_file: string;
+  audio_path: string;
   published_date?: string;
   content_type: string;
 }

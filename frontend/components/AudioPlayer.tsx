@@ -8,6 +8,7 @@ interface Article {
   source: string;
   summary: string;
   audio_file: string;
+  audio_path: string;
   published_date?: string;
   content_type: string;
 }
@@ -23,9 +24,8 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const audioRef = useRef<HTMLAudioElement>(null);
-
-  // 获取音频URL
-  const audioUrl = `${process.env.NEXT_PUBLIC_API_URL}/audio/${article.id}`;
+  const fallbackUrl = `${process.env.NEXT_PUBLIC_API_URL}/audio/${article.id}`;
+  const [audioUrl, setAudioUrl] = useState(article.audio_path || fallbackUrl);
 
   // 播放暂停
   const togglePlay = () => {
@@ -96,6 +96,13 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
     return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
   };
 
+  // 備援機制：若 Supabase 連結失效，自動切換本地路徑
+  const handleAudioError = () => {
+    if (audioUrl !== fallbackUrl) {
+      setAudioUrl(fallbackUrl);
+    }
+  };
+
   // 自动播放
   useEffect(() => {
     const audio = audioRef.current;
@@ -129,6 +136,11 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
     };
   }, [article.id, audioUrl]);
 
+  // 新增：每次切換文章時，重設 audioUrl
+  useEffect(() => {
+    setAudioUrl(article.audio_path || fallbackUrl);
+  }, [article.id, article.audio_path]);
+
   return (
     <div className="fixed bottom-0 left-0 w-full bg-white shadow-lg border-t border-gray-200 z-50">
       <audio
@@ -137,6 +149,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
         onEnded={handleEnded}
+        onError={handleAudioError}
         hidden
       />
 

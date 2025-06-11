@@ -13,7 +13,7 @@
     "fetch_date": "2025-06-07T05:08:47.840464",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-07T05:08:50.760581",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/ee24f5366b0bc77d3be13819f45b6990.mp3?",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/ee24f5366b0bc77d3be13819f45b6990.mp3",
     "audio_file": "audio/articles/ee24f5366b0bc77d3be13819f45b6990.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-06-07T05:09:16.367006"
@@ -32,7 +32,7 @@
     "fetch_date": "2025-06-07T05:08:47.943354",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-07T05:08:52.678870",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/b6acba48e877fbd094f445902d8e2b0c.mp3?",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/b6acba48e877fbd094f445902d8e2b0c.mp3",
     "audio_file": "audio/articles/b6acba48e877fbd094f445902d8e2b0c.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-06-07T05:09:27.563381"
@@ -51,7 +51,7 @@
     "fetch_date": "2025-06-07T05:08:47.988293",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-07T05:08:54.444510",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/bfa7207920e4c78b6472f8711879ea96.mp3?",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/bfa7207920e4c78b6472f8711879ea96.mp3",
     "audio_file": "audio/articles/bfa7207920e4c78b6472f8711879ea96.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-06-07T05:09:36.835872"
@@ -70,7 +70,7 @@
     "fetch_date": "2025-06-07T05:08:48.124366",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-07T05:08:56.268863",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/b492bb1ca417195e7ac35da7d6b86734.mp3?",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/b492bb1ca417195e7ac35da7d6b86734.mp3",
     "audio_file": "audio/articles/b492bb1ca417195e7ac35da7d6b86734.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-06-07T05:09:47.218453"
@@ -89,7 +89,7 @@
     "fetch_date": "2025-06-07T05:08:48.204117",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-07T05:08:58.030531",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2f8f587dd34fd8413527d0dc7e4120cf.mp3?",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2f8f587dd34fd8413527d0dc7e4120cf.mp3",
     "audio_file": "audio/articles/2f8f587dd34fd8413527d0dc7e4120cf.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-06-07T05:09:55.824593"
@@ -108,7 +108,7 @@
     "fetch_date": "2025-06-07T05:08:48.346163",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-07T05:08:59.313740",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/14712bbf2ea88b18453639807b16d461.mp3?",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/14712bbf2ea88b18453639807b16d461.mp3",
     "audio_file": "audio/articles/14712bbf2ea88b18453639807b16d461.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-06-07T05:10:02.827764"
@@ -127,7 +127,7 @@
     "fetch_date": "2025-06-07T05:08:48.391872",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-07T05:09:01.847282",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/c43975d3c5f5f29b57637710866b41e3.mp3?",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/c43975d3c5f5f29b57637710866b41e3.mp3",
     "audio_file": "audio/articles/c43975d3c5f5f29b57637710866b41e3.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-06-07T05:10:12.996435"
@@ -146,7 +146,7 @@
     "fetch_date": "2025-06-07T05:08:48.512914",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-07T05:09:02.995697",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/27bed4286a52bb34085b75481fa1fe9f.mp3?",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/27bed4286a52bb34085b75481fa1fe9f.mp3",
     "audio_file": "audio/articles/27bed4286a52bb34085b75481fa1fe9f.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-06-07T05:10:21.139877"
@@ -165,7 +165,7 @@
     "fetch_date": "2025-06-07T05:08:48.652610",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-07T05:09:04.456536",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/3c36c73037f6cc492c8f9bdb725b07c5.mp3?",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/3c36c73037f6cc492c8f9bdb725b07c5.mp3",
     "audio_file": "audio/articles/3c36c73037f6cc492c8f9bdb725b07c5.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-06-07T05:10:28.467767"
@@ -184,7 +184,7 @@
     "fetch_date": "2025-06-07T05:08:48.750637",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-07T05:09:06.133027",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/3bc84692705904d9190857dc6aaf3fe4.mp3?",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/3bc84692705904d9190857dc6aaf3fe4.mp3",
     "audio_file": "audio/articles/3bc84692705904d9190857dc6aaf3fe4.mp3",
     "audio_generated": true,
     "audio_generated_date": "2025-06-07T05:10:34.949260"
