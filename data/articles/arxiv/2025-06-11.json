@@ -18,7 +18,7 @@
     "fetch_date": "2025-06-11T05:11:08.118842",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-11T05:11:12.433804",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 245 credits are required for this request."
+    "audio_error": "{'statusCode': 400, 'error': 'Duplicate', 'message': 'The resource already exists'}"
   },
   {
     "id": "2506.08098",
@@ -36,7 +36,7 @@
     "fetch_date": "2025-06-11T05:11:08.118904",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-11T05:11:16.503834",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 246 credits are required for this request."
+    "audio_error": "{'statusCode': 400, 'error': 'Duplicate', 'message': 'The resource already exists'}"
   },
   {
     "id": "2506.08119",
@@ -54,7 +54,7 @@
     "fetch_date": "2025-06-11T05:11:08.118953",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-11T05:11:19.797953",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 255 credits are required for this request."
+    "audio_error": "{'statusCode': 400, 'error': 'Duplicate', 'message': 'The resource already exists'}"
   },
   {
     "id": "2506.08134",
@@ -73,7 +73,7 @@
     "fetch_date": "2025-06-11T05:11:08.118999",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-11T05:11:21.780742",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 218 credits are required for this request."
+    "audio_error": "{'statusCode': 400, 'error': 'Duplicate', 'message': 'The resource already exists'}"
   },
   {
     "id": "2506.08150",
@@ -92,7 +92,7 @@
     "fetch_date": "2025-06-11T05:11:08.119043",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-11T05:11:24.149113",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 261 credits are required for this request."
+    "audio_error": "{'statusCode': 400, 'error': 'Duplicate', 'message': 'The resource already exists'}"
   },
   {
     "id": "2506.08306",
@@ -111,7 +111,7 @@
     "fetch_date": "2025-06-11T05:11:08.119085",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-11T05:11:28.689710",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 279 credits are required for this request."
+    "audio_error": "{'statusCode': 400, 'error': 'Duplicate', 'message': 'The resource already exists'}"
   },
   {
     "id": "2506.08321",
@@ -130,7 +130,7 @@
     "fetch_date": "2025-06-11T05:11:08.119128",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-11T05:11:30.641670",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 216 credits are required for this request."
+    "audio_error": "{'statusCode': 400, 'error': 'Duplicate', 'message': 'The resource already exists'}"
   },
   {
     "id": "2506.08332",
@@ -148,7 +148,7 @@
     "fetch_date": "2025-06-11T05:11:08.119169",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-11T05:11:33.286631",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 229 credits are required for this request."
+    "audio_error": "{'statusCode': 400, 'error': 'Duplicate', 'message': 'The resource already exists'}"
   },
   {
     "id": "2506.08363",
@@ -166,7 +166,7 @@
     "fetch_date": "2025-06-11T05:11:08.119209",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-11T05:11:35.433027",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 252 credits are required for this request."
+    "audio_error": "{'statusCode': 400, 'error': 'Duplicate', 'message': 'The resource already exists'}"
   },
   {
     "id": "2506.08390",
@@ -184,6 +184,6 @@
     "fetch_date": "2025-06-11T05:11:08.119249",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-11T05:11:38.525430",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 226 credits are required for this request."
+    "audio_error": "{'statusCode': 400, 'error': 'Duplicate', 'message': 'The resource already exists'}"
   }
 ]
