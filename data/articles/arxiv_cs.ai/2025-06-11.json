@@ -1,0 +1,179 @@
+[
+  {
+    "id": "2506.08026",
+    "title": "TIP-Search: Time-Predictable Inference Scheduling for Market Prediction under Uncertain Load",
+    "url": "https://arxiv.org/abs/2506.08026",
+    "authors": "Xibai Wang",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.SY",
+      "eess.SY"
+    ],
+    "summary": "這篇論文提出了一個名為TIP-Search的方法，可以在不確定負載下，預測市場走勢的時間。簡單來說，就是讓AI在預測市場時更有時間上的可預測性。這個方法的創新之處在於能夠有效地處理市場預測中的不確定性，讓預測更加準確可靠。這對於投資者或是市場分析師來說，可以提供更好的參考依據，幫助他們做出更明智的決策。",
+    "published_date": "2025-06-11",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-11T05:11:08.118842",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-11T05:11:12.433804"
+  },
+  {
+    "id": "2506.08098",
+    "title": "Cognitive Weave: Synthesizing Abstracted Knowledge with a Spatio-Temporal Resonance Graph",
+    "url": "https://arxiv.org/abs/2506.08098",
+    "authors": "Akash Vishwakarma, Hojin Lee, Mohith Suresh, Priyam Shankar Sharma, Rahul Vishwakarma, Sparsh Gupta, Yuvraj Anupam Chauhan",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一種名為「認知編織」的方法，利用一個空間-時間共振圖來綜合抽象知識。簡單來說，就是讓電腦能夠更聰明地理解和應用抽象概念。這個方法的創新之處在於它能夠幫助電腦更好地理解知識之間的關聯，進而提升其學習和應用能力。這對於提升人工智慧系統的智能水準有著重要的價值，讓機器能夠更有效地應用抽象知識來解決問題。",
+    "published_date": "2025-06-11",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-11T05:11:08.118904",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-11T05:11:16.503834"
+  },
+  {
+    "id": "2506.08119",
+    "title": "SOP-Bench: Complex Industrial SOPs for Evaluating LLM Agents",
+    "url": "https://arxiv.org/abs/2506.08119",
+    "authors": "Subhrangshu Nandi, Arghya Datta, Nikhil Vichare, Indranil Bhattacharya, Huzefa Raja, Jing Xu, Shayan Ray, Giuseppe Carenini, Abhi Srivastava, Aaron Chan, Man Ho Woo, Amar Kandola, Brandon Theresa, Francesco Carbone",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文介紹了一個名為SOP-Bench的研究，旨在評估LLM智能代理在處理複雜工業標準操作程序（SOPs）時的表現。研究團隊提出了一個挑戰性的測試集，讓這些代理能夠應對各種真實世界的SOP任務。這個研究的創新之處在於提供了一個更貼近實際應用的評估環境，有助於改進智能代理的性能和準確性。透過SOP-Bench，研究人員可以更全面地評估不同代理系統的優劣，促進人工智慧在工業應用上的進步。",
+    "published_date": "2025-06-11",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-11T05:11:08.118953",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-11T05:11:19.797953"
+  },
+  {
+    "id": "2506.08134",
+    "title": "The AI Imperative: Scaling High-Quality Peer Review in Machine Learning",
+    "url": "https://arxiv.org/abs/2506.08134",
+    "authors": "Qiyao Wei, Samuel Holt, Jing Yang, Markus Wulfmeier, Mihaela van der Schaar",
+    "categories": [
+      "cs.AI",
+      "cs.CY"
+    ],
+    "summary": "這篇論文主要探討如何在機器學習領域中擴大高品質的同儕評審。作者提出了一個AI系統，可以協助加速同儕評審過程，提高評審效率。這個系統可以自動分配論文給合適的評審人員，並提供即時反饋，幫助評審更快速地完成評審工作。這項研究的價值在於提高了學術界對論文的評審效率，有助於推動機器學習領域的研究進展。",
+    "published_date": "2025-06-11",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-11T05:11:08.118999",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-11T05:11:21.780742"
+  },
+  {
+    "id": "2506.08150",
+    "title": "Compiling Metric Temporal Answer Set Programming",
+    "url": "https://arxiv.org/abs/2506.08150",
+    "authors": "Arvid Becker, Pedro Cabalar, Martin Di\\'eguez, Javier Romero, Susana Hahn, Torsten Schaub",
+    "categories": [
+      "cs.AI",
+      "cs.LO"
+    ],
+    "summary": "這篇論文主要介紹了一種名為Metric Temporal Answer Set Programming (MTASP)的技術，可以幫助人工智慧系統更有效地處理時間相關的問題。簡單來說，就是讓AI更聰明地處理時間資訊，讓它們在處理任務時更準確、更快速。這項技術的創新之處在於它整合了時間度量和邏輯推理，讓AI在處理複雜問題時更有彈性。這對於提升人工智慧系統在各種應用上的效能都有很大的幫助，讓我們的科技更智慧、更貼近人類需求。",
+    "published_date": "2025-06-11",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-11T05:11:08.119043",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-11T05:11:24.149113"
+  },
+  {
+    "id": "2506.08306",
+    "title": "AstroCompress: A benchmark dataset for multi-purpose compression of astronomical data",
+    "url": "https://arxiv.org/abs/2506.08306",
+    "authors": "Tuan Truong, Rithwik Sudharsan, Yibo Yang, Peter Xiangyuan Ma, Ruihan Yang, Stephan Mandt, Joshua S. Bloom",
+    "categories": [
+      "cs.AI",
+      "astro-ph.IM"
+    ],
+    "summary": "這篇論文介紹了一個名為\"AstroCompress\"的資料集，專門用來壓縮天文數據。研究團隊提出了一種多功能的壓縮方法，可以應用在各種天文數據的壓縮上。這個方法的核心創新在於能夠有效地壓縮大量的天文數據，同時保持數據的重要信息不受損失。這對於天文學家來說非常重要，因為他們需要處理龐大的數據量並確保數據的準確性。透過這個研究，未來可以更有效率地處理和儲存天文數據，促進天文學研究的發展。",
+    "published_date": "2025-06-11",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-11T05:11:08.119085",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-11T05:11:28.689710"
+  },
+  {
+    "id": "2506.08321",
+    "title": "LeanTutor: A Formally-Verified AI Tutor for Mathematical Proofs",
+    "url": "https://arxiv.org/abs/2506.08321",
+    "authors": "Manooshree Patel, Rayna Bhattacharyya, Thomas Lu, Arnav Mehta, Niels Voss, Narges Norouzi, Gireeja Ranade",
+    "categories": [
+      "cs.AI",
+      "cs.LO"
+    ],
+    "summary": "這篇論文介紹了一個名為LeanTutor的AI數學證明導師，它經過正式驗證，能夠幫助學生學習數學證明。這個系統的核心創新在於它的驗證過程，確保教學的準確性和可靠性。透過LeanTutor，學生可以更有效地學習數學證明，提升他們的證明能力。這項研究有助於提高數學教育的效率和質量，為學生提供更好的學習體驗。",
+    "published_date": "2025-06-11",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-11T05:11:08.119128",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-11T05:11:30.641670"
+  },
+  {
+    "id": "2506.08332",
+    "title": "ORFS-agent: Tool-Using Agents for Chip Design Optimization",
+    "url": "https://arxiv.org/abs/2506.08332",
+    "authors": "Amur Ghose, Andrew B. Kahng, Sayak Kundu, Zhiang Wang",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文介紹了一種名為ORFS-agent的工具，可以幫助晶片設計進行優化。這個工具能夠讓晶片設計師更有效率地利用資源，提升晶片設計的效能。簡單來說，就是讓晶片設計變得更聰明、更有效率。這個方法的創新之處在於引入了一種新的代理人概念，讓晶片設計的優化過程更加智慧化。這將有助於提升晶片設計的品質和效率，對於未來的晶片技術發展有著重要的價值。",
+    "published_date": "2025-06-11",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-11T05:11:08.119169",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-11T05:11:33.286631"
+  },
+  {
+    "id": "2506.08363",
+    "title": "FloorplanMAE:A self-supervised framework for complete floorplan generation from partial inputs",
+    "url": "https://arxiv.org/abs/2506.08363",
+    "authors": "Jun Yin, Jing Zhong, Pengyu Zeng, Peilin Li, Miao Zhang, Ran Luo, Shuai Lu",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一個名為「FloorplanMAE」的自我監督框架，可以從部分輸入中生成完整的平面圖。這個方法的核心創新在於它能夠從少量資料中學習，並在沒有標註的情況下完成平面圖的生成，進而提高了生成的準確性和效率。這對於建築設計、室內設計等領域有很大的應用價值，可以幫助設計師快速生成完整的平面圖，節省時間和成本。",
+    "published_date": "2025-06-11",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-11T05:11:08.119209",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-11T05:11:35.433027"
+  },
+  {
+    "id": "2506.08390",
+    "title": "On Reasoning Strength Planning in Large Reasoning Models",
+    "url": "https://arxiv.org/abs/2506.08390",
+    "authors": "Leheng Sheng, An Zhang, Zijian Wu, Weixiang Zhao, Changshuo Shen, Yi Zhang, Xiang Wang, Tat-Seng Chua",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討在大型推理模型中的推理強度規劃。研究團隊提出了一種新方法，可以在處理龐大知識庫時提高推理效率，進而改善模型的性能。他們強調了在處理龐大知識時的推理能力，並提出了一套有效的規劃策略。這項研究的創新之處在於提供了一個更有效率的方式來進行推理，有助於提升大型推理模型的準確性和效率。這對於提升人工智慧系統的整體表現具有重要價值。",
+    "published_date": "2025-06-11",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-11T05:11:08.119249",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-11T05:11:38.525430"
+  }
+]
