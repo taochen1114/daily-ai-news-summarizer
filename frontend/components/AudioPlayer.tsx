@@ -24,8 +24,14 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const audioRef = useRef<HTMLAudioElement>(null);
-  const fallbackUrl = `${process.env.NEXT_PUBLIC_API_URL}/audio/${article.id}`;
-  const [audioUrl, setAudioUrl] = useState(article.audio_path || fallbackUrl);
+
+  // 設定音訊檔 URL
+  let audioUrl;
+  if (article.audio_file.startsWith("audio/articles")) {
+    audioUrl = `${process.env.SUPABASE_STORAGE_URL}/${article.audio_file}`;
+  } else {
+    audioUrl = `${process.env.NEXT_PUBLIC_API_URL}/audio/${article.id}`;
+  }
 
   // 播放暂停
   const togglePlay = () => {
