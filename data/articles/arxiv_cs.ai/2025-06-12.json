@@ -1,0 +1,188 @@
+[
+  {
+    "id": "2506.09176",
+    "title": "Robot-Gated Interactive Imitation Learning with Adaptive Intervention Mechanism",
+    "url": "https://arxiv.org/abs/2506.09176",
+    "authors": "Haoyuan Cai, Zhenghao Peng, Bolei Zhou",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "summary": "這篇論文主要介紹了一種新的機器人學習方法，稱為「機器人閘控互動模仿學習與適應性干預機制」。簡單來說，就是讓機器人透過與人互動學習，並且在需要時能夠自動調整學習過程。這個方法的創新之處在於機器人可以根據互動情況自主調整學習，提高學習效率和準確性。這對於提升機器人在與人類互動時的表現有很大的幫助，有助於機器人更快速地學習新技能和適應不同情境。",
+    "published_date": "2025-06-12",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-12T05:10:21.309114",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-12T05:10:26.252971"
+  },
+  {
+    "id": "2506.09250",
+    "title": "Comment on The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity",
+    "url": "https://arxiv.org/abs/2506.09250",
+    "authors": "C. Opus, A. Lawsen",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文討論了理性模型在處理問題時的優勢和限制，強調了問題複雜度對於思考的影響。作者指出，我們常常被認知偏差所影響，以為自己的思考是理性的，但實際上可能受到問題複雜度的限制。透過研究問題的複雜度，我們可以更深入了解理性模型的運作方式，進而改善我們的思考方式。這篇論文的價值在於提醒我們要謹慎評估自己的思考模式，並尋求更有效的解決問題方法。",
+    "published_date": "2025-06-12",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-12T05:10:21.309175",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-12T05:10:30.696948"
+  },
+  {
+    "id": "2506.09344",
+    "title": "Ming-Omni: A Unified Multimodal Model for Perception and Generation",
+    "url": "https://arxiv.org/abs/2506.09344",
+    "authors": "Inclusion AI, Biao Gong, Cheng Zou, Chuanyang Zheng, Chunluan Zhou, Canxiang Yan, Chunxiang Jin, Chunjie Shen, Dandan Zheng, Fudong Wang, Furong Xu, GuangMing Yao, Jun Zhou, Jingdong Chen, Jianxin Sun, Jiajia Liu, Jianjiang Zhu, Jun Peng, Kaixiang Ji, Kaiyou Song, Kaimeng Ren, Libin Wang, Lixiang Ru, Lele Xie, Longhua Tan, Lyuxin Xue, Lan Wang, Mochen Bai, Ning Gao, Pei Chen, Qingpei Guo, Qinglong Zhang, Qiang Xu, Rui Liu, Ruijie Xiong, Sirui Gao, Tinghao Liu, Taisong Li, Weilong Chai, Xinyu Xiao, Xiaomei Wang, Xiaoxue Chen, Xiao Lu, Xiaoyu Li, Xingning Dong, Xuzheng Yu, Yi Yuan, Yuting Gao, Yunxiao Sun, Yipeng Chen, Yifei Wu, Yongjie Lyu, Ziping Ma, Zipeng Feng, Zhijiang Fang, Zhihao Qiu, Ziyuan Huang, Zhengyu He",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CV",
+      "cs.LG",
+      "cs.SD",
+      "eess.AS"
+    ],
+    "summary": "這篇論文介紹了一個名為「Ming-Omni」的統一多模型，可以同時進行感知和生成任務。這個模型的核心創新在於整合了多種不同模態的資訊，讓AI系統可以更全面地理解和產生內容。這項研究的價值在於提升了AI在多模態任務上的表現，有助於提升語音、圖像等多方面的應用效果。總括來說，「Ming-Omni」模型的出現為AI技術的發展帶來了新的可能性，有助於提升人工智慧在各種應用場景下的表現。",
+    "published_date": "2025-06-12",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-12T05:10:21.309226",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-12T05:10:33.224754"
+  },
+  {
+    "id": "2506.09390",
+    "title": "Beyond Nash Equilibrium: Bounded Rationality of LLMs and humans in Strategic Decision-making",
+    "url": "https://arxiv.org/abs/2506.09390",
+    "authors": "Kehan Zheng, Jinfeng Zhou, Hongning Wang",
+    "categories": [
+      "cs.AI",
+      "cs.GT"
+    ],
+    "summary": "這篇論文探討了在戰略決策中，認知有限的人類和語言模型（LLMs）如何超越納許均衡。研究發現，人類和LLMs在決策過程中並非總是遵循最佳策略，而是受到有限理性的影響。這意味著在現實情況下，決策者可能會偏離理性預期，這對於AI決策模型的設計和應用具有重要啟示。總的來說，這項研究有助於我們更深入了解人類和AI在戰略決策中的行為模式，並提供了新的思考角度。",
+    "published_date": "2025-06-12",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-12T05:10:21.309270",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-12T05:10:35.992789"
+  },
+  {
+    "id": "2506.09420",
+    "title": "A Call for Collaborative Intelligence: Why Human-Agent Systems Should Precede AI Autonomy",
+    "url": "https://arxiv.org/abs/2506.09420",
+    "authors": "Henry Peng Zou, Wei-Chieh Huang, Yaozu Wu, Chunyu Miao, Dongyuan Li, Aiwei Liu, Yue Zhou, Yankai Chen, Weizhi Zhang, Yangning Li, Liancheng Fang, Renhe Jiang, Philip S. Yu",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.HC",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "summary": "這篇論文提出了一個重要觀點：在發展人工智慧（AI）自主性之前，應該先建立人與智能系統之間的合作關係。簡單來說，就是強調人類與AI系統之間的合作比單獨AI系統的自主性更重要。這樣的合作模式被稱為「協作智能」，強調人類與AI系統共同合作，以實現更好的效果。這個觀點對於未來AI技術的發展和應用有著重要的啟示價值。",
+    "published_date": "2025-06-12",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-12T05:10:21.309316",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-12T05:10:38.425803"
+  },
+  {
+    "id": "2506.09498",
+    "title": "Fast Monte Carlo Tree Diffusion: 100x Speedup via Parallel Sparse Planning",
+    "url": "https://arxiv.org/abs/2506.09498",
+    "authors": "Jaesik Yoon, Hyeonseo Cho, Yoshua Bengio, Sungjin Ahn",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一種名為「快速蒙特卡羅樹擴散」的方法，通過平行稀疏規劃實現了100倍的加速。簡單來說，他們提出了一種更有效率的方法來進行決策規劃，讓機器學習系統在處理複雜任務時可以更快速地找到最佳解決方案。這項技術的創新之處在於提高了計算速度，讓AI系統在處理遊戲、自動駕駛等領域的應用時更加高效。",
+    "published_date": "2025-06-12",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-12T05:10:21.309358",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-12T05:10:40.487096"
+  },
+  {
+    "id": "2506.09655",
+    "title": "DipLLM: Fine-Tuning LLM for Strategic Decision-making in Diplomacy",
+    "url": "https://arxiv.org/abs/2506.09655",
+    "authors": "Kaixuan Xu, Jiajun Chai, Sicheng Li, Yuqian Fu, Yuanheng Zhu, Dongbin Zhao",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文提出了一種名為DipLLM的方法，專門針對外交決策中的戰略性問題進行微調。簡單來說，就是讓一種叫LLM的模型更適合應用在外交決策上。這個方法的創新之處在於能夠提高外交決策的效率和準確性，有助於政府或組織在制定策略時更有把握。這對於提升外交決策的品質和效率有很大的幫助，對於國際事務領域可能會有很大的影響。",
+    "published_date": "2025-06-12",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-12T05:10:21.309400",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-12T05:10:42.863225"
+  },
+  {
+    "id": "2506.09656",
+    "title": "Application-Driven Value Alignment in Agentic AI Systems: Survey and Perspectives",
+    "url": "https://arxiv.org/abs/2506.09656",
+    "authors": "Wei Zeng, Hengshu Zhu, Chuan Qin, Han Wu, Yihang Cheng, Sirui Zhang, Xiaowei Jin, Yinuo Shen, Zhenxing Wang, Feimin Zhong, Hui Xiong",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文探討了在人工智慧系統中如何實現應用驅動的價值對齊，讓AI系統更符合應用需求。研究團隊提出了一項調查和展望，強調了價值對齊在具有主動性的AI系統中的重要性。他們的研究突出了如何在AI系統中整合應用需求，以確保系統行為符合預期目標。這項研究的創新之處在於強調了價值對齊對於AI系統的實際應用意義，並提供了未來研究的展望。",
+    "published_date": "2025-06-12",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-12T05:10:21.309460",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-12T05:10:44.762752"
+  },
+  {
+    "id": "2506.09659",
+    "title": "Intent Factored Generation: Unleashing the Diversity in Your Language Model",
+    "url": "https://arxiv.org/abs/2506.09659",
+    "authors": "Eltayeb Ahmed, Uljad Berdica, Martha Elliott, Danijela Horak, Jakob N. Foerster",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "summary": "這篇論文提出了一種名為「Intent Factored Generation」的方法，可以讓語言模型產生更多樣化的結果。簡單來說，就是讓AI在生成文本時考慮到不同的意圖，讓輸出更加豐富多樣。這個方法可以幫助改善語言模型的表現，讓生成的內容更符合使用者的需求，提高了模型的靈活性和準確性。透過這種方式，AI可以更好地理解使用者的意圖，產生更符合預期的結果。",
+    "published_date": "2025-06-12",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-12T05:10:21.309507",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-12T05:10:47.417974"
+  },
+  {
+    "id": "2506.09977",
+    "title": "How Do People Revise Inconsistent Beliefs? Examining Belief Revision in Humans with User Studies",
+    "url": "https://arxiv.org/abs/2506.09977",
+    "authors": "Stylianos Loukas Vasileiou, Antonio Rago, Maria Vanina Martinez, William Yeoh",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇研究探討人們如何修正不一致的信念，透過使用者研究來觀察人類的信念修正過程。研究團隊發現，人們在面對矛盾信念時，會透過不同策略來調整自己的信念，並且這些策略可能受到個人特質和環境因素的影響。這項研究有助於我們更深入了解人類的認知過程，並且提供了寶貴的洞察，有助於未來發展更有效的信念修正方法。",
+    "published_date": "2025-06-12",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-12T05:10:21.309548",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-12T05:10:49.714092"
+  }
+]
