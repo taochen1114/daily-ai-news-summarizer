@@ -38,10 +38,14 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null);
   const [selectedDate, setSelectedDate] = useState<string>(getTodayDate());
   const [currentPlayingId, setCurrentPlayingId] = useState<string | null>(null);
-  const [loadedDates, setLoadedDates] = useState<Set<string>>(new Set([getTodayDate()]));
+  const [loadedDates, setLoadedDates] = useState<Set<string>>(
+    new Set([getTodayDate()])
+  );
   const [availableDates, setAvailableDates] = useState<string[]>([]);
   // 添加文章緩存
-  const [articlesCache, setArticlesCache] = useState<Record<string, Article[]>>({});
+  const [articlesCache, setArticlesCache] = useState<Record<string, Article[]>>(
+    {}
+  );
 
   // 獲取日期列表
   const fetchDates = async () => {
@@ -49,7 +53,7 @@ export default function Home() {
       const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/dates`);
       if (!response.ok) throw new Error('獲取日期列表失敗');
       const data = await response.json();
-      const dates = Array.isArray(data) ? data : (data.dates || []);
+      const dates = Array.isArray(data) ? data : data.dates || [];
       setAvailableDates(dates);
       return dates;
     } catch (error) {
@@ -63,14 +67,16 @@ export default function Home() {
   const fetchArticles = async (date: string) => {
     try {
       setLoading(true);
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/daily?date=${date}`);
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL}/daily?date=${date}`
+      );
       if (!response.ok) throw new Error('獲取文章失敗');
       const data = await response.json();
       const articles = data.articles || [];
       // 更新緩存
-      setArticlesCache(prev => ({
+      setArticlesCache((prev) => ({
         ...prev,
-        [date]: articles
+        [date]: articles,
       }));
       return articles;
     } catch (error) {
@@ -84,12 +90,12 @@ export default function Home() {
   // 獲取最近的日期
   const getLatestDate = (dates: string[]): string => {
     if (!dates.length) return getTodayDate();
-    
+
     // 將日期字串轉換為 Date 對象並排序
     const sortedDates = dates
-      .map(date => new Date(date))
+      .map((date) => new Date(date))
       .sort((a, b) => b.getTime() - a.getTime());
-    
+
     // 返回最近的日期字串
     return format(sortedDates[0], 'yyyy-MM-dd');
   };
@@ -105,7 +111,7 @@ export default function Home() {
         const latestDate = getLatestDate(dates);
         // 加載最近日期的文章
         const articles = await fetchArticles(latestDate);
-        
+
         setArticles(articles);
         setSelectedDate(latestDate);
         setAvailableDates(dates);
@@ -161,32 +167,44 @@ export default function Home() {
   };
 
   // 獲取當前播放的文章
-  const currentPlayingArticle = articles.find(article => article.id === currentPlayingId);
+  const currentPlayingArticle = articles.find(
+    (article) => article.id === currentPlayingId
+  );
 
   return (
     <>
       <Head>
         <title>DAINS - 每日AI新聞和論文摘要</title>
-        <meta name="description" content="每天追蹤AI新聞與論文，並生成語音摘要" />
+        <meta
+          name="description"
+          content="每天追蹤AI新聞與論文，並生成語音摘要"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="min-h-screen bg-gray-50">
         <Header />
-        
+
         <main className="container mx-auto px-4 py-8">
-          <div className="mb-8 flex flex-col md:flex-row justify-between items-start md:items-center">
+          <div className="mb-8 flex flex-col items-start justify-between md:flex-row md:items-center">
             <div>
-              <h1 className="text-3xl font-bold text-gray-800">每日AI新聞和論文摘要</h1>
+              <h1 className="text-3xl font-bold text-gray-800">
+                每日AI新聞和論文摘要
+              </h1>
               {articles.length > 0 && (
-                <p className="text-gray-600 mt-2">
-                  {format(new Date(articles[0].published_date || ''), 'yyyy年MM月dd日 EEEE', { locale: zhTW })} · 共 {articles.length} 篇內容
+                <p className="mt-2 text-gray-600">
+                  {format(
+                    new Date(articles[0].published_date || ''),
+                    'yyyy年MM月dd日 EEEE',
+                    { locale: zhTW }
+                  )}{' '}
+                  · 共 {articles.length} 篇內容
                 </p>
               )}
             </div>
-            
-            <DateSelector 
+
+            <DateSelector
               dates={availableDates}
               selectedDate={selectedDate}
               onSelectDate={handleDateChange}
@@ -194,15 +212,15 @@ export default function Home() {
           </div>
 
           {loading ? (
-            <div className="flex justify-center items-center py-20">
-              <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary-500"></div>
+            <div className="flex items-center justify-center py-20">
+              <div className="h-12 w-12 animate-spin rounded-full border-b-2 border-t-2 border-primary-500"></div>
             </div>
           ) : error ? (
-            <div className="text-center py-10">
-              <div className="text-red-500 text-lg">{error}</div>
-              <button 
+            <div className="py-10 text-center">
+              <div className="text-lg text-red-500">{error}</div>
+              <button
                 onClick={() => window.location.reload()}
-                className="mt-4 px-4 py-2 bg-primary-500 text-white rounded hover:bg-primary-600"
+                className="mt-4 rounded bg-primary-500 px-4 py-2 text-white hover:bg-primary-600"
               >
                 重試
               </button>
@@ -217,25 +235,25 @@ export default function Home() {
                   onPlay={() => handlePlay(article)}
                 />
               ))}
-              
+
               {articles.length === 0 && (
-                <div className="text-center py-10 text-gray-500">
+                <div className="py-10 text-center text-gray-500">
                   當天沒有內容
                 </div>
               )}
             </div>
           ) : null}
         </main>
-        
+
         {currentPlayingArticle && (
           <AudioPlayer
             article={currentPlayingArticle}
             onClose={() => setCurrentPlayingId(null)}
           />
         )}
-        
-        <footer className="bg-white border-t border-gray-200 py-6">
-          <div className="container mx-auto px-4 text-center text-gray-500 text-sm">
+
+        <footer className="border-t border-gray-200 bg-white py-6">
+          <div className="container mx-auto px-4 text-center text-sm text-gray-500">
             <p>DAINS - 每日AI新聞與論文摘要</p>
             <p className="mt-1">© {new Date().getFullYear()} DAINS 版權所有</p>
           </div>
@@ -243,4 +261,4 @@ export default function Home() {
       </div>
     </>
   );
-} 
+}

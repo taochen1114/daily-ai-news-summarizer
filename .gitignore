@@ -42,7 +42,6 @@ build/
 
 # IDE
 .idea/
-.vscode/
 *.sublime-project
 *.sublime-workspace
 

@@ -11,7 +11,7 @@ const ThemeToggle: React.FC = () => {
   return (
     <button
       onClick={toggleTheme}
-      className="bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600"
+      className="rounded-md bg-gray-100 p-2 text-gray-600 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600"
       aria-label="切換明亮/暗黑模式"
     >
       <FiMoon className="hidden dark:block" />
@@ -20,4 +20,4 @@ const ThemeToggle: React.FC = () => {
   );
 };
 
-export default ThemeToggle; 
+export default ThemeToggle;

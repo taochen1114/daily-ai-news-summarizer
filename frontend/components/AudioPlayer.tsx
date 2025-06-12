@@ -8,7 +8,6 @@ interface Article {
   source: string;
   summary: string;
   audio_file: string;
-  audio_path: string;
   published_date?: string;
   content_type: string;
 }
@@ -27,8 +26,8 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
 
   // 設定音訊檔 URL
   let audioUrl;
-  if (article.audio_file.startsWith("audio/articles")) {
-    audioUrl = `${process.env.SUPABASE_STORAGE_URL}/${article.audio_file}`;
+  if (article.audio_file.startsWith('audio/articles')) {
+    audioUrl = `${process.env.NEXT_PUBLIC_SUPABASE_STORAGE_URL}/${article.audio_file}`;
   } else {
     audioUrl = `${process.env.NEXT_PUBLIC_API_URL}/audio/${article.id}`;
   }
@@ -42,12 +41,15 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
       audio.pause();
       setIsPlaying(false);
     } else {
-      audio.play().then(() => {
-        setIsPlaying(true);
-      }).catch(err => {
-        console.error('播放失败:', err);
-        setIsPlaying(false);
-      });
+      audio
+        .play()
+        .then(() => {
+          setIsPlaying(true);
+        })
+        .catch((err) => {
+          console.error('播放失败:', err);
+          setIsPlaying(false);
+        });
     }
   };
 
@@ -102,13 +104,6 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
     return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
   };
 
-  // 備援機制：若 Supabase 連結失效，自動切換本地路徑
-  const handleAudioError = () => {
-    if (audioUrl !== fallbackUrl) {
-      setAudioUrl(fallbackUrl);
-    }
-  };
-
   // 自动播放
   useEffect(() => {
     const audio = audioRef.current;
@@ -125,12 +120,15 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
 
     // 開始新的播放
     const playNewAudio = () => {
-      audio.play().then(() => {
-        setIsPlaying(true);
-      }).catch(err => {
-        console.error('播放失敗:', err);
-        setIsPlaying(false);
-      });
+      audio
+        .play()
+        .then(() => {
+          setIsPlaying(true);
+        })
+        .catch((err) => {
+          console.error('播放失敗:', err);
+          setIsPlaying(false);
+        });
     };
 
     // 等待音頻加載完成後播放
@@ -142,40 +140,36 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
     };
   }, [article.id, audioUrl]);
 
-  // 新增：每次切換文章時，重設 audioUrl
-  useEffect(() => {
-    setAudioUrl(article.audio_path || fallbackUrl);
-  }, [article.id, article.audio_path]);
-
   return (
-    <div className="fixed bottom-0 left-0 w-full bg-white shadow-lg border-t border-gray-200 z-50">
+    <div className="fixed bottom-0 left-0 z-50 w-full border-t border-gray-200 bg-white shadow-lg">
       <audio
         ref={audioRef}
         src={audioUrl}
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
         onEnded={handleEnded}
-        onError={handleAudioError}
         hidden
       />
 
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          <div className="flex-1 mr-4 truncate">
-            <div className="text-sm font-medium text-gray-800 truncate">{article.title}</div>
+          <div className="mr-4 flex-1 truncate">
+            <div className="truncate text-sm font-medium text-gray-800">
+              {article.title}
+            </div>
             <div className="text-xs text-gray-500">{article.source}</div>
           </div>
 
           <div className="flex items-center space-x-4">
             <button
               onClick={togglePlay}
-              className="w-10 h-10 rounded-full bg-primary-500 text-white flex items-center justify-center hover:bg-primary-600"
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-500 text-white hover:bg-primary-600"
             >
               {isPlaying ? <FiPause size={18} /> : <FiPlay size={18} />}
             </button>
 
-            <div className="hidden md:flex items-center space-x-2 flex-1 max-w-md">
-              <span className="text-xs text-gray-500 w-10 text-right">
+            <div className="hidden max-w-md flex-1 items-center space-x-2 md:flex">
+              <span className="w-10 text-right text-xs text-gray-500">
                 {formatTime(currentTime)}
               </span>
               <input
@@ -184,9 +178,9 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
                 max={duration || 0}
                 value={currentTime}
                 onChange={handleSeek}
-                className="flex-1 h-1 bg-gray-200 rounded-lg appearance-none cursor-pointer"
+                className="h-1 flex-1 cursor-pointer appearance-none rounded-lg bg-gray-200"
               />
-              <span className="text-xs text-gray-500 w-10">
+              <span className="w-10 text-xs text-gray-500">
                 {formatTime(duration)}
               </span>
             </div>
@@ -211,4 +205,4 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
   );
 };
 
-export default AudioPlayer; 
+export default AudioPlayer;
