@@ -10,7 +10,7 @@ const nextConfig = {
     NEXT_PUBLIC_SITE_NAME: process.env.NEXT_PUBLIC_SITE_NAME || 'DAINS',
     NEXT_PUBLIC_SITE_DESCRIPTION:
       process.env.NEXT_PUBLIC_SITE_DESCRIPTION || '每日AI新聞與論文摘要',
-    SUPABASE_STORAGE_URL:
+    NEXT_PUBLIC_SUPABASE_STORAGE_URL:
       'https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage',
   },
 };

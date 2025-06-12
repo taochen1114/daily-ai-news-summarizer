@@ -27,7 +27,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ article, onClose }) => {
   // 設定音訊檔 URL
   let audioUrl;
   if (article.audio_file.startsWith('audio/articles')) {
-    audioUrl = `${process.env.SUPABASE_STORAGE_URL}/${article.audio_file}`;
+    audioUrl = `${process.env.NEXT_PUBLIC_SUPABASE_STORAGE_URL}/${article.audio_file}`;
   } else {
     audioUrl = `${process.env.NEXT_PUBLIC_API_URL}/audio/${article.id}`;
   }
