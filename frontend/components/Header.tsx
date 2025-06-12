@@ -5,14 +5,17 @@ import { FiDatabase, FiGithub, FiInfo } from 'react-icons/fi';
 
 const Header: React.FC = () => {
   return (
-    <header className="py-4 border-b border-gray-200 dark:border-gray-700">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
-        <div className="flex items-center mb-4 md:mb-0">
-          <Link href="/" className="text-2xl font-bold text-primary-600 dark:text-primary-400 flex items-center">
+    <header className="border-b border-gray-200 py-4 dark:border-gray-700">
+      <div className="container mx-auto flex flex-col items-center justify-between px-4 md:flex-row">
+        <div className="mb-4 flex items-center md:mb-0">
+          <Link
+            href="/"
+            className="flex items-center text-2xl font-bold text-primary-600 dark:text-primary-400"
+          >
             <FiDatabase className="mr-2" />
             DAINS
           </Link>
-          <span className="text-sm text-gray-600 dark:text-gray-400 ml-4 hidden md:inline">
+          <span className="ml-4 hidden text-sm text-gray-600 md:inline dark:text-gray-400">
             每日AI新聞和論文摘要
           </span>
         </div>
@@ -20,7 +23,7 @@ const Header: React.FC = () => {
         <div className="flex items-center space-x-6">
           <Link
             href="/about"
-            className="text-gray-600 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-400 flex items-center"
+            className="flex items-center text-gray-600 hover:text-primary-500 dark:text-gray-300 dark:hover:text-primary-400"
           >
             <FiInfo className="mr-1" />
             <span>關於</span>
@@ -29,7 +32,7 @@ const Header: React.FC = () => {
             href="https://github.com/taochen1114/daily-ai-news-summarizer"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 dark:text-gray-300 hover:text-primary-500 dark:hover:text-primary-400 flex items-center"
+            className="flex items-center text-gray-600 hover:text-primary-500 dark:text-gray-300 dark:hover:text-primary-400"
           >
             <FiGithub className="mr-1" />
             <span>GitHub</span>
@@ -41,4 +44,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header; 
+export default Header;

@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "Gxl.git-graph-3",
+    "formulahendry.auto-rename-tag"
+  ]
+}
