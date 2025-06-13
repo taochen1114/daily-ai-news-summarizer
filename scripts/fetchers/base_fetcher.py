@@ -40,12 +40,16 @@ class BaseFetcher(ABC):
         feed = feedparser.parse(self.url)
         articles = []
         
+        # 限制每次抓取的文章數量
         for entry in feed.entries[:MAX_ARTICLES_PER_SOURCE]:
             try:
                 # 獲取文章內容
                 article = self.parse_entry(entry)
                 if article:
                     articles.append(article)
+                    # 如果已經達到限制數量，就停止抓取
+                    if len(articles) >= MAX_ARTICLES_PER_SOURCE:
+                        break
             except Exception as e:
                 logger.error(f"解析文章時出錯: {str(e)}")
         
@@ -64,7 +68,7 @@ class BaseFetcher(ABC):
         """將文章儲存到資料庫和JSON檔案"""
         date_str = datetime.datetime.now().strftime("%Y-%m-%d")
         
-        # 处理源名称，保持原始目录名
+        # 處理來源名稱，保持原始目錄名
         source_name = self.name.lower()
         source_name = source_name.replace(" ", "_")
         source_dir = os.path.join(DATA_DIR, "articles", source_name)

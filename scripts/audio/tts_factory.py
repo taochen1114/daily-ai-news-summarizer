@@ -8,6 +8,7 @@ from config import TTS_PROVIDER
 
 from .elevenlabs_tts import ElevenLabsTTS
 from .google_tts import GoogleTTS
+from .whisper_tts import WhisperTTS
 
 
 def create_tts_service():
@@ -20,5 +21,7 @@ def create_tts_service():
         return ElevenLabsTTS()
     elif provider == "google":
         return GoogleTTS()
+    elif provider == "whisper":
+        return WhisperTTS()
     else:
         raise ValueError(f"不支持的TTS提供商: {provider}") 

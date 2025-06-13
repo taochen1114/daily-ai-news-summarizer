@@ -1,198 +1,67 @@
 [
   {
-    "id": "2506.09176",
-    "title": "Robot-Gated Interactive Imitation Learning with Adaptive Intervention Mechanism",
-    "url": "https://arxiv.org/abs/2506.09176",
-    "authors": "Haoyuan Cai, Zhenghao Peng, Bolei Zhou",
-    "categories": [
-      "cs.AI",
-      "cs.LG",
-      "cs.RO"
-    ],
-    "summary": "這篇論文主要探討的是一種名為「Robot-Gated Interactive Imitation Learning with Adaptive Intervention Mechanism」的新方法。簡單來說，就是讓機器人透過互動學習來模仿人類的動作，並且加入了一個自適應介入機制，可以根據情況調整。這個方法的創新之處在於讓機器人可以更靈活地學習，並且在學習過程中隨時進行調整，提高了學習效率和準確性。這對於未來機器人在各種任務中的應用有很大的幫助。",
-    "published_date": "2025-06-12",
-    "source": "Arxiv",
-    "content_type": "academic",
-    "processed": true,
-    "fetch_date": "2025-06-13T02:11:02.030955",
-    "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-13T02:11:06.820626",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 305 credits are required for this request."
-  },
-  {
-    "id": "2506.09250",
-    "title": "Comment on The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity",
-    "url": "https://arxiv.org/abs/2506.09250",
-    "authors": "C. Opus, A. Lawsen",
-    "categories": [
-      "cs.AI",
-      "cs.LG"
-    ],
-    "summary": "這篇論文討論了「思考的幻覺」，透過問題複雜度的角度來理解推理模型的優勢和限制。作者指出，推理模型在處理複雜問題時可能產生偏差，導致我們誤解了自己的思考能力。他們提出了一種新的觀點，認為我們應該更加重視問題的複雜度，才能更準確地評估推理模型的表現。這個觀點對於我們理解人工智慧的發展和應用有著重要的啟示價值。",
-    "published_date": "2025-06-12",
-    "source": "Arxiv",
-    "content_type": "academic",
-    "processed": true,
-    "fetch_date": "2025-06-13T02:11:02.031017",
-    "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-13T02:11:10.315266",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 289 credits are required for this request."
-  },
-  {
-    "id": "2506.09344",
-    "title": "Ming-Omni: A Unified Multimodal Model for Perception and Generation",
-    "url": "https://arxiv.org/abs/2506.09344",
-    "authors": "Inclusion AI, Biao Gong, Cheng Zou, Chuanyang Zheng, Chunluan Zhou, Canxiang Yan, Chunxiang Jin, Chunjie Shen, Dandan Zheng, Fudong Wang, Furong Xu, GuangMing Yao, Jun Zhou, Jingdong Chen, Jianxin Sun, Jiajia Liu, Jianjiang Zhu, Jun Peng, Kaixiang Ji, Kaiyou Song, Kaimeng Ren, Libin Wang, Lixiang Ru, Lele Xie, Longhua Tan, Lyuxin Xue, Lan Wang, Mochen Bai, Ning Gao, Pei Chen, Qingpei Guo, Qinglong Zhang, Qiang Xu, Rui Liu, Ruijie Xiong, Sirui Gao, Tinghao Liu, Taisong Li, Weilong Chai, Xinyu Xiao, Xiaomei Wang, Xiaoxue Chen, Xiao Lu, Xiaoyu Li, Xingning Dong, Xuzheng Yu, Yi Yuan, Yuting Gao, Yunxiao Sun, Yipeng Chen, Yifei Wu, Yongjie Lyu, Ziping Ma, Zipeng Feng, Zhijiang Fang, Zhihao Qiu, Ziyuan Huang, Zhengyu He",
-    "categories": [
-      "cs.AI",
-      "cs.CL",
-      "cs.CV",
-      "cs.LG",
-      "cs.SD",
-      "eess.AS"
-    ],
-    "summary": "這篇論文介紹了一個名為「Ming-Omni」的統一多模型，可以同時進行感知和生成任務。這個模型的核心創新在於整合了多個模態的資訊，包括文字、圖像和聲音等，讓機器能夠更全面地理解和產生多模式資訊。這項研究有助於提升人工智慧系統在多模式任務上的表現，對於未來的智慧型應用有著重要的價值。總括來說，「Ming-Omni」模型的出現為多模式人工智慧研究帶來了新的可能性，有助於提升機器在感知和生成任務上的能力。",
-    "published_date": "2025-06-12",
-    "source": "Arxiv",
-    "content_type": "academic",
-    "processed": true,
-    "fetch_date": "2025-06-13T02:11:02.031070",
-    "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-13T02:11:13.466820",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 269 credits are required for this request."
-  },
-  {
-    "id": "2506.09390",
-    "title": "Beyond Nash Equilibrium: Bounded Rationality of LLMs and humans in Strategic Decision-making",
-    "url": "https://arxiv.org/abs/2506.09390",
-    "authors": "Kehan Zheng, Jinfeng Zhou, Hongning Wang",
-    "categories": [
-      "cs.AI",
-      "cs.GT"
-    ],
-    "summary": "這篇論文探討了在戰略決策中，有限理性的大型語言模型（LLMs）和人類的行為，超越了納許均衡的概念。研究發現，LLMs和人類在決策過程中並非只追求最佳策略，而是受到有限理性的影響，可能做出更符合現實情況的選擇。這項研究突破了傳統對於理性決策的框架，強調了在戰略制定中考慮有限理性的重要性，對於深入了解LLMs和人類行為具有重要價值。",
-    "published_date": "2025-06-12",
-    "source": "Arxiv",
-    "content_type": "academic",
-    "processed": true,
-    "fetch_date": "2025-06-13T02:11:02.031116",
-    "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-13T02:11:17.823220",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 258 credits are required for this request."
-  },
-  {
-    "id": "2506.09420",
-    "title": "A Call for Collaborative Intelligence: Why Human-Agent Systems Should Precede AI Autonomy",
-    "url": "https://arxiv.org/abs/2506.09420",
-    "authors": "Henry Peng Zou, Wei-Chieh Huang, Yaozu Wu, Chunyu Miao, Dongyuan Li, Aiwei Liu, Yue Zhou, Yankai Chen, Weizhi Zhang, Yangning Li, Liancheng Fang, Renhe Jiang, Philip S. Yu",
-    "categories": [
-      "cs.AI",
-      "cs.CL",
-      "cs.HC",
-      "cs.LG",
-      "cs.MA"
-    ],
-    "summary": "這篇論文提出了一個重要觀點，主張在發展人工智慧（AI）自主性之前，應該先發展人與智能系統之間的合作智能。簡言之，就是強調人與AI系統之間的合作與互動比單獨的AI自主性更為重要。這樣的合作模式可以增進系統的效能、安全性和可靠性，同時也有助於提升使用者的體驗和信任感。這個觀點對於未來AI技術的發展和應用具有重要的指導意義，值得深入探討和研究。",
-    "published_date": "2025-06-12",
-    "source": "Arxiv",
-    "content_type": "academic",
-    "processed": true,
-    "fetch_date": "2025-06-13T02:11:02.031164",
-    "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-13T02:11:21.936052",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 260 credits are required for this request."
-  },
-  {
-    "id": "2506.09498",
-    "title": "Fast Monte Carlo Tree Diffusion: 100x Speedup via Parallel Sparse Planning",
-    "url": "https://arxiv.org/abs/2506.09498",
-    "authors": "Jaesik Yoon, Hyeonseo Cho, Yoshua Bengio, Sungjin Ahn",
+    "id": "2506.10130",
+    "title": "A Conjecture on a Fundamental Trade-Off between Certainty and Scope in Symbolic and Generative AI",
+    "url": "https://arxiv.org/abs/2506.10130",
+    "authors": "Luciano Floridi",
     "categories": [
       "cs.AI"
     ],
-    "summary": "這篇論文提出了一種名為「快速蒙地卡羅樹擴散」的方法，通過平行稀疏規劃實現了100倍的加速。簡單來說，他們提出了一種新的方法，可以更快速地進行蒙地卡羅樹搜索，這對於提高人工智慧系統的效率和速度非常重要。這項研究的價值在於提供了一種有效的方式，讓機器能夠更快速地學習和做出決策，有助於提升人工智慧在各種應用領域的表現。",
-    "published_date": "2025-06-12",
+    "summary": "這篇論文提出了一個關於符號式和生成式人工智慧之間的基本權衡的猜想，即在確定性和範圍之間存在著一個重要的平衡點。作者認為，當AI系統追求更高的確定性時，其處理的範圍可能會受到限制；反之亦然。這個猜想對於理解AI系統如何在確定性和範圍之間取得平衡具有重要價值。透過這個研究，或許可以幫助我們更好地設計和應用人工智慧技術，以達到更有效率和全面的結果。",
+    "published_date": "2025-06-13",
     "source": "Arxiv",
     "content_type": "academic",
     "processed": true,
-    "fetch_date": "2025-06-13T02:11:02.031207",
+    "fetch_date": "2025-06-13T12:00:39.844366",
     "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-13T02:11:24.155417",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 232 credits are required for this request."
+    "processed_date": "2025-06-13T12:00:44.253611",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
   },
   {
-    "id": "2506.09655",
-    "title": "DipLLM: Fine-Tuning LLM for Strategic Decision-making in Diplomacy",
-    "url": "https://arxiv.org/abs/2506.09655",
-    "authors": "Kaixuan Xu, Jiajun Chai, Sicheng Li, Yuqian Fu, Yuanheng Zhu, Dongbin Zhao",
+    "id": "2506.10157",
+    "title": "One Patient, Many Contexts: Scaling Medical AI Through Contextual Intelligence",
+    "url": "https://arxiv.org/abs/2506.10157",
+    "authors": "Michelle M. Li, Ben Y. Reis, Adam Rodman, Tianxi Cai, Noa Dagan, Ran D. Balicer, Joseph Loscalzo, Isaac S. Kohane, Marinka Zitnik",
     "categories": [
       "cs.AI",
-      "cs.LG"
+      "cs.CL"
     ],
-    "summary": "這篇論文提出了一個名為DipLLM的方法，專門針對外交領域的戰略決策進行微調。簡單來說，就是利用語言模型來幫助外交決策。這個方法的創新之處在於能夠更有效地分析和預測外交決策的結果，有助於提升外交策略的準確性和效果。這對於制定外交政策和處理國際事務有相當大的幫助，可以讓決策者更有把握地做出適切的決策。",
-    "published_date": "2025-06-12",
+    "summary": "這篇論文主要探討如何透過「情境智能」來提升醫療人工智慧的應用。簡單來說，就是讓AI能夠更好地理解病人在不同情況下的需求，提供更個人化的醫療服務。這項研究的創新之處在於結合了不同情境下的資訊，讓AI可以更全面地分析病人的狀況，提供更準確的診斷和治療建議。這將有助於提高醫療品質，並讓病人獲得更好的醫療照護。",
+    "published_date": "2025-06-13",
     "source": "Arxiv",
     "content_type": "academic",
     "processed": true,
-    "fetch_date": "2025-06-13T02:11:02.031249",
+    "fetch_date": "2025-06-13T12:00:39.844397",
     "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-13T02:11:26.294863",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 217 credits are required for this request."
+    "processed_date": "2025-06-13T12:00:49.187769",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.10157.mp3",
+    "audio_file": "audio/articles/2506.10157.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-13T12:04:42.965570",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
   },
   {
-    "id": "2506.09656",
-    "title": "Application-Driven Value Alignment in Agentic AI Systems: Survey and Perspectives",
-    "url": "https://arxiv.org/abs/2506.09656",
-    "authors": "Wei Zeng, Hengshu Zhu, Chuan Qin, Han Wu, Yihang Cheng, Sirui Zhang, Xiaowei Jin, Yinuo Shen, Zhenxing Wang, Feimin Zhong, Hui Xiong",
-    "categories": [
-      "cs.AI"
-    ],
-    "summary": "這篇論文主要探討在人工智慧系統中，如何讓系統的價值觀與應用需求相符，以達到更有效的應用。研究團隊提出了一種以應用為導向的價值對齊方法，幫助設計更符合使用者需求的AI系統。他們認為，價值對齊是實現人工智慧系統成功應用的關鍵。透過調查和觀點分析，為未來發展提供了重要的參考。",
-    "published_date": "2025-06-12",
-    "source": "Arxiv",
-    "content_type": "academic",
-    "processed": true,
-    "fetch_date": "2025-06-13T02:11:02.031290",
-    "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-13T02:11:28.817777",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 217 credits are required for this request."
-  },
-  {
-    "id": "2506.09659",
-    "title": "Intent Factored Generation: Unleashing the Diversity in Your Language Model",
-    "url": "https://arxiv.org/abs/2506.09659",
-    "authors": "Eltayeb Ahmed, Uljad Berdica, Martha Elliott, Danijela Horak, Jakob N. Foerster",
+    "id": "2506.10179",
+    "title": "Correlation vs causation in Alzheimer's disease: an interpretability-driven study",
+    "url": "https://arxiv.org/abs/2506.10179",
+    "authors": "Hamzah Dabool, Raghad Mustafa",
     "categories": [
       "cs.AI",
-      "cs.CL",
-      "cs.LG"
+      "q-bio.QM",
+      "stat.AP"
     ],
-    "summary": "這篇論文提出了一種新的方法叫做「意圖分解生成」，可以讓語言模型產生更多樣化的結果。簡單來說，就是讓AI更有創意，不只是機械地生成文本。這個方法可以讓語言模型更靈活地根據不同的意圖來生成不同風格的內容，讓文字更豐富多元。這個研究的價值在於提升了語言模型的表現，讓AI能夠更好地理解並回應不同的需求，帶來更好的使用體驗。",
-    "published_date": "2025-06-12",
+    "summary": "這篇論文探討在阿茲海默症研究中的「相關性與因果關係」議題，強調解釋性的重要性。作者 Hamzah Dabool 與 Raghad Mustafa 指出，僅憑相關性無法確定因果關係，必須謹慎詮釋研究結果。他們的研究突顯了在阿茲海默症領域中，區分相關性與因果關係的重要性，有助於更準確地理解疾病的發展機制。這項研究提醒我們在解讀研究結果時要謹慎，避免誤解相關性為因果關係。",
+    "published_date": "2025-06-13",
     "source": "Arxiv",
     "content_type": "academic",
     "processed": true,
-    "fetch_date": "2025-06-13T02:11:02.031333",
+    "fetch_date": "2025-06-13T12:00:39.844419",
     "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-13T02:11:30.722026",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 234 credits are required for this request."
-  },
-  {
-    "id": "2506.09977",
-    "title": "How Do People Revise Inconsistent Beliefs? Examining Belief Revision in Humans with User Studies",
-    "url": "https://arxiv.org/abs/2506.09977",
-    "authors": "Stylianos Loukas Vasileiou, Antonio Rago, Maria Vanina Martinez, William Yeoh",
-    "categories": [
-      "cs.AI"
-    ],
-    "summary": "這篇論文主要探討人們如何修正不一致的信念，通過使用使用者研究來觀察人類的信念修正過程。研究人員包括 Stylianos Loukas Vasileiou、Antonio Rago、Maria Vanina Martinez 和 William Yeoh。他們的研究發現，人們在面對不一致的信念時，會透過不同方式來進行修正，這有助於我們更深入了解人類的信念調整行為。這項研究對於探討人類認知過程、心理學和人工智慧領域有著重要的價值。",
-    "published_date": "2025-06-12",
-    "source": "Arxiv",
-    "content_type": "academic",
-    "processed": true,
-    "fetch_date": "2025-06-13T02:11:02.031375",
-    "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-13T02:11:33.829114",
-    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 312 credits are required for this request."
+    "processed_date": "2025-06-13T12:00:52.389500",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.10179.mp3",
+    "audio_file": "audio/articles/2506.10179.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-13T12:04:53.926430",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
   }
 ]

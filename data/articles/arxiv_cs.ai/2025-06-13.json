@@ -184,5 +184,59 @@
     "fetch_date": "2025-06-13T02:11:02.031375",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T02:11:33.829114"
+  },
+  {
+    "id": "2506.10130",
+    "title": "A Conjecture on a Fundamental Trade-Off between Certainty and Scope in Symbolic and Generative AI",
+    "url": "https://arxiv.org/abs/2506.10130",
+    "authors": "Luciano Floridi",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一個關於符號式和生成式人工智慧之間的基本權衡的猜想，即在確定性和範圍之間存在著一個重要的平衡點。作者認為，當AI系統追求更高的確定性時，其處理的範圍可能會受到限制；反之亦然。這個猜想對於理解AI系統如何在確定性和範圍之間取得平衡具有重要價值。透過這個研究，或許可以幫助我們更好地設計和應用人工智慧技術，以達到更有效率和全面的結果。",
+    "published_date": "2025-06-13",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-13T12:00:39.844366",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-13T12:00:44.253611"
+  },
+  {
+    "id": "2506.10157",
+    "title": "One Patient, Many Contexts: Scaling Medical AI Through Contextual Intelligence",
+    "url": "https://arxiv.org/abs/2506.10157",
+    "authors": "Michelle M. Li, Ben Y. Reis, Adam Rodman, Tianxi Cai, Noa Dagan, Ran D. Balicer, Joseph Loscalzo, Isaac S. Kohane, Marinka Zitnik",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "summary": "這篇論文主要探討如何透過「情境智能」來提升醫療人工智慧的應用。簡單來說，就是讓AI能夠更好地理解病人在不同情況下的需求，提供更個人化的醫療服務。這項研究的創新之處在於結合了不同情境下的資訊，讓AI可以更全面地分析病人的狀況，提供更準確的診斷和治療建議。這將有助於提高醫療品質，並讓病人獲得更好的醫療照護。",
+    "published_date": "2025-06-13",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-13T12:00:39.844397",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-13T12:00:49.187769"
+  },
+  {
+    "id": "2506.10179",
+    "title": "Correlation vs causation in Alzheimer's disease: an interpretability-driven study",
+    "url": "https://arxiv.org/abs/2506.10179",
+    "authors": "Hamzah Dabool, Raghad Mustafa",
+    "categories": [
+      "cs.AI",
+      "q-bio.QM",
+      "stat.AP"
+    ],
+    "summary": "這篇論文探討在阿茲海默症研究中的「相關性與因果關係」議題，強調解釋性的重要性。作者 Hamzah Dabool 與 Raghad Mustafa 指出，僅憑相關性無法確定因果關係，必須謹慎詮釋研究結果。他們的研究突顯了在阿茲海默症領域中，區分相關性與因果關係的重要性，有助於更準確地理解疾病的發展機制。這項研究提醒我們在解讀研究結果時要謹慎，避免誤解相關性為因果關係。",
+    "published_date": "2025-06-13",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-13T12:00:39.844419",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-13T12:00:52.389500"
   }
 ]
