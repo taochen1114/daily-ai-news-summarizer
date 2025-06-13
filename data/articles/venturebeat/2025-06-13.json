@@ -13,7 +13,7 @@
     "fetch_date": "2025-06-13T02:11:02.327130",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T02:11:35.775026",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 225 credits are required for this request.",
     "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/41ea6141f6a835a6d63ee837d3a16fe3.mp3"
   },
   {
@@ -30,7 +30,7 @@
     "fetch_date": "2025-06-13T02:11:02.483371",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T02:11:37.907059",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 228 credits are required for this request.",
     "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/1d10958faf07322d96af124a9be2ca70.mp3"
   },
   {
@@ -47,7 +47,7 @@
     "fetch_date": "2025-06-13T02:11:02.627634",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T02:11:41.643893",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 327 credits are required for this request.",
     "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/f1da1ca3ea421eab33c45699a0ed79fd.mp3"
   },
   {
@@ -64,7 +64,7 @@
     "fetch_date": "2025-06-13T02:11:02.771013",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T02:11:43.906771",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 241 credits are required for this request.",
     "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/43f04770b0bf01f5765a3ce040a196f7.mp3"
   },
   {
@@ -81,7 +81,7 @@
     "fetch_date": "2025-06-13T02:11:02.860010",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T02:11:45.416869",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 245 credits are required for this request.",
     "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/eb19770d3c3446d9e190f11e1391d488.mp3"
   },
   {
@@ -98,7 +98,7 @@
     "fetch_date": "2025-06-13T02:11:02.941954",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T02:11:48.598896",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 274 credits are required for this request.",
     "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/86b621613fb8229af946a497157959a6.mp3"
   },
   {
@@ -115,7 +115,7 @@
     "fetch_date": "2025-06-13T02:11:03.053352",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T02:11:51.033411",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 215 credits are required for this request.",
     "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/de9a8422980bc0b8a5f4d567551da5cb.mp3"
   },
   {
@@ -132,7 +132,7 @@
     "fetch_date": "2025-06-13T02:11:03.202452",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T02:11:53.111264",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 221 credits are required for this request.",
     "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/51ce6e7b5d08e094b4c085ee2e9b13ad.mp3"
   },
   {
@@ -149,7 +149,7 @@
     "fetch_date": "2025-06-13T02:11:03.361065",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T02:11:55.483481",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 301 credits are required for this request.",
     "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/42806faa529100d1875b179314cdb4b4.mp3"
   },
   {
@@ -166,7 +166,7 @@
     "fetch_date": "2025-06-13T02:11:03.443118",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T02:11:59.275132",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 272 credits are required for this request.",
     "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/cdc3ac691afcd60dd5d2d04e4dc0e317.mp3"
   }
 ]
