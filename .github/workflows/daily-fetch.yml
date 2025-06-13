@@ -2,7 +2,7 @@ name: Daily Fetch and Process
 
 on:
   schedule:
-    - cron: '30 1 * * *'  # 每天凌晨 1 點 30 執行 (UTC+0)
+    - cron: '30 8 * * *'  # 每天 8 點 30 執行 (UTC+0) 換算成台北時間為 16:30
   workflow_dispatch:      # 允許手動觸發
 
 permissions:
