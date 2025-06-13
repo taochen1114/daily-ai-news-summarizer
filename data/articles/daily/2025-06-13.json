@@ -1,14 +1,14 @@
 {
   "date": "2025-06-13",
-  "total_articles": 6,
+  "total_articles": 20,
   "sources": [
     {
       "name": "Arxiv",
-      "count": 3
+      "count": 10
     },
     {
       "name": "VentureBeat",
-      "count": 3
+      "count": 10
     }
   ],
   "articles": [
@@ -31,10 +31,10 @@
       "url": "https://arxiv.org/abs/2506.10157",
       "source": "Arxiv",
       "summary": "這篇論文主要探討如何透過「情境智能」來提升醫療人工智慧的應用。簡單來說，就是讓AI能夠更好地理解病人在不同情況下的需求，提供更個人化的醫療服務。這項研究的創新之處在於結合了不同情境下的資訊，讓AI可以更全面地分析病人的狀況，提供更準確的診斷和治療建議。這將有助於提高醫療品質，並讓病人獲得更好的醫療照護。",
-      "audio_file": "audio/articles/2506.10157.mp3",
-      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.10157.mp3",
-      "audio_generated": true,
-      "audio_generated_date": "2025-06-13T12:04:42.965570",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
       "published_date": "2025-06-13",
       "content_type": "academic"
     },
@@ -44,10 +44,101 @@
       "url": "https://arxiv.org/abs/2506.10179",
       "source": "Arxiv",
       "summary": "這篇論文探討在阿茲海默症研究中的「相關性與因果關係」議題，強調解釋性的重要性。作者 Hamzah Dabool 與 Raghad Mustafa 指出，僅憑相關性無法確定因果關係，必須謹慎詮釋研究結果。他們的研究突顯了在阿茲海默症領域中，區分相關性與因果關係的重要性，有助於更準確地理解疾病的發展機制。這項研究提醒我們在解讀研究結果時要謹慎，避免誤解相關性為因果關係。",
-      "audio_file": "audio/articles/2506.10179.mp3",
-      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.10179.mp3",
-      "audio_generated": true,
-      "audio_generated_date": "2025-06-13T12:04:53.926430",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.10192",
+      "title": "Towards Responsible AI: Advances in Safety, Fairness, and Accountability of Autonomous Systems",
+      "url": "https://arxiv.org/abs/2506.10192",
+      "source": "Arxiv",
+      "summary": "這篇論文探討了AI領域中的責任議題，專注在提升自主系統的安全性、公平性和可追溯性。作者提出了一些新觀點，強調了在AI發展過程中，我們需要更加重視這些議題，以確保AI系統的運作是負責任的。這篇論文的價值在於提供了一個全面的框架，幫助我們更好地理解和應對AI技術可能帶來的風險，同時促進AI技術的健康發展。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.10264",
+      "title": "WGSR-Bench: Wargame-based Game-theoretic Strategic Reasoning Benchmark for Large Language Models",
+      "url": "https://arxiv.org/abs/2506.10264",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個名為「WGSR-Bench」的新方法，用來評估大型語言模型在戰略推理方面的表現。簡單來說，就是透過類似戰略遊戲的方式，來測試這些模型在處理複雜情境時的能力。這個方法的創新之處在於提供了一個全新的基準，讓研究者可以更客觀地評估不同模型之間的優劣。這將有助於提升大型語言模型在解決現實世界問題時的效能，對於推動人工智慧領域的發展具有重要價值。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.10281",
+      "title": "Closer to Language than Steam: AI as the Cognitive Engine of a New Productivity Revolution",
+      "url": "https://arxiv.org/abs/2506.10281",
+      "source": "Arxiv",
+      "summary": "這篇論文探討了人工智慧如何成為新生產力革命的認知引擎，比起蒸汽機更貼近語言。簡單來說，就是AI將成為推動新生產力革命的核心。研究指出，AI不僅能夠幫助我們處理龐大的資訊，更能理解語言、產生創新想法，提升工作效率。這項研究的價值在於強調AI在未來將扮演重要角色，帶來更高效的工作方式，影響甚至超越了蒸汽機時代的重要性。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.10304",
+      "title": "The Alignment Trap: Complexity Barriers",
+      "url": "https://arxiv.org/abs/2506.10304",
+      "source": "Arxiv",
+      "summary": "這篇論文談的是「對齊陷阱：複雜性障礙」，作者是Jasper Yao。他指出，當企業在AI專案中無法有效對齊技術、組織和戰略時，就會陷入對齊陷阱，導致計畫失敗。他提出了一個重要觀點，認為企業應該在專案初期就注意到這個問題，並採取適當措施來避免陷入對齊陷阱。這篇論文的價值在於提供了企業在AI專案中避免失敗的重要策略，讓企業能夠更有效率地應用人工智慧技術。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.10326",
+      "title": "A Benchmark for Generalizing Across Diverse Team Strategies in Competitive Pok\\'emon",
+      "url": "https://arxiv.org/abs/2506.10326",
+      "source": "Arxiv",
+      "summary": "這篇論文主要是在研究如何在寶可夢比賽中，讓AI能夠跨越不同隊伍策略的挑戰。簡單來說，就是讓AI學會應對各種不同風格的對手。這項研究的價值在於提供了一個評估AI泛化能力的基準，讓AI在面對各種對手時都能表現出色。這對於提升AI在遊戲中的表現有相當大的幫助，也有助於AI在其他領域的應用。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.10357",
+      "title": "Optimus-3: Towards Generalist Multimodal Minecraft Agents with Scalable Task Experts",
+      "url": "https://arxiv.org/abs/2506.10357",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一種名為Optimus-3的新方法，旨在培養出能夠在Minecraft遊戲中處理多種任務的AI代理人。這個方法結合了專業的任務專家，讓代理人能夠學習處理各種不同的挑戰。這樣的設計讓代理人能夠更全面地應對各種情況，提升了其多模態學習的能力。這項研究有助於拓展AI代理人在虛擬環境中的應用範疇，為未來的相關研究提供了有價值的參考。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.10384",
+      "title": "NeuroPAL: Punctuated Anytime Learning with Neuroevolution for Macromanagement in Starcraft: Brood War",
+      "url": "https://arxiv.org/abs/2506.10384",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一種名為NeuroPAL的新方法，利用神經演化來進行星海爭霸：毀滅之日中的大局管理。簡單來說，就是讓AI在遊戲中學習並隨時做出決策，提升遊戲表現。這個方法的創新之處在於可以在遊戲進行中隨時做出最佳決策，而不需要等到整個遊戲結束才做調整。這對於提升遊戲AI的效能和表現有很大的幫助，也展現了神經演化在遊戲領域的潛力。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
       "published_date": "2025-06-13",
       "content_type": "academic"
     },
@@ -88,6 +179,97 @@
       "audio_generated": true,
       "audio_generated_date": "2025-06-13T12:05:01.795928",
       "published_date": "2025-06-12T22:05:33+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "43f04770b0bf01f5765a3ce040a196f7",
+      "title": "TensorWave deploys AMD Instinct MI355X GPUs in its cloud platform",
+      "url": "https://venturebeat.com/games/tensorwave-deploys-amd-instinct-mi355x-gpus-in-its-cloud-platform/",
+      "source": "VentureBeat",
+      "summary": "TensorWave在其雲端平台上部署了AMD最新的Instinct MI355X GPU，提供高性能的AI運算能力。這讓客戶能夠在處理最具挑戰性的AI任務時獲得更高效能，同時享有專業的支援服務。這款新GPU採用了第四代AMD CDNA架構，具備288GB的HBM3E記憶體和8TB/s的記憶體頻寬，適用於AI訓練、推論和高性能運算。TensorWave早期採用這項技術，讓客戶受惠於其先進的設計和架構，提供高密度計算和先進的冷卻基礎設施。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-12T18:30:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "eb19770d3c3446d9e190f11e1391d488",
+      "title": "AMD debuts AMD Instinct MI350 Series accelerator chips with 35X better inferencing",
+      "url": "https://venturebeat.com/games/amd-debuts-amd-instinct-mi350-series-accelerator-chips-with-35x-better-inferencing/",
+      "source": "VentureBeat",
+      "summary": "AMD 推出全新的 AMD Instinct MI350 系列加速器晶片，推進推理速度提升了35倍，是之前的4倍。這代表著 AMD 在 AI 領域取得了重大突破，未來將帶來更強大的人工智慧解決方案。AMD 的 CEO Lisa Su 表示，AI 的未來將由業界共同合作塑造，而非單一公司或封閉系統所能主導。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-12T18:30:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "86b621613fb8229af946a497157959a6",
+      "title": "Disney Pinnacle unveils Genesis Keys quest with Web3 support from Dapper Labs",
+      "url": "https://venturebeat.com/games/disney-pinnacle-unveils-genesis-keys-quest-with-web3-support-from-dapper-labs/",
+      "source": "VentureBeat",
+      "summary": "迪士尼Pinnacle和Dapper Labs合作推出Genesis Keys任務，支援Web3技術。迪士尼粉絲可以每四小時免費獲得Genesis Keys，參與全球尋找獨一無二的Genesis Editions數位徽章。這是首批在平台上鑄造的數位徽章，每個都有獨特編號和迪士尼經典時刻。Dapper Labs是Web3公司，曾推出NBA Top Shot和NFL All Day等知名產品。他們致力於將區塊鏈技術帶給全球粉絲，為迪士尼Pinnacle打造更多精彩體驗。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-12T17:50:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "de9a8422980bc0b8a5f4d567551da5cb",
+      "title": "Lil Snack makes a snackable Scattergories game in partnership with Hasbro",
+      "url": "https://venturebeat.com/gaming-business/lil-snack-makes-a-snackable-scattergories-game-in-partnership-with-hasbro/",
+      "source": "VentureBeat",
+      "summary": "Lil Snack和Hasbro合作推出了一款基於Scattergories桌遊的小遊戲，吸引了超過600,000名月活躍用戶。他們的遊戲每日更新，挑戰玩家，並計畫推出更多基於合作夥伴關係的知識產權遊戲。這個合作展現了傳統品牌和新型分發結合的可能性，為每日遊戲開創了新的領域。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-12T15:30:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "51ce6e7b5d08e094b4c085ee2e9b13ad",
+      "title": "Google DeepMind just changed hurricane forecasting forever with new AI model",
+      "url": "https://venturebeat.com/ai/google-deepmind-just-changed-hurricane-forecasting-forever-with-new-ai-model/",
+      "source": "VentureBeat",
+      "summary": "Google DeepMind利用全新的AI模型，顛覆了颶風預測，能準確預測熱帶氣旋的路徑和強度，並與美國國家颶風中心合作。這是人工智慧在氣象預測上的重大突破，將AI預測納入實際預報流程中，有助提升預警效率，避免潛在的經濟損失。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-12T15:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "42806faa529100d1875b179314cdb4b4",
+      "title": "Out of Words is an emotional co-op adventure illustrated with beautiful stop-motion animation",
+      "url": "https://venturebeat.com/games/out-of-words-is-an-emotional-co-op-adventure-illustrated-with-beautiful-stop-motion-animation/",
+      "source": "VentureBeat",
+      "summary": "《Out of Words》是一款以美麗的定格動畫呈現的情感合作冒險遊戲，故事描述兩名年輕戀人失去了說話能力，必須一同尋找失去的聲音。遊戲預計於2026年在PC、PlayStation 5和Xbox Series X/S平台上推出。透過線上跨平台或本地合作模式，玩家將扮演Kurt和Karla，一同探索充滿色彩的世界。這款遊戲融合了手工製作的背景和故事，讓玩家共同體驗其中的情感旅程。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-12T15:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "cdc3ac691afcd60dd5d2d04e4dc0e317",
+      "title": "Towa and the Guardians of the Sacred Tree | hands-on preview",
+      "url": "https://venturebeat.com/games/towa-and-the-guardians-of-the-sacred-tree-hands-on-preview/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞介紹了一款名為「Towa and the Guardians of the Sacred Tree」的遊戲，是一款2D動作冒險遊戲，預計9月登陸主機和PC平台。玩家將扮演神秘村莊的守護者，與不同勇士合作對抗邪惡勢力。遊戲快節奏刺激，操作兩位戰士同時進行戰鬥，並需躲避敵人攻擊。遊戲以東方神秘主題為背景，畫風唯美。每次失敗後可重新挑戰，保留部分進度。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-12T14:00:00+00:00",
       "content_type": "news"
     }
   ]

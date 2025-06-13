@@ -15,7 +15,7 @@
     "fetch_date": "2025-06-13T12:00:39.844366",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T12:00:44.253611",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 270 credits are required for this request."
   },
   {
     "id": "2506.10157",
@@ -34,11 +34,7 @@
     "fetch_date": "2025-06-13T12:00:39.844397",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T12:00:49.187769",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.10157.mp3",
-    "audio_file": "audio/articles/2506.10157.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-13T12:04:42.965570",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 231 credits are required for this request."
   },
   {
     "id": "2506.10179",
@@ -58,10 +54,138 @@
     "fetch_date": "2025-06-13T12:00:39.844419",
     "summary_model": "gpt-3.5-turbo",
     "processed_date": "2025-06-13T12:00:52.389500",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.10179.mp3",
-    "audio_file": "audio/articles/2506.10179.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-13T12:04:53.926430",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 266 credits are required for this request."
+  },
+  {
+    "id": "2506.10192",
+    "title": "Towards Responsible AI: Advances in Safety, Fairness, and Accountability of Autonomous Systems",
+    "url": "https://arxiv.org/abs/2506.10192",
+    "authors": "Filip Cano",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文探討了AI領域中的責任議題，專注在提升自主系統的安全性、公平性和可追溯性。作者提出了一些新觀點，強調了在AI發展過程中，我們需要更加重視這些議題，以確保AI系統的運作是負責任的。這篇論文的價值在於提供了一個全面的框架，幫助我們更好地理解和應對AI技術可能帶來的風險，同時促進AI技術的健康發展。",
+    "published_date": "2025-06-13",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-13T08:49:36.019067",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-13T08:49:40.694181",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 246 credits are required for this request."
+  },
+  {
+    "id": "2506.10264",
+    "title": "WGSR-Bench: Wargame-based Game-theoretic Strategic Reasoning Benchmark for Large Language Models",
+    "url": "https://arxiv.org/abs/2506.10264",
+    "authors": "Qiyue Yin, Pei Xu, Qiaozhe Li, Shengda Liu, Shengqi Shen, Tong Wang, Yihong Han, Xiaonan Zhao, Likun Yang, Shiyue Cao, Shiyu Qiu, Yuxuan Liu, Shizhao Yu, Lei Cui, Chengxin Yan, Jie Sun, Xiangquan Tang, Kaiqi Huang",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一個名為「WGSR-Bench」的新方法，用來評估大型語言模型在戰略推理方面的表現。簡單來說，就是透過類似戰略遊戲的方式，來測試這些模型在處理複雜情境時的能力。這個方法的創新之處在於提供了一個全新的基準，讓研究者可以更客觀地評估不同模型之間的優劣。這將有助於提升大型語言模型在解決現實世界問題時的效能，對於推動人工智慧領域的發展具有重要價值。",
+    "published_date": "2025-06-13",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-13T08:49:36.019111",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-13T08:49:43.162811",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 275 credits are required for this request."
+  },
+  {
+    "id": "2506.10281",
+    "title": "Closer to Language than Steam: AI as the Cognitive Engine of a New Productivity Revolution",
+    "url": "https://arxiv.org/abs/2506.10281",
+    "authors": "Xinmin Fang, Lingfeng Tao, Zhengxiong Li",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文探討了人工智慧如何成為新生產力革命的認知引擎，比起蒸汽機更貼近語言。簡單來說，就是AI將成為推動新生產力革命的核心。研究指出，AI不僅能夠幫助我們處理龐大的資訊，更能理解語言、產生創新想法，提升工作效率。這項研究的價值在於強調AI在未來將扮演重要角色，帶來更高效的工作方式，影響甚至超越了蒸汽機時代的重要性。",
+    "published_date": "2025-06-13",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-13T08:49:36.019154",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-13T08:49:45.441334",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 249 credits are required for this request."
+  },
+  {
+    "id": "2506.10304",
+    "title": "The Alignment Trap: Complexity Barriers",
+    "url": "https://arxiv.org/abs/2506.10304",
+    "authors": "Jasper Yao",
+    "categories": [
+      "cs.AI",
+      "cs.CC",
+      "cs.CY",
+      "cs.LG"
+    ],
+    "summary": "這篇論文談的是「對齊陷阱：複雜性障礙」，作者是Jasper Yao。他指出，當企業在AI專案中無法有效對齊技術、組織和戰略時，就會陷入對齊陷阱，導致計畫失敗。他提出了一個重要觀點，認為企業應該在專案初期就注意到這個問題，並採取適當措施來避免陷入對齊陷阱。這篇論文的價值在於提供了企業在AI專案中避免失敗的重要策略，讓企業能夠更有效率地應用人工智慧技術。",
+    "published_date": "2025-06-13",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-13T08:49:36.019199",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-13T08:49:49.461798",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 216 credits are required for this request."
+  },
+  {
+    "id": "2506.10326",
+    "title": "A Benchmark for Generalizing Across Diverse Team Strategies in Competitive Pok\\'emon",
+    "url": "https://arxiv.org/abs/2506.10326",
+    "authors": "Cameron Angliss, Jiaxun Cui, Jiaheng Hu, Arrasy Rahman, Peter Stone",
+    "categories": [
+      "cs.AI",
+      "cs.GT",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "summary": "這篇論文主要是在研究如何在寶可夢比賽中，讓AI能夠跨越不同隊伍策略的挑戰。簡單來說，就是讓AI學會應對各種不同風格的對手。這項研究的價值在於提供了一個評估AI泛化能力的基準，讓AI在面對各種對手時都能表現出色。這對於提升AI在遊戲中的表現有相當大的幫助，也有助於AI在其他領域的應用。",
+    "published_date": "2025-06-13",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-13T08:49:36.019243",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-13T08:49:51.363843",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 227 credits are required for this request."
+  },
+  {
+    "id": "2506.10357",
+    "title": "Optimus-3: Towards Generalist Multimodal Minecraft Agents with Scalable Task Experts",
+    "url": "https://arxiv.org/abs/2506.10357",
+    "authors": "Zaijing Li, Yuquan Xie, Rui Shao, Gongwei Chen, Weili Guan, Dongmei Jiang, Liqiang Nie",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一種名為Optimus-3的新方法，旨在培養出能夠在Minecraft遊戲中處理多種任務的AI代理人。這個方法結合了專業的任務專家，讓代理人能夠學習處理各種不同的挑戰。這樣的設計讓代理人能夠更全面地應對各種情況，提升了其多模態學習的能力。這項研究有助於拓展AI代理人在虛擬環境中的應用範疇，為未來的相關研究提供了有價值的參考。",
+    "published_date": "2025-06-13",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-13T08:49:36.019285",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-13T08:49:53.181100",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 255 credits are required for this request."
+  },
+  {
+    "id": "2506.10384",
+    "title": "NeuroPAL: Punctuated Anytime Learning with Neuroevolution for Macromanagement in Starcraft: Brood War",
+    "url": "https://arxiv.org/abs/2506.10384",
+    "authors": "Jim O'Connor, Yeonghun Lee, Gary B Parker",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一種名為NeuroPAL的新方法，利用神經演化來進行星海爭霸：毀滅之日中的大局管理。簡單來說，就是讓AI在遊戲中學習並隨時做出決策，提升遊戲表現。這個方法的創新之處在於可以在遊戲進行中隨時做出最佳決策，而不需要等到整個遊戲結束才做調整。這對於提升遊戲AI的效能和表現有很大的幫助，也展現了神經演化在遊戲領域的潛力。",
+    "published_date": "2025-06-13",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-13T08:49:36.019326",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-13T08:49:56.042266",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 266 credits are required for this request."
   }
 ]
