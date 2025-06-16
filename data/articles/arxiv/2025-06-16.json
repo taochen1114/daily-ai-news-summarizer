@@ -1,0 +1,192 @@
+[
+  {
+    "id": "2506.11012",
+    "title": "A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and Prospects",
+    "url": "https://arxiv.org/abs/2506.11012",
+    "authors": "Guanglin Niu, Bo Li, Yangguang Lin",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "summary": "這篇論文主要探討任務導向的知識圖證明，也就是如何讓電腦更聰明地理解知識圖中的資訊。研究者們調查了目前的研究狀況、應用範疇和未來展望。他們的研究有助於提升人工智慧在處理複雜任務時的效率和準確性，對於未來的AI發展具有重要價值。總括來說，這篇論文的重點在於如何讓AI更聰明地利用知識圖證明來完成任務，對於提升人工智慧的應用潛力有所助益。",
+    "published_date": "2025-06-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-16T08:51:15.933013",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-16T08:51:20.332149",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 255 credits are required for this request."
+  },
+  {
+    "id": "2506.11023",
+    "title": "OntoGSN: An Ontology for Dynamic Management of Assurance Cases",
+    "url": "https://arxiv.org/abs/2506.11023",
+    "authors": "Tomas Bueno Momcilovic, Barbara Gallina, Ingmar Kessler, Dian Balta",
+    "categories": [
+      "cs.AI",
+      "cs.SE"
+    ],
+    "summary": "這篇論文提出了一個名為OntoGSN的本體論，用來動態管理保證案例。簡單來說，就是提供了一個方法來更有效地管理和維護保證案例，讓系統更可靠。這個方法可以幫助開發人員更好地了解和應對系統中的問題，提高系統的品質和安全性。這項研究的價值在於提供了一個新的工具，讓軟體開發人員能夠更好地管理複雜系統中的保證案例，進而提升系統的可信度。",
+    "published_date": "2025-06-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-16T08:51:15.933076",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-16T08:51:24.071896",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 227 credits are required for this request."
+  },
+  {
+    "id": "2506.11221",
+    "title": "LLM-as-a-Fuzzy-Judge: Fine-Tuning Large Language Models as a Clinical Evaluation Judge with Fuzzy Logic",
+    "url": "https://arxiv.org/abs/2506.11221",
+    "authors": "Weibing Zheng, Laurah Turner, Jess Kropczynski, Murat Ozer, Tri Nguyen, Shane Halse",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LO"
+    ],
+    "summary": "這篇論文提出了一種新方法，將大型語言模型細調為模糊邏輯下的臨床評估法官，稱為「LLM-as-a-Fuzzy-Judge」。簡單來說，就是讓AI模型像模糊邏輯下的法官一樣進行臨床評估。這個方法的創新之處在於結合了大型語言模型和模糊邏輯，有助於提高臨床評估的準確性和效率。這對於醫療領域的應用有很大的潛力，可以幫助醫生做出更準確的臨床判斷。",
+    "published_date": "2025-06-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-16T08:51:15.933127",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-16T08:51:26.397011",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 272 credits are required for this request."
+  },
+  {
+    "id": "2506.11331",
+    "title": "MUDAS: Mote-scale Unsupervised Domain Adaptation in Multi-label Sound Classification",
+    "url": "https://arxiv.org/abs/2506.11331",
+    "authors": "Jihoon Yun, Chengzhang Li, Dhrubojyoti Roy, Anish Arora",
+    "categories": [
+      "cs.AI",
+      "cs.SD",
+      "eess.AS"
+    ],
+    "summary": "這篇論文提出了一種名為MUDAS的方法，可以在多標籤音訊分類中進行無監督領域適應。簡單來說，就是讓機器學習系統能夠自動調整到新的環境中，不需要事先標記資料。這個方法的創新之處在於可以在感知節點規模下進行領域適應，對於提升音訊分類的效能有很大的幫助。這項研究有助於提高機器學習系統在不同環境下的適應性，對於音訊處理領域有相當大的價值。",
+    "published_date": "2025-06-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-16T08:51:15.933176",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-16T08:51:29.943248",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 251 credits are required for this request."
+  },
+  {
+    "id": "2506.11375",
+    "title": "Benchmarking Multimodal LLMs on Recognition and Understanding over Chemical Tables",
+    "url": "https://arxiv.org/abs/2506.11375",
+    "authors": "Yitong Zhou, Mingyue Cheng, Qingyang Mao, Yucong Luo, Qi Liu, Yupeng Li, Xiaohan Zhang, Deguang Liu, Xin Li, Enhong Chen",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "summary": "這篇論文主要是在研究如何利用多模態語言模型（Multimodal LLMs）來辨識和理解化學表格中的資訊。研究團隊通過比較不同模型在這方面的表現，來評估它們的效能。他們的研究有助於提升化學資訊處理的準確性和效率，對於化學領域的研究和應用具有重要價值。透過這些模型，我們可以更有效地處理化學表格中的資訊，有助於加速相關研究的進展。",
+    "published_date": "2025-06-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-16T08:51:15.933222",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-16T08:51:32.537402",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 247 credits are required for this request."
+  },
+  {
+    "id": "2506.11376",
+    "title": "Large Language Model-Powered Conversational Agent Delivering Problem-Solving Therapy (PST) for Family Caregivers: Enhancing Empathy and Therapeutic Alliance Using In-Context Learning",
+    "url": "https://arxiv.org/abs/2506.11376",
+    "authors": "Liying Wang, Ph. D., Daffodil Carrington, M. S., Daniil Filienko, M. S., Caroline El Jazmi, M. S., Serena Jinchen Xie, M. S., Martine De Cock, Ph. D., Sarah Iribarren, Ph. D., Weichao Yuwen, Ph. D",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.HC"
+    ],
+    "summary": "這篇論文研究如何利用大型語言模型打造一個對話式代理人，提供解決問題療法給家庭照顧者。他們的創新在於透過「在場學習」來增進同理心和治療聯盟。簡單來說，就是讓AI代理人更懂得關心和與使用者建立良好的互動關係，以提供更有效的心理支持。這項研究有助於改善家庭照顧者的心理健康，讓他們在照顧家人時能夠得到更好的支持和幫助。",
+    "published_date": "2025-06-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-16T08:51:15.933267",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-16T08:51:34.423708",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 339 credits are required for this request."
+  },
+  {
+    "id": "2506.11419",
+    "title": "FocalAD: Local Motion Planning for End-to-End Autonomous Driving",
+    "url": "https://arxiv.org/abs/2506.11419",
+    "authors": "Bin Sun, Boao Zhang, Jiayi Lu, Xinjie Feng, Jiachen Shang, Rui Cao, Mengchao Zheng, Chuanye Wang, Shichun Yang, Yaoguang Cao, Ziying Song",
+    "categories": [
+      "cs.AI",
+      "cs.RO"
+    ],
+    "summary": "這篇論文提出了一個名為「FocalAD」的方法，專注於自駕車的局部路徑規劃。他們的核心創新在於結合了端對端學習和局部運動規劃，使自駕車能更靈活地應對複雜交通環境。這個方法的價值在於提高了自駕車的安全性和效率，讓它更好地適應各種路況。總之，這個研究為自動駕駛技術的發展帶來了新的思路和解決方案。",
+    "published_date": "2025-06-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-16T08:51:15.933310",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-16T08:51:36.204365",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 211 credits are required for this request."
+  },
+  {
+    "id": "2506.11445",
+    "title": "Resolve Highway Conflict in Multi-Autonomous Vehicle Controls with Local State Attention",
+    "url": "https://arxiv.org/abs/2506.11445",
+    "authors": "Xuan Duy Ta, Bang Giang Le, Thanh Ha Le, Viet Cuong Ta",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一種解決多自駕車輛控制中的高速公路衝突的方法，稱為「局部狀態關注」。簡單來說，就是讓自駕車在高速公路上更安全地共存。這個方法的創新之處在於它能夠讓每輛車輛更關注周遭車輛的狀態，進而避免交通事故。透過這種方式，我們可以提升自駕車系統的效率和安全性，讓未來的交通更加順暢。",
+    "published_date": "2025-06-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-16T08:51:15.933352",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-16T08:51:37.935258",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 230 credits are required for this request."
+  },
+  {
+    "id": "2506.11469",
+    "title": "Structure-Aware Automatic Channel Pruning by Searching with Graph Embedding",
+    "url": "https://arxiv.org/abs/2506.11469",
+    "authors": "Zifan Liu, Yuan Cao, Yanwei Yu, Heng Qi, Jie Gui",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要提出了一種名為「結構感知自動通道剪枝」的方法，通過圖嵌入搜索來實現。簡單來說，就是讓電腦自動找出不重要的神經網路通道，從而提高運算效率。這個方法的創新之處在於能夠考慮神經網路的結構特性，進行更有效率的剪枝，有助於提升模型的性能並節省計算資源。這對於加速深度學習模型的訓練和應用有很大的幫助，對於AI技術的發展具有重要價值。",
+    "published_date": "2025-06-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-16T08:51:15.933394",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-16T08:51:41.878414",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 243 credits are required for this request."
+  },
+  {
+    "id": "2506.11487",
+    "title": "Reviving DSP for Advanced Theorem Proving in the Era of Reasoning Models",
+    "url": "https://arxiv.org/abs/2506.11487",
+    "authors": "Chenrui Cao, Liangcheng Song, Zenan Li, Xinyi Le, Xian Zhang, Hui Xue, Fan Yang",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了在推理模型時，重新啟用數位信號處理（DSP）的方法。研究團隊通過將DSP技術應用於定理證明，提高了推理模型的效率和準確性。他們的研究突破了傳統方法的限制，為推理模型的發展帶來了新的可能性。這項創新有助於提升人工智慧在推理領域的應用，為未來的研究和應用帶來了新的方向和啟示。",
+    "published_date": "2025-06-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-16T08:51:15.933436",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-16T08:51:44.221168",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 216 credits are required for this request."
+  }
+]
