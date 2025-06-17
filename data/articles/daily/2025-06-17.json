@@ -1,0 +1,94 @@
+{
+  "date": "2025-06-17",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2506.11012",
+      "title": "A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and Prospects",
+      "url": "https://arxiv.org/abs/2506.11012",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討任務導向的知識圖證明，總結了目前的研究現狀、應用範疇和未來展望。研究團隊提出了一些新觀點和方法，幫助我們更好地理解和應用知識圖證明技術。這些方法對於提升人工智慧系統在處理任務時的效率和準確性具有重要價值。未來，這些研究成果有望在各個領域帶來更多創新應用，推動人工智慧技術的發展。",
+      "audio_file": "audio/articles/2506.11012.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.11012.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-17T11:27:26.773091",
+      "published_date": "2025-06-16",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.11023",
+      "title": "OntoGSN: An Ontology for Dynamic Management of Assurance Cases",
+      "url": "https://arxiv.org/abs/2506.11023",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個名為OntoGSN的本體論，用來動態管理保證案例。簡單來說，就是提供了一個新方法來管理確保軟體系統安全性和可靠性的證據。這個方法可以幫助開發團隊更有效地討論和決策，提高系統開發過程中的透明度和溝通效率。這項研究的價值在於提供了一個結構化的方式來管理保證案例，有助於確保軟體系統的品質和安全性。",
+      "audio_file": "audio/articles/2506.11023.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.11023.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-17T11:27:35.817980",
+      "published_date": "2025-06-16",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.11221",
+      "title": "LLM-as-a-Fuzzy-Judge: Fine-Tuning Large Language Models as a Clinical Evaluation Judge with Fuzzy Logic",
+      "url": "https://arxiv.org/abs/2506.11221",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一種新方法，將大型語言模型Fine-Tuning，讓它像模糊邏輯一樣成為臨床評估法官，用於醫學領域。簡單來說，就是讓AI模型像模糊邏輯一樣判斷臨床評估。這個方法的創新之處在於結合了語言模型和模糊邏輯，可以幫助醫生更快速、更精確地做出臨床評估。這對於提升醫療品質和效率有很大的幫助，也展示了AI在醫學領域的應用潛力。",
+      "audio_file": "audio/articles/2506.11221.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.11221.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-17T11:27:47.135548",
+      "published_date": "2025-06-16",
+      "content_type": "academic"
+    },
+    {
+      "id": "1c0e404d6d792fd9d9f32af848fa1f22",
+      "title": "Cutting cloud waste at scale: Akamai saves 70% using AI agents orchestrated by kubernetes",
+      "url": "https://venturebeat.com/data-infrastructure/cutting-cloud-waste-at-scale-akamai-saves-70-using-ai-agents-orchestrated-by-kubernetes/",
+      "source": "VentureBeat",
+      "summary": "Akamai利用由Kubernetes協調的AI代理人，成功節省了70%的雲端成本浪費。他們使用Cast AI平台的AI代理人來優化成本、安全性和速度，幫助他們在雲端環境中運作更有效率。這讓Akamai在不影響效能的情況下，成功降低了40%至70%的雲端成本。這項技術幫助他們持續優化基礎設施，確保能夠即時應對安全攻擊，提升了整體效能和成本效益。",
+      "audio_file": "audio/articles/1c0e404d6d792fd9d9f32af848fa1f22.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/1c0e404d6d792fd9d9f32af848fa1f22.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-17T11:27:55.682788",
+      "published_date": "2025-06-16T23:11:15+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "84934276e1065d1da16eddd502cc6bca",
+      "title": "Inside LinkedIn’s AI overhaul: Job search powered by LLM distillation",
+      "url": "https://venturebeat.com/ai/inside-linkedins-ai-overhaul-job-search-powered-by-llm-distillation/",
+      "source": "VentureBeat",
+      "summary": "LinkedIn進行AI改革，推出新的工作搜尋功能，使用LLM技術精煉模型，讓用戶可以用自然語言描述目標，獲得更符合需求的工作機會。這讓求職更直覺、包容且有力量。以前在LinkedIn搜尋工作時，常常因為關鍵字不夠準確而得到不符合的職缺，現在透過自然語言搜尋，可以更準確地找到適合自己的工作。",
+      "audio_file": "audio/articles/84934276e1065d1da16eddd502cc6bca.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/84934276e1065d1da16eddd502cc6bca.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-17T11:28:01.142194",
+      "published_date": "2025-06-16T22:52:31+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "55cdb6a7c6dfbb246907b9a9404f5162",
+      "title": "MiniMax-M1 is a new open source model with 1 MILLION TOKEN context and new, hyper efficient reinforcement learning",
+      "url": "https://venturebeat.com/ai/minimax-m1-is-a-new-open-source-model-with-1-million-token-context-and-new-hyper-efficient-reinforcement-learning/",
+      "source": "VentureBeat",
+      "summary": "一家名為MiniMax的中國AI新創公司推出了全新的開源模型MiniMax-M1，具有100萬個TOKEN的上下文和高效的強化學習技術。這個模型在長篇內容推理任務中表現出色，並且完全開源，企業和開發者可以免費使用和修改。MiniMax-M1的特色是能處理高達100萬個輸入TOKEN和8萬個輸出TOKEN，是目前其中一個最強大的模型之一。這將為AI應用帶來更多可能性。",
+      "audio_file": "audio/articles/55cdb6a7c6dfbb246907b9a9404f5162.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/55cdb6a7c6dfbb246907b9a9404f5162.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-17T11:28:10.838446",
+      "published_date": "2025-06-16T22:46:47+00:00",
+      "content_type": "news"
+    }
+  ]
+}
