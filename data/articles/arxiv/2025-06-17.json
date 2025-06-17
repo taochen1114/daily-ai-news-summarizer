@@ -1,72 +1,193 @@
 [
   {
-    "id": "2506.11012",
-    "title": "A Survey of Task-Oriented Knowledge Graph Reasoning: Status, Applications, and Prospects",
-    "url": "https://arxiv.org/abs/2506.11012",
-    "authors": "Guanglin Niu, Bo Li, Yangguang Lin",
+    "id": "2506.12103",
+    "title": "The Amazon Nova Family of Models: Technical Report and Model Card",
+    "url": "https://arxiv.org/abs/2506.12103",
+    "authors": "Amazon AGI (JC), Aaron Langford (JC), Aayush Shah (JC), Abhanshu Gupta (JC), Abhimanyu Bhatter (JC), Abhinav Goyal (JC), Abhinav Mathur (JC), Abhinav Mohanty (JC), Abhishek Kumar (JC), Abhishek Sethi (JC), Abi Komma (JC), Abner Pena (JC), Achin Jain (JC), Adam Kunysz (JC), Adam Opyrchal (JC), Adarsh Singh (JC), Aditya Rawal (JC), Adok Achar Budihal Prasad (JC), Adri\\`a de Gispert (JC), Agnika Kumar (JC), Aishwarya Aryamane (JC), Ajay Nair (JC), Akilan M (JC), Akshaya Iyengar (JC), Akshaya Vishnu Kudlu Shanbhogue (JC), Alan He (JC), Alessandra Cervone (JC), Alex Loeb (JC), Alex Zhang (JC), Alexander Fu (JC), Alexander Lisnichenko (JC), Alexander Zhipa (JC), Alexandros Potamianos (JC), Ali Kebarighotbi (JC), Aliakbar Daronkolaei (JC), Alok Parmesh (JC), Amanjot Kaur Samra (JC), Ameen Khan (JC), Amer Rez (JC), Amir Saffari (JC), Amit Agarwalla (JC), Amit Jhindal (JC), Amith Mamidala (JC), Ammar Asmro (JC), Amulya Ballakur (JC), Anand Mishra (JC), Anand Sridharan (JC), Anastasiia Dubinina (JC), Andre Lenz (JC), Andreas Doerr (JC), Andrew Keating (JC), Andrew Leaver (JC), Andrew Smith (JC), Andrew Wirth (JC), Andy Davey (JC), Andy Rosenbaum (JC), Andy Sohn (JC), Angela Chan (JC), Aniket Chakrabarti (JC), Anil Ramakrishna (JC), Anirban Roy (JC), Anita Iyer (JC), Anjali Narayan-Chen (JC), Ankith Yennu (JC), Anna Dabrowska (JC), Anna Gawlowska (JC), Anna Rumshisky (JC), Anna Turek (JC), Anoop Deoras (JC), Anton Bezruchkin (JC), Anup Prasad (JC), Anupam Dewan (JC), Anwith Kiran (JC), Apoorv Gupta (JC), Aram Galstyan (JC), Aravind Manoharan (JC), Arijit Biswas (JC), Arindam Mandal (JC), Arpit Gupta (JC), Arsamkhan Pathan (JC), Arun Nagarajan (JC), Arushan Rajasekaram (JC), Arvind Sundararajan (JC), Ashwin Ganesan (JC), Ashwin Swaminathan (JC), Athanasios Mouchtaris (JC), Audrey Champeau (JC), Avik Ray (JC), Ayush Jaiswal (JC), Ayush Sharma (JC), Bailey Keefer (JC), Balamurugan Muthiah (JC), Beatriz Leon-Millan (JC), Ben Koopman (JC), Ben Li (JC), Benjamin Biggs (JC), Benjamin Ott (JC), Bhanu Vinzamuri (JC), Bharath Venkatesh (JC), Bhavana Ganesh (JC), Bhoomit Vasani (JC), Bill Byrne (JC), Bill Hsu (JC), Bincheng Wang (JC), Blake King (JC), Blazej Gorny (JC), Bo Feng (JC), Bo Zheng (JC), Bodhisattwa Paul (JC), Bofan Sun (JC), Bofeng Luo (JC), Bowen Chen (JC), Bowen Xie (JC), Boya Yu (JC), Brendan Jugan (JC), Brett Panosh (JC), Brian Collins (JC), Brian Thompson (JC), Can Karakus (JC), Can Liu (JC), Carl Lambrecht (JC), Carly Lin (JC), Carolyn Wang (JC), Carrie Yuan (JC), Casey Loyda (JC), Cezary Walczak (JC), Chalapathi Choppa (JC), Chandana Satya Prakash (JC), Chankrisna Richy Meas (JC), Charith Peris (JC), Charles Recaido (JC), Charlie Xu (JC), Charul Sharma (JC), Chase Kernan (JC), Chayut Thanapirom (JC), Chengwei Su (JC), Chenhao Xu (JC), Chenhao Yin (JC), Chentao Ye (JC), Chenyang Tao (JC), Chethan Parameshwara (JC), Ching-Yun Chang (JC), Chong Li (JC), Chris Hench (JC), Chris Tran (JC), Christophe Dupuy (JC), Christopher Davis (JC), Christopher DiPersio (JC), Christos Christodoulopoulos (JC), Christy Li (JC), Chun Chen (JC), Claudio Delli Bovi (JC), Clement Chung (JC), Cole Hawkins (JC), Connor Harris (JC), Corey Ropell (JC), Cynthia He (JC), DK Joo (JC), Dae Yon Hwang (JC), Dan Rosen (JC), Daniel Elkind (JC), Daniel Pressel (JC), Daniel Zhang (JC), Danielle Kimball (JC), Daniil Sorokin (JC), Dave Goodell (JC), Davide Modolo (JC), Dawei Zhu (JC), Deepikaa Suresh (JC), Deepti Ragha (JC), Denis Filimonov (JC), Denis Foo Kune (JC), Denis Romasanta Rodriguez (JC), Devamanyu Hazarika (JC), Dhananjay Ram (JC), Dhawal Parkar (JC), Dhawal Patel (JC), Dhwanil Desai (JC), Dinesh Singh Rajput (JC), Disha Sule (JC), Diwakar Singh (JC), Dmitriy Genzel (JC), Dolly Goldenberg (JC), Dongyi He (JC), Dumitru Hanciu (JC), Dushan Tharmal (JC), Dzmitry Siankovich (JC), Edi Cikovic (JC), Edwin Abraham (JC), Ekraam Sabir (JC), Elliott Olson (JC), Emmett Steven (JC), Emre Barut (JC), Eric Jackson (JC), Ethan Wu (JC), Evelyn Chen (JC), Ezhilan Mahalingam (JC), Fabian Triefenbach (JC), Fan Yang (JC), Fangyu Liu (JC), Fanzi Wu (JC), Faraz Tavakoli (JC), Farhad Khozeimeh (JC), Feiyang Niu (JC), Felix Hieber (JC), Feng Li (JC), Firat Elbey (JC), Florian Krebs (JC), Florian Saupe (JC), Florian Spr\\\"unken (JC), Frank Fan (JC), Furqan Khan (JC), Gabriela De Vincenzo (JC), Gagandeep Kang (JC), George Ding (JC), George He (JC), George Yeung (JC), Ghada Qaddoumi (JC), Giannis Karamanolakis (JC), Goeric Huybrechts (JC), Gokul Maddali (JC), Gonzalo Iglesias (JC), Gordon McShane (JC), Gozde Sahin (JC), Guangtai Huang (JC), Gukyeong Kwon (JC), Gunnar A. Sigurdsson (JC), Gurpreet Chadha (JC), Gururaj Kosuru (JC), Hagen Fuerstenau (JC), Hah Hah (JC), Haja Maideen (JC), Hajime Hosokawa (JC), Han Liu (JC), Han-Kai Hsu (JC), Hann Wang (JC), Hao Li (JC), Hao Yang (JC), Haofeng Zhu (JC), Haozheng Fan (JC), Harman Singh (JC), Harshavardhan Kaluvala (JC), Hashim Saeed (JC), He Xie (JC), Helian Feng (JC), Hendrix Luo (JC), Hengzhi Pei (JC), Henrik Nielsen (JC), Hesam Ilati (JC), Himanshu Patel (JC), Hongshan Li (JC), Hongzhou Lin (JC), Hussain Raza (JC), Ian Cullinan (JC), Imre Kiss (JC), Inbarasan Thangamani (JC), Indrayani Fadnavis (JC), Ionut Teodor Sorodoc (JC), Irem Ertuerk (JC), Iryna Yemialyanava (JC), Ishan Soni (JC), Ismail Jelal (JC), Ivan Tse (JC), Jack FitzGerald (JC), Jack Zhao (JC), Jackson Rothgeb (JC), Jacky Lee (JC), Jake Jung (JC), Jakub Debski (JC), Jakub Tomczak (JC), James Jeun (JC), James Sanders (JC), Jason Crowley (JC), Jay Lee (JC), Jayakrishna Anvesh Paidy (JC), Jayant Tiwari (JC), Jean Farmer (JC), Jeff Solinsky (JC), Jenna Lau (JC), Jeremy Savareese (JC), Jerzy Zagorski (JC), Ji Dai (JC),  Jiacheng (JC),  Gu (Skyler), Jiahui Li (Skyler),  Jian (Skyler),  Zheng (QZ), Jianhua Lu (QZ), Jianhua Wang (QZ), Jiawei Dai (QZ), Jiawei Mo (QZ), Jiaxi Xu (QZ), Jie Liang (QZ), Jie Yang (QZ), Jim Logan (QZ), Jimit Majmudar (QZ), Jing Liu (QZ), Jinghong Miao (QZ), Jingru Yi (QZ), Jingyang Jin (QZ), Jiun-Yu Kao (QZ), Jixuan Wang (QZ), Jiyang Wang (QZ), Joe Pemberton (QZ), Joel Carlson (QZ), Joey Blundell (QZ), John Chin-Jew (QZ), John He (QZ), Jonathan Ho (QZ), Jonathan Hueser (QZ), Jonathan Lunt (QZ), Jooyoung Lee (QZ), Joshua Tan (QZ), Joyjit Chatterjee (QZ), Judith Gaspers (QZ), Jue Wang (QZ), Jun Fang (QZ), Jun Tang (QZ), Jun Wan (QZ), Jun Wu (QZ), Junlei Wang (QZ), Junyi Shi (QZ), Justin Chiu (QZ), Justin Satriano (QZ), Justin Yee (QZ), Jwala Dhamala (QZ), Jyoti Bansal (QZ), Kai Zhen (QZ), Kai-Wei Chang (QZ), Kaixiang Lin (QZ), Kalyan Raman (QZ), Kanthashree Mysore Sathyendra (QZ), Karabo Moroe (QZ), Karan Bhandarkar (QZ), Karan Kothari (QZ), Karolina Owczarzak (QZ), Karthick Gopalswamy (QZ), Karthick Ravi (QZ), Karthik Ramakrishnan (QZ), Karthika Arumugam (QZ), Kartik Mehta (QZ), Katarzyna Konczalska (QZ), Kavya Ravikumar (QZ), Ke Tran (QZ), Kechen Qin (QZ), Kelin Li (QZ), Kelvin Li (QZ), Ketan Kulkarni (QZ), Kevin Angelo Rodrigues (QZ), Keyur Patel (QZ), Khadige Abboud (QZ), Kiana Hajebi (QZ), Klaus Reiter (QZ), Kris Schultz (QZ), Krishna Anisetty (QZ), Krishna Kotnana (QZ), Kristen Li (QZ), Kruthi Channamallikarjuna (QZ), Krzysztof Jakubczyk (QZ), Kuba Pierewoj (QZ), Kunal Pal (QZ), Kunwar Srivastav (QZ), Kyle Bannerman (QZ), Lahari Poddar (QZ), Lakshmi Prasad (QZ), Larry Tseng (QZ), Laxmikant Naik (QZ), Leena Chennuru Vankadara (QZ), Lenon Minorics (QZ), Leo Liu (QZ), Leonard Lausen (QZ), Leonardo F. R. Ribeiro (QZ), Li Zhang (QZ), Lili Gehorsam (QZ), Ling Qi (QZ), Lisa Bauer (QZ), Lori Knapp (QZ), Lu Zeng (QZ), Lucas Tong (QZ), Lulu Wong (QZ), Luoxin Chen (QZ), Maciej Rudnicki (QZ), Mahdi Namazifar (QZ), Mahesh Jaliminche (QZ), Maira Ladeira Tanke (QZ), Manasi Gupta (QZ), Mandeep Ahlawat (QZ), Mani Khanuja (QZ), Mani Sundaram (QZ), Marcin Leyk (QZ), Mariusz Momotko (QZ), Markus Boese (QZ), Markus Dreyer (QZ), Markus Mueller (QZ), Mason Fu (QZ), Mateusz G\\'orski (QZ), Mateusz Mastalerczyk (QZ), Matias Mora (QZ), Matt Johnson (QZ), Matt Scott (QZ), Matthew Wen (QZ), Max Barysau (QZ), Maya Boumerdassi (QZ), Maya Krishnan (QZ), Mayank Gupta (QZ), Mayank Hirani (QZ), Mayank Kulkarni (QZ), Meganathan Narayanasamy (QZ), Melanie Bradford (QZ), Melanie Gens (QZ), Melissa Burke (QZ), Meng Jin (QZ), Miao Chen (QZ), Michael Denkowski (QZ), Michael Heymel (QZ), Michael Krestyaninov (QZ), Michal Obirek (QZ), Michalina Wichorowska (QZ), Micha{\\l} Miotk (QZ), Milosz Watroba (QZ), Mingyi Hong (QZ), Mingzhi Yu (QZ), Miranda Liu (QZ), Mohamed Gouda (QZ), Mohammad El-Shabani (QZ), Mohammad Ghavamzadeh (QZ), Mohit Bansal (QZ), Morteza Ziyadi (QZ), Nan Xia (QZ), Nathan Susanj (QZ), Nav Bhasin (QZ), Neha Goswami (QZ), Nehal Belgamwar (QZ), Nicolas Anastassacos (QZ), Nicolas Bergeron (QZ), Nidhi Jain (QZ), Nihal Jain (QZ), Niharika Chopparapu (QZ), Nik Xu (QZ), Nikko Strom (QZ), Nikolaos Malandrakis (QZ), Nimisha Mishra (QZ), Ninad Parkhi (QZ), Ninareh Mehrabi (QZ), Nishita Sant (QZ), Nishtha Gupta (QZ), Nitesh Sekhar (QZ), Nithin Rajeev (QZ), Nithish Raja Chidambaram (QZ), Nitish Dhar (QZ), Noor Bhagwagar (QZ), Noy Konforty (QZ), Omar Babu (QZ), Omid Razavi (QZ), Orchid Majumder (QZ), Osama Dar (QZ), Oscar Hsu (QZ), Pablo Kvitca (QZ), Pallavi Pandey (QZ), Parker Seegmiller (QZ), Patrick Lange (QZ), Paul Ferraro (QZ), Payal Motwani (QZ), Pegah Kharazmi (QZ), Pei Wang (QZ), Pengfei Liu (QZ), Peter Bradtke (QZ), Peter G\\\"otz (QZ), Peter Zhou (QZ), Pichao Wang (QZ), Piotr Poskart (QZ), Pooja Sonawane (QZ), Pradeep Natarajan (QZ), Pradyun Ramadorai (QZ), Pralam Shah (QZ), Prasad Nirantar (QZ), Prasanthi Chavali (QZ), Prashan Wanigasekara (QZ), Prashant Saraf (QZ), Prashun Dey (QZ), Pratyush Pant (QZ), Prerak Pradhan (QZ), Preyaa Patel (QZ), Priyanka Dadlani (QZ), Prudhvee Narasimha Sadha (QZ), Qi Dong (QZ), Qian Hu (QZ),  Qiaozi (QZ),  Gao (Sean), Qing Liu (Sean), Quinn Lam (Sean), Quynh Do (Sean), R. Manmatha (Sean), Rachel Willis (Sean), Rafael Liu (Sean), Rafal Ellert (Sean), Rafal Kalinski (Sean), Rafi Al Attrach (Sean), Ragha Prasad (Sean), Ragini Prasad (Sean), Raguvir Kunani (Sean), Rahul Gupta (Sean), Rahul Sharma (Sean), Rahul Tewari (Sean), Rajaganesh Baskaran (Sean), Rajan Singh (Sean), Rajiv Gupta (Sean), Rajiv Reddy (Sean), Rajshekhar Das (Sean), Rakesh Chada (Sean), Rakesh Vaideeswaran Mahesh (Sean), Ram Chandrasekaran (Sean), Ramesh Nallapati (Sean), Ran Xue (Sean), Rashmi Gangadharaiah (Sean), Ravi Rachakonda (Sean), Renxian Zhang (Sean), Rexhina Blloshmi (Sean), Rishabh Agrawal (Sean), Robert Enyedi (Sean), Robert Lowe (Sean), Robik Shrestha (Sean), Robinson Piramuthu (Sean), Rohail Asad (Sean), Rohan Khanna (Sean), Rohan Mukherjee (Sean), Rohit Mittal (Sean), Rohit Prasad (Sean), Rohith Mysore Vijaya Kumar (Sean), Ron Diamant (Sean), Ruchita Gupta (Sean), Ruiwen Li (Sean), Ruoying Li (Sean), Rushabh Fegade (Sean), Ruxu Zhang (Sean), Ryan Arbow (Sean), Ryan Chen (Sean), Ryan Gabbard (Sean), Ryan Hoium (Sean), Ryan King (Sean), Sabarishkumar Iyer (Sean), Sachal Malick (Sean), Sahar Movaghati (Sean), Sai Balakavi (Sean), Sai Jakka (Sean), Sai Kashyap Paruvelli (Sean), Sai Muralidhar Jayanthi (Sean), Saicharan Shriram Mujumdar (Sean), Sainyam Kapoor (Sean), Sajjad Beygi (Sean), Saket Dingliwal (Sean), Saleh Soltan (Sean), Sam Ricklin (Sean), Sam Tucker (Sean), Sameer Sinha (Sean), Samridhi Choudhary (Sean), Samson Tan (Sean), Samuel Broscheit (Sean), Samuel Schulter (Sean), Sanchit Agarwal (Sean), Sandeep Atluri (Sean), Sander Valstar (Sean), Sanjana Shankar (Sean), Sanyukta Sanyukta (Sean), Sarthak Khanna (Sean), Sarvpriye Khetrapal (Sean), Satish Janakiraman (Sean), Saumil Shah (Sean), Saurabh Akolkar (Sean), Saurabh Giri (Sean), Saurabh Khandelwal (Sean), Saurabh Pawar (Sean), Saurabh Sahu (Sean), Sean Huang (Sean), Sejun Ra (Sean), Senthilkumar Gopal (Sean), Sergei Dobroshinsky (Sean), Shadi Saba (Sean), Shamik Roy (Sean), Shamit Lal (Sean), Shankar Ananthakrishnan (Sean), Sharon Li (Sean), Shashwat Srijan (Sean), Shekhar Bhide (Sean), Sheng Long Tang (Sean), Sheng Zha (Sean), Shereen Oraby (Sean), Sherif Mostafa (Sean), Shiqi Li (Sean), Shishir Bharathi (Sean), Shivam Prakash (Sean), Shiyuan Huang (Sean), Shreya Yembarwar (Sean), Shreyas Pansare (Sean), Shreyas Subramanian (Sean), Shrijeet Joshi (Sean), Shuai Liu (Sean), Shuai Tang (Sean), Shubham Chandak (Sean), Shubham Garg (Sean), Shubham Katiyar (Sean), Shubham Mehta (Sean), Shubham Srivastav (Sean), Shuo Yang (Sean), Siddalingesha D S (Sean), Siddharth Choudhary (Sean), Siddharth Singh Senger (Sean), Simon Babb (Sean), Sina Moeini (Sean), Siqi Deng (Sean), Siva Loganathan (Sean), Slawomir Domagala (Sean), Sneha Narkar (Sean), Sneha Wadhwa (Sean), Songyang Zhang (Sean), Songyao Jiang (Sean), Sony Trenous (Sean), Soumajyoti Sarkar (Sean), Soumya Saha (Sean), Sourabh Reddy (Sean), Sourav Dokania (Sean), Spurthideepika Sandiri (Sean), Spyros Matsoukas (Sean), Sravan Bodapati (Sean), Sri Harsha Reddy Wdaru (Sean), Sridevi Yagati Venkateshdatta (Sean), Srikanth Ronanki (Sean), Srinivasan R Veeravanallur (Sean), Sriram Venkatapathy (Sean), Sriramprabhu Sankaraguru (Sean), Sruthi Gorantla (Sean), Sruthi Karuturi (Sean), Stefan Schroedl (Sean), Subendhu Rongali (Sean), Subhasis Kundu (Sean), Suhaila Shakiah (Sean), Sukriti Tiwari (Sean), Sumit Bharti (Sean), Sumita Sami (Sean), Sumith Mathew (Sean), Sunny Yu (Sean), Sunwoo Kim (Sean), Suraj Bajirao Malode (Sean), Susana Cumplido Riel (Sean), Swapnil Palod (Sean), Swastik Roy (Sean), Syed Furqhan (Sean), Tagyoung Chung (Sean), Takuma Yoshitani (Sean), Taojiannan Yang (Sean), Tejaswi Chillakura (Sean), Tejwant Bajwa (Sean), Temi Lajumoke (Sean), Thanh Tran (Sean), Thomas Gueudre (Sean), Thomas Jung (Sean), Tianhui Li (Sean), Tim Seemman (Sean), Timothy Leffel (Sean), Tingting Xiang (Sean), Tirth Patel (Sean), Tobias Domhan (Sean), Tobias Falke (Sean), Toby Guo (Sean), Tom Li (Sean), Tomasz Horszczaruk (Sean), Tomasz Jedynak (Sean), Tushar Kulkarni (Sean), Tyst Marin (Sean), Tytus Metrycki (Sean), Tzu-Yen Wang (Sean), Umang Jain (Sean), Upendra Singh (Sean), Utkarsh Chirimar (Sean), Vaibhav Gupta (Sean), Vanshil Shah (Sean), Varad Deshpande (Sean), Varad Gunjal (Sean), Varsha Srikeshava (Sean), Varsha Vivek (Sean), Varun Bharadwaj (Sean), Varun Gangal (Sean), Varun Kumar (Sean), Venkatesh Elango (Sean), Vicente Ordonez (Sean), Victor Soto (Sean), Vignesh Radhakrishnan (Sean), Vihang Patel (Sean), Vikram Singh (Sean), Vinay Varma Kolanuvada (Sean), Vinayshekhar Bannihatti Kumar (Sean), Vincent Auvray (Sean), Vincent Cartillier (Sean), Vincent Ponzo (Sean), Violet Peng (Sean), Vishal Khandelwal (Sean), Vishal Naik (Sean), Vishvesh Sahasrabudhe (Sean), Vitaliy Korolev (Sean), Vivek Gokuladas (Sean), Vivek Madan (Sean), Vivek Subramanian (Sean), Volkan Cevher (Sean), Vrinda Gupta (Sean), Wael Hamza (Sean), Wei Zhang (Sean), Weitong Ruan (Sean), Weiwei Cheng (Sean), Wen Zhang (Sean), Wenbo Zhao (Sean), Wenyan Yao (Sean), Wenzhuo Ouyang (Sean), Wesley Dashner (Sean), William Campbell (Sean), William Lin (Sean), Willian Martin (Sean), Wyatt Pearson (Sean), Xiang Jiang (Sean), Xiangxing Lu (Sean), Xiangyang Shi (Sean), Xianwen Peng (Sean), Xiaofeng Gao (Sean), Xiaoge Jiang (Sean), Xiaohan Fei (Sean), Xiaohui Wang (Sean), Xiaozhou Joey Zhou (Sean), Xin Feng (Sean), Xinyan Zhao (Sean), Xinyao Wang (Sean), Xinyu Li (Sean), Xu Zhang (Sean), Xuan Wang (Sean), Xuandi Fu (Sean), Xueling Yuan (Sean), Xuning Wang (Sean), Yadunandana Rao (Sean), Yair Tavizon (Sean), Yan Rossiytsev (Sean), Yanbei Chen (Sean), Yang Liu (Sean), Yang Zou (Sean), Yangsook Park (Sean), Yannick Versley (Sean), Yanyan Zhang (Sean), Yash Patel (Sean), Yen-Cheng Lu (Sean), Yi Pan (Sean),  Yi-Hsiang (Sean),  Lai (Rex), Yichen Hu (Rex), Yida Wang (Rex), Yiheng Zhou (Rex), Yilin Xiang (Rex), Ying Shi (Rex), Ying Wang (Rex), Yishai Galatzer (Rex), Yongxin Wang (Rex), Yorick Shen (Rex), Yuchen Sun (Rex), Yudi Purwatama (Rex),  Yue (Rex),  Wu (Chris), Yue Gu (Chris), Yuechun Wang (Chris), Yujun Zeng (Chris), Yuncong Chen (Chris), Yunke Zhou (Chris), Yusheng Xie (Chris), Yvon Guy (Chris), Zbigniew Ambrozinski (Chris), Zhaowei Cai (Chris), Zhen Zhang (Chris), Zheng Wang (Chris), Zhenghui Jin (Chris), Zhewei Zhao (Chris), Zhiheng Li (Chris), Zhiheng Luo (Chris), Zhikang Zhang (Chris), Zhilin Fang (Chris), Zhiqi Bu (Chris), Zhiyuan Wang (Chris), Zhizhong Li (Chris), Zijian Wang (Chris),  Zimeng (Chris),  Qiu, Zishi Li",
     "categories": [
       "cs.AI",
-      "cs.CL"
+      "cs.CY",
+      "cs.LG"
     ],
-    "summary": "這篇論文主要探討任務導向的知識圖證明，總結了目前的研究現狀、應用範疇和未來展望。研究團隊提出了一些新觀點和方法，幫助我們更好地理解和應用知識圖證明技術。這些方法對於提升人工智慧系統在處理任務時的效率和準確性具有重要價值。未來，這些研究成果有望在各個領域帶來更多創新應用，推動人工智慧技術的發展。",
-    "published_date": "2025-06-16",
+    "summary": "這篇論文介紹了亞馬遜的Nova模型家族，提供了技術報告和模型卡。這個模型家族的核心創新在於結合了大量研究人員的專業知識和技術，致力於提升人工智慧的應用效能。這些模型的價值在於其強大的學習能力和應用靈活性，能夠應對各種複雜的任務和挑戰。透過這些模型，可以更有效地處理大量數據並提供更準確的預測和分析，有助於提升人工智慧技術在各個領域的應用效果。",
+    "published_date": "2025-06-17",
     "source": "Arxiv",
     "content_type": "academic",
     "processed": true,
-    "fetch_date": "2025-06-17T11:27:03.289449",
+    "fetch_date": "2025-06-17T08:51:04.553557",
     "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-17T11:27:06.803331",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.11012.mp3",
-    "audio_file": "audio/articles/2506.11012.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-17T11:27:26.773091",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+    "processed_date": "2025-06-17T08:51:09.121707",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 237 credits are required for this request."
   },
   {
-    "id": "2506.11023",
-    "title": "OntoGSN: An Ontology for Dynamic Management of Assurance Cases",
-    "url": "https://arxiv.org/abs/2506.11023",
-    "authors": "Tomas Bueno Momcilovic, Barbara Gallina, Ingmar Kessler, Dian Balta",
+    "id": "2506.12152",
+    "title": "Because we have LLMs, we Can and Should Pursue Agentic Interpretability",
+    "url": "https://arxiv.org/abs/2506.12152",
+    "authors": "Been Kim, John Hewitt, Neel Nanda, Noah Fiedel, Oyvind Tafjord",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出，有了大型語言模型（LLMs），我們可以並且應該追求主動式的可解釋性。簡單來說，就是讓人工智慧系統不僅能夠做出預測，還能夠解釋其決策過程，讓使用者更容易理解。這項研究的價值在於提出了一種新的方法來提高人工智慧系統的透明度和可信度，有助於提升人機互動的效能和品質。",
+    "published_date": "2025-06-17",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-17T08:51:04.553619",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-17T08:51:11.756723",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 209 credits are required for this request."
+  },
+  {
+    "id": "2506.12185",
+    "title": "Artificial Intelligence and Machine Learning in the Development of Vaccines and Immunotherapeutics Yesterday, Today, and Tomorrow",
+    "url": "https://arxiv.org/abs/2506.12185",
+    "authors": "Elhoucine Elfatimi, Yassir Lekbach, Swayam Prakash, Lbachir BenMohamed",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文探討了人工智慧和機器學習在疫苗和免疫治療研發中的應用。總結來說，這篇研究指出，AI技術能加速疫苗研發過程，提高疫苗的效力和安全性，有助於應對傳染病和癌症等疾病挑戰。未來，AI將在疫苗和免疫治療領域扮演更重要的角色，為醫學領域帶來更多創新和突破。這篇論文的價值在於強調了AI在醫療領域的潛力，將對人類健康產生深遠影響。",
+    "published_date": "2025-06-17",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-17T08:51:04.553667",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-17T08:51:14.222256",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 292 credits are required for this request."
+  },
+  {
+    "id": "2506.12200",
+    "title": "PRO-V: An Efficient Program Generation Multi-Agent System for Automatic RTL Verification",
+    "url": "https://arxiv.org/abs/2506.12200",
+    "authors": "Yujie Zhao, Zhijing Wu, Hejia Zhang, Zhongming Yu, Wentao Ni, Chia-Tung Ho, Haoxing Ren, Jishen Zhao",
+    "categories": [
+      "cs.AI",
+      "cs.AR"
+    ],
+    "summary": "這篇論文介紹了一個名為PRO-V的系統，它是一個高效的程式生成多智能體系統，用於自動的RTL驗證。簡單來說，這個系統可以自動生成程式，幫助驗證電路設計的正確性，提高效率並減少人力成本。這項技術的核心創新在於結合了程式生成和多智能體系統，讓驗證過程更自動化、更有效率。這對於硬體設計領域來說是一個具有潛力的創新，有助於提升設計品質並加速產品上市的速度。",
+    "published_date": "2025-06-17",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-17T08:51:04.553712",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-17T08:51:16.308572",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 264 credits are required for this request."
+  },
+  {
+    "id": "2506.12241",
+    "title": "Privacy Reasoning in Ambiguous Contexts",
+    "url": "https://arxiv.org/abs/2506.12241",
+    "authors": "Ren Yi, Octavian Suciu, Adria Gascon, Sarah Meiklejohn, Eugene Bagdasarian, Marco Gruteser",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文主要探討在模糊情境下的隱私推理議題。研究團隊包括Ren Yi、Octavian Suciu等人，他們提出了一種新方法來處理隱私保護問題，特別是在資訊不完整或模糊的情況下。他們的研究有助於改善在複雜情境下的隱私保護技術，讓我們更有效地保護個人資料。這項研究對於提升隱私保護技術的效能和可靠性有重要的貢獻。",
+    "published_date": "2025-06-17",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-17T08:51:04.553756",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-17T08:51:18.551921",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 195 credits are required for this request."
+  },
+  {
+    "id": "2506.12245",
+    "title": "Reversing the Paradigm: Building AI-First Systems with Human Guidance",
+    "url": "https://arxiv.org/abs/2506.12245",
+    "authors": "Cosimo Spera, Garima Agrawal",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一個新的概念，即逆轉現有AI系統的範式，建立以人類引導為主的AI系統。作者認為，人類的指導和參與可以提高AI系統的效能和準確性，並且能夠更好地滿足使用者的需求。這種以人為中心的AI系統設計方式，有助於克服傳統AI系統在理解人類需求和意圖方面的限制，提升系統的智能化水準。這項研究對於未來發展更加貼近人類需求的AI技術具有重要的啟示價值。",
+    "published_date": "2025-06-17",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-17T08:51:04.553799",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-17T08:51:21.247262",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 245 credits are required for this request."
+  },
+  {
+    "id": "2506.12254",
+    "title": "Lower Bound on Howard Policy Iteration for Deterministic Markov Decision Processes",
+    "url": "https://arxiv.org/abs/2506.12254",
+    "authors": "Ali Asadi, Krishnendu Chatterjee, Jakob de Raaij",
+    "categories": [
+      "cs.AI",
+      "cs.DM"
+    ],
+    "summary": "這篇論文主要探討如何有效地解決決策問題，提出了一種名為Howard Policy Iteration的方法，用來處理確定性馬可夫決策過程。研究者們提出了一個新的下界估計方法，可以幫助我們更快速地找到最佳策略。這個方法有助於提高決策過程的效率，對於解決實際應用中的決策問題有很大的幫助。透過這項研究，我們可以更有效率地制定最佳決策策略，提升系統的效能表現。",
+    "published_date": "2025-06-17",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-17T08:51:04.553842",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-17T08:51:23.626242",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 260 credits are required for this request."
+  },
+  {
+    "id": "2506.12270",
+    "title": "Cloud Infrastructure Management in the Age of AI Agents",
+    "url": "https://arxiv.org/abs/2506.12270",
+    "authors": "Zhenning Yang, Archit Bhatnagar, Yiming Qiu, Tongyuan Miao, Patrick Tser Jern Kon, Yunming Xiao, Yibo Huang, Martin Casado, Ang Chen",
+    "categories": [
+      "cs.AI",
+      "cs.HC",
+      "cs.LG",
+      "cs.SY",
+      "eess.SY"
+    ],
+    "summary": "這篇論文討論了在AI代理人時代的雲基礎設施管理。研究團隊提出了一種新的方法，利用AI代理人來改善雲端基礎設施的管理效率和彈性。透過AI代理人的智能決策和自我學習能力，可以更有效地優化資源配置、提升系統性能，並提供更好的服務品質。這項研究對於提升雲端運營效率和降低成本具有重要價值，同時也展示了AI在雲端管理領域的應用前景。",
+    "published_date": "2025-06-17",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-17T08:51:04.553886",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-17T08:51:25.787592",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 217 credits are required for this request."
+  },
+  {
+    "id": "2506.12283",
+    "title": "Deep Fictitious Play-Based Potential Differential Games for Learning Human-Like Interaction at Unsignalized Intersections",
+    "url": "https://arxiv.org/abs/2506.12283",
+    "authors": "Kehua Chen, Shucheng Zhang, Yinhai Wang",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "summary": "這篇論文主要探討如何利用深度虛構博弈來學習在無信號路口進行人類般互動的技巧。研究者提出了一種新的方法，可以幫助自駕車在複雜的路口情境下模擬人類的行為，提高交通系統的效率和安全性。透過這種深度學習的方式，讓車輛能夠更好地理解其他車輛和行人的行為，進而做出更明智的決策。這項研究的價值在於提供了一個新的角度，幫助我們更好地理解和模擬人車互動，有助於未來智慧交通系統的發展。",
+    "published_date": "2025-06-17",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-17T08:51:04.553928",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-17T08:51:28.508357",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 306 credits are required for this request."
+  },
+  {
+    "id": "2506.12286",
+    "title": "The SWE-Bench Illusion: When State-of-the-Art LLMs Remember Instead of Reason",
+    "url": "https://arxiv.org/abs/2506.12286",
+    "authors": "Shanchao Liang, Spandan Garg, Roshanak Zilouchian Moghaddam",
     "categories": [
       "cs.AI",
       "cs.SE"
     ],
-    "summary": "這篇論文提出了一個名為OntoGSN的本體論，用來動態管理保證案例。簡單來說，就是提供了一個新方法來管理確保軟體系統安全性和可靠性的證據。這個方法可以幫助開發團隊更有效地討論和決策，提高系統開發過程中的透明度和溝通效率。這項研究的價值在於提供了一個結構化的方式來管理保證案例，有助於確保軟體系統的品質和安全性。",
-    "published_date": "2025-06-16",
+    "summary": "這篇論文發現了一個名為「SWE-Bench Illusion」的現象，指出當前最先進的語言模型（LLMs）在處理問題時，更傾向於記憶先前的資訊，而非真正進行推理。這個發現提醒我們，儘管LLMs在表現上看起來很厲害，但其實可能只是在背誦資料，並非真正理解問題。這對於提升AI系統的推理能力和真正理解語言意義有著重要的啟示價值。",
+    "published_date": "2025-06-17",
     "source": "Arxiv",
     "content_type": "academic",
     "processed": true,
-    "fetch_date": "2025-06-17T11:27:03.289479",
+    "fetch_date": "2025-06-17T08:51:04.553969",
     "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-17T11:27:10.322695",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.11023.mp3",
-    "audio_file": "audio/articles/2506.11023.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-17T11:27:35.817980",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
-  },
-  {
-    "id": "2506.11221",
-    "title": "LLM-as-a-Fuzzy-Judge: Fine-Tuning Large Language Models as a Clinical Evaluation Judge with Fuzzy Logic",
-    "url": "https://arxiv.org/abs/2506.11221",
-    "authors": "Weibing Zheng, Laurah Turner, Jess Kropczynski, Murat Ozer, Tri Nguyen, Shane Halse",
-    "categories": [
-      "cs.AI",
-      "cs.CL",
-      "cs.LO"
-    ],
-    "summary": "這篇論文提出了一種新方法，將大型語言模型Fine-Tuning，讓它像模糊邏輯一樣成為臨床評估法官，用於醫學領域。簡單來說，就是讓AI模型像模糊邏輯一樣判斷臨床評估。這個方法的創新之處在於結合了語言模型和模糊邏輯，可以幫助醫生更快速、更精確地做出臨床評估。這對於提升醫療品質和效率有很大的幫助，也展示了AI在醫學領域的應用潛力。",
-    "published_date": "2025-06-16",
-    "source": "Arxiv",
-    "content_type": "academic",
-    "processed": true,
-    "fetch_date": "2025-06-17T11:27:03.289501",
-    "summary_model": "gpt-3.5-turbo",
-    "processed_date": "2025-06-17T11:27:13.188485",
-    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.11221.mp3",
-    "audio_file": "audio/articles/2506.11221.mp3",
-    "audio_generated": true,
-    "audio_generated_date": "2025-06-17T11:27:47.135548",
-    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+    "processed_date": "2025-06-17T08:51:30.322497",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 240 credits are required for this request."
   }
 ]
