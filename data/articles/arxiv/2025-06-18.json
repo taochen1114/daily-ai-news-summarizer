@@ -1,0 +1,190 @@
+[
+  {
+    "id": "2506.13768",
+    "title": "'Memory States' from Almost Nothing: Representing and Computing in a Non-associative Algebra",
+    "url": "https://arxiv.org/abs/2506.13768",
+    "authors": "Stefan Reimann",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討如何在非關聯代數中，從幾乎沒有資訊的情況下建立和計算「記憶狀態」。作者 Stefan Reimann 提出了一種新方法，讓系統可以在沒有明確關聯的情況下，有效地表示和處理記憶。這項研究的價值在於提供了一種全新的方式來處理記憶，即使資訊量很少或沒有關聯性，系統仍能有效地進行計算和表達。這將有助於開發更具彈性和智能的人工智慧系統，提升其應用範疇和效能。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T08:50:44.720195",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T08:50:48.486364",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 276 credits are required for this request."
+  },
+  {
+    "id": "2506.13773",
+    "title": "Representing Time-Continuous Behavior of Cyber-Physical Systems in Knowledge Graphs",
+    "url": "https://arxiv.org/abs/2506.13773",
+    "authors": "Milapji Singh Gill, Tom Jeleniewski, Felix Gehlhoff, Alexander Fay",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討如何在知識圖譜中表現物聯網系統中的持續時間行為。簡單來說，就是讓人工智慧能夠更好地理解物聯網系統中的時間性質。這項研究的重點在於如何有效地將時間連續性納入知識圖譜，讓系統更聰明、更具預測能力。這對於提升物聯網系統的效能和安全性有相當大的幫助，也有助於未來人工智慧技術的發展。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T08:50:44.720257",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T08:50:50.141121",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 229 credits are required for this request."
+  },
+  {
+    "id": "2506.13774",
+    "title": "Personalized Constitutionally-Aligned Agentic Superego: Secure AI Behavior Aligned to Diverse Human Values",
+    "url": "https://arxiv.org/abs/2506.13774",
+    "authors": "Nell Watson, Ahmed Amer, Evan Harris, Preeti Ravindra, Shujun Zhang",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.MA"
+    ],
+    "summary": "這篇論文提出了一個名為「個人化憲法對齊主體超我」的概念，旨在確保人工智慧的行為符合多元人類價值觀。簡單來說，就是讓AI能夠根據不同的價值取向來行動，讓人們更能信任和接受AI的決策。這個概念的創新之處在於強調了AI行為的個人化和符合價值觀的重要性，有助於建立更安全、更貼近人類需求的人機互動。這對於未來AI技術的發展和應用有著重要的啟示價值。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T08:50:44.720306",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T08:50:51.842431",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 277 credits are required for this request."
+  },
+  {
+    "id": "2506.13776",
+    "title": "Recommendations and Reporting Checklist for Rigorous & Transparent Human Baselines in Model Evaluations",
+    "url": "https://arxiv.org/abs/2506.13776",
+    "authors": "Kevin L. Wei, Patricia Paskov, Sunishchal Dev, Michael J. Byun, Anka Reuel, Xavier Roberts-Gaal, Rachel Calcott, Evie Coxon, Chinmay Deshpande",
+    "categories": [
+      "cs.AI",
+      "cs.CY"
+    ],
+    "summary": "這篇論文提出了一份針對模型評估中人類基準的建議和報告檢查清單，旨在確保評估過程嚴謹透明。作者團隊包括Kevin L. Wei、Patricia Paskov等人。他們的研究主要關注如何確保模型評估中人類基準的準確性和公正性，這對於提高AI模型的可信度和可解釋性至關重要。這份清單有助於研究人員更好地設計和報告模型評估，提高研究的透明度和可重複性。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T08:50:44.720351",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T08:50:54.194685",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 277 credits are required for this request."
+  },
+  {
+    "id": "2506.13790",
+    "title": "The NordDRG AI Benchmark for Large Language Models",
+    "url": "https://arxiv.org/abs/2506.13790",
+    "authors": "Tapio Pitk\\\"aranta",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要介紹了一個名為\"NordDRG AI Benchmark\"的大型語言模型。簡單來說，這個模型可以幫助醫療領域的人員更有效率地處理醫療資料，提升工作效率。透過這個模型，可以更快速地分析、歸納和處理龐大的醫療資訊，有助於提供更好的醫療服務。這項研究的價值在於提供了一個新的工具，幫助醫療專業人員更有效率地進行工作，提升整體醫療品質。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T08:50:44.720395",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T08:50:56.434670",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 221 credits are required for this request."
+  },
+  {
+    "id": "2506.13792",
+    "title": "ICE-ID: A Novel Historical Census Data Benchmark Comparing NARS against LLMs, \\& a ML Ensemble on Longitudinal Identity Resolution",
+    "url": "https://arxiv.org/abs/2506.13792",
+    "authors": "Gon\\c{c}alo Hora de Carvalho, Lazar S. Popov, Sander Kaatee, Kristinn R. Th\\'orisson, Tangrui Li, P\\'etur H\\'uni Bj\\\"ornsson, Jilles S. Dibangoye",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "stat.AP"
+    ],
+    "summary": "這篇論文介紹了一個名為ICE-ID的新型歷史普查數據基準，用來比較NARS和LLMs，以及一個機器學習集成方法在長期身份解析上的表現。簡單來說，這個研究提供了一個新的方式來評估不同AI模型在解決長期身份識別問題上的效能。這有助於提升身份識別技術的準確性和效率，對於處理大量歷史數據和保護個人隱私都有重要意義。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T08:50:44.720439",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T08:50:58.446601",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 285 credits are required for this request."
+  },
+  {
+    "id": "2506.13793",
+    "title": "Med-REFL: Medical Reasoning Enhancement via Self-Corrected Fine-grained Reflection",
+    "url": "https://arxiv.org/abs/2506.13793",
+    "authors": "Zongxian Yang, Jiayu Qian, Zegao Peng, Haoyu Zhang, Zhi-An Huang",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一種名為「Med-REFL」的方法，可以增強醫學推理能力，透過自我修正的細緻反思來達成。簡單來說，就是讓AI在醫學領域的推理能力更準確、更強大。這個方法的創新之處在於能夠自我學習並改正錯誤，提升醫學診斷的準確性和效率。這對於醫學領域的AI應用有很大的價值，有助於提高醫療品質和效率。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T08:50:44.720480",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T08:51:00.522104",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 231 credits are required for this request."
+  },
+  {
+    "id": "2506.13795",
+    "title": "BotTrans: A Multi-Source Graph Domain Adaptation Approach for Social Bot Detection",
+    "url": "https://arxiv.org/abs/2506.13795",
+    "authors": "Boshen Shi, Yongqing Wang, Fangda Guo, Jiangli Shao, Huawei Shen, Xueqi Cheng",
+    "categories": [
+      "cs.AI",
+      "cs.SI"
+    ],
+    "summary": "這篇論文主要介紹了一種名為「BotTrans」的方法，可以幫助偵測社交機器人。這個方法的創新之處在於它利用多種來源的資料，進行領域適應，提高社交機器人偵測的效果。簡單來說，就是讓機器學習更準確地辨識出社交機器人。這對於防止社交網路上的不良行為，保護使用者的權益，具有相當大的價值。透過這個方法，可以更有效地辨識出潛在的社交機器人，讓網路環境更加清淨。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T08:50:44.720522",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T08:51:02.718788",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 258 credits are required for this request."
+  },
+  {
+    "id": "2506.13799",
+    "title": "Feedforward Ordering in Neural Connectomes via Feedback Arc Minimization",
+    "url": "https://arxiv.org/abs/2506.13799",
+    "authors": "Soroush Vahidi",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討如何在神經連接圖中透過最小化反向弧來優化前向排序。簡單來說，就是想要找出神經元之間訊息傳遞的最佳順序。這個研究的價值在於可以幫助我們更好地理解大腦中神經元之間的溝通方式，有助於發展更有效率的人工智慧系統。透過優化神經元間的訊息傳遞順序，我們或許能夠提升神經網路的效能，進而開創更多應用面向。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T08:50:44.720562",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T08:51:04.559219",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 226 credits are required for this request."
+  },
+  {
+    "id": "2506.13803",
+    "title": "Causality in the human niche: lessons for machine learning",
+    "url": "https://arxiv.org/abs/2506.13803",
+    "authors": "Richard D. Lange, Konrad P. Kording",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文討論了人類如何從環境中學習因果關係，並提出這對機器學習的啟示。作者指出，人類在複雜環境中能夠快速辨識因果關係，這是機器學習所欠缺的能力之一。透過研究人類的學習方式，或許可以幫助機器學習更有效地處理因果關係，提升其學習效率。這項研究對於拓展機器學習在真實世界應用的可能性具有重要價值。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T08:50:44.720604",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T08:51:08.098376",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 204 credits are required for this request."
+  }
+]
