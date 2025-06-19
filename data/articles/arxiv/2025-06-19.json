@@ -1,0 +1,186 @@
+[
+  {
+    "id": "2506.14936",
+    "title": "CALM: Contextual Analog Logic with Multimodality",
+    "url": "https://arxiv.org/abs/2506.14936",
+    "authors": "Maxwell J. Jacobson, Corey J. Maley, Yexiang Xue",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一個名為CALM的新方法，可以在處理多模態數據時更好地理解上下文。簡單來說，就是讓電腦更聰明地處理不同類型的資訊，像是文字、圖片、聲音等。這個方法可以幫助AI系統更準確地理解人類語言和情境，提升溝通的效率和準確性。這項研究的價值在於提供了一個新的框架，讓AI在處理複雜資訊時更有彈性和智能。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-19T08:50:19.096502",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-19T08:50:23.732279",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 201 credits are required for this request."
+  },
+  {
+    "id": "2506.14990",
+    "title": "MEAL: A Benchmark for Continual Multi-Agent Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2506.14990",
+    "authors": "Tristan Tomilin, Luka van den Boogaard, Samuel Garcin, Bram Grooten, Meng Fang, Mykola Pechenizkiy",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一個名為MEAL的新標竿，專為持續學習的多智能體強化學習而設計。這個標竿可以幫助研究人員評估多智能體系統在不斷學習新任務時的表現。通過MEAL，研究者可以更好地了解多智能體系統在處理連續學習挑戰時的優勢和不足，有助於推動多智能體強化學習領域的發展。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-19T08:50:19.096562",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-19T08:50:25.688061",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 198 credits are required for this request."
+  },
+  {
+    "id": "2506.15050",
+    "title": "Truncated Proximal Policy Optimization",
+    "url": "https://arxiv.org/abs/2506.15050",
+    "authors": "Tiantian Fan, Lingjun Liu, Yu Yue, Jiaze Chen, Chengyi Wang, Qiying Yu, Chi Zhang, Zhiqi Lin, Ruofei Zhu, Yufeng Yuan, Xiaochen Zuo, Bole Ma, Mofan Zhang, Gaohong Liu, Ru Zhang, Haotian Zhou, Cong Xie, Ruidong Zhu, Zhi Zhang, Xin Liu, Mingxuan Wang, Lin Yan, Yonghui Wu",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一種名為「截斷式近端策略優化」的新方法，可以有效提升強化學習中的訓練效率。簡單來說，就是在訓練過程中將一些不必要的計算步驟給簡化，讓模型更快收斂並提高學習效率。這個方法在處理大規模數據時特別有效，可以幫助AI系統更快地學習和優化策略，提升整體性能。這項研究對於加速強化學習算法的訓練過程有著重要的意義，有助於提高AI在各種應用領域的效能表現。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-19T08:50:19.096628",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-19T08:50:28.493040",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 217 credits are required for this request."
+  },
+  {
+    "id": "2506.15196",
+    "title": "HeurAgenix: Leveraging LLMs for Solving Complex Combinatorial Optimization Challenges",
+    "url": "https://arxiv.org/abs/2506.15196",
+    "authors": "Xianliang Yang, Ling Zhang, Haolong Qian, Lei Song, Jiang Bian",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要介紹了一個名為\"HeurAgenix\"的方法，利用大型語言模型（LLMs）來解決複雜的組合優化問題。簡單來說，就是讓AI模型來幫忙找出最佳解決方案。這個方法的創新之處在於結合了語言模型的能力和組合優化問題的挑戰，讓AI在這方面有了更好的應用。這對於解決現實生活中的各種複雜問題有很大的幫助，可以提高效率，減少成本。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-19T08:50:19.096672",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-19T08:50:30.443326",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 249 credits are required for this request."
+  },
+  {
+    "id": "2506.15207",
+    "title": "Multi-Agent Reinforcement Learning for Autonomous Multi-Satellite Earth Observation: A Realistic Case Study",
+    "url": "https://arxiv.org/abs/2506.15207",
+    "authors": "Mohamad A. Hady, Siyi Hu, Mahardhika Pratama, Jimmy Cao, Ryszard Kowalczyk",
+    "categories": [
+      "cs.AI",
+      "cs.MA",
+      "cs.RO"
+    ],
+    "summary": "這篇論文主要探討如何利用多智能體強化學習技術，讓多顆衛星在地球觀測任務中能夠自主合作。研究團隊提出了一個真實案例研究，展示了這種技術的應用價值。通俗來說，就是讓多顆衛星可以互相學習、合作，提升地球觀測的效率和準確性。這項研究的創新之處在於將強化學習應用在衛星任務中，有助於提升衛星系統的整體性能，對於未來的地球觀測任務有相當大的價值。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-19T08:50:19.096719",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-19T08:50:32.515719",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 275 credits are required for this request."
+  },
+  {
+    "id": "2506.15225",
+    "title": "Joint Computation Offloading and Resource Allocation for Uncertain Maritime MEC via Cooperation of UAVs and Vessels",
+    "url": "https://arxiv.org/abs/2506.15225",
+    "authors": "Jiahao You, Ziye Jia, Chao Dong, Qihui Wu, Zhu Han",
+    "categories": [
+      "cs.AI",
+      "eess.SP"
+    ],
+    "summary": "這篇論文主要探討如何透過合作的方式，讓無人機（UAVs）和船隻一起協同運作，來處理海上邊緣運算（MEC）中的計算卸載和資源分配問題。簡單來說，就是讓無人機和船隻一起合作，提升海上邊緣運算的效率和可靠性。這個方法的創新之處在於能夠應對海上環境的不確定性，同時有效地分配計算任務和資源。這對於提升海上通訊和計算效能有很大的幫助，對於未來海上應用和服務的發展具有重要價值。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-19T08:50:19.096762",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-19T08:50:35.994036",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 299 credits are required for this request."
+  },
+  {
+    "id": "2506.15377",
+    "title": "Efficient and Generalizable Environmental Understanding for Visual Navigation",
+    "url": "https://arxiv.org/abs/2506.15377",
+    "authors": "Ruoyu Wang, Xinshu Li, Chen Wang, Lina Yao",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討如何提升視覺導航中對環境的理解效率和通用性。研究團隊提出了一種高效且具有廣泛適用性的方法，能夠幫助機器人更好地理解周遭環境，進而提升導航的表現。他們的方法不僅能夠有效處理各種不同環境下的情況，還能夠提高機器人對環境的理解能力，讓導航更加順利。這項研究對於提升機器人在各種環境下的導航能力具有重要價值。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-19T08:50:19.096804",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-19T08:50:38.718414",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 236 credits are required for this request."
+  },
+  {
+    "id": "2506.15567",
+    "title": "Managing Complex Failure Analysis Workflows with LLM-based Reasoning and Acting Agents",
+    "url": "https://arxiv.org/abs/2506.15567",
+    "authors": "Aline Dobrovsky, Konstantin Schekotihin, Christian Burmer",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文主要探討如何運用LLM-based推理和代理人來管理複雜的故障分析工作流程。簡單來說，就是讓人工智慧代理人來幫忙處理複雜的故障分析任務，提高效率。這個方法的創新之處在於能夠自動化處理故障分析流程，減少人為干預，同時提高準確性和效率。這對於提升工作效率和降低成本都有很大的幫助，尤其是在需要大量故障分析的情況下。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-19T08:50:19.096847",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-19T08:50:40.699444",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 246 credits are required for this request."
+  },
+  {
+    "id": "2506.15624",
+    "title": "The Effect of State Representation on LLM Agent Behavior in Dynamic Routing Games",
+    "url": "https://arxiv.org/abs/2506.15624",
+    "authors": "Lyle Goodyear, Rachel Guo, Ramesh Johari",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇研究探討了在動態路由遊戲中，不同的狀態表示對LLM智能體行為的影響。簡單來說，就是研究不同方式來描述環境狀態對智能體在遊戲中的表現有什麼影響。研究發現，適當的狀態表示可以改善智能體的表現，提高其在動態路由遊戲中的效率和效能。這項研究有助於我們更深入了解智能體在不同情境下的行為，對於未來發展智能遊戲或者路由系統有相當的啟發意義。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-19T08:50:19.096888",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-19T08:50:42.773147",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 248 credits are required for this request."
+  },
+  {
+    "id": "2506.15639",
+    "title": "The AI Policy Module: Developing Computer Science Student Competency in AI Ethics and Policy",
+    "url": "https://arxiv.org/abs/2506.15639",
+    "authors": "James Weichert, Daniel Dunlap, Mohammed Farghally, Hoda Eldardiry",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要介紹了一個名為「AI政策模組」的教學方法，旨在培養電腦科學學生在人工智慧倫理與政策方面的能力。這個模組幫助學生了解AI技術如何影響社會、個人隱私和道德議題，並提供了相關的教學資源和案例研究。通過這種教學方式，學生可以更全面地思考和討論人工智慧的應用，並學會在科技發展中考慮倫理和政策議題。這對培養未來AI專業人才具有重要意義。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-19T08:50:19.096928",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-19T08:50:46.532383",
+    "audio_error": "This request exceeds your quota of 30078. You have 91 credits remaining, while 262 credits are required for this request."
+  }
+]
