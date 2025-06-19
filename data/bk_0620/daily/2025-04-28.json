@@ -1,0 +1,216 @@
+{
+  "date": "2025-04-28",
+  "total_articles": 20,
+  "sources": [
+    {
+      "name": "ArXiv CS.AI",
+      "count": 10
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 10
+    }
+  ],
+  "articles": [
+    {
+      "id": "2504.17929",
+      "title": "ApproXAI: Energy-Efficient Hardware Acceleration of Explainable AI using Approximate Computing",
+      "url": "https://arxiv.org/abs/2504.17929",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個名為「XAIedge」的新框架，結合了近似運算技術和解釋性人工智慧（XAI）演算法，能在邊緣裝置上進行高效的硬體加速，讓AI系統更透明且能夠即時解釋結果。研究顯示，XAIedge相較於現有的XAI硬體加速技術，能提升2倍的能源效率，同時保持相當的準確性，有助於在能源受限的即時應用中推動可解釋AI的應用。",
+      "audio_file": "2504.17929.mp3",
+      "published_date": "Mon, 28 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2504.17967",
+      "title": "LLM Agent Swarm for Hypothesis-Driven Drug Discovery",
+      "url": "https://arxiv.org/abs/2504.17967",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文介紹了一個名為PharmaSwarm的新方法，利用多個專門的語言模型代理人來加速藥物發現過程。這些代理人能夠提出、驗證和改進有關新藥物靶點和前導化合物的假設。透過結合不同功能，如基因組和表現分析、生物醫學知識圖譜、通路豐富度和網路模擬等，並透過共享記憶層不斷優化系統，PharmaSwarm可以加速轉譯研究，提供高信心的假設，比傳統方法更有效率。",
+      "audio_file": "2504.17967.mp3",
+      "published_date": "Mon, 28 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2504.18007",
+      "title": "Differential Privacy-Driven Framework for Enhancing Heart Disease Prediction",
+      "url": "https://arxiv.org/abs/2504.18007",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文主要探討如何在保護病患隱私的同時，利用機器學習技術來預測心臟疾病。他們運用差分隱私和聯邦學習等方法，讓醫療相關人員可以從數據中獲取洞察，同時確保個人隱私不被侵犯。研究結果顯示，他們開發的模型在測試中達到85%的準確率，確保病患數據在整個過程中保持安全和私密。這項研究有助於提升醫療決策的準確性，同時保護病患的隱私資料。",
+      "audio_file": "2504.18007.mp3",
+      "published_date": "Mon, 28 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2504.18039",
+      "title": "MultiMind: Enhancing Werewolf Agents with Multimodal Reasoning and Theory of Mind",
+      "url": "https://arxiv.org/abs/2504.18039",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個名為MultiMind的新框架，讓AI在狼人殺等社交推理遊戲中能夠更好地理解人類的溝通方式。MultiMind不僅考慮文字訊息，還分析臉部表情、語氣等多模態訊號，同時透過心智理論模型來推測玩家之間的懷疑程度。透過這種方式，AI能夠制定更有效的溝通策略，提升在遊戲中的表現。這項研究對於讓AI在多模態領域展現出人類般的社交推理能力有著重大的意義。",
+      "audio_file": "2504.18039.mp3",
+      "published_date": "Mon, 28 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2504.18096",
+      "title": "Combating the Bucket Effect:Multi-Knowledge Alignment for Medication Recommendation",
+      "url": "https://arxiv.org/abs/2504.18096",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個名為MKMed的新方法，用來改善藥物推薦中的資料不平衡問題，稱為「桶子效應」。他們使用跨模態藥物編碼器將不同類型的知識資料整合在一起，提高了推薦的準確性和安全性。經過實驗證明，MKMed在MIMIC-III和MIMIC-IV數據集上表現優異，超越了現有模型。這個方法的創新之處在於整合多種知識來提升藥物推薦的效果，對於醫療保健領域具有重要價值。",
+      "audio_file": "2504.18096.mp3",
+      "published_date": "Mon, 28 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2504.18443",
+      "title": "Pseudo-Boolean Proof Logging for Optimal Classical Planning",
+      "url": "https://arxiv.org/abs/2504.18443",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一種新方法，可以用來證明傳統規劃任務的不可解性或計畫的最佳性，並且可以被獨立第三方驗證。簡單來說，就是可以用一種通用的方式生成證明，來確認規劃任務的最佳解。研究者們展示了如何修改$A^{*}$演算法，以較小的開銷產生最佳性證明，並以模式資料庫啟發式和$h^\\textit{max}$為具體例子。這種證明記錄方法對任何能夠有效地表達為虛偽布林約束的推理的啟發式都適用。",
+      "audio_file": "2504.18443.mp3",
+      "published_date": "Mon, 28 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2504.18453",
+      "title": "Reason Like a Radiologist: Chain-of-Thought and Reinforcement Learning for Verifiable Report Generation",
+      "url": "https://arxiv.org/abs/2504.18453",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個名為BoxMed-RL的新方法，幫助AI模型像放射科醫師一樣理性思考，生成可靠的放射學報告。透過結合鏈式思維和強化學習，讓模型能夠準確連結醫學概念和解剖位置，提高報告的可靠性和可解釋性。實驗結果顯示，BoxMed-RL相較於現有方法，在報告品質上有顯著提升，進一步確立其在放射學報告生成領域的價值和創新性。",
+      "audio_file": "2504.18453.mp3",
+      "published_date": "Mon, 28 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2504.18530",
+      "title": "Scaling Laws For Scalable Oversight",
+      "url": "https://arxiv.org/abs/2504.18530",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文研究了一種名為「可擴展監督」的方法，讓較弱的人工智慧系統監督更強大的系統，以控制未來超智能系統。他們提出了一個框架，量化了成功監督的機率，取決於監督者和被監督系統的能力。經過一系列遊戲模擬和理論研究，他們找出了最佳的監督層級數量，以最大化成功監督的機率。研究發現，當監督的系統比基準監督者強400 Elo分時，可擴展監督的成功率低於52％，並對監督更強大的系統的成功率進一步下降。",
+      "audio_file": "2504.18530.mp3",
+      "published_date": "Mon, 28 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2504.18536",
+      "title": "Adapting Probabilistic Risk Assessment for AI",
+      "url": "https://arxiv.org/abs/2504.18536",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個新的概率風險評估框架，專門針對現代通用人工智慧系統可能帶來的風險挑戰。這個框架引入了從高可靠性產業（如核能、航太）中建立的概率風險評估技術，幫助評估人員識別潛在風險、估計發生機率和嚴重性，並明確記錄證據、基本假設和分析。這個系統性方法整合了三個進步：（1）方面導向危害分析提供系統性危害覆蓋；（2）風險途徑建模分析從系統方面到社會影響的因果鏈；（3）不確定性管理結構可信預測。這個框架",
+      "audio_file": "2504.18536.mp3",
+      "published_date": "Mon, 28 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2504.17792",
+      "title": "My Precious Crash Data: Barriers and Opportunities in Encouraging Autonomous Driving Companies to Share Safety-Critical Data",
+      "url": "https://arxiv.org/abs/2504.17792",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文探討自駕車公司為何不願意分享事故相關資料，發現兩大障礙：一是資料中蘊含重要知識且耗費資源，內部分享也充滿政治考量；二是公司認為安全知識是競爭優勢，不是為社會福祉而公開。研究指出這些發現對於鼓勵自駕車安全資料分享有重要啟示，包括如何辯論和區分公共與私人安全知識，以及創新資料工具和分享管道，降低維護資料成本並激勵分享。",
+      "audio_file": "2504.17792.mp3",
+      "published_date": "Mon, 28 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "155874e03a2ba386852ad9dab40cac60",
+      "title": "Is your AI product actually working? How to develop the right metric system",
+      "url": "https://venturebeat.com/ai/is-your-ai-product-actually-working-how-to-develop-the-right-metric-system/",
+      "source": "VentureBeat AI",
+      "summary": "這篇新聞談到如何確保你的AI產品真的運作正常，重點在於發展正確的衡量系統。如果不追蹤產品表現，就像飛機降落時沒有空中交通管制指示一樣危險。確保團隊共同明確衡量指標，避免各自搞自己的版本，才能確保大家朝著同一目標前進。要確保AI產品運作正常，首先要明確想要了解產品的哪些方面。",
+      "audio_file": "155874e03a2ba386852ad9dab40cac60.mp3",
+      "published_date": "Sun, 27 Apr 2025 19:15:00 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "f5c385a16003fad5b066d90a7dafecd7",
+      "title": "DeepSeek’s success shows why motivation is key to AI innovation",
+      "url": "https://venturebeat.com/ai/deepseeks-success-shows-why-motivation-is-key-to-ai-innovation/",
+      "source": "VentureBeat AI",
+      "summary": "一家名為DeepSeek的中國公司在AI領域取得成功，挑戰了OpenAI和美國科技巨頭。他們雖然沒有在技術上完全超越對手，但卻在節省成本和能源使用效率上有所突破。DeepSeek的成功關鍵在於他們的動力和創新精神，這點讓他們在硬體效率上有所優勢。這也提醒了大公司，要在AI創新上不只看技術，更要看動力。",
+      "audio_file": "f5c385a16003fad5b066d90a7dafecd7.mp3",
+      "published_date": "Sat, 26 Apr 2025 19:55:00 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "bffba51be3693064b13daa81cc2e1923",
+      "title": "Liquid AI is revolutionizing LLMs to work on edge devices like smartphones with new ‘Hyena Edge’ model",
+      "url": "https://venturebeat.com/ai/liquid-ai-is-revolutionizing-llms-to-work-on-edge-devices-like-smartphones-with-new-hyena-edge-model/",
+      "source": "VentureBeat AI",
+      "summary": "Liquid AI推出新的「Hyena Edge」模型，革新了大型語言模型在智慧裝置上運作的方式，尤其針對智慧手機等邊緣裝置。這個模型在效率和品質上表現優異，能在智慧手機上提供更快速、更節省記憶體的人工智慧應用。這個新架構不同於傳統的設計，採用了新的卷積技術，讓AI在邊緣裝置上更有效率。Liquid AI致力於推動科技產業超越目前主流的Transformer架構，開創新的AI應用領域。",
+      "audio_file": "bffba51be3693064b13daa81cc2e1923.mp3",
+      "published_date": "Fri, 25 Apr 2025 22:02:47 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "19be4957aff9619bf956c91a25672c92",
+      "title": "The new AI calculus: Google’s 80% cost edge vs. OpenAI’s ecosystem",
+      "url": "https://venturebeat.com/ai/the-new-ai-calculus-googles-80-cost-edge-vs-openais-ecosystem/",
+      "source": "VentureBeat AI",
+      "summary": "Google在AI領域擁有80%的成本優勢，而OpenAI則依賴其生態系統。企業在選擇AI平台時，不僅要看模型表現，還要考慮生態系統對成本、開發策略、模型可靠性等的影響。Google利用自家的矽片技術，讓AI運算成本大幅降低，而OpenAI則使用Nvidia的GPU成本較高。企業需在計算成本、AI代理建構策略、模型可靠性等方面仔細衡量，才能選擇適合的AI平台。",
+      "audio_file": "19be4957aff9619bf956c91a25672c92.mp3",
+      "published_date": "Fri, 25 Apr 2025 20:26:46 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "fa22b54c2d648a7f8da92c4d6422ab1e",
+      "title": "Is that really your boss calling? Jericho Security raises $15M to stop deepfake fraud that’s cost businesses $200M in 2025 alone",
+      "url": "https://venturebeat.com/ai/is-that-really-your-boss-calling-jericho-security-raises-15m-to-stop-deepfake-fraud-thats-cost-businesses-200m-in-2025-alone/",
+      "source": "VentureBeat AI",
+      "summary": "Jericho Security成功籌得1500萬美元資金，用於開發AI防護平台，阻止深偽造詐騙。這種詐騙在2025年已讓企業損失2億美元。他們的技術可以防止駭客製作聲音複製品，假冒高層要求匯款。這筆投資來自多家投資者，包括Era Fund、Lux Capital等。Jericho Security在軍方合約中獲得1.8百萬美元，成功提升了在競爭激烈市場中的聲譽。",
+      "audio_file": "fa22b54c2d648a7f8da92c4d6422ab1e.mp3",
+      "published_date": "Thu, 24 Apr 2025 22:18:45 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "3517836409e904079b6da053f1e82462",
+      "title": "Intel’s new CEO signals streamlining efforts but does not spell out exact layoff numbers",
+      "url": "https://venturebeat.com/games/intels-new-ceo-signals-streamlining-efforts-but-does-not-spell-out-exact-layoff-numbers/",
+      "source": "VentureBeat AI",
+      "summary": "Intel的新CEO譚立步向員工發出直接訊息，表示公司必須重新組織以提高效率，暗示將進行精簡化努力，但並未明確說明裁員數字。這代表Intel可能會有一波組織調整，以期提升競爭力。",
+      "audio_file": "3517836409e904079b6da053f1e82462.mp3",
+      "published_date": "Thu, 24 Apr 2025 21:15:00 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "981196fc54734376655d1866441ead4e",
+      "title": "Zencoder buys Machinet to challenge GitHub Copilot as AI coding assistant consolidation accelerates",
+      "url": "https://venturebeat.com/ai/zencoder-buys-machinet-to-challenge-github-copilot-as-ai-coding-assistant-consolidation-accelerates/",
+      "source": "VentureBeat AI",
+      "summary": "Zencoder收購Machinet，挑戰GitHub Copilot在AI程式碼助手領域的地位，加速整合。這次收購強化了Zencoder在競爭激烈的AI程式碼助手市場中的地位，擴大了對Java開發人員和其他JetBrains開發環境使用者的影響力。這對Zencoder來說是戰略擴張，讓他們成為GitHub Copilot等AI程式碼工具的嚴肅競爭對手之一。",
+      "audio_file": "981196fc54734376655d1866441ead4e.mp3",
+      "published_date": "Thu, 24 Apr 2025 20:36:27 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "a9a29d20f1abf19e44561048f5333859",
+      "title": "Ethically trained AI startup Pleias releases new small reasoning models optimized for RAG with built-in citations",
+      "url": "https://venturebeat.com/ai/ethically-trained-ai-startup-pleias-releases-new-small-reasoning-models-optimized-for-rag-with-built-in-citations/",
+      "source": "VentureBeat AI",
+      "summary": "一家注重倫理訓練的AI新創公司 Pleias 推出了新的小型推理模型，特別針對具備內建引用功能的 RAG 進行優化。這些模型適合整合到搜尋增強助手、教育工具和使用者支援系統中，有助於提升搜尋效能和使用者體驗。",
+      "audio_file": "a9a29d20f1abf19e44561048f5333859.mp3",
+      "published_date": "Thu, 24 Apr 2025 17:03:56 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "3af562527411e8986b006b9d547d4da5",
+      "title": "Evil Geniuses and Theta Labs launch AI chatbot based on esports mascot Meesh",
+      "url": "https://venturebeat.com/games/evil-geniuses-and-theta-labs-launch-ai-chatbot-based-on-esports-mascot-meesh/",
+      "source": "VentureBeat AI",
+      "summary": "Evil Geniuses和Theta Labs合作推出基於電競吉祥物Meesh的AI聊天機器人，讓粉絲可以和Meesh互動，包括嘻哈對話、問答遊戲等。Evil Geniuses一直致力於AI技術，這次他們的Meesh聊天機器人是在Theta Labs的協助下開發的。粉絲可以在Evil Geniuses的Discord伺服器和官方網站上與Meesh互動，提問有關Evil Geniuses的問題。這個AI聊天機器人讓粉絲更貼近他們喜愛的電競團隊。",
+      "audio_file": "3af562527411e8986b006b9d547d4da5.mp3",
+      "published_date": "Thu, 24 Apr 2025 14:00:00 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "e8ba003e4515f86eed61927d6443c130",
+      "title": "Google adds more AI tools to its Workspace productivity apps",
+      "url": "https://venturebeat.com/ai/google-adds-more-ai-tools-to-its-workspace-productivity-apps/",
+      "source": "VentureBeat AI",
+      "summary": "Google在其Workspace生產力應用程式中新增更多AI工具，包括音頻概述和Canvas功能。音頻概述讓使用者能夠根據上傳的文件和投影片創建音頻文件，並在深度研究報告中生成音頻概述。Canvas功能則讓使用者使用Gemini模型創建草稿並優化文字或程式碼。此外，Google還簡化了用戶將事件和會議添加到日曆的流程。這些更新提供了更多創造和協作的方式，提升了工作效率。",
+      "audio_file": "e8ba003e4515f86eed61927d6443c130.mp3",
+      "published_date": "Wed, 23 Apr 2025 22:43:25 +0000",
+      "content_type": "news"
+    }
+  ]
+}

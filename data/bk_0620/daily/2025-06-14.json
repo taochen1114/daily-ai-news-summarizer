@@ -1,0 +1,142 @@
+{
+  "date": "2025-06-14",
+  "total_articles": 10,
+  "sources": [
+    {
+      "name": "VentureBeat",
+      "count": 10
+    }
+  ],
+  "articles": [
+    {
+      "id": "daeef91f55537c77cfffd3341b32b637",
+      "title": "Just add humans: Oxford medical study underscores the missing link in chatbot testing",
+      "url": "https://venturebeat.com/ai/just-add-humans-oxford-medical-study-underscores-the-missing-link-in-chatbot-testing/",
+      "source": "VentureBeat",
+      "summary": "牛津醫學研究指出，在測試聊天機器人時，加入人類參與是關鍵。研究發現，雖然大型語言模型在直接測試情境下能正確識別相關病況達94.9%，但人類使用這些模型診斷的準確率不到34.5%。更驚人的是，患者使用這些模型的表現甚至比自行診斷的對照組還差。這項研究引發對於使用語言模型提供醫療建議的適當性和評估聊天機器人應用的基準的疑問。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-14T00:34:19+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "d817d5b0a40d281740957ed966d60937",
+      "title": "Do reasoning models really “think” or not? Apple research sparks lively debate, response",
+      "url": "https://venturebeat.com/ai/do-reasoning-models-really-think-or-not-apple-research-sparks-lively-debate-response/",
+      "source": "VentureBeat",
+      "summary": "蘋果的機器學習團隊發表研究論文，質疑大型推理模型是否真的能「思考」。他們認為這些模型只是在做「模式匹配」，當任務變得複雜時，它們的推理能力就會崩潰。這引發了激烈的辯論，許多人認為蘋果的研究否定了這類人工智慧的炒作。這篇研究對於提升生成式人工智慧至人工通用智能的路徑提出了挑戰。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T22:02:22+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "6baf034407326636f909f2d07f462957",
+      "title": "Beyond GPT architecture: Why Google’s Diffusion approach could reshape LLM deployment",
+      "url": "https://venturebeat.com/ai/beyond-gpt-architecture-why-googles-diffusion-approach-could-reshape-llm-deployment/",
+      "source": "VentureBeat",
+      "summary": "Google的新技術Gemini Diffusion採用了一種新方法生成文字，比起傳統的autoregression方式更快速且提升了一致性。這種新方法可以讓大型語言模型更有效率地生成內容，可能會改變LLM的應用方式。Gemini Diffusion目前是實驗性的，想要體驗的人可以報名等待名單。這種新方法的出現可能會影響到未來AI文字生成的發展方向。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T21:48:11+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "175ad30027aa0d4711dbcef48784b1c4",
+      "title": "The case for embedding audit trails in AI systems before scaling",
+      "url": "https://venturebeat.com/ai/the-case-for-embedding-audit-trails-in-ai-systems-before-scaling/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞談到在AI系統擴展之前，應該先內建審計蹤跡，以確保系統運作正常且符合規定。內建審計蹤跡可以讓企業管理者追蹤系統運作情況，避免問題發生時才發現。專家指出，這樣的控制措施可以幫助企業確保AI系統運作正常，並提供必要的記錄以追蹤資訊提供者和操作情況，有助於確保資訊安全。建議在AI系統早期階段就加入這些功能，以降低風險並確保系統運作穩定。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T20:13:09+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "764cee8324b5babace715c43fc61b33c",
+      "title": "Wizards of the Coast and Giant Skull: ‘Gamers are telling us what they have always told us’ | The DeanBeat",
+      "url": "https://venturebeat.com/games/wizards-of-the-coast-and-giant-skull-gamers-are-telling-us-what-they-have-always-told-us-the-deanbeat/",
+      "source": "VentureBeat",
+      "summary": "Wizards of the Coast和Giant Skull合作開發一款基於龍與地下城(D&D)世界的單人動作冒險遊戲。這次合作被認為是兩家公司在遊戲領域野心的重要時刻。遊戲目前正在為PC和遊戲主機進行開發，更多細節將在未來公布。Wizards of the Coast的總裁John Hight和Giant Skull的CEO Stig Asmussen對這次合作表示了期待。整體來說，這個消息對遊戲界來說是一個值得關注的重要合作案。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T17:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "a0263e188061879411fba596f387faa8",
+      "title": "Senator’s RISE Act would require AI developers to list training data, evaluation methods in exchange for ‘safe harbor’ from lawsuits",
+      "url": "https://venturebeat.com/ai/senators-rise-act-would-require-ai-developers-to-list-training-data-evaluation-methods-in-exchange-for-safe-harbor-from-lawsuits/",
+      "source": "VentureBeat",
+      "summary": "美國參議員提出的RISE法案要求AI開發者公開訓練數據和評估方法，以換取免責權，避免被起訴。這項法案旨在增加透明度，保護消費者權益，並推動AI產業的穩定發展。法案還將對醫生、律師、工程師等專業人士實施傳統的疏失標準。這項提案需要經過眾議院和參議院的多數通過，並經過總統簽署後才能成為法律。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T14:59:24+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "98bc781442496c8aa9c16edcba37c9c6",
+      "title": "The latest state of the game jobs market | Amir Satvat",
+      "url": "https://venturebeat.com/games/the-latest-state-of-the-game-jobs-market-amir-satvat/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞講述了遊戲產業就業市場的現況，主要由Amir Satvat提供最新數據。他指出，遊戲相關工作主要集中在擁有5至15年經驗的專業人士身上。然而，對於剛畢業或早期職涯的人來說，找工作的機會相當低，尤其在北美以外更是困難。此外，一些職位如敘事角色和業務拓展的需求遠超供應。總體而言，遊戲業的招聘勢頭保持穩定，但招聘速度已趨於平緩。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T13:30:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "4a16152ac41063b8e1035fdf51e44b70",
+      "title": "Red team AI now to build safer, smarter models tomorrow",
+      "url": "https://venturebeat.com/security/red-team-ai-now-to-build-safer-smarter-models-tomorrow/",
+      "source": "VentureBeat",
+      "summary": "未來AI模型面臨安全威脅，攻擊者技術超前。為了建立更安全、更智慧的模型，必須從今天開始進行紅隊測試，不斷挑戰模型的安全性。透過持續的對抗性測試，將安全整合到軟體開發週期中，以保護大型語言模型。這種全新的安全整合方式將有助於降低模型遭受攻擊的風險，並確保敏感資料不被外洩。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T13:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "da07b9df3177d2492708a4da3f42d88a",
+      "title": "Gamefam brings FIFA Club World Cup 2025 to Roblox",
+      "url": "https://venturebeat.com/games/gamefam-brings-fifa-club-world-cup-2025-to-roblox/",
+      "source": "VentureBeat",
+      "summary": "Gamefam與FIFA合作，在Roblox的遊戲Super League Soccer中舉辦FIFA Club World Cup 2025，讓玩家可以操控13支參賽足球隊。活動將於6月14日開始，持續至7月13日，同步進行真實的Club World Cup。這是他們第二次合作，旨在吸引Roblox年輕玩家，提升足球賽事在遊戲中的知名度。透過遊戲內的廣告、贊助商商品和真實比賽更新，讓玩家身歷其境。Gamefam表示，這次合作不僅是行銷活動，更是文化時刻，希望重新定義年輕世代對足球的熱愛和體驗。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T13:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "41ea6141f6a835a6d63ee837d3a16fe3",
+      "title": "SAG-AFTRA board approves agreement with game companies on AI and new contract",
+      "url": "https://venturebeat.com/games/sag-aftra-board-approves-agreement-with-game-companies-on-ai-and-new-contract/",
+      "source": "VentureBeat",
+      "summary": "SAG-AFTRA的董事會批准了與遊戲公司達成的協議，涉及AI和新合約。新合約包括了關於AI使用的重要規定，並提高了表演者的報酬。若獲通過，表演者的報酬將在幾年內逐步增加，同時也確保了安全條款，例如在危險情況下需要有合格醫務人員在場。這項協議將對遊戲行業的工作條件和表演者的權益有所改善。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T00:04:00+00:00",
+      "content_type": "news"
+    }
+  ]
+}

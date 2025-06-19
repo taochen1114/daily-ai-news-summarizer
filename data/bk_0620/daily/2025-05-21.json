@@ -1,0 +1,146 @@
+{
+  "date": "2025-05-21",
+  "total_articles": 13,
+  "sources": [
+    {
+      "name": "ArXiv CS.AI",
+      "count": 10
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2505.11584",
+      "title": "LLM Agents Are Hypersensitive to Nudges",
+      "url": "https://arxiv.org/abs/2505.11584",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇研究發現，當人工智慧模型在複雜環境中做決策時，對於一些微妙的影響非常敏感，像是預設選項、建議或資訊突顯等。這些模型在做決策時，容易受到這些影響而做出不同於人類的選擇。研究者也發現透過一些提示策略，可以改變模型的選擇分佈，但仍無法完全解決模型對這些影響的敏感度。因此，研究建議在將這些模型應用在複雜環境中之前，需要進行行為測試。",
+      "audio_file": "2505.11584.mp3",
+      "published_date": "Tue, 20 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.11610",
+      "title": "Foundation Models for AI-Enabled Biological Design",
+      "url": "https://arxiv.org/abs/2505.11610",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文探討了在人工智慧技術下，如何應用大規模、自我監督的模型來進行生物設計，主要聚焦於蛋白質工程、小分子設計和基因組序列設計等任務。作者們提出了一個對目前模型和方法進行分類的調查，並討論了在生物應用中適應這些模型所面臨的挑戰和解決方案。最後，他們提出了未來研究方向和解決問題的具體步驟，以提高生物序列生成的質量。",
+      "audio_file": "2505.11610.mp3",
+      "published_date": "Tue, 20 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.11611",
+      "title": "Probing the Vulnerability of Large Language Models to Polysemantic Interventions",
+      "url": "https://arxiv.org/abs/2505.11611",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇研究探討大型語言模型對多義詞干擾的脆弱性，發現即使是小型模型也存在多義性結構，可被利用進行干擾。研究者利用稀疏自編碼器分析模型結構，發現這種多義結構在不同模型中普遍存在，並可跨架構和訓練方式轉移。這項研究揭示了語言模型的安全性挑戰，對於模型的解釋性和安全性有重要啟示。",
+      "audio_file": "2505.11611.mp3",
+      "published_date": "Tue, 20 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.11612",
+      "title": "Heart2Mind: Human-Centered Contestable Psychiatric Disorder Diagnosis System using Wearable ECG Monitors",
+      "url": "https://arxiv.org/abs/2505.11612",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個名為Heart2Mind的系統，利用可穿戴心電圖監測器幫助診斷精神疾病。透過心率變異性和R-R間隔時間序列作為客觀指標，幫助檢測精神狀況的自主功能異常。系統包含三個主要組件：心臟監測界面、多尺度時間頻率轉換器和可爭議診斷界面，結合了可解釋人工智慧和可爭議的大型語言模型，提供透明且可爭議的診斷系統。這項研究展示了結合可穿戴科技和XAI技術，創造出一個具有高度透明度和爭議性的精神疾病診斷系統的可行性。",
+      "audio_file": "2505.11612.mp3",
+      "published_date": "Tue, 20 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.11614",
+      "title": "Using Reinforcement Learning to Train Large Language Models to Explain Human Decisions",
+      "url": "https://arxiv.org/abs/2505.11614",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇研究利用強化學習來訓練大型語言模型，幫助解釋人類的決策過程。他們發現透過預先訓練的大型語言模型，可以同時提供準確的預測和易於理解的說明，特別是在解釋人類冒險選擇時。這項研究的價值在於開創了一個新的途徑，讓機器能夠以自然語言生成清晰的推理過程，同時也能準確預測人類的決策。",
+      "audio_file": "2505.11614.mp3",
+      "published_date": "Tue, 20 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.11618",
+      "title": "Benchmarking Spatiotemporal Reasoning in LLMs and Reasoning Models: Capabilities and Challenges",
+      "url": "https://arxiv.org/abs/2505.11618",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文主要探討在大型語言模型（LLMs）和大型推理模型（LRMs）中，對於複雜時空訊號的推理能力進行評估。研究提出了一個名為STARK的層次化時空推理基準，通過26個不同的時空任務來評估模型的表現。結果顯示，LLMs在需要幾何推理的任務上表現有限，而LRMs則在各種難度的任務中表現穩健。研究發現，在需要世界知識的推理任務中，LLMs和LRMs之間的性能差距逐漸縮小。這項研究有助於未來智能CPS模型架構和推理範式的創新。",
+      "audio_file": "2505.11618.mp3",
+      "published_date": "Tue, 20 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.11646",
+      "title": "FLOW-BENCH: Towards Conversational Generation of Enterprise Workflows",
+      "url": "https://arxiv.org/abs/2505.11646",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個名為「FLOW-BENCH」的資料集，幫助企業將自然語言指令轉換成結構化的業務流程文件，這是一個熱門的研究領域。他們開發了一個名為「FLOW-GEN」的方法，利用大型語言模型將自然語言轉換成Python語法，再進一步轉換成常用的業務流程定義語言。這個研究希望透過「FLOW-GEN」和「FLOW-BENCH」來推動業務流程自動化領域的研究，讓初學者和專家都能更容易地使用相關工具。",
+      "audio_file": "2505.11646.mp3",
+      "published_date": "Tue, 20 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.11661",
+      "title": "Learning from Less: Guiding Deep Reinforcement Learning with Differentiable Symbolic Planning",
+      "url": "https://arxiv.org/abs/2505.11661",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個名為Dylan的新框架，將符號式規劃引入強化學習，讓AI能夠像人類一樣在解決問題時分解成小任務，並根據觀察調整計劃。透過Dylan，AI能夠更有效地探索環境，提高學習效率，並在未知任務上有更好的表現。這項研究的核心創新在於結合符號式規劃和強化學習，讓AI具備類似「人類先驗知識」，幫助AI在少量互動中學習。",
+      "audio_file": "2505.11661.mp3",
+      "published_date": "Tue, 20 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.11698",
+      "title": "Conditional Deep Generative Models for Belief State Planning",
+      "url": "https://arxiv.org/abs/2505.11698",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一種新方法，使用條件深度生成模型來有效表示部分可觀察馬可夫決策過程中的信念狀態。這種方法特別適合應對高維度狀態和大量觀察的情況，能夠產生後驗信念的任意數量樣本。經過訓練後，這些模型在解決具有大型連續狀態空間的礦產勘探問題時表現優異，不僅在信念準確性方面優於基準粒子濾波器，而且在規劃性能上也表現出色。",
+      "audio_file": "2505.11698.mp3",
+      "published_date": "Tue, 20 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.11701",
+      "title": "DMN-Guided Prompting: A Low-Code Framework for Controlling LLM Behavior",
+      "url": "https://arxiv.org/abs/2505.11701",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個新的方法，利用決策模型來引導大型語言模型（LLMs）進行決策，讓使用者更容易控制和修改模型的行為。研究者設計了一個以決策模型為基礎的框架，將複雜的決策邏輯分解成易管理的部分，引導LLMs按照結構化的決策路徑進行。在研究中，學生提交作業，並使用框架生成反饋，結果表現優異且獲得正面回饋。這個方法比傳統的提示方法表現更好，也受到學生高度肯定。",
+      "audio_file": "2505.11701.mp3",
+      "published_date": "Tue, 20 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "e42b231208a9cf0b2202c8c69bd3b454",
+      "title": "Google finally launches NotebookLM mobile app at I/O: hands-on, first impressions",
+      "url": "https://venturebeat.com/ai/google-finally-launches-notebooklm-mobile-app-at-i-o-hands-on-first-impressions/",
+      "source": "VentureBeat AI",
+      "summary": "Google終於在I/O大會上推出了NotebookLM手機應用程式，讓使用者可以在手機上使用這個人氣的AI服務，之前只能在網頁上使用。NotebookLM是一個免費的Google AI服務，最初是用來上傳和查詢文件，後來演變成一個極受歡迎的AI播客生成器，擁有兩個非常有個性的AI主持人聲音。手機應用程式的推出是對用戶需求的回應，讓用戶可以更方便地使用NotebookLM。",
+      "audio_file": "e42b231208a9cf0b2202c8c69bd3b454.mp3",
+      "published_date": "2025-05-20T19:29:14+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "7ab97e4f9715022bbb2a121be8cad471",
+      "title": "Google just leapfrogged every competitor with mind-blowing AI that can think deeper, shop smarter, and create videos with dialogue",
+      "url": "https://venturebeat.com/ai/google-just-leapfrogged-every-competitor-with-mind-blowing-ai-that-can-think-deeper-shop-smarter-and-create-videos-with-dialogue/",
+      "source": "VentureBeat AI",
+      "summary": "Google在年度開發者大會上宣布了一系列令人驚嘆的人工智慧進步，包括更強大的AI模型、擴展搜索能力，以及推出可以深入思考、智慧購物和創建對話式影片的AI。這些進步反映了Google在AI領域的快速發展，讓更多人可以享受到智慧。Gemini 2.5模型的更新將帶來革命性的「深度思考」功能，讓人工智慧更加強大且普及化。",
+      "audio_file": "7ab97e4f9715022bbb2a121be8cad471.mp3",
+      "published_date": "2025-05-20T17:45:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "2e3cdbe57505a95ed01621c34612e6a7",
+      "title": "Google’s Jules aims to out-code Codex in battle for the AI developer stack",
+      "url": "https://venturebeat.com/ai/googles-jules-aims-to-out-code-codex-in-battle-for-the-ai-developer-stack/",
+      "source": "VentureBeat AI",
+      "summary": "Google推出的Jules是一個能夠自主修復程式碼bug的編碼助手，將與其他AI編碼助手競爭。Jules將整合到GitHub並使用Google的Gemini 2.5 Pro。開發者在公測階段可以免費使用Jules，但有使用限制。這代表Google正積極參與AI開發者工具的競爭，希望在這個領域脫穎而出。",
+      "audio_file": "2e3cdbe57505a95ed01621c34612e6a7.mp3",
+      "published_date": "2025-05-20T17:45:00+00:00",
+      "content_type": "news"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "date": "2025-06-20",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2506.14936",
+      "title": "CALM: Contextual Analog Logic with Multimodality",
+      "url": "https://arxiv.org/abs/2506.14936",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個名為CALM的新方法，可以在處理多模態數據時更好地理解上下文。簡單來說，就是讓電腦更聰明地處理不同類型的資訊，像是文字、圖片等。這個方法的創新之處在於它可以更好地模擬人類的思維方式，提高了AI系統的準確性和效率。這對於提升機器學習和人工智慧技術的應用範疇有很大的幫助，讓機器能更好地理解我們複雜的世界。",
+      "audio_file": "audio/articles/2506.14936.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.14936.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-20T03:02:28.398754",
+      "published_date": "2025-06-19",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.14990",
+      "title": "MEAL: A Benchmark for Continual Multi-Agent Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2506.14990",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個名為MEAL的新標竿，專為持續學習的多智能體強化學習設計。這個標竿可以幫助研究人員評估多智能體系統在不斷學習新任務時的表現。透過MEAL，研究者可以更好地了解多智能體系統如何在不斷變化的環境中學習和適應，進而提升系統的效能和穩定性。這個標竿的提出將有助於推動持續學習和多智能體強化學習領域的研究和發展。",
+      "audio_file": "audio/articles/2506.14990.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.14990.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-20T03:02:38.727634",
+      "published_date": "2025-06-19",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.15050",
+      "title": "Truncated Proximal Policy Optimization",
+      "url": "https://arxiv.org/abs/2506.15050",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一種名為「截斷式近端策略優化」的新方法，簡稱TPPO。這個方法在強化學習領域中有著重要的創新價值，能夠有效地提升訓練效率和性能表現。簡單來說，TPPO能夠更有效地處理大規模數據，並在訓練過程中更快地收斂到最佳策略。這個方法有助於提高人工智慧系統在各種任務中的表現，是一個具有潛力的新技術。",
+      "audio_file": "audio/articles/2506.15050.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.15050.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-20T03:02:46.102379",
+      "published_date": "2025-06-19",
+      "content_type": "academic"
+    },
+    {
+      "id": "9128a8166e4f4bf32402edf45e2163f6",
+      "title": "Maximum Football launches on PC and consoles as community-driven football sim",
+      "url": "https://venturebeat.com/business/maximum-football-launches-on-pc-and-consoles-as-community-driven-football-sim/",
+      "source": "VentureBeat",
+      "summary": "一款名為\"Maximum Football\"的足球模擬遊戲正式在PC和遊戲機上推出，這是由玩家社群共同打造的免費遊戲。遊戲在Steam和Xbox Game Preview上經過成功的早期測試後，現在正式推出1.0版本，帶來全新內容、優化和性能提升。玩家可以參與遊戲的進化，自由地進行創作和自定義。新版本還推出了名為\"Season 3: Golden Era\"的賽季，帶來1930年代至1940年代足球風格的全新體驗。",
+      "audio_file": "audio/articles/9128a8166e4f4bf32402edf45e2163f6.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/9128a8166e4f4bf32402edf45e2163f6.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-20T03:02:52.958307",
+      "published_date": "2025-06-19T18:16:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "77b47bc34e6d08e58026c6813e0a789a",
+      "title": "Studio Ulster launches $96.5M virtual production facility",
+      "url": "https://venturebeat.com/games/studio-ulster-launches-96-5m-virtual-production-facility/",
+      "source": "VentureBeat",
+      "summary": "北愛爾蘭的Studio Ulster投資了超過9600萬美元建立虛擬製作設施，是全球最先進的虛擬製作場地之一。這個設施將支持從大片電影到高端電視劇、AAA遊戲開發和世界級動畫的製作，採用即時引擎、攝影機內視覺效果、體積捕捉和運動追蹤技術，重新定義了故事創作、渲染和呈現方式。Studio Ulster的建立將提升英國和愛爾蘭的商業製片能力，並成為全球即時製作的新標竿。",
+      "audio_file": "audio/articles/77b47bc34e6d08e58026c6813e0a789a.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/77b47bc34e6d08e58026c6813e0a789a.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-20T03:03:01.698967",
+      "published_date": "2025-06-19T16:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "da6017667bd99cc1653db7ecff0e6a9b",
+      "title": "The pleasure of transforming sand to water in Sword of the Sea | Matt Nava interview",
+      "url": "https://venturebeat.com/games/the-pleasure-of-transforming-sand-to-water-in-sword-of-the-sea-matt-nava-interview/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞講的是遊戲《Sword of the Sea》的創作者Matt Nava訪談。遊戲以將沙變成海水的過程帶來愉悅感，玩家在遊戲中透過解謎將沙轉化為海水，沒有對話，只有美麗的音樂。遊戲的設計靈感來自於滑雪和衝浪，強調與大自然的連結。儘管遊戲沒有暴力元素，但玩家需要尋找某個目標。Giant Squid遊戲公司在遊戲開發中獲得PlayStation的支持，讓公司走出困境。",
+      "audio_file": "audio/articles/da6017667bd99cc1653db7ecff0e6a9b.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/da6017667bd99cc1653db7ecff0e6a9b.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-20T03:03:11.051779",
+      "published_date": "2025-06-19T13:30:00+00:00",
+      "content_type": "news"
+    }
+  ]
+}

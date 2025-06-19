@@ -1,0 +1,142 @@
+{
+  "date": "2025-06-07",
+  "total_articles": 10,
+  "sources": [
+    {
+      "name": "VentureBeat",
+      "count": 10
+    }
+  ],
+  "articles": [
+    {
+      "id": "ee24f5366b0bc77d3be13819f45b6990",
+      "title": "RGG’s Project Century is an action game called Stranger Than Heaven",
+      "url": "https://venturebeat.com/games/rggs-project-century-is-an-action-game-called-stranger-than-heaven/",
+      "source": "VentureBeat",
+      "summary": "最新的AI遊戲新聞！SEGA和龍が如く工作室公布了名為《Stranger Than Heaven》的動作遊戲，原名《Project Century》。遊戲設定在1940年代的東京，玩家將扮演名為Mako Daito的特工，進行偵探工作並在城市中揍壞人。這款遊戲充滿霓虹燈光的場景，劇情看似扣人心弦，讓玩家體驗刺激的動作冒險！",
+      "audio_file": "audio/articles/ee24f5366b0bc77d3be13819f45b6990.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/ee24f5366b0bc77d3be13819f45b6990.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-07T05:09:16.367006",
+      "published_date": "2025-06-06T23:59:46+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "b6acba48e877fbd094f445902d8e2b0c",
+      "title": "Resident Evil: Requiem takes the franchise back to Raccoon City",
+      "url": "https://venturebeat.com/games/resident-evil-requiem-takes-the-franchise-back-to-raccoon-city/",
+      "source": "VentureBeat",
+      "summary": "最新的生化危機遊戲《生化危機9：安魂曲》將故事場景回到了經典的拉昆市，預計於2026年2月27日推出。遊戲以單人模式呈現，劇情圍繞FBI特工Grace調查一連串神秘死亡事件，包括她母親的死亡。透過預告片，玩家可以看到拉昆市警局的殘骸，以及在《生化危機3》結局時被核彈摧毀後的城市景象。這次回歸經典場景，讓玩家期待新作帶來的驚喜與挑戰。",
+      "audio_file": "audio/articles/b6acba48e877fbd094f445902d8e2b0c.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/b6acba48e877fbd094f445902d8e2b0c.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-07T05:09:27.563381",
+      "published_date": "2025-06-06T23:14:07+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "bfa7207920e4c78b6472f8711879ea96",
+      "title": "Escape Academy 2: Back 2 School unveiled during Day of the Devs",
+      "url": "https://venturebeat.com/games/escape-academy-2-back-2-school-unveiled-during-day-of-the-devs/",
+      "source": "VentureBeat",
+      "summary": "iam8bit和Coin Crew Games宣布推出《逃脫學院2: 回到校園》，這是屢獲殊榮的《逃脫學院》的續集。這個消息是在「Day of the Devs」活動中公布的。這款遊戲的核心內容是逃脫解謎，讓玩家在挑戰中展現智慧。這個消息讓喜歡解謎遊戲的玩家們可以期待這個新作品的推出，帶來更多刺激和挑戰。",
+      "audio_file": "audio/articles/bfa7207920e4c78b6472f8711879ea96.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/bfa7207920e4c78b6472f8711879ea96.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-07T05:09:36.835872",
+      "published_date": "2025-06-06T23:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "b492bb1ca417195e7ac35da7d6b86734",
+      "title": "Brass Lion Entertainment unveils co-op action RPG Wu-Tang: Rise of the Deceiver",
+      "url": "https://venturebeat.com/games/brass-lion-entertainment-unveils-co-op-action-rpg-wu-tang-rise-of-the-deceiver/",
+      "source": "VentureBeat",
+      "summary": "Brass Lion Entertainment公布了合作動作RPG遊戲《Wu-Tang: Rise of the Deceiver》的預告片，這是Ghostface Killah的Angel of Dust系列的首款遊戲。這款遊戲將帶玩家進入一個充滿合作挑戰的世界，讓玩家體驗獨特的遊戲劇情和動作冒險。Brass Lion Entertainment以此展現他們在遊戲開發領域的創新和實力，讓玩家期待這款新作的推出。",
+      "audio_file": "audio/articles/b492bb1ca417195e7ac35da7d6b86734.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/b492bb1ca417195e7ac35da7d6b86734.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-07T05:09:47.218453",
+      "published_date": "2025-06-06T22:47:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "2f8f587dd34fd8413527d0dc7e4120cf",
+      "title": "Imagine Dragons brothers unveil Night Street Studios’ zany 5v5 team shooter Last Flag",
+      "url": "https://venturebeat.com/games/imagine-dragons-brothers-unveil-night-street-studios-zany-5v5-team-shooter-last-flag/",
+      "source": "VentureBeat",
+      "summary": "Imagine Dragons樂團的兄弟們成立了Night Street Studios，推出了一款名為Last Flag的瘋狂射擊遊戲。這是一款5對5的團隊射擊遊戲，由獨立遊戲工作室Night Street Games開發。這款遊戲充滿趣味性，讓玩家可以體驗到不同於一般射擊遊戲的遊玩方式，給玩家帶來全新的遊戲體驗。",
+      "audio_file": "audio/articles/2f8f587dd34fd8413527d0dc7e4120cf.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2f8f587dd34fd8413527d0dc7e4120cf.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-07T05:09:55.824593",
+      "published_date": "2025-06-06T22:45:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "14712bbf2ea88b18453639807b16d461",
+      "title": "IO Interactive marries Hitman with 007 and MindsEye",
+      "url": "https://venturebeat.com/games/io-interactive-marries-hitman-with-007-and-mindseye/",
+      "source": "VentureBeat",
+      "summary": "IO Interactive宣布將Hitman和007以及MindsEye整合在一起，讓玩家可以在Hitman: World of Assassination中體驗更多元的遊戲內容。這個消息讓玩家可以期待到更豐富的遊戲體驗，結合了不同作品的元素，讓遊戲更加有趣刺激。",
+      "audio_file": "audio/articles/14712bbf2ea88b18453639807b16d461.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/14712bbf2ea88b18453639807b16d461.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-07T05:10:02.827764",
+      "published_date": "2025-06-06T22:40:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "c43975d3c5f5f29b57637710866b41e3",
+      "title": "Mundfish unveils two new games: The Cube and Ill",
+      "url": "https://venturebeat.com/games/mundfish-unveils-two-new-games-the-cube-and-ill/",
+      "source": "VentureBeat",
+      "summary": "Mundfish公布了兩款新遊戲：《The Cube》是多人RPG射擊遊戲，而《Ill》則是第一人稱動作恐怖射擊遊戲。這兩款遊戲將帶給玩家不同的遊戲體驗，一款是以射擊為主的多人遊戲，另一款是恐怖射擊遊戲，讓玩家可以享受到不同風格的遊戲樂趣。Mundfish的新作品讓玩家有更多元的遊戲選擇，期待這兩款遊戲帶來的刺激與挑戰！",
+      "audio_file": "audio/articles/c43975d3c5f5f29b57637710866b41e3.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/c43975d3c5f5f29b57637710866b41e3.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-07T05:10:12.996435",
+      "published_date": "2025-06-06T22:35:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "27bed4286a52bb34085b75481fa1fe9f",
+      "title": "Scott Pilgrim EX is a new beat-em-up adventure from Tribute Games",
+      "url": "https://venturebeat.com/games/scott-pilgrim-ex-is-a-new-beat-em-up-adventure-from-tribute-games/",
+      "source": "VentureBeat",
+      "summary": "Tribute Games 推出了新的打鬥冒險遊戲《Scott Pilgrim EX》，這是他們開發的另一力作，之前也有《Teenage Mutant Ninja Turtles: Shredder's Revenge》和即將推出的《Marvel Cosmic Invasion》。這款遊戲在夏季遊戲節首次亮相，讓玩家可以體驗全新的打鬥冒險。",
+      "audio_file": "audio/articles/27bed4286a52bb34085b75481fa1fe9f.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/27bed4286a52bb34085b75481fa1fe9f.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-07T05:10:21.139877",
+      "published_date": "2025-06-06T22:26:58+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "3c36c73037f6cc492c8f9bdb725b07c5",
+      "title": "Marvel’s Deadpool VR coming for Meta Quest 3 and 3S",
+      "url": "https://venturebeat.com/games/marvels-deadpool-vr-coming-for-meta-quest-3-and-3s/",
+      "source": "VentureBeat",
+      "summary": "漫威的Deadpool虛擬實境遊戲將在今年晚些時候登陸Meta Quest 3和3S頭戴式設備，由Twisted Pixel和Oculus Studios合作開發。這意味著玩家可以透過這些設備身歷其境地體驗Deadpool的冒險故事，讓遊戲更加生動刺激。",
+      "audio_file": "audio/articles/3c36c73037f6cc492c8f9bdb725b07c5.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/3c36c73037f6cc492c8f9bdb725b07c5.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-07T05:10:28.467767",
+      "published_date": "2025-06-06T22:10:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "3bc84692705904d9190857dc6aaf3fe4",
+      "title": "Felt That Boxing is Muppets meet Punch-Out",
+      "url": "https://venturebeat.com/games/felt-that-boxing-is-muppets-meet-punch-out/",
+      "source": "VentureBeat",
+      "summary": "夏季遊戲節上有個超有趣的消息，一款名為「Felt That Boxing」的遊戲被說像是真人版的「綠毯秀」。這款遊戲看起來像是把「綠毯秀」和「大逆襲」結合在一起，讓人眼前一亮。",
+      "audio_file": "audio/articles/3bc84692705904d9190857dc6aaf3fe4.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/3bc84692705904d9190857dc6aaf3fe4.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-07T05:10:34.949260",
+      "published_date": "2025-06-06T21:46:34+00:00",
+      "content_type": "news"
+    }
+  ]
+}

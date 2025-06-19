@@ -1,0 +1,68 @@
+[
+  {
+    "id": "2506.03205",
+    "title": "Q-ARDNS-Multi: A Multi-Agent Quantum Reinforcement Learning Framework with Meta-Cognitive Adaptation for Complex 3D Environments",
+    "url": "https://arxiv.org/abs/2506.03205",
+    "authors": "Umberto Gon\\c{c}alves de Sousa",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一個名為Q-ARDNS-Multi的新型多智能體量子強化學習框架，專為處理複雜的3D環境而設計。最大的創新點在於框架中加入了元認知適應功能，讓智能體能夠根據環境的變化自主調整學習策略，提高了在複雜環境中的應對能力。這項研究有助於提升量子強化學習在處理現實世界複雜場景時的效能，對於推動人工智慧技術在實際應用中的發展具有重要價值。",
+    "published_date": "2025-06-05",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-05T23:50:22.087752",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-05T23:50:29.775308",
+    "audio_file": "2506.03205.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2506.03205.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-05T23:50:47.292630"
+  },
+  {
+    "id": "2506.03233",
+    "title": "A Trustworthiness-based Metaphysics of Artificial Intelligence Systems",
+    "url": "https://arxiv.org/abs/2506.03233",
+    "authors": "Andrea Ferrario",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.LG"
+    ],
+    "summary": "這篇論文探討了基於信任度的人工智慧系統形上學。作者Andrea Ferrario提出，我們應該將人工智慧系統看作是具有信任度的實體，而非僅僅是工具。這種觀點有助於我們更好地理解人工智慧系統在社會和倫理層面的影響。總括來說，這篇論文的核心價值在於提出一種新的思考方式，幫助我們更深入地思考人工智慧在日常生活中的角色與影響。",
+    "published_date": "2025-06-05",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-05T23:50:22.087781",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-05T23:50:32.721320",
+    "audio_file": "2506.03233.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2506.03233.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-05T23:50:48.529517"
+  },
+  {
+    "id": "2506.03315",
+    "title": "Axiomatics of Restricted Choices by Linear Orders of Sets with Minimum as Fallback",
+    "url": "https://arxiv.org/abs/2506.03315",
+    "authors": "Kai Sauerwald, Kenneth Skiba, Eduardo Ferm\\'e, Thomas Meyer",
+    "categories": [
+      "cs.AI",
+      "cs.LO"
+    ],
+    "summary": "這篇論文主要探討如何在集合中做出有限選擇，並以最小值作為後備方案。簡單來說，就是討論如何在有限選擇的情況下，找到最小值。這個研究的價值在於提供了一套關於集合中有限選擇的準則，讓我們更有效率地處理這類問題。作者通過引入一些公理，建立了一個系統化的方法來處理這個問題，這對於未來相關研究和應用有很大的幫助。",
+    "published_date": "2025-06-05",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-05T23:50:22.087801",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-05T23:50:36.370074",
+    "audio_file": "2506.03315.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2506.03315.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-05T23:50:49.865317"
+  }
+]

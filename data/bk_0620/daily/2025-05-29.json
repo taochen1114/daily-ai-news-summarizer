@@ -1,0 +1,76 @@
+{
+  "date": "2025-05-29",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2505.21552",
+      "title": "Understanding the learned look-ahead behavior of chess neural networks",
+      "url": "https://arxiv.org/abs/2505.21552",
+      "source": "Arxiv",
+      "summary": "這篇論文探討了象棋神經網路學習到的預測未來走步的行為。作者 Diogo Cruz 發現，這些神經網路在分析棋局時會預測未來可能的走步，並且能夠有效地提升下棋表現。這項研究的重要性在於揭示了神經網路如何透過預測未來來改進決策，進而提升遊戲技巧。透過了解這種學習行為，未來可以更好地設計出更強大的遊戲AI，提升遊戲的挑戰性和趣味性。",
+      "audio_file": "2505.21552.mp3",
+      "published_date": "2025-05-29",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.21668",
+      "title": "R1-Code-Interpreter: Training LLMs to Reason with Code via Supervised and Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2505.21668",
+      "source": "Arxiv",
+      "summary": "這篇論文主要介紹了一種名為 R1-Code-Interpreter 的方法，它能夠訓練大型語言模型（LLMs）來進行代碼推理，透過監督式和強化式學習。這個方法的核心創新在於讓機器學習模型能夠理解和推理程式碼，進而提升程式碼理解和生成的能力。透過這種方式，研究者們希望能夠改善程式碼相關任務的表現，並促進人工智慧在軟體工程領域的應用。",
+      "audio_file": "2505.21668.mp3",
+      "published_date": "2025-05-29",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.21671",
+      "title": "Adaptive Frontier Exploration on Graphs with Applications to Network-Based Disease Testing",
+      "url": "https://arxiv.org/abs/2505.21671",
+      "source": "Arxiv",
+      "summary": "這篇論文主要提出了一種在圖形上適應性探索邊界的方法，並應用在基於網絡的疾病檢測上。簡單來說，就是提出了一種新的方式來有效地在網絡上進行疾病檢測。這個方法可以幫助我們更快速、更準確地找出潛在的疾病傳播源，對於提升疾病檢測的效率和準確性有很大的幫助。這項研究的價值在於提供了一個新的角度和方法來應對疾病擴散的挑戰，有助於改善公共衛生工作的效能。",
+      "audio_file": "2505.21671.mp3",
+      "published_date": "2025-05-29",
+      "content_type": "academic"
+    },
+    {
+      "id": "43c968587b1b7d4dd2aeb8b93b80eae5",
+      "title": "DeepSeek R1-0528 arrives in powerful open source challenge to OpenAI o3 and Google Gemini 2.5 Pro",
+      "url": "https://venturebeat.com/ai/deepseek-r1-0528-arrives-in-powerful-open-source-challenge-to-openai-o3-and-google-gemini-2-5-pro/",
+      "source": "VentureBeat AI",
+      "summary": "一家名為DeepSeek的中國初創公司，推出了強大的開源AI模型DeepSeek R1-0528，挑戰了OpenAI o3和Google Gemini 2.5 Pro。這個更新讓DeepSeek的模型在數學、科學、商業和編程等複雜推理任務上表現更強大，並提供給開發者和研究人員更多功能。這個開源模型可以免費使用，並支持商業用途，讓開發者可以根據自己的需求進行定制。對於想要在本地運行模型的人來說，DeepSeek在他們的GitHub存儲庫上發布了詳細的指南。",
+      "audio_file": "43c968587b1b7d4dd2aeb8b93b80eae5.mp3",
+      "published_date": "2025-05-29T13:22:40+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "167840f0c7ce62efe05746f7cd692f1c",
+      "title": "How Snowflake’s open-source text-to-SQL and Arctic inference models solve enterprise AI’s two biggest deployment headaches",
+      "url": "https://venturebeat.com/ai/how-snowflakes-open-source-text-to-sql-and-arctic-inference-models-solve-enterprise-ais-two-biggest-deployment-headaches/",
+      "source": "VentureBeat AI",
+      "summary": "Snowflake推出開源的文本轉SQL和Arctic推論模型，解決企業AI部署中的兩大難題：文本轉SQL查詢和AI推論效率。這兩個新技術旨在改善現有技術在真實企業數據庫中執行時出現的問題，並提升推論速度和成本效率。這些努力旨在幫助企業更好地應用人工智慧技術，提升效率和準確性。",
+      "audio_file": "167840f0c7ce62efe05746f7cd692f1c.mp3",
+      "published_date": "2025-05-29T13:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "2db0295547fcf32d766eb483b1e00b8c",
+      "title": "Encharge AI unveils EN100 AI accelerator chip with analog memory",
+      "url": "https://venturebeat.com/games/encharge-ai-unveils-en100-ai-accelerator-chip-with-analog-memory/",
+      "source": "VentureBeat AI",
+      "summary": "Encharge AI 推出 EN100 AI 加速器晶片，搭載類比記憶體，可在筆記型電腦、工作站和邊緣裝置上提供高效的人工智慧運算能力。這款晶片能在限制功耗的情況下提供超過200 TOPS的總運算能力，讓先進、安全、個人化的人工智慧能夠在本地運行，不需依賴雲端基礎設施。EN100的推出打破了過去對雲端的依賴，讓開發者可以在本地部署複雜、安全、個人化的應用程式，讓強大的人工智慧技術直接服務終端用戶。",
+      "audio_file": "2db0295547fcf32d766eb483b1e00b8c.mp3",
+      "published_date": "2025-05-29T13:00:00+00:00",
+      "content_type": "news"
+    }
+  ]
+}

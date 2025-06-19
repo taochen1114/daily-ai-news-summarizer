@@ -1,0 +1,146 @@
+{
+  "date": "2025-05-08",
+  "total_articles": 13,
+  "sources": [
+    {
+      "name": "ArXiv CS.AI",
+      "count": 10
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2505.03770",
+      "title": "Proceedings of 1st Workshop on Advancing Artificial Intelligence through Theory of Mind",
+      "url": "https://arxiv.org/abs/2505.03770",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文是關於「透過心智理論推動人工智慧」的研究，收錄了在2025年3月3日在美國費城舉辦的AAAI研討會上發表的論文。這個研究的目的是為了提供一個對心智理論和人工智慧研究社群的開放存取和精選選集。",
+      "audio_file": "2505.03770.mp3",
+      "published_date": "Thu, 08 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.03800",
+      "title": "Design description of Wisdom Computing Persperctive",
+      "url": "https://arxiv.org/abs/2505.03800",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個新的數學學習系統，結合人工智慧和視覺動畫技術，幫助學生更直觀地理解數學運算邏輯。透過手寫矩陣辨識、動畫展示計算過程，讓學生能夠一步一步看見數學運算的過程，從而深入理解數學運算的邏輯。這個系統具有高度模塊化和靈活性，能夠根據學生需求實時生成不同的數學運算示例，提升教育輔助工具的直觀性、用戶友好性和效率。透過創新的人機互動方式，幫助學生更深入地理解數學知識，實現\"每一步都被理解\"的學習體驗。",
+      "audio_file": "2505.03800.mp3",
+      "published_date": "Thu, 08 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.03941",
+      "title": "GRAML: Dynamic Goal Recognition As Metric Learning",
+      "url": "https://arxiv.org/abs/2505.03941",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一種名為GRAML的方法，可以在不需耗費大量成本和時間訓練的情況下，辨識出一個代理人的目標。它利用了一種叫做Siamese network的技術，讓機器學習辨識目標的任務更有效率。GRAML在各種環境中都顯示出速度快、靈活性高，並且比現有技術有更好的運行效果，同時保持高準確度。這個方法對於快速適應新目標特別有用，甚至只需要一個範例觀察軌跡。",
+      "audio_file": "2505.03941.mp3",
+      "published_date": "Thu, 08 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.03947",
+      "title": "Frog Soup: Zero-Shot, In-Context, and Sample-Efficient Frogger Agents",
+      "url": "https://arxiv.org/abs/2505.03947",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文主要研究如何讓AI代理人在玩一個叫Frogger的電玩遊戲時，不需要事先訓練就能迅速適應並掌握遊戲。研究者使用最新的推理LLMs模型，結合強化學習技術，成功實現了這個零訓練的目標。他們還探討了在不同情境下學習和推理努力的影響，並提出了一種方法，可以用LLM的示範來改善傳統強化學習方法的表現和效率。這項研究有助於提高遊戲代理人的學習速度和效率，同時也提供了開放原始碼供其他研究者參考。",
+      "audio_file": "2505.03947.mp3",
+      "published_date": "Thu, 08 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.03961",
+      "title": "The Power of Stories: Narrative Priming Shapes How LLM Agents Collaborate and Compete",
+      "url": "https://arxiv.org/abs/2505.03961",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇研究探討故事如何影響人工智慧代理人在合作與競爭中的行為。研究發現，透過不同故事的引導，能夠顯著影響代理人的談判策略和成功率。共同故事有助於促進合作，而不同故事則會導致自私行為占上風。這些結果對多代理系統設計和人工智慧發展有重要啟示。",
+      "audio_file": "2505.03961.mp3",
+      "published_date": "Thu, 08 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.03985",
+      "title": "LogiDebrief: A Signal-Temporal Logic based Automated Debriefing Approach with Large Language Models Integration",
+      "url": "https://arxiv.org/abs/2505.03985",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文介紹了一個名為LogiDebrief的新技術，它結合了信號-時間邏輯和大型語言模型，用來自動化應急通話的回顧。這個系統可以幫助評估應急通話員的表現，確保他們符合標準操作流程。LogiDebrief的三步驟驗證過程包括：(1) 理解上下文，識別不同情況；(2) 使用信號-時間邏輯和大型語言模型檢查通話內容；(3) 自動整合結果生成品質保證報告。這個技術已在實際應用中得到驗證，幫助回顧了1,701通實際通話，節省了311.85小時的時間。",
+      "audio_file": "2505.03985.mp3",
+      "published_date": "Thu, 08 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.03989",
+      "title": "An alignment safety case sketch based on debate",
+      "url": "https://arxiv.org/abs/2505.03989",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出利用辯論來確保人工智慧系統的安全性，當AI系統在各種任務上達到或超越人類能力時，人類可能難以有效評估它們的行為。透過辯論，另一個超級系統可以指出系統輸出的缺陷，以確保AI系統不會自主採取可能導致嚴重危害的行動。這篇論文強調了辯論對AI安全性的價值，並提出了必要的假設和進一步研究，以確保辯論的有效性。透過訓練AI代理人進行辯論，並在部署過程中保持誠實，以確保系統的安全性。",
+      "audio_file": "2505.03989.mp3",
+      "published_date": "Thu, 08 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.04019",
+      "title": "Extending Decision Predicate Graphs for Comprehensive Explanation of Isolation Forest",
+      "url": "https://arxiv.org/abs/2505.04019",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一種新的AI方法，可以幫助我們更清楚地理解Isolation Forest（iForest）模型如何找出異常值。他們使用Decision Predicate Graph（DPG）來解釋模型的邏輯，並提供一個新的分數（IOP-Score）來說明異常值是如何被辨識出來的。這個方法不僅提高了iForest的解釋性，還能讓我們更全面地了解模型的決策過程，包括哪些特徵有助於辨識異常值。這項研究有助於推動機器學習的透明度，提供更清晰的解釋，讓我們能夠建立更可靠的機器學習系統。",
+      "audio_file": "2505.04019.mp3",
+      "published_date": "Thu, 08 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.04115",
+      "title": "Polynomial-Time Relational Probabilistic Inference in Open Universes",
+      "url": "https://arxiv.org/abs/2505.04115",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一種新方法，可以在人工智慧領域中處理不確定性推論問題，並且同時兼顧了語言表達的豐富性和計算問題的可解性。他們成功將期望值的邏輯擴展到關係設定中，並證明了在有限程度的知識庫中，即使對象集合是未知或無窮的情況下，也可以在多項式時間內進行推論。這種方法不僅擴展了語言或查詢的語法特性，還在證明論理層面上確立了可解性。這對於提高推論效率和準確性有重要意義。",
+      "audio_file": "2505.04115.mp3",
+      "published_date": "Thu, 08 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.04310",
+      "title": "Flow Models for Unbounded and Geometry-Aware Distributional Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2505.04310",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一種新的架構，用於處理分布式強化學習，可以更靈活地模擬回報分布，比起傳統方法更有效率。他們的方法不僅支援更多種回報分布，還能更好地捕捉多樣性、偏斜和尾部行為。為了解決現有模型在訓練時的問題，他們提出了一個新的距離替代方法，能更好地處理回報分布的幾何特性。在ATARI-5子基準測試中，他們的方法表現優異，比基於機率密度函數的模型更勝一籌，並與基於分位數的方法競爭激烈。",
+      "audio_file": "2505.04310.mp3",
+      "published_date": "Thu, 08 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "6dc840fd51ed5700a2617452b41f8102",
+      "title": "Anthropic launches Claude web search API, betting on the future of post-Google information access",
+      "url": "https://venturebeat.com/ai/anthropic-launches-claude-web-search-api-betting-on-the-future-of-post-google-information-access/",
+      "source": "VentureBeat AI",
+      "summary": "Anthropic推出了Claude網頁搜尋API，押注未來超越Google的資訊存取方式。這個新功能讓開發者可以讓Claude AI助理透過API存取網路資訊，提供全面的答案和來源引用。這顯示傳統搜尋正逐漸被AI取代，而Anthropic的舉動也加劇了AI搜尋市場的競爭。這對於改變人們在網路上尋找資訊的方式有著重大意義。",
+      "audio_file": "6dc840fd51ed5700a2617452b41f8102.mp3",
+      "published_date": "2025-05-07T22:01:33+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "8703d0ebbb58d02669fcb0514ba72d4a",
+      "title": "Mistral comes out swinging for enterprise AI customers with new Le Chat Enterprise, Medium 3 model",
+      "url": "https://venturebeat.com/ai/mistral-comes-out-swinging-for-enterprise-ai-customers-with-new-le-chat-enterprise-medium-3-model/",
+      "source": "VentureBeat AI",
+      "summary": "法國AI新創公司Mistral推出了Le Chat Enterprise，搭載全新的Medium 3模型，針對企業客戶推出統一的AI助理平台，強調隱私保護和高效率。這個助理平台類似ChatGPT，但專為企業員工設計，支援跨應用程式操作，提供企業私密資料搜尋功能，讓企業主和技術決策者感興趣。Le Chat Enterprise旨在整合AI功能，提供隱私環境、客製化和快速部署，讓企業更有效率地運作。",
+      "audio_file": "8703d0ebbb58d02669fcb0514ba72d4a.mp3",
+      "published_date": "2025-05-07T15:13:39+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "e4fc9ee60d22b1b6563a5d7d3d6f4c41",
+      "title": "Netflix unveils new TV experience with GenAI search and AI-based recommendations",
+      "url": "https://venturebeat.com/games/netflix-unveils-new-tv-experience-with-genai-search-and-ai-based-recommendations/",
+      "source": "VentureBeat AI",
+      "summary": "Netflix推出全新的電視體驗，加入了GenAI搜尋和基於人工智慧的推薦功能。這次更新讓Netflix的介面更簡單、更直覺，讓會員更輕鬆地找到想看的內容。除了強調技術創新，Netflix還將AI納入搜尋功能，未來會逐步推出更新後的電視首頁給全球會員體驗。这次升級讓Netflix更貼近用戶需求，提供更好的觀影體驗。",
+      "audio_file": "e4fc9ee60d22b1b6563a5d7d3d6f4c41.mp3",
+      "published_date": "2025-05-07T12:15:00+00:00",
+      "content_type": "news"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2025-06-01",
+  "total_articles": 3,
+  "sources": [
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "cf721bef13e65656fa47cd96ab953b74",
+      "title": "The future of engineering belongs to those who build with AI, not without it",
+      "url": "https://venturebeat.com/ai/the-future-of-engineering-belongs-to-those-who-build-with-ai-not-without-it/",
+      "source": "VentureBeat AI",
+      "summary": "未來工程領域將屬於懂得運用AI的人，而非沒有AI的人。AI不會取代工程師，而是改變工程本身。市場對懂AI的工程師需求大增，專業服務公司積極招募具生成AI經驗的工程師，科技公司也開始設立專注於AI實施的新工程職位。重點在於工程師要跟上時代，適應AI工具的使用，才能在工程領域立足。",
+      "audio_file": "cf721bef13e65656fa47cd96ab953b74.mp3",
+      "published_date": "2025-05-31T19:05:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "3097c78d265afcf02152ab520f62de6e",
+      "title": "Micro Center nerd store fills the Fry’s vacuum with its return to Silicon Valley",
+      "url": "https://venturebeat.com/games/micro-center-nerd-store-fills-the-frys-vacuum-with-its-return-to-silicon-valley/",
+      "source": "VentureBeat AI",
+      "summary": "一家名為Micro Center的電子產品店回歸矽谷，填補了Fry's Electronics關閉後的空缺，讓科技迷們有了新去處。這象徵著科技在矽谷仍有實際存在，並提供了各種科技服務，像是iFixit的專欄和知識櫃台。這家店成為科技愛好者的聚集地，展現了科技在矽谷的重要性。",
+      "audio_file": "3097c78d265afcf02152ab520f62de6e.mp3",
+      "published_date": "2025-05-31T13:30:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "e7ea3c34c6fe86775f7eb8e39545887b",
+      "title": "QwenLong-L1 solves long-context reasoning challenge that stumps current LLMs",
+      "url": "https://venturebeat.com/ai/qwenlong-l1-solves-long-context-reasoning-challenge-that-stumps-current-llms/",
+      "source": "VentureBeat AI",
+      "summary": "阿里巴巴集團推出了QwenLong-L1，一個新的框架，讓大型語言模型能夠理解並從非常長的輸入中獲取資訊。這項技術突破可以幫助企業應用程式更好地處理龐大文件，如公司文件、財務報表或法律合約，開啟新的應用可能性。這項創新解決了目前語言模型在處理長篇文本時遇到的困難，有助於提升模型的應用價值。",
+      "audio_file": "e7ea3c34c6fe86775f7eb8e39545887b.mp3",
+      "published_date": "2025-05-30T23:39:01+00:00",
+      "content_type": "news"
+    }
+  ]
+}

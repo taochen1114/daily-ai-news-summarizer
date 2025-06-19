@@ -1,0 +1,72 @@
+[
+  {
+    "id": "2505.00018",
+    "title": "Position Paper: Towards Open Complex Human-AI Agents Collaboration System for Problem-Solving and Knowledge Management",
+    "url": "https://arxiv.org/abs/2505.00018",
+    "authors": "Ju Wu, Calvin K. L. Or",
+    "categories": [
+      "cs.AI",
+      "cs.HC",
+      "cs.MA"
+    ],
+    "published_date": "Fri, 02 May 2025 00:00:00 -0400",
+    "source": "ArXiv CS.AI",
+    "content": "arXiv:2505.00018v1 Announce Type: new  Abstract: This position paper critically surveys a broad spectrum of recent empirical developments on human-AI agents collaboration, highlighting both their technical achievements and persistent gaps. We observe a lack of a unifying theoretical framework that can coherently integrate these varied studies, especially when tackling open-ended, complex tasks. To address this, we propose a novel conceptual architecture: one that systematically interlinks the technical details of multi-agent coordination, knowledge management, cybernetic feedback loops, and higher-level control mechanisms. By mapping existing contributions, from symbolic AI techniques and connectionist LLM-based agents to hybrid organizational practices, onto this proposed framework (Hierarchical Exploration-Exploitation Net), our approach facilitates revision of legacy methods and inspires new work that fuses qualitative and quantitative paradigms. The paper's structure allows it to be read from any section, serving equally as a critical review of technical implementations and as a forward-looking reference for designing or extending human-AI symbioses. Together, these insights offer a stepping stone toward deeper co-evolution of human cognition and AI capability.",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-05-02T13:45:22.094632",
+    "summary": "這篇論文提出了一個新的概念架構，旨在促進人工智慧與人類之間更深層次的合作。通過整合多智能體協調、知識管理、回饋迴路和高階控制機制，該架構有助於改進舊有方法並激發新的研究。這項研究的價值在於提供了人工智慧與人類認知更緊密合作的契機，為未來設計或擴展人工智慧系統提供了重要參考。",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-05-02T13:45:28.411873",
+    "audio_file": "2505.00018.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.00018.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-05-02T13:45:42.512529"
+  },
+  {
+    "id": "2505.00173",
+    "title": "First Order Logic with Fuzzy Semantics for Describing and Recognizing Nerves in Medical Images",
+    "url": "https://arxiv.org/abs/2505.00173",
+    "authors": "Isabelle Bloch, Enzo Bonnot, Pietro Gori, Giammarco La Barbera, Sabine Sarnacki",
+    "categories": [
+      "cs.AI",
+      "cs.LO",
+      "math.LO"
+    ],
+    "published_date": "Fri, 02 May 2025 00:00:00 -0400",
+    "source": "ArXiv CS.AI",
+    "content": "arXiv:2505.00173v1 Announce Type: new  Abstract: This article deals with the description and recognition of fiber bundles, in particular nerves, in medical images, based on the anatomical description of the fiber trajectories. To this end, we propose a logical formalization of this anatomical knowledge. The intrinsically imprecise description of nerves, as found in anatomical textbooks, leads us to propose fuzzy semantics combined with first-order logic. We define a language representing spatial entities, relations between these entities and quantifiers. A formula in this language is then a formalization of the natural language description. The semantics are given by fuzzy representations in a concrete domain and satisfaction degrees of relations. Based on this formalization, a spatial reasoning algorithm is proposed for segmentation and recognition of nerves from anatomical and diffusion magnetic resonance images, which is illustrated on pelvic nerves in pediatric imaging, enabling surgeons to plan surgery.",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-05-02T13:45:22.094642",
+    "summary": "這篇論文提出了一種利用模糊語義和一階邏輯來描述和辨識醫學影像中的神經纖維的方法。通過將解剖學知識形式化，提出了一種語言來表示空間實體、實體之間的關係和量詞。這種方法可以幫助外科醫生在兒科影像中識別骨盆神經，幫助手術規劃。這項研究的創新之處在於將模糊語義應用於神經描述，提供了一種新的空間推理算法，有助於影像分割和神經識別。",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-05-02T13:45:31.149287",
+    "audio_file": "2505.00173.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.00173.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-05-02T13:45:44.131019"
+  },
+  {
+    "id": "2505.00174",
+    "title": "Real-World Gaps in AI Governance Research",
+    "url": "https://arxiv.org/abs/2505.00174",
+    "authors": "Ilan Strauss, Isobel Moure, Tim O'Reilly, Sruly Rosenblat",
+    "categories": [
+      "cs.AI"
+    ],
+    "published_date": "Fri, 02 May 2025 00:00:00 -0400",
+    "source": "ArXiv CS.AI",
+    "content": "arXiv:2505.00174v1 Announce Type: new  Abstract: Drawing on 1,178 safety and reliability papers from 9,439 generative AI papers (January 2020 - March 2025), we compare research outputs of leading AI companies (Anthropic, Google DeepMind, Meta, Microsoft, and OpenAI) and AI universities (CMU, MIT, NYU, Stanford, UC Berkeley, and University of Washington). We find that corporate AI research increasingly concentrates on pre-deployment areas -- model alignment and testing & evaluation -- while attention to deployment-stage issues such as model bias has waned. Significant research gaps exist in high-risk deployment domains, including healthcare, finance, misinformation, persuasive and addictive features, hallucinations, and copyright. Without improved observability into deployed AI, growing corporate concentration could deepen knowledge deficits. We recommend expanding external researcher access to deployment data and systematic observability of in-market AI behaviors.",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-05-02T13:45:22.094650",
+    "summary": "這篇論文主要探討AI治理研究中的現實缺口。研究發現，企業在AI研究中越來越專注於模型對齊和測試，而對模型偏見等部署階段問題的關注卻減少了。在高風險領域，如醫療、金融、假訊息等，存在重大研究缺口。建議擴大外部研究人員對部署數據的訪問權，以及對市場中AI行為的系統觀察。這項研究提出了重要的觀察，有助於填補AI治理領域的研究空白。",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-05-02T13:45:33.840927",
+    "audio_file": "2505.00174.mp3",
+    "audio_path": "/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/data/audio/articles/2505.00174.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-05-02T13:45:45.489537"
+  }
+]

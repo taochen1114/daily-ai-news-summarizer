@@ -1,0 +1,142 @@
+{
+  "date": "2025-06-15",
+  "total_articles": 10,
+  "sources": [
+    {
+      "name": "VentureBeat",
+      "count": 10
+    }
+  ],
+  "articles": [
+    {
+      "id": "1030b4bba4765c67fbb4f01160ba75ec",
+      "title": "Rethinking AI: DeepSeek’s playbook shakes up the high-spend, high-compute paradigm",
+      "url": "https://venturebeat.com/ai/rethinking-ai-deepseeks-playbook-shakes-up-the-high-spend-high-compute-paradigm/",
+      "source": "VentureBeat",
+      "summary": "DeepSeek透過不同的方法，打破了高成本、高運算的AI範式，讓業界重新思考AI發展。他們在面對限制時，專注於優化現有資源，展現創新能力。即將推出R2模型的DeepSeek，吸引了眾多關注。這次的突破不僅在於技術創新，更在於如何以更低成本達到同等效果。這顯示創新不一定需要龐大資源，而是在於不同的優先考量。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-14T19:05:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "daeef91f55537c77cfffd3341b32b637",
+      "title": "Just add humans: Oxford medical study underscores the missing link in chatbot testing",
+      "url": "https://venturebeat.com/ai/just-add-humans-oxford-medical-study-underscores-the-missing-link-in-chatbot-testing/",
+      "source": "VentureBeat",
+      "summary": "牛津醫學研究指出，在測試聊天機器人時，加入人類參與是關鍵。研究發現，雖然大型語言模型在直接測試情境下能正確識別相關疾病達94.9%，但人類使用這些模型時的正確率不到34.5%。更讓人驚訝的是，病患使用這些模型的表現比自行診斷的對照組還差。這項研究引發了對於認為大型語言模型適合提供醫療建議的質疑，以及我們評估聊天機器人應用時所使用的標準。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-14T00:34:19+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "d817d5b0a40d281740957ed966d60937",
+      "title": "Do reasoning models really “think” or not? Apple research sparks lively debate, response",
+      "url": "https://venturebeat.com/ai/do-reasoning-models-really-think-or-not-apple-research-sparks-lively-debate-response/",
+      "source": "VentureBeat",
+      "summary": "蘋果的研究指出，目前的大型推理模型並不真的像人類一樣「思考」或「推理」，而只是在做一種「模式匹配」。這份研究引發了熱烈的辯論，許多人認為這些AI模型並不像傳統想像中那麼強大。這也讓人們重新思考如何讓AI達到超越人類的智能水準。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T22:02:22+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "6baf034407326636f909f2d07f462957",
+      "title": "Beyond GPT architecture: Why Google’s Diffusion approach could reshape LLM deployment",
+      "url": "https://venturebeat.com/ai/beyond-gpt-architecture-why-googles-diffusion-approach-could-reshape-llm-deployment/",
+      "source": "VentureBeat",
+      "summary": "Google的新技術Diffusion可能會改變大型語言模型的應用方式。傳統上，語言模型是透過逐步生成文字來工作，但Diffusion則像是從隨機噪音開始，逐漸生成出一致的文字輸出。這種方法不僅提高了生成速度，還能改善文字的一致性和連貫性。這項Gemini Diffusion技術目前還在實驗階段，但可能會帶來重大影響。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T21:48:11+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "175ad30027aa0d4711dbcef48784b1c4",
+      "title": "The case for embedding audit trails in AI systems before scaling",
+      "url": "https://venturebeat.com/ai/the-case-for-embedding-audit-trails-in-ai-systems-before-scaling/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞談到在AI系統擴展之前，為什麼要先嵌入審計蹤跡。這樣做可以幫助企業管理AI系統的流程、確保代理人運作正常，並提供可追蹤的紀錄以應對可能的問題。企業在將AI擴展至實際應用時，需要建立可管理、可追蹤、可審計且堅固的系統，以確保遵守規定並避免問題發生。這樣的控制措施可以讓企業隨時了解AI系統的狀況，避免出現意外情況。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T20:13:09+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "764cee8324b5babace715c43fc61b33c",
+      "title": "Wizards of the Coast and Giant Skull: ‘Gamers are telling us what they have always told us’ | The DeanBeat",
+      "url": "https://venturebeat.com/games/wizards-of-the-coast-and-giant-skull-gamers-are-telling-us-what-they-have-always-told-us-the-deanbeat/",
+      "source": "VentureBeat",
+      "summary": "Wizards of the Coast和Giant Skull合作開發一款全新的Dungeons & Dragons遊戲，這是一個重要的合作。這款遊戲將是一款動作冒險遊戲，目前正在為PC和遊戲機進行開發。這次合作代表了兩家公司在遊戲領域的雄心壯志。Wizards of the Coast的總裁John Hight和Giant Skull的CEO Stig Asmussen將共同打造這款遊戲，讓玩家可以在D&D的世界中展開冒險。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T17:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "a0263e188061879411fba596f387faa8",
+      "title": "Senator’s RISE Act would require AI developers to list training data, evaluation methods in exchange for ‘safe harbor’ from lawsuits",
+      "url": "https://venturebeat.com/ai/senators-rise-act-would-require-ai-developers-to-list-training-data-evaluation-methods-in-exchange-for-safe-harbor-from-lawsuits/",
+      "source": "VentureBeat",
+      "summary": "美國參議員提出RISE法案，要求AI開發者公開訓練數據和評估方法，以換取免責權避免訴訟。這項法案旨在增加透明度，平衡創新和信任，並為AI開發設立標準。法案還將保留對醫生、律師、工程師等專業人士的傳統疏失標準。這項法案需經過參議院和眾議院多數通過，並經美國總統簽署後才能生效。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T14:59:24+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "98bc781442496c8aa9c16edcba37c9c6",
+      "title": "The latest state of the game jobs market | Amir Satvat",
+      "url": "https://venturebeat.com/games/the-latest-state-of-the-game-jobs-market-amir-satvat/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞講述了遊戲產業就業市場的最新狀況。根據Amir Satvat的資料，遊戲行業的職缺主要集中在擁有5至15年經驗的專業人士身上。然而，對於新鮮人來說，找到遊戲相關工作的機會相當低。此外，一些職位如敘事角色和業務拓展的需求遠超過供應，競爭激烈。整體而言，遊戲行業的就業勢頭保持穩定，但競爭激烈，尤其對於想轉行進入遊戲行業的人來說。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T13:30:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "4a16152ac41063b8e1035fdf51e44b70",
+      "title": "Red team AI now to build safer, smarter models tomorrow",
+      "url": "https://venturebeat.com/security/red-team-ai-now-to-build-safer-smarter-models-tomorrow/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞告訴我們，為了建構更安全、更智慧的AI模型，必須採用紅隊AI的方法，即持續對模型進行對抗性測試。攻擊者的手法已經超越現有的防禦措施，因此在建立模型時就應該將安全性納入考量。透過紅隊測試，可以在軟體開發週期的每個階段不斷強化安全性。這種整合性的開發安全方法將有助於降低模型受到攻擊的風險，保護敏感資料不被洩漏。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T13:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "da07b9df3177d2492708a4da3f42d88a",
+      "title": "Gamefam brings FIFA Club World Cup 2025 to Roblox",
+      "url": "https://venturebeat.com/games/gamefam-brings-fifa-club-world-cup-2025-to-roblox/",
+      "source": "VentureBeat",
+      "summary": "Gamefam與FIFA合作，將FIFA Club World Cup 2025帶到Roblox遊戲中，讓玩家可以在遊戲中體驗這項賽事。這是他們第二次合作，旨在吸引Roblox的年輕玩家，讓他們更了解並參與真實的足球比賽。透過在遊戲中展示贊助商廣告、商品和賽程更新，讓玩家感受到真實比賽的氛圍。這次合作不僅是行銷活動，更是一個文化時刻，旨在重新定義年輕一代對足球的熱愛和體驗方式。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-06-13T13:00:00+00:00",
+      "content_type": "news"
+    }
+  ]
+}

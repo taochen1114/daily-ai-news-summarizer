@@ -1,0 +1,70 @@
+[
+  {
+    "id": "2506.13768",
+    "title": "'Memory States' from Almost Nothing: Representing and Computing in a Non-associative Algebra",
+    "url": "https://arxiv.org/abs/2506.13768",
+    "authors": "Stefan Reimann",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討如何在非關聯代數中，從幾乎沒有資訊的狀態中建立和計算記憶狀態。作者 Stefan Reimann 提出了一種新方法，可以在沒有明確關聯的情況下，有效地表示和處理記憶。這項研究的價值在於提供了一種全新的方式來處理記憶，不受傳統關聯性的限制，有助於擴展人工智慧在處理複雜問題時的應用範疇。這項研究有助於我們更深入地理解記憶的運作方式，並可能帶來未來人工智慧領域的重大突破。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T17:02:59.117957",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T17:03:04.732470",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.13768.mp3",
+    "audio_file": "audio/articles/2506.13768.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-18T17:03:25.319946",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2506.13773",
+    "title": "Representing Time-Continuous Behavior of Cyber-Physical Systems in Knowledge Graphs",
+    "url": "https://arxiv.org/abs/2506.13773",
+    "authors": "Milapji Singh Gill, Tom Jeleniewski, Felix Gehlhoff, Alexander Fay",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討如何在知識圖譜中表現物聯網系統的持續時間行為。研究團隊提出了一種方法，可以將物聯網設備的行為模式以時間連續的方式呈現在知識圖譜中，這有助於更好地理解系統運作的方式。這項研究的創新之處在於將時間因素納入知識圖譜，讓我們可以更清楚地看到物聯網系統的運作脈絡，進而提升系統管理和優化效率。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T17:02:59.117985",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T17:03:06.605491",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.13773.mp3",
+    "audio_file": "audio/articles/2506.13773.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-18T17:03:36.088268",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2506.13774",
+    "title": "Personalized Constitutionally-Aligned Agentic Superego: Secure AI Behavior Aligned to Diverse Human Values",
+    "url": "https://arxiv.org/abs/2506.13774",
+    "authors": "Nell Watson, Ahmed Amer, Evan Harris, Preeti Ravindra, Shujun Zhang",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.MA"
+    ],
+    "summary": "這篇論文提出了一個名為「個人化憲法對齊代理超我」的概念，旨在確保人工智慧的行為符合多元人類價值觀。簡單來說，就是讓AI能夠根據個人價值觀來行動，讓人們更信任和接受AI的決策。這項研究的創新之處在於提出了一種能夠個人化設定AI行為的方法，讓AI更貼近人類需求和價值觀，進而提高AI的安全性和可信度。這將有助於促進AI技術與人類社會的和諧發展。",
+    "published_date": "2025-06-18",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-18T17:02:59.118007",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-18T17:03:09.077221",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.13774.mp3",
+    "audio_file": "audio/articles/2506.13774.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-06-18T17:03:44.684325",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  }
+]

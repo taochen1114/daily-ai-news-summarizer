@@ -1,0 +1,94 @@
+{
+  "date": "2025-06-18",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2506.13768",
+      "title": "'Memory States' from Almost Nothing: Representing and Computing in a Non-associative Algebra",
+      "url": "https://arxiv.org/abs/2506.13768",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討如何在非關聯代數中，從幾乎沒有資訊的狀態中建立和計算記憶狀態。作者 Stefan Reimann 提出了一種新方法，可以在沒有明確關聯的情況下，有效地表示和處理記憶。這項研究的價值在於提供了一種全新的方式來處理記憶，不受傳統關聯性的限制，有助於擴展人工智慧在處理複雜問題時的應用範疇。這項研究有助於我們更深入地理解記憶的運作方式，並可能帶來未來人工智慧領域的重大突破。",
+      "audio_file": "audio/articles/2506.13768.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.13768.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-18T17:03:25.319946",
+      "published_date": "2025-06-18",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.13773",
+      "title": "Representing Time-Continuous Behavior of Cyber-Physical Systems in Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2506.13773",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討如何在知識圖譜中表現物聯網系統的持續時間行為。研究團隊提出了一種方法，可以將物聯網設備的行為模式以時間連續的方式呈現在知識圖譜中，這有助於更好地理解系統運作的方式。這項研究的創新之處在於將時間因素納入知識圖譜，讓我們可以更清楚地看到物聯網系統的運作脈絡，進而提升系統管理和優化效率。",
+      "audio_file": "audio/articles/2506.13773.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.13773.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-18T17:03:36.088268",
+      "published_date": "2025-06-18",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.13774",
+      "title": "Personalized Constitutionally-Aligned Agentic Superego: Secure AI Behavior Aligned to Diverse Human Values",
+      "url": "https://arxiv.org/abs/2506.13774",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個名為「個人化憲法對齊代理超我」的概念，旨在確保人工智慧的行為符合多元人類價值觀。簡單來說，就是讓AI能夠根據個人價值觀來行動，讓人們更信任和接受AI的決策。這項研究的創新之處在於提出了一種能夠個人化設定AI行為的方法，讓AI更貼近人類需求和價值觀，進而提高AI的安全性和可信度。這將有助於促進AI技術與人類社會的和諧發展。",
+      "audio_file": "audio/articles/2506.13774.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.13774.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-18T17:03:44.684325",
+      "published_date": "2025-06-18",
+      "content_type": "academic"
+    },
+    {
+      "id": "ec9fc00a28398619f30c5e5460f917d7",
+      "title": "Dunk City Dynasty launches Season 2 with Jayson Tatum and $10K community competition",
+      "url": "https://venturebeat.com/games/dunk-city-dynasty-launches-season-2-with-jayson-tatum-and-10k-community-competition/",
+      "source": "VentureBeat",
+      "summary": "Dunk City Dynasty推出第二季，加入NBA球星Jayson Tatum和價值1萬美元的社區比賽。這個免費籃球遊戲在Android和iOS推出新球星、玩法、活動和首個社區比賽，總獎金達1萬美元。新球季帶來三位新球星：Jayson Tatum、Joel Embiid和Kristaps Porzingis，各自具有獨特技能和特色。這次的比賽將帶來更多刺激和樂趣，讓玩家可以享受更豐富的遊戲體驗。",
+      "audio_file": "audio/articles/ec9fc00a28398619f30c5e5460f917d7.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/ec9fc00a28398619f30c5e5460f917d7.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-18T17:03:50.440877",
+      "published_date": "2025-06-18T07:15:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "18b0f490afe27b35d0f510216e5a5183",
+      "title": "The Interpretable AI playbook: What Anthropic’s research means for your enterprise LLM strategy",
+      "url": "https://venturebeat.com/ai/the-interpretable-ai-playbook-what-anthropics-research-means-for-your-enterprise-llm-strategy/",
+      "source": "VentureBeat",
+      "summary": "Anthropic的研究強調AI模型需符合人類價值原則，並深入了解模型思考方式。他們的AI模型在代碼表現上優異，但在數學、創意寫作等方面仍需提升。Anthropic致力於未來AI在醫學、心理學和法律等領域的應用。這表示AI發展將更關注社會利益和安全性。",
+      "audio_file": "audio/articles/18b0f490afe27b35d0f510216e5a5183.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/18b0f490afe27b35d0f510216e5a5183.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-18T17:03:57.972437",
+      "published_date": "2025-06-17T23:01:08+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "5fd5632c9641f7a289aefb20fc4609cb",
+      "title": "Google launches production-ready Gemini 2.5 AI models to challenge OpenAI’s enterprise dominance",
+      "url": "https://venturebeat.com/ai/google-launches-production-ready-gemini-2-5-ai-models-to-challenge-openais-enterprise-dominance/",
+      "source": "VentureBeat",
+      "summary": "Google推出Gemini 2.5 AI模型，挑戰OpenAI在企業領域的主導地位。Google強化人工智慧技術，提供Gemini 2.5 Pro和Gemini 2.5 Flash等兩款企業級AI模型，同時推出成本效益更高的Gemini 2.5 Flash-Lite。這表示Google積極挑戰OpenAI，提供企業全方位的AI工具，滿足企業對可靠擴展的生產就緒AI系統需求。企業界將受惠於更多選擇，促進人工智慧技術的應用和發展。",
+      "audio_file": "audio/articles/5fd5632c9641f7a289aefb20fc4609cb.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/5fd5632c9641f7a289aefb20fc4609cb.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-18T17:04:05.015838",
+      "published_date": "2025-06-17T21:55:56+00:00",
+      "content_type": "news"
+    }
+  ]
+}

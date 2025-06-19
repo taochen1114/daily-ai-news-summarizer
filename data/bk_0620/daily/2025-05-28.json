@@ -1,0 +1,76 @@
+{
+  "date": "2025-05-28",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2505.20306",
+      "title": "Multi-Modal Artificial Intelligence of Embryo Grading and Pregnancy Prediction in Assisted Reproductive Technology: A Review",
+      "url": "https://arxiv.org/abs/2505.20306",
+      "source": "Arxiv",
+      "summary": "這篇新聞談的是利用多模式人工智慧技術在輔助生殖科技中進行胚胎分級和懷孕預測的研究。簡單來說，就是透過AI來幫助醫生評估胚胎品質和預測懷孕情況。這項研究有助於提高輔助生殖技術的成功率，對想要懷孕的夫妻來說是一個很有價值的發展。",
+      "audio_file": "2505.20306.mp3",
+      "published_date": "2025-05-28",
+      "content_type": "news"
+    },
+    {
+      "id": "2505.20310",
+      "title": "Manalyzer: End-to-end Automated Meta-analysis with Multi-agent System",
+      "url": "https://arxiv.org/abs/2505.20310",
+      "source": "Arxiv",
+      "summary": "這篇新聞介紹了一個名為Manalyzer的系統，可以自動進行AI研究中的元分析，幫助研究人員更有效地整合和分析大量研究成果。Manalyzer採用多智能體系統，能夠自動化整個分析過程，省去研究人員大量時間和精力。這個系統的出現讓AI研究更具效率，有助於提升研究品質和加速學術進展。",
+      "audio_file": "2505.20310.mp3",
+      "published_date": "2025-05-28",
+      "content_type": "news"
+    },
+    {
+      "id": "2505.20313",
+      "title": "Reasoning in Neurosymbolic AI",
+      "url": "https://arxiv.org/abs/2505.20313",
+      "source": "Arxiv",
+      "summary": "最近有關於「神經符號AI的推理」的新聞，主要在探討如何結合神經網路和符號推理，讓AI可以更聰明地思考和解決問題。這項技術的重要性在於讓AI可以更接近人類的思考方式，提升其智能水準，未來可能帶來更多應用和突破。",
+      "audio_file": "2505.20313.mp3",
+      "published_date": "2025-05-28",
+      "content_type": "news"
+    },
+    {
+      "id": "7fe2384156a68b60d4c0ee3cc6826210",
+      "title": "Everyone’s looking to get in on vibe coding — and Google is no different with Stitch, its follow-up to Jules",
+      "url": "https://venturebeat.com/ai/everyones-looking-to-get-in-on-vibe-coding-and-google-is-no-different-with-stitch-its-follow-up-to-jules/",
+      "source": "VentureBeat AI",
+      "summary": "Google推出了名為Stitch的新工具，進入了「vibe coding」的潮流，這是一種利用AI和自然語言提示來完成基本程式碼的趨勢。這個工具設計使用者介面(UI)只需一個提示，開發者對此讚不絕口。這種新概念超越了現有的AI助手和拖放式編程工具，專注於結果而非過程。其他大公司也紛紛加入這個領域，競相推出類似的工具，希望在這個領域佔有一席之地。",
+      "audio_file": "7fe2384156a68b60d4c0ee3cc6826210.mp3",
+      "published_date": "2025-05-28T00:49:33+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "38b7cab93d7bfa78119bd679ead875d6",
+      "title": "Spott’s AI-native recruiting platform scores $3.2M to end hiring software chaos",
+      "url": "https://venturebeat.com/ai/spotts-ai-native-recruiting-platform-scores-3-2m-to-end-hiring-software-chaos/",
+      "source": "VentureBeat AI",
+      "summary": "一家名為Spott的公司籌集了320萬美元種子輪資金，打造了一個AI原生招聘平台，旨在結束招聘軟體混亂局面。他們的平台承諾改變招聘業務運作方式，讓招聘公司能更有效率地工作。這家總部位於舊金山的新創公司最近完成了Y Combinator的加速器計畫，並獲得多家投資機構和天使投資者的支持。Spott的創始人表示，他們的平台將整合候選人來源、篩選和安置等流程，解決了現有招聘軟體的問題。",
+      "audio_file": "38b7cab93d7bfa78119bd679ead875d6.mp3",
+      "published_date": "2025-05-28T00:07:05+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "647e416f849959c4b39d3f5ed6c58477",
+      "title": "Anthropic debuts Claude conversational voice mode on mobile that searches your Google Docs, Drive, Calendar",
+      "url": "https://venturebeat.com/ai/anthropic-debuts-conversational-voice-mode-for-claude-mobile-apps/",
+      "source": "VentureBeat AI",
+      "summary": "Anthropic推出了Claude對話式語音模式，讓使用者可以透過手機應用程式在Google Docs、Drive和行事曆中進行搜尋。這個更新讓Claude更具彈性和更容易被更廣泛的人群接受。此外，他們也計畫在未來幾週內將這個功能推廣給所有手機應用程式使用者。這項更新讓Claude的語音模式更加強大，並提供了一些其他競爭對手沒有的功能。",
+      "audio_file": "647e416f849959c4b39d3f5ed6c58477.mp3",
+      "published_date": "2025-05-27T23:23:21+00:00",
+      "content_type": "news"
+    }
+  ]
+}

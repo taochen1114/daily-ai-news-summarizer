@@ -1,0 +1,53 @@
+[
+  {
+    "id": "2506.14936",
+    "title": "CALM: Contextual Analog Logic with Multimodality",
+    "url": "https://arxiv.org/abs/2506.14936",
+    "authors": "Maxwell J. Jacobson, Corey J. Maley, Yexiang Xue",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一個名為CALM的新方法，可以在處理多模態數據時更好地理解上下文。簡單來說，就是讓電腦更聰明地處理不同類型的資訊，像是文字、圖片等。這個方法的創新之處在於它可以更好地模擬人類的思維方式，提高了AI系統的準確性和效率。這對於提升機器學習和人工智慧技術的應用範疇有很大的幫助，讓機器能更好地理解我們複雜的世界。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-20T03:02:00.593868",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-20T03:02:05.604781"
+  },
+  {
+    "id": "2506.14990",
+    "title": "MEAL: A Benchmark for Continual Multi-Agent Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2506.14990",
+    "authors": "Tristan Tomilin, Luka van den Boogaard, Samuel Garcin, Bram Grooten, Meng Fang, Mykola Pechenizkiy",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一個名為MEAL的新標竿，專為持續學習的多智能體強化學習設計。這個標竿可以幫助研究人員評估多智能體系統在不斷學習新任務時的表現。透過MEAL，研究者可以更好地了解多智能體系統如何在不斷變化的環境中學習和適應，進而提升系統的效能和穩定性。這個標竿的提出將有助於推動持續學習和多智能體強化學習領域的研究和發展。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-20T03:02:00.593897",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-20T03:02:08.327866"
+  },
+  {
+    "id": "2506.15050",
+    "title": "Truncated Proximal Policy Optimization",
+    "url": "https://arxiv.org/abs/2506.15050",
+    "authors": "Tiantian Fan, Lingjun Liu, Yu Yue, Jiaze Chen, Chengyi Wang, Qiying Yu, Chi Zhang, Zhiqi Lin, Ruofei Zhu, Yufeng Yuan, Xiaochen Zuo, Bole Ma, Mofan Zhang, Gaohong Liu, Ru Zhang, Haotian Zhou, Cong Xie, Ruidong Zhu, Zhi Zhang, Xin Liu, Mingxuan Wang, Lin Yan, Yonghui Wu",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一種名為「截斷式近端策略優化」的新方法，簡稱TPPO。這個方法在強化學習領域中有著重要的創新價值，能夠有效地提升訓練效率和性能表現。簡單來說，TPPO能夠更有效地處理大規模數據，並在訓練過程中更快地收斂到最佳策略。這個方法有助於提高人工智慧系統在各種任務中的表現，是一個具有潛力的新技術。",
+    "published_date": "2025-06-19",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-20T03:02:00.593918",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-20T03:02:10.870436"
+  }
+]

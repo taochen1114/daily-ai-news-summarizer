@@ -1,0 +1,76 @@
+{
+  "date": "2025-06-03",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2505.23881",
+      "title": "Using Reasoning Models to Generate Search Heuristics that Solve Open Instances of Combinatorial Design Problems",
+      "url": "https://arxiv.org/abs/2505.23881",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討如何運用推理模型來生成搜尋啟發式，以解決組合設計問題中的開放實例。簡單來說，就是利用推理方式來找出解決問題的方法。這個方法的創新之處在於可以幫助我們更有效率地處理複雜的設計問題，提供了一個新的思路和工具，讓我們在處理組合設計問題時更有把握。這對於提升設計效率和品質有很大的幫助，也有助於加速解決問題的速度。",
+      "audio_file": "2505.23881.mp3",
+      "published_date": "2025-06-02",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.23885",
+      "title": "OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
+      "url": "https://arxiv.org/abs/2505.23885",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個名為OWL的方法，可以優化多智能體協助真實世界任務自動化的學習。簡單來說，就是讓多個智能體在協助人們完成任務時更有效率。這個方法的創新之處在於能夠提高工作效率，讓多個智能體更好地合作，以達到更好的任務完成效果。這對於實際應用中的任務自動化有很大的幫助，可以提升工作效率，減少人力成本，同時提高任務完成的準確性。",
+      "audio_file": "2505.23885.mp3",
+      "published_date": "2025-06-02",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.23946",
+      "title": "Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and Improve",
+      "url": "https://arxiv.org/abs/2505.23946",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個名為「Lessons Learned」的多智能體框架，讓程式碼語言模型（Code LLMs）能夠學習和改進。這個框架的核心創新在於讓不同智能體之間分享彼此的經驗和知識，以提升程式碼生成的效能。簡單來說，就是讓AI系統能夠互相學習，進而改進程式碼生成的能力。這個方法有助於提高程式碼生成的準確性和效率，對於提升AI在軟體開發領域的應用價值有相當大的幫助。",
+      "audio_file": "2505.23946.mp3",
+      "published_date": "2025-06-02",
+      "content_type": "academic"
+    },
+    {
+      "id": "169bac1c3dc36a4ef8c83f594fc53147",
+      "title": "How S&P is using deep web scraping, ensemble learning and Snowflake architecture to collect 5X more data on SMEs",
+      "url": "https://venturebeat.com/data-infrastructure/how-sp-is-using-deep-web-scraping-ensemble-learning-and-snowflake-architecture-to-collect-5x-more-data-on-smes/",
+      "source": "VentureBeat AI",
+      "summary": "S&P利用深度網頁爬蟲、集成學習和Snowflake架構，收集中小企業（SMEs）5倍的數據量。他們開發了RiskGauge平台，從超過2億個網站中提取數據，經過多種演算法處理後生成風險評分，大幅提升對SMEs的覆蓋率。這項技術改善了數據的準確性和覆蓋範圍，有助於機構投資者、銀行等對企業信用評估。",
+      "audio_file": "169bac1c3dc36a4ef8c83f594fc53147.mp3",
+      "published_date": "2025-06-02T21:45:06+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "a9643b0c034a46e6613bd55cb21e3b0c",
+      "title": "Google quietly launches AI Edge Gallery, letting Android phones run AI without the cloud",
+      "url": "https://venturebeat.com/ai/google-quietly-launches-ai-edge-gallery-letting-android-phones-run-ai-without-the-cloud/",
+      "source": "VentureBeat AI",
+      "summary": "Google推出了一個新應用程式叫做AI Edge Gallery，讓Android手機可以在沒有網路的情況下運行人工智慧模型。這個應用程式讓使用者可以在手機上執行複雜的AI任務，像是圖像分析、文字生成等，而且所有資料處理都在本地進行，不需要連網。這代表Google在推動邊緣運算和注重隱私的AI部署方面邁出了重要一步。這個應用程式是開源的，可以從GitHub下載，讓更多人可以使用先進的AI功能，同時解決了人們對基於雲端的AI服務日益增長的隱私擔憂。",
+      "audio_file": "a9643b0c034a46e6613bd55cb21e3b0c.mp3",
+      "published_date": "2025-06-02T20:46:25+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "b4572ba1e917c15abf59209ae3a92425",
+      "title": "OpenAI’s Sora is now available for FREE to all users through Microsoft Bing Video Creator on mobile",
+      "url": "https://venturebeat.com/ai/openais-sora-is-now-available-for-free-to-all-users-through-microsoft-bing-video-creator-on-mobile/",
+      "source": "VentureBeat AI",
+      "summary": "OpenAI的Sora現在透過微軟Bing影片創作者功能免費提供給所有使用者。Sora是一款AI影片生成工具，之前受到矚目，但近期其他競爭對手也推出類似產品。現在透過Bing影片創作者可以免費使用Sora，而其他途徑需要付費訂閱。這是微軟為用戶提供的最新AI服務之一，讓更多人可以體驗到AI影片生成的樂趣。",
+      "audio_file": "b4572ba1e917c15abf59209ae3a92425.mp3",
+      "published_date": "2025-06-02T19:01:21+00:00",
+      "content_type": "news"
+    }
+  ]
+}

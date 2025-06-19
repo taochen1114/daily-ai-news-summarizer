@@ -1,0 +1,146 @@
+{
+  "date": "2025-05-13",
+  "total_articles": 13,
+  "sources": [
+    {
+      "name": "ArXiv CS.AI",
+      "count": 10
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2505.05541",
+      "title": "Safety by Measurement: A Systematic Literature Review of AI Safety Evaluation Methods",
+      "url": "https://arxiv.org/abs/2505.05541",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文主要探討如何評估人工智慧系統的安全性，提出了一個新的方法論，強調不僅要測試模型的能力，還要考慮其行為傾向和對抗敵對AI的能力。通過各種行為技術和內部技術來評估模型的安全性，並探討這些評估方法如何應用於治理框架中，以做出具體的發展決策。同時指出了安全評估面臨的挑戰，並提出了未來研究方向。這篇文獻回顧旨在成為理解AI安全評估的重要參考來源。",
+      "audio_file": "2505.05541.mp3",
+      "published_date": "Mon, 12 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.05602",
+      "title": "HiBayES: A Hierarchical Bayesian Modeling Framework for AI Evaluation Statistics",
+      "url": "https://arxiv.org/abs/2505.05602",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文介紹了一個名為HiBayES的新方法，可以幫助我們更準確地評估人工智慧系統的能力，尤其是在資料量較少的情況下。這個方法利用貝葉斯統計模型來分析人工智慧系統的表現，讓我們可以更有信心地了解評估結果的不確定性，同時有效估計參數。總結來說，HiBayES提供了一個全面的框架，可以應用在各種人工智慧評估情境下，有助於提升評估的準確性和可靠性。",
+      "audio_file": "2505.05602.mp3",
+      "published_date": "Mon, 12 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.05612",
+      "title": "scDrugMap: Benchmarking Large Foundation Models for Drug Response Prediction",
+      "url": "https://arxiv.org/abs/2505.05612",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文主要介紹了一個名為scDrugMap的新工具，可以幫助預測癌症治療中藥物的反應。他們使用了各種模型，包括單細胞模型和大型語言模型，並在超過326,000個細胞的數據集上進行了評估。研究發現，在預測藥物反應時，某些模型表現優異，有助於提升藥物發現和轉譯研究。這個工具為單細胞數據中藥物反應預測提供了一個大規模的基準，對於推動藥物研發具有重要價值。",
+      "audio_file": "2505.05612.mp3",
+      "published_date": "Mon, 12 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.05616",
+      "title": "Leveraging Large Language Models for enzymatic reaction prediction and characterization",
+      "url": "https://arxiv.org/abs/2505.05616",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇研究利用大型語言模型在酶催化反應預測和特性描述上取得重要突破。研究者發現，透過訓練語言模型，可以有效預測酶的功能和化學反應，有助於生物催化、代謝工程和藥物開發等領域的應用。他們的研究結果顯示，這種方法不僅可以提高反應預測的準確性，還能夠在不同數據情況下適應良好。這項研究有助於未來改進基於語言模型的生物化學建模方法。",
+      "audio_file": "2505.05616.mp3",
+      "published_date": "Mon, 12 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.05684",
+      "title": "Prompted Meta-Learning for Few-shot Knowledge Graph Completion",
+      "url": "https://arxiv.org/abs/2505.05684",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個新的方法，名為「Prompted Meta-Learning for Few-shot Knowledge Graph Completion」，針對少量數據的知識圖譜完整性問題做出創新。他們結合了高層次的語義信息和關係信息，提出了一個「PromptMeta」框架，有效地處理罕見和新興關係，並在兩個基準數據集上進行了豐富的實驗，證明了這種方法的有效性。這個方法有助於更好地應對現實世界中知識不斷變化的挑戰。",
+      "audio_file": "2505.05684.mp3",
+      "published_date": "Mon, 12 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.05701",
+      "title": "Pretraining a Shared Q-Network for Data-Efficient Offline Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2505.05701",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個新方法，透過預訓練共享的Q網絡來增強離線強化學習的數據效率。他們通過預測下一個狀態和Q值來訓練這個共享的Q網絡，並在多個實驗中證明這個方法可以提升現有的離線強化學習方法在各種數據質量和分佈下的表現。值得一提的是，他們的方法只需使用10%的數據集就能超越標準算法，即使是在使用完整數據集時也是如此。",
+      "audio_file": "2505.05701.mp3",
+      "published_date": "Mon, 12 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.05758",
+      "title": "APOLLO: Automated LLM and Lean Collaboration for Advanced Formal Reasoning",
+      "url": "https://arxiv.org/abs/2505.05758",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個名為APOLLO的系統，結合了Lean編譯器和大型語言模型的能力，以更有效率地生成數學定理的證明。透過自動化的過程，系統能夠修復語法錯誤、找出證明中的錯誤、使用自動求解器，並在預算內完成證明生成。在測試中，APOLLO不僅提高了準確性，還降低了樣本複雜度，顯示出在自動定理證明領域具有潛力的創新方法。",
+      "audio_file": "2505.05758.mp3",
+      "published_date": "Mon, 12 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.05880",
+      "title": "Combining Abstract Argumentation and Machine Learning for Efficiently Analyzing Low-Level Process Event Streams",
+      "url": "https://arxiv.org/abs/2505.05880",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文結合抽象辯證和機器學習，提出一種有效分析低階流程事件串的方法。他們結合了推理和機器學習，以更有效地解釋事件串，並提供可能的事件解釋。這種方法可以在不確定的情況下提供高度可能的解釋，同時節省了訓練成本和計算成本。這種方法有助於環境和社會的可持續發展，特別適用於資料有限且成本受限制的情況下。",
+      "audio_file": "2505.05880.mp3",
+      "published_date": "Mon, 12 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.05976",
+      "title": "Pseudo-Boolean d-DNNF Compilation for Expressive Feature Modeling Constructs",
+      "url": "https://arxiv.org/abs/2505.05976",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一種新方法，可以更有效地處理複雜的特徵模型，讓電腦能更快速地分析特徵之間的關係。他們開發了一種偽布林編碼方式，可以比傳統的布林編碼更有效地表示特徵模型中的條件。這個方法不僅可以加速特徵模型的分析，也能處理更多不同類型的特徵模型。研究結果顯示，這種偽布林方法比傳統方法更有效率，對於特徵模型的應用有很大的幫助。",
+      "audio_file": "2505.05976.mp3",
+      "published_date": "Mon, 12 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2505.06020",
+      "title": "ArtRAG: Retrieval-Augmented Generation with Structured Context for Visual Art Understanding",
+      "url": "https://arxiv.org/abs/2505.06020",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文提出了一個名為ArtRAG的新框架，結合結構化知識和檢索增強生成，幫助理解視覺藝術作品。ArtRAG可以從特定領域的文本來源自動構建藝術上下文知識圖，並在推論時選擇相關子圖來引導生成，讓模型能夠產生具有文化背景的藝術描述。研究表明，ArtRAG在SemArt和Artpedia數據集上表現優異，人類評估也確認ArtRAG能夠生成連貫、富有見解和文化豐富的解釋。",
+      "audio_file": "2505.06020.mp3",
+      "published_date": "Mon, 12 May 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "cbbdab1a959bbcc93b13ba22981df6dd",
+      "title": "Glass Imaging raises $20M to use AI to improve digital image quality",
+      "url": "https://venturebeat.com/games/glass-imaging-raises-20m-to-use-ai-to-improve-digital-image-quality/",
+      "source": "VentureBeat AI",
+      "summary": "Glass Imaging透過人工智慧技術，成功籌集了2000萬美元的資金，用來提升數位影像的品質。他們的GlassAI技術能夠改善相機的表現，讓影像更清晰、更細緻，不會有失真。這項技術不僅適用於智慧型手機，還可以應用在無人機等各種相機裝置上，讓影像品質更上一層樓。Glass Imaging的CEO表示，他們致力於打造未來的影像科技，可以讓相機發揮最大潛力，呈現出令人驚豔的細緻影像。",
+      "audio_file": "cbbdab1a959bbcc93b13ba22981df6dd.mp3",
+      "published_date": "2025-05-12T13:30:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "fe5aa61022808b148a43fbe2c18011e0",
+      "title": "Aarki launches Encore as privacy-first mobile growth platform",
+      "url": "https://venturebeat.com/games/aarki-launches-encore-as-privacy-first-mobile-growth-platform/",
+      "source": "VentureBeat AI",
+      "summary": "Aarki推出Encore作為以隱私為首要考量的行動增長平台，結合智慧型目標設定、持續模型演進和SKAN 4優化，支援iOS和Android的使用者獲取和重新定位，提供更聰明的用戶獲取和更強的留存能力。Encore利用超過1,000台伺服器和每秒處理600萬個查詢的AI基礎設施，最大程度減少媒體浪費，提升廣告效率。這個新平台旨在在隱私保護的環境中實現可持續增長和長期用戶保留。",
+      "audio_file": "fe5aa61022808b148a43fbe2c18011e0.mp3",
+      "published_date": "2025-05-12T12:30:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "71f4996a497d99ecb8f2b725e4df074f",
+      "title": "From silicon to sentience: The legacy guiding AI’s next frontier and human cognitive migration",
+      "url": "https://venturebeat.com/ai/from-silicon-to-sentience-the-legacy-guiding-ais-next-frontier-and-human-cognitive-migration/",
+      "source": "VentureBeat AI",
+      "summary": "這篇新聞講的是從過去到現在，科技革命帶來的影響，從以前的農業到工業，再到數位時代，每次變革都要求人類做出調整。現在隨著人工智慧的進步，我們又要面對心智遷徙的時代，從機器擅長的工作轉向需要人類創造力、道德判斷和情感洞察的領域。這代表我們必須不斷學習新技能，因應科技帶來的挑戰。",
+      "audio_file": "71f4996a497d99ecb8f2b725e4df074f.mp3",
+      "published_date": "2025-05-11T17:05:00+00:00",
+      "content_type": "news"
+    }
+  ]
+}

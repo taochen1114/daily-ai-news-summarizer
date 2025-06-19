@@ -1,0 +1,76 @@
+{
+  "date": "2025-04-30",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "ArXiv CS.AI",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat AI",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2504.20082",
+      "title": "Evolution of AI in Education: Agentic Workflows",
+      "url": "https://arxiv.org/abs/2504.20082",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文探討了人工智慧在教育領域的演進，提出了AI代理工作流程的概念。相較於傳統的大型語言模型，AI代理具有更高的靈活性和推理能力，有助於改善教育中的自動輔導、評估和內容生成。研究者們通過四個主要範式：反思、規劃、工具使用和多代理協作，來探討AI代理在教育中的應用。他們的研究發現，AI代理系統在教育領域有著巨大的潛力，但也需要進一步研究其可解釋性、可信度和對教學影響的可持續性。",
+      "audio_file": "2504.20082.mp3",
+      "published_date": "Wed, 30 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2504.20084",
+      "title": "AI Awareness",
+      "url": "https://arxiv.org/abs/2504.20084",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文探討了人工智慧的「意識」議題，不是在討論哲學上的意識，而是將其視為可測量、功能性的能力。簡單來說，就是讓AI具備「自我認知」、「自我意識」、「社交意識」和「情境意識」等能力，進而提升其智能表現。然而，這樣的AI意識也帶來了風險，需要更嚴謹的監督以確保AI的發展符合倫理及安全標準。這篇論文提供了未來研究的方向，並強調了AI意識在智能機器發展中的重要性。",
+      "audio_file": "2504.20084.mp3",
+      "published_date": "Wed, 30 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "2504.20090",
+      "title": "Spark: A System for Scientifically Creative Idea Generation",
+      "url": "https://arxiv.org/abs/2504.20090",
+      "source": "ArXiv CS.AI",
+      "summary": "這篇論文介紹了一個名為Spark的系統，結合了大型語言模型和評審模型，可以幫助科學領域生成創意研究想法。他們訓練了一個名為Judge的模型，用來評估這些生成的想法。這個系統展示了如何利用語言模型來產生科學研究想法，同時也鼓勵其他研究者探索在計算創意原則下生成和評估科學想法的可能性。他們還釋出了用來訓練Judge模型的標註數據集，希望能激發更多相關研究。",
+      "audio_file": "2504.20090.mp3",
+      "published_date": "Wed, 30 Apr 2025 00:00:00 -0400",
+      "content_type": "academic"
+    },
+    {
+      "id": "0c9b0e363ef59f69f43c33cd8b8342c8",
+      "title": "No more window switching: Mastercard’s Agent Pay transforms how enterprises use AI search",
+      "url": "https://venturebeat.com/ai/no-more-window-switching-mastercards-agent-pay-transforms-how-enterprises-use-ai-search/",
+      "source": "VentureBeat AI",
+      "summary": "Mastercard推出Agent Pay，讓企業在AI搜尋時無需切換視窗即可完成交易，提升使用者體驗。這個新支付計畫將AI公司和平台整合進Mastercard支付網絡，讓使用者和企業能夠在各自的生態系統中無縫交易。這項創新讓Mastercard能夠與OpenAI、Anthropic和Perplexity等公司合作，擴大支付網絡，增加交易安全性，並提供詐騙和交易爭議系統。同時，Mastercard也與Microsoft、IBM等合作，擴展Agent Pay的功能，提供更好的服務給商家。",
+      "audio_file": "0c9b0e363ef59f69f43c33cd8b8342c8.mp3",
+      "published_date": "Tue, 29 Apr 2025 22:24:52 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "09206b172a3c4c98cda35e192f0d38cf",
+      "title": "Meta unleashes Llama API running 18x faster than OpenAI: Cerebras partnership delivers 2,600 tokens per second",
+      "url": "https://venturebeat.com/ai/meta-unleashes-llama-api-running-18x-faster-than-openai-cerebras-partnership-delivers-2600-tokens-per-second/",
+      "source": "VentureBeat AI",
+      "summary": "Meta宣布與Cerebras Systems合作，推出新的Llama API，速度比傳統GPU解決方案快18倍，每秒可處理2,600個token。這讓Meta能直接與OpenAI、Anthropic和Google競爭，提供開發者超快的AI推論服務。這個合作讓Meta正式進入出售AI運算的領域，將其熱門的Llama模型轉化為商業服務，讓開發者能更方便地建立應用程式。",
+      "audio_file": "09206b172a3c4c98cda35e192f0d38cf.mp3",
+      "published_date": "Tue, 29 Apr 2025 20:02:04 +0000",
+      "content_type": "news"
+    },
+    {
+      "id": "458ef0e3f5656d15248546e28adb5df8",
+      "title": "Meta’s first dedicated AI app is here with Llama 4 — but it’s more consumer than productivity or business oriented",
+      "url": "https://venturebeat.com/ai/metas-first-dedicated-ai-app-is-here-with-llama-4-but-its-more-consumer-than-productivity-or-business-oriented/",
+      "source": "VentureBeat AI",
+      "summary": "Meta推出了首款專為消費者打造的AI應用程式Llama 4，強調個人化和整合化的AI體驗，支援手機、網頁和Ray-Ban Meta智慧眼鏡。這款應用程式以Llama 4模型為基礎，專注於學習使用者喜好、保持對話內容和提供無縫語音互動。雖然需要Meta帳戶登入，但使用者也可以用現有的Facebook或Instagram帳戶登入。此舉預示著Meta將在Llamacon 2025開發者大會上展示其AI模型的強大功能。",
+      "audio_file": "458ef0e3f5656d15248546e28adb5df8.mp3",
+      "published_date": "Tue, 29 Apr 2025 18:19:30 +0000",
+      "content_type": "news"
+    }
+  ]
+}

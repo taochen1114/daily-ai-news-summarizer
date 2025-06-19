@@ -1,0 +1,59 @@
+[
+  {
+    "id": "2505.21552",
+    "title": "Understanding the learned look-ahead behavior of chess neural networks",
+    "url": "https://arxiv.org/abs/2505.21552",
+    "authors": "Diogo Cruz",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文探討了象棋神經網路學習到的預測未來走步的行為。作者 Diogo Cruz 發現，這些神經網路在分析棋局時會預測未來可能的走步，並且能夠有效地提升下棋表現。這項研究的重要性在於揭示了神經網路如何透過預測未來來改進決策，進而提升遊戲技巧。透過了解這種學習行為，未來可以更好地設計出更強大的遊戲AI，提升遊戲的挑戰性和趣味性。",
+    "published_date": "2025-05-29",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-05-29T22:46:58.194251",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-05-29T22:47:01.872659"
+  },
+  {
+    "id": "2505.21668",
+    "title": "R1-Code-Interpreter: Training LLMs to Reason with Code via Supervised and Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2505.21668",
+    "authors": "Yongchao Chen, Yueying Liu, Junwei Zhou, Yilun Hao, Jingquan Wang, Yang Zhang, Chuchu Fan",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.SC"
+    ],
+    "summary": "這篇論文主要介紹了一種名為 R1-Code-Interpreter 的方法，它能夠訓練大型語言模型（LLMs）來進行代碼推理，透過監督式和強化式學習。這個方法的核心創新在於讓機器學習模型能夠理解和推理程式碼，進而提升程式碼理解和生成的能力。透過這種方式，研究者們希望能夠改善程式碼相關任務的表現，並促進人工智慧在軟體工程領域的應用。",
+    "published_date": "2025-05-29",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-05-29T22:46:58.194279",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-05-29T22:47:05.607065"
+  },
+  {
+    "id": "2505.21671",
+    "title": "Adaptive Frontier Exploration on Graphs with Applications to Network-Based Disease Testing",
+    "url": "https://arxiv.org/abs/2505.21671",
+    "authors": "Davin Choo, Yuqi Pan, Tonghan Wang, Milind Tambe, Alastair van Heerden, Cheryl Johnson",
+    "categories": [
+      "cs.AI",
+      "cs.DS",
+      "cs.LG",
+      "math.OC"
+    ],
+    "summary": "這篇論文主要提出了一種在圖形上適應性探索邊界的方法，並應用在基於網絡的疾病檢測上。簡單來說，就是提出了一種新的方式來有效地在網絡上進行疾病檢測。這個方法可以幫助我們更快速、更準確地找出潛在的疾病傳播源，對於提升疾病檢測的效率和準確性有很大的幫助。這項研究的價值在於提供了一個新的角度和方法來應對疾病擴散的挑戰，有助於改善公共衛生工作的效能。",
+    "published_date": "2025-05-29",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-05-29T22:46:58.194302",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-05-29T22:47:10.770078"
+  }
+]
