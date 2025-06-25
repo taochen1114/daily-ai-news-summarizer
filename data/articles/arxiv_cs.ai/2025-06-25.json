@@ -1,0 +1,55 @@
+[
+  {
+    "id": "2506.17289",
+    "title": "Evaluating Generalization and Representation Stability in Small LMs via Prompting",
+    "url": "https://arxiv.org/abs/2506.17289",
+    "authors": "Rahul Raja, Arpita Vats",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文主要探討如何透過提示（prompting）方法來評估小型語言模型（LM）的泛化能力和表示穩定性。研究者發現，透過不同的提示可以幫助LM更好地理解和處理複雜的任務，同時提高其泛化能力。這項研究的價值在於提供了一種新的評估LM性能的方法，有助於改善小型LM在各種應用中的表現。透過提示，我們可以更好地了解LM在處理不同任務時的表現，並提高其在現實應用中的效果。",
+    "published_date": "2025-06-24",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-25T08:38:12.205648",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-25T08:38:16.834224"
+  },
+  {
+    "id": "2506.17300",
+    "title": "Individual Causal Inference with Structural Causal Model",
+    "url": "https://arxiv.org/abs/2506.17300",
+    "authors": "Daniel T. Chang",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文主要探討如何利用結構因果模型進行個別因果推論。簡單來說，就是想要了解某個事件是如何影響另一個事件的。作者提出的方法可以幫助我們更準確地判斷出事件之間的因果關係，進而做出更精確的預測和決策。這對於提升人工智慧系統的效能和可靠性有相當大的幫助，對於未來的研究和應用具有重要價值。",
+    "published_date": "2025-06-24",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-25T08:38:12.205677",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-25T08:38:19.186220"
+  },
+  {
+    "id": "2506.17434",
+    "title": "Resource Rational Contractualism Should Guide AI Alignment",
+    "url": "https://arxiv.org/abs/2506.17434",
+    "authors": "Sydney Levine, Matija Franklin, Tan Zhi-Xuan, Secil Yanik Guyot, Lionel Wong, Daniel Kilov, Yejin Choi, Joshua B. Tenenbaum, Noah Goodman, Seth Lazar, Iason Gabriel",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一個新的觀點，認為AI的發展應該受到「資源合理契約主義」的指導。簡單來說，就是讓AI在達成目標時考慮資源的使用和公平性。這個觀點的重要性在於可以幫助我們更好地引導AI的發展，讓它們更符合人類價值觀和道德準則。這對於未來AI的發展方向有著重要的啟發意義，有助於確保AI技術的應用符合社會的整體利益。",
+    "published_date": "2025-06-24",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-25T08:38:12.205698",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-25T08:38:21.621945"
+  }
+]

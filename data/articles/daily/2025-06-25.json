@@ -1,0 +1,94 @@
+{
+  "date": "2025-06-25",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2506.17289",
+      "title": "Evaluating Generalization and Representation Stability in Small LMs via Prompting",
+      "url": "https://arxiv.org/abs/2506.17289",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討如何透過提示（prompting）方法來評估小型語言模型（LM）的泛化能力和表示穩定性。研究者發現，透過不同的提示可以幫助LM更好地理解和處理複雜的任務，同時提高其泛化能力。這項研究的價值在於提供了一種新的評估LM性能的方法，有助於改善小型LM在各種應用中的表現。透過提示，我們可以更好地了解LM在處理不同任務時的表現，並提高其在現實應用中的效果。",
+      "audio_file": "audio/articles/2506.17289.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.17289.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-25T08:38:40.190296",
+      "published_date": "2025-06-24",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.17300",
+      "title": "Individual Causal Inference with Structural Causal Model",
+      "url": "https://arxiv.org/abs/2506.17300",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討如何利用結構因果模型進行個別因果推論。簡單來說，就是想要了解某個事件是如何影響另一個事件的。作者提出的方法可以幫助我們更準確地判斷出事件之間的因果關係，進而做出更精確的預測和決策。這對於提升人工智慧系統的效能和可靠性有相當大的幫助，對於未來的研究和應用具有重要價值。",
+      "audio_file": "audio/articles/2506.17300.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.17300.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-25T08:38:47.777911",
+      "published_date": "2025-06-24",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.17434",
+      "title": "Resource Rational Contractualism Should Guide AI Alignment",
+      "url": "https://arxiv.org/abs/2506.17434",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個新的觀點，認為AI的發展應該受到「資源合理契約主義」的指導。簡單來說，就是讓AI在達成目標時考慮資源的使用和公平性。這個觀點的重要性在於可以幫助我們更好地引導AI的發展，讓它們更符合人類價值觀和道德準則。這對於未來AI的發展方向有著重要的啟發意義，有助於確保AI技術的應用符合社會的整體利益。",
+      "audio_file": "audio/articles/2506.17434.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.17434.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-25T08:38:56.327112",
+      "published_date": "2025-06-24",
+      "content_type": "academic"
+    },
+    {
+      "id": "e445c950de160862389839a52a40dbef",
+      "title": "Stanford’s ChatEHR allows clinicians to query patient medical records using natural language, without compromising patient data",
+      "url": "https://venturebeat.com/ai/stanfords-chatehr-allows-clinicians-to-query-patient-medical-records-using-natural-language-without-compromising-patient-data/",
+      "source": "VentureBeat",
+      "summary": "Stanford的ChatEHR讓醫護人員可以用自然語言查詢病人的病歷，不會洩漏病人資料。這個工具可以加快急診病例審查速度，簡化病人轉診摘要，並整合複雜病史資訊。臨床使用者在初期試驗中發現，查詢資訊速度明顯提升，緊急醫師在重要交接時看到了40%的縮短審查時間。這有助於減少醫師工作壓力，提升病人照護品質，並促進醫療數據的數位轉型。",
+      "audio_file": "audio/articles/e445c950de160862389839a52a40dbef.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/e445c950de160862389839a52a40dbef.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-25T08:39:04.701673",
+      "published_date": "2025-06-25T00:24:25+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "17a7b6123f3c0e14c2de064494f0f172",
+      "title": "What’s inside Genspark? A new vibe working approach that ditches rigid workflows for autonomous agents",
+      "url": "https://venturebeat.com/ai/whats-inside-genspark-a-new-vibe-working-approach-that-ditches-rigid-workflows-for-autonomous-agents/",
+      "source": "VentureBeat",
+      "summary": "新的工作方式「Genspark」拋棄嚴格的工作流程，轉向使用自主代理人，讓大家可以更輕鬆地建立應用程式。這種新的方法讓人可以更自然地與企業工作流程互動，不再受限於傳統的規則。這種「vibe working」的理念希望讓每個人都能參與，而不僅僅是軟體工程師。這種革新帶來的核心價值在於讓人們更輕鬆地與人工智慧代理人合作，打破傳統的框架。",
+      "audio_file": "audio/articles/17a7b6123f3c0e14c2de064494f0f172.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/17a7b6123f3c0e14c2de064494f0f172.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-25T08:39:10.995226",
+      "published_date": "2025-06-25T00:09:24+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "ab867a5cbcf629a53fa92e775ba3eb0d",
+      "title": "Windsurf CEO Varun Mohan throws cold water on 1-person, billion-dollar startup idea at VB Transform: ‘more people allow you to grow faster’",
+      "url": "https://venturebeat.com/programming-development/windsurf-ceo-varun-mohan-throws-cold-water-on-1-person-billion-dollar-startup-idea-at-vb-transform-more-people-allow-you-to-grow-faster/",
+      "source": "VentureBeat",
+      "summary": "Windsurf CEO Varun Mohan在VB Transform 2025會議上表示，單人十億美元的創業點子不實際，更多人讓你成長更快。他分享Windsurf的成功案例，超過百萬開發者使用他們的AI開發平台。討論中提到Windsurf的技術、企業吸引力和對AI開發的願景。同時，OpenAI有意收購Windsurf，但與Microsoft之間的協議引起爭議。整體來說，Windsurf以人工智慧與開發者共同合作的方式，創造了成功的開發環境。",
+      "audio_file": "audio/articles/ab867a5cbcf629a53fa92e775ba3eb0d.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/ab867a5cbcf629a53fa92e775ba3eb0d.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-25T08:39:22.218287",
+      "published_date": "2025-06-24T23:35:53+00:00",
+      "content_type": "news"
+    }
+  ]
+}
