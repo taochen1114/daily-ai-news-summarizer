@@ -1,0 +1,51 @@
+{
+  "date": "2025-06-29",
+  "total_articles": 3,
+  "sources": [
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "afc0f17f2552ee17353573dcabc5dbb6",
+      "title": "From hallucinations to hardware: Lessons from a real-world computer vision project gone sideways",
+      "url": "https://venturebeat.com/ai/from-hallucinations-to-hardware-lessons-from-a-real-world-computer-vision-project-gone-sideways/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞講述了一個真實世界的電腦視覺專案出了些問題，從幻覺到硬體，讓專案走向了不尋常的方向。他們原本想建立一個模型，可以辨識照片中筆記型電腦的損壞情況，但卻遇到了幻覺、不可靠的輸出和非筆記型電腦的圖片等問題。最後他們採用了一種不尋常的方法來改善模型的表現。這個故事告訴我們在AI專案中，常常會遇到挑戰，需要不斷嘗試不同方法才能找到可靠的解決方案。",
+      "audio_file": "audio/articles/afc0f17f2552ee17353573dcabc5dbb6.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/afc0f17f2552ee17353573dcabc5dbb6.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-29T15:25:03.112328",
+      "published_date": "2025-06-28T19:05:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "1febd75b83fb97dac1d9bf4535020277",
+      "title": "AI agents are hitting a liability wall. Mixus has a plan to overcome it using human overseers on high-risk workflows",
+      "url": "https://venturebeat.com/ai/ai-agents-are-hitting-a-liability-wall-mixus-has-a-plan-to-overcome-it-using-human-overseers-on-high-risk-workflows/",
+      "source": "VentureBeat",
+      "summary": "最近AI代理程式在處理高風險工作時遇到責任瓶頸，Mixus提出了一個計畫，透過人類監督員來解決這個問題。企業發現將人類重新納入控制是防止AI失敗的有效策略。一些事件顯示完全自主的AI代理程式存在高風險，因此需要人類監督以確保任務的可靠性。",
+      "audio_file": "audio/articles/1febd75b83fb97dac1d9bf4535020277.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/1febd75b83fb97dac1d9bf4535020277.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-29T15:25:11.644126",
+      "published_date": "2025-06-28T14:27:45+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "3f40b1a3331b8d9dd9a2406a612d2ef9",
+      "title": "CTGT wins Best Presentation Style award at VB Transform 2025",
+      "url": "https://venturebeat.com/ai/ctgt-wins-best-presentation-style-award-at-vb-transform-2025/",
+      "source": "VentureBeat",
+      "summary": "一家名為CTGT的新創公司在VB Transform 2025中贏得了最佳演示風格獎。他們專注於通過定制模型功能來使人工智慧更加可信，而非傳統的微調或提示工程方法。CTGT的技術有助企業克服人工智慧信任障礙，這在業界引起了極大關注。他們的方法與傳統人工智慧定制技術有顯著不同，並且被認為是突破了人工智慧的計算障礙。這項創新有望改變企業對人工智慧的看法，提高其可信度。",
+      "audio_file": "audio/articles/3f40b1a3331b8d9dd9a2406a612d2ef9.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/3f40b1a3331b8d9dd9a2406a612d2ef9.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-06-29T15:25:22.704816",
+      "published_date": "2025-06-28T00:48:46+00:00",
+      "content_type": "news"
+    }
+  ]
+}
