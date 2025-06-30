@@ -1,0 +1,54 @@
+[
+  {
+    "id": "2506.21669",
+    "title": "SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents",
+    "url": "https://arxiv.org/abs/2506.21669",
+    "authors": "Wanxin Tian, Shijie Zhang, Kevin Zhang, Xiaowei Chi, Yulin Luo, Junyu Lu, Chunkai Fan, Qiang Zhou, Yiming Zhao, Ning Liu Siyu Lin, Zhiyuan Qin, Xiaozhu Ju, Shanghang Zhang, Jian Tang",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了一種名為SEEA-R1的方法，用於強化學習中的樹狀結構微調，以培養自我進化的具身代理。這個方法的核心創新在於能夠有效地提升代理的學習效率和性能。通俗來說，就是讓機器人在學習過程中更聰明更有效率。這對於未來發展智能機器人和自主學習系統有著重要的價值。透過SEEA-R1，研究團隊展示了如何透過樹狀結構微調來提升代理的表現，為AI領域帶來了新的可能性。",
+    "published_date": "2025-06-30",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-30T15:17:48.194045",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-30T15:17:54.470604"
+  },
+  {
+    "id": "2506.21734",
+    "title": "Hierarchical Reasoning Model",
+    "url": "https://arxiv.org/abs/2506.21734",
+    "authors": "Guan Wang, Jin Li, Yuhao Sun, Xing Chen, Changling Liu, Yue Wu, Meng Lu, Sen Song, Yasin Abbasi Yadkori",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文提出了一個名為「階層推理模型」的新概念，主要是要解決在人工智慧領域中的推理問題。這個模型可以幫助機器更有效地進行複雜的推理過程，提升了人工智慧系統的效率和準確性。簡單來說，就是讓機器能夠更像人類一樣進行層層推理，更深入地理解問題。這個模型的出現將有助於提升人工智慧技術在各個領域的應用，帶來更多創新和價值。",
+    "published_date": "2025-06-30",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-30T15:17:48.194074",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-30T15:17:58.849710"
+  },
+  {
+    "id": "2506.21763",
+    "title": "THE-Tree: Can Tracing Historical Evolution Enhance Scientific Verification and Reasoning?",
+    "url": "https://arxiv.org/abs/2506.21763",
+    "authors": "Xin Wang, Jiyao Liu, Yulong Xiao, Junzhi Ning, Lihao Liu, Junjun He, Botian Shi, Kaicheng Yu",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文探討了一種名為「THE-Tree」的方法，可以追蹤歷史演化來增強科學驗證和推理。簡單來說，就是利用歷史資料來幫助科學家更好地驗證和推理。這個方法的創新之處在於可以幫助科學家更清楚地理解科學理論的演進過程，進而提升科學研究的效率和準確性。通過追蹤歷史演化，科學家可以更有把握地確認科學理論的可靠性，進而促進科學知識的進步。",
+    "published_date": "2025-06-30",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-06-30T15:17:48.194095",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-06-30T15:18:00.840242"
+  }
+]
