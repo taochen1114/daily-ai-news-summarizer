@@ -1,0 +1,55 @@
+[
+  {
+    "id": "2506.22604",
+    "title": "Bootstrapping Human-Like Planning via LLMs",
+    "url": "https://arxiv.org/abs/2506.22604",
+    "authors": "David Porfirio, Vincent Hsiao, Morgan Fine-Morris, Leslie Smith, Laura M. Hiatt",
+    "categories": [
+      "cs.AI",
+      "cs.HC",
+      "cs.RO"
+    ],
+    "summary": "這篇論文主要探討如何透過大型語言模型（LLMs）來模擬人類的規劃能力，讓AI更像人類一樣思考和計畫。研究團隊提出一種新方法，讓機器學習系統可以透過自我學習和反覆改進，逐漸提升其規劃能力，這對於提升AI的智能水準有相當大的幫助。這項研究有助於讓人工智慧更貼近人類的思考方式，未來或許能在各種領域帶來更多應用與突破。",
+    "published_date": "2025-07-01",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-01T13:58:28.399021",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-01T13:58:36.735953"
+  },
+  {
+    "id": "2506.22609",
+    "title": "Ludax: A GPU-Accelerated Domain Specific Language for Board Games",
+    "url": "https://arxiv.org/abs/2506.22609",
+    "authors": "Graham Todd, Alexander G. Padula, Dennis J. N. J. Soemers, Julian Togelius",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文介紹了一種名為\"Ludax\"的專為棋盤遊戲設計的GPU加速領域特定語言。簡單來說，就是一種讓電腦更快速地學習和玩棋盤遊戲的工具。這個工具的創新之處在於能夠利用GPU的強大運算能力，加速遊戲設計和學習過程，讓遊戲開發者更有效率地創造出更有趣的遊戲。這項研究有助於提升棋盤遊戲人工智慧的發展，同時也能激發更多創新想法和遊戲設計。",
+    "published_date": "2025-07-01",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-01T13:58:28.399049",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-01T13:58:39.238673"
+  },
+  {
+    "id": "2506.22653",
+    "title": "URSA: The Universal Research and Scientific Agent",
+    "url": "https://arxiv.org/abs/2506.22653",
+    "authors": "Michael Grosskopf, Russell Bent, Rahul Somasundaram, Isaac Michaud, Arthur Lui, Nathan Debardeleben, Earl Lawrence",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文介紹了一個名為「URSA: The Universal Research and Scientific Agent」的系統，由多位作者共同開發。這個系統的主要創新在於結合了人工智慧技術和科學研究，讓研究人員能夠更有效地進行資料分析和知識管理。URSA能夠幫助科學家們更快速地找到資訊、分析數據，並提供更準確的研究結果。這個系統的價值在於提升了科學研究的效率和準確性，有助於推動科學領域的進步。",
+    "published_date": "2025-07-01",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-01T13:58:28.399071",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-01T13:58:41.785882"
+  }
+]

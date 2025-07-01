@@ -1,0 +1,81 @@
+{
+  "date": "2025-07-01",
+  "total_articles": 5,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat",
+      "count": 2
+    }
+  ],
+  "articles": [
+    {
+      "id": "2506.22604",
+      "title": "Bootstrapping Human-Like Planning via LLMs",
+      "url": "https://arxiv.org/abs/2506.22604",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討如何透過大型語言模型（LLMs）來模擬人類的規劃能力，讓AI更像人類一樣思考和計畫。研究團隊提出一種新方法，讓機器學習系統可以透過自我學習和反覆改進，逐漸提升其規劃能力，這對於提升AI的智能水準有相當大的幫助。這項研究有助於讓人工智慧更貼近人類的思考方式，未來或許能在各種領域帶來更多應用與突破。",
+      "audio_file": "audio/articles/2506.22604.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.22604.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-01T13:58:56.082304",
+      "published_date": "2025-07-01",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.22609",
+      "title": "Ludax: A GPU-Accelerated Domain Specific Language for Board Games",
+      "url": "https://arxiv.org/abs/2506.22609",
+      "source": "Arxiv",
+      "summary": "這篇論文介紹了一種名為\"Ludax\"的專為棋盤遊戲設計的GPU加速領域特定語言。簡單來說，就是一種讓電腦更快速地學習和玩棋盤遊戲的工具。這個工具的創新之處在於能夠利用GPU的強大運算能力，加速遊戲設計和學習過程，讓遊戲開發者更有效率地創造出更有趣的遊戲。這項研究有助於提升棋盤遊戲人工智慧的發展，同時也能激發更多創新想法和遊戲設計。",
+      "audio_file": "audio/articles/2506.22609.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.22609.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-01T13:59:03.532025",
+      "published_date": "2025-07-01",
+      "content_type": "academic"
+    },
+    {
+      "id": "2506.22653",
+      "title": "URSA: The Universal Research and Scientific Agent",
+      "url": "https://arxiv.org/abs/2506.22653",
+      "source": "Arxiv",
+      "summary": "這篇論文介紹了一個名為「URSA: The Universal Research and Scientific Agent」的系統，由多位作者共同開發。這個系統的主要創新在於結合了人工智慧技術和科學研究，讓研究人員能夠更有效地進行資料分析和知識管理。URSA能夠幫助科學家們更快速地找到資訊、分析數據，並提供更準確的研究結果。這個系統的價值在於提升了科學研究的效率和準確性，有助於推動科學領域的進步。",
+      "audio_file": "audio/articles/2506.22653.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2506.22653.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-01T13:59:14.234022",
+      "published_date": "2025-07-01",
+      "content_type": "academic"
+    },
+    {
+      "id": "6b4299dc8355a21ff0e0db46c6738485",
+      "title": "Kayak and Expedia race to build AI travel agents that turn social posts into itineraries",
+      "url": "https://venturebeat.com/ai/kayak-and-expedia-race-to-build-ai-travel-agents-that-turn-social-posts-into-itineraries/",
+      "source": "VentureBeat",
+      "summary": "Kayak和Expedia正競相開發AI旅遊代理人，能將社群媒體貼文轉換成旅程計畫。他們希望透過人工智慧技術，讓旅遊規劃更個人化、方便。Kayak的首席產品官表示，他們已經推出了名為Kayak AI的新功能，提供基於對話的旅遊預訂體驗，結合了ChatGPT等工具，讓用戶可以更輕鬆地尋找航班和飯店。這項技術代表了旅遊業向智能AI代理人邁進的一大步。",
+      "audio_file": "audio/articles/6b4299dc8355a21ff0e0db46c6738485.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/6b4299dc8355a21ff0e0db46c6738485.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-01T13:59:22.733612",
+      "published_date": "2025-07-01T00:05:48+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "b720bc773bd0139b619e61fd4fcbd87c",
+      "title": "From chatbots to collaborators: How AI agents are reshaping enterprise work",
+      "url": "https://venturebeat.com/ai/from-chatbots-to-collaborators-how-ai-agents-are-reshaping-enterprise-work/",
+      "source": "VentureBeat",
+      "summary": "AI代理從聊天機器人進化為合作夥伴，改變企業工作方式。企業不再只有簡單回答問題的聊天機器人，而是擁有能夠自主工作的智能系統。這種轉變讓企業採用AI更廣泛，像是Anthropic公司的Claude AI模型，從基本文字完成到能建立整個應用程式。AI的進步速度驚人，讓非專業程式設計師也能建立生產就緒的軟體功能。",
+      "audio_file": "audio/articles/b720bc773bd0139b619e61fd4fcbd87c.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/b720bc773bd0139b619e61fd4fcbd87c.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-01T13:59:30.279528",
+      "published_date": "2025-06-30T20:38:53+00:00",
+      "content_type": "news"
+    }
+  ]
+}
