@@ -1,0 +1,69 @@
+[
+  {
+    "id": "2507.01231",
+    "title": "Rethinking the Illusion of Thinking",
+    "url": "https://arxiv.org/abs/2507.01231",
+    "authors": "I\\~naki Dellibarda Varela, Pablo Romero-Sorozabal, Eduardo Rocon, Manuel Cebrian",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文提出了重新思考思考的錯覺。作者團隊包括I\\~naki Dellibarda Varela、Pablo Romero-Sorozabal、Eduardo Rocon和Manuel Cebrian。他們的研究主要探討人類思考的過程，並質疑我們對於思考的認知是否存在錯覺。他們的研究有助於我們重新審視思考的本質，並對人工智慧領域帶來啟示。這篇論文的重要性在於挑戰我們對於思考的固有觀念，並促使我們重新思考這個議題。",
+    "published_date": "2025-07-03",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-03T16:26:12.883767",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-03T16:26:17.192054",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.01231.mp3",
+    "audio_file": "audio/articles/2507.01231.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-07-03T16:26:42.243866",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2507.01282",
+    "title": "Beyond Black-Box AI: Interpretable Hybrid Systems for Dementia Care",
+    "url": "https://arxiv.org/abs/2507.01282",
+    "authors": "Matthew JY Kang, Wenli Yang, Monica R Roberts, Byeong Ho Kang, Charles B Malpas",
+    "categories": [
+      "cs.AI",
+      "cs.HC"
+    ],
+    "summary": "這篇論文探討了在失智症照護領域中，如何打破AI黑盒子的限制，提出了可解釋的混合系統。簡單來說，就是讓AI不再神秘，讓人能夠理解它的決策過程。這個方法有助於提升失智症照護的效率和準確性，讓醫護人員更能夠信任和運用AI技術。這項研究的價值在於開創了一個新的方向，讓AI在醫療領域更具可靠性和可解釋性。",
+    "published_date": "2025-07-03",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-03T16:26:12.883796",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-03T16:26:18.992557",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.01282.mp3",
+    "audio_file": "audio/articles/2507.01282.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-07-03T16:26:49.261326",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2507.01376",
+    "title": "AI Agents and Agentic AI-Navigating a Plethora of Concepts for Future Manufacturing",
+    "url": "https://arxiv.org/abs/2507.01376",
+    "authors": "Yinwang Ren, Yangyang Liu, Tang Ji, Xun Xu",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文探討了AI在未來製造業中的應用。作者提出了兩個重要概念：AI代理和代理性AI，強調了AI系統在製造業中扮演的角色和價值。通過這些概念，可以更好地理解AI如何幫助製造業提高效率和生產力。總結來說，這篇論文的核心創新點在於探討了AI在製造業中的角色轉變和未來發展方向，對於了解AI技術如何影響製造業具有重要價值。",
+    "published_date": "2025-07-03",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-03T16:26:12.883817",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-03T16:26:23.497374",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.01376.mp3",
+    "audio_file": "audio/articles/2507.01376.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-07-03T16:26:59.587003",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  }
+]

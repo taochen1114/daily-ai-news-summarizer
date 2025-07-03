@@ -1,0 +1,94 @@
+{
+  "date": "2025-07-03",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2507.01231",
+      "title": "Rethinking the Illusion of Thinking",
+      "url": "https://arxiv.org/abs/2507.01231",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了重新思考思考的錯覺。作者團隊包括I\\~naki Dellibarda Varela、Pablo Romero-Sorozabal、Eduardo Rocon和Manuel Cebrian。他們的研究主要探討人類思考的過程，並質疑我們對於思考的認知是否存在錯覺。他們的研究有助於我們重新審視思考的本質，並對人工智慧領域帶來啟示。這篇論文的重要性在於挑戰我們對於思考的固有觀念，並促使我們重新思考這個議題。",
+      "audio_file": "audio/articles/2507.01231.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.01231.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-03T16:26:42.243866",
+      "published_date": "2025-07-03",
+      "content_type": "academic"
+    },
+    {
+      "id": "2507.01282",
+      "title": "Beyond Black-Box AI: Interpretable Hybrid Systems for Dementia Care",
+      "url": "https://arxiv.org/abs/2507.01282",
+      "source": "Arxiv",
+      "summary": "這篇論文探討了在失智症照護領域中，如何打破AI黑盒子的限制，提出了可解釋的混合系統。簡單來說，就是讓AI不再神秘，讓人能夠理解它的決策過程。這個方法有助於提升失智症照護的效率和準確性，讓醫護人員更能夠信任和運用AI技術。這項研究的價值在於開創了一個新的方向，讓AI在醫療領域更具可靠性和可解釋性。",
+      "audio_file": "audio/articles/2507.01282.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.01282.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-03T16:26:49.261326",
+      "published_date": "2025-07-03",
+      "content_type": "academic"
+    },
+    {
+      "id": "2507.01376",
+      "title": "AI Agents and Agentic AI-Navigating a Plethora of Concepts for Future Manufacturing",
+      "url": "https://arxiv.org/abs/2507.01376",
+      "source": "Arxiv",
+      "summary": "這篇論文探討了AI在未來製造業中的應用。作者提出了兩個重要概念：AI代理和代理性AI，強調了AI系統在製造業中扮演的角色和價值。通過這些概念，可以更好地理解AI如何幫助製造業提高效率和生產力。總結來說，這篇論文的核心創新點在於探討了AI在製造業中的角色轉變和未來發展方向，對於了解AI技術如何影響製造業具有重要價值。",
+      "audio_file": "audio/articles/2507.01376.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.01376.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-03T16:26:59.587003",
+      "published_date": "2025-07-03",
+      "content_type": "academic"
+    },
+    {
+      "id": "dd9febbfbe3bc8d4d5d2fc9910a96d0b",
+      "title": "Confidence in agentic AI: Why eval infrastructure must come first",
+      "url": "https://venturebeat.com/ai/confidence-in-agentic-ai-why-eval-infrastructure-must-come-first/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞談的是在AI領域中，如何先建立評估基礎設施，增加對AI代理人的信心。一些公司利用AI代理人來提升網站轉換率，甚至自動化專業任務，節省大量成本和時間。這顯示AI代理人的潛力不僅在於節省人力成本，更能帶來業務轉型和效率提升。這些實際案例突顯了AI代理人在商業應用上的價值和優勢。",
+      "audio_file": "audio/articles/dd9febbfbe3bc8d4d5d2fc9910a96d0b.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/dd9febbfbe3bc8d4d5d2fc9910a96d0b.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-03T16:27:39.590809",
+      "published_date": "2025-07-02T15:41:49+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "62ea94355f1cdfadb0aa9329525e3663",
+      "title": "Transform 2025: Why observability is critical for AI agent ecosystems",
+      "url": "https://venturebeat.com/ai/transform-2025-why-observability-is-critical-for-ai-agent-ecosystems/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞談到了AI代理生態系統中的觀測性對於系統的重要性。通過觀測性，可以即時捕捉應用程式、日誌和基礎設施的數據，幫助團隊理解、解決問題並優化系統。隨著AI的應用不斷擴大，觀測性變得更加複雜，需要監控各種模型的效能。這對企業來說是個挑戰，但也是機遇，因為觀測性可以幫助他們更好地應對不斷變化的AI環境，提升效率並降低風險。",
+      "audio_file": "audio/articles/62ea94355f1cdfadb0aa9329525e3663.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/62ea94355f1cdfadb0aa9329525e3663.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-03T16:27:50.128009",
+      "published_date": "2025-07-02T13:50:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "c04c6a5a2c09cd51500c0371bcab4661",
+      "title": "Bright Data beat Elon Musk and Meta in court — now its $100M AI platform is taking on Big Tech",
+      "url": "https://venturebeat.com/ai/bright-data-beat-elon-musk-and-meta-in-court-now-its-100m-ai-platform-is-taking-on-big-tech/",
+      "source": "VentureBeat",
+      "summary": "以色列網路爬蟲公司Bright Data在法庭上擊敗了Elon Musk和Meta，現在他們推出了價值1億美元的AI平台，挑戰大科技公司。這個平台讓人工智慧系統可以即時獲取網路數據，讓AI公司更容易取得所需資訊。Bright Data CEO表示，他們致力於爭取對公開網路數據的開放存取，這次推出的新產品將帶來更多機會和發展。這次推出是在他們在2024年在法庭上勝訴後的重要一步。",
+      "audio_file": "audio/articles/c04c6a5a2c09cd51500c0371bcab4661.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/c04c6a5a2c09cd51500c0371bcab4661.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-03T16:27:58.595520",
+      "published_date": "2025-07-02T13:00:00+00:00",
+      "content_type": "news"
+    }
+  ]
+}
