@@ -1,0 +1,94 @@
+{
+  "date": "2025-07-04",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2507.02004",
+      "title": "STELLA: Self-Evolving LLM Agent for Biomedical Research",
+      "url": "https://arxiv.org/abs/2507.02004",
+      "source": "Arxiv",
+      "summary": "這篇論文介紹了一個名為「STELLA」的自我演化LLM代理人，專注於生物醫學研究。這個系統具有以下重要特點：\n\n1. 核心論點：STELLA能夠自主學習、演化和優化，以提升其在生物醫學領域的應用效能。\n   \n2. 創新點：透過自我演化的機制，STELLA能夠不斷改進自身的知識庫和決策能力，使其在處理複雜生物醫學問題時更具效率和準確性。\n\n3. 價值：STELLA的應用有助於加速生物醫學研究的進展，提高研究效率，並有潛力為醫學領域帶來新的突破和創新。",
+      "audio_file": "audio/articles/2507.02004.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.02004.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-04T15:07:34.671510",
+      "published_date": "2025-07-04",
+      "content_type": "academic"
+    },
+    {
+      "id": "2507.02073",
+      "title": "HCVR: A Hybrid Approach with Correlation-aware Voting Rules for Feature Selection",
+      "url": "https://arxiv.org/abs/2507.02073",
+      "source": "Arxiv",
+      "summary": "這篇論文探討了一種名為HCVR的混合方法，用於特徵選擇。簡單來說，就是一種結合了相關性感知投票規則的方法。這個方法的核心是利用特徵之間的相關性來選擇最佳特徵，以提高機器學習模型的性能。作者提出的這種方法在特徵選擇方面有著獨特的創新，可以幫助提高模型的預測準確性，同時減少特徵的維度，提高模型的效率。這對於提升人工智慧應用的效果有著重要的價值，尤其是在處理大量特徵的情況下，能夠幫助提高模型的準確性和效率。",
+      "audio_file": "audio/articles/2507.02073.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.02073.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-04T15:07:45.701502",
+      "published_date": "2025-07-04",
+      "content_type": "academic"
+    },
+    {
+      "id": "2507.02076",
+      "title": "Reasoning on a Budget: A Survey of Adaptive and Controllable Test-Time Compute in LLMs",
+      "url": "https://arxiv.org/abs/2507.02076",
+      "source": "Arxiv",
+      "summary": "這篇論文探討了在語言模型中如何在有限計算資源下進行推論的議題。研究團隊提出了一種新方法，讓模型在測試時能夠根據預算進行自適應和可控制的計算。這種方法有助於提高模型的效率和靈活性，同時保持推論的準確性。這項研究的創新之處在於提供了一種在有限計算資源下進行推論的解決方案，對於提升語言模型的實用性和應用價值具有重要意義。透過這種方法，我們可以更有效地運用人工智慧技術，提升模型的性能並節省計算成本。",
+      "audio_file": "audio/articles/2507.02076.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.02076.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-04T15:07:58.422311",
+      "published_date": "2025-07-04",
+      "content_type": "academic"
+    },
+    {
+      "id": "662bbc53073607c784bc1f74dbbd5c79",
+      "title": "Sakana AI’s TreeQuest: Deploy multi-model teams that outperform individual LLMs by 30%",
+      "url": "https://venturebeat.com/ai/sakana-ais-treequest-deploy-multi-model-teams-that-outperform-individual-llms-by-30/",
+      "source": "VentureBeat",
+      "summary": "Sakana AI提出了一個新技術，讓多個大型語言模型合作，形成一個AI夢幻團隊，比單一模型表現提升了30%。企業可以結合不同模型的優勢，讓AI系統更強大。這種集體智慧的方法讓AI系統像人類團隊一樣合作，解決更複雜的問題。透過結合不同模型的智慧，AI系統可以解決單一模型難以克服的問題。",
+      "audio_file": "audio/articles/662bbc53073607c784bc1f74dbbd5c79.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/662bbc53073607c784bc1f74dbbd5c79.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-04T15:08:07.100650",
+      "published_date": "2025-07-03T22:00:19+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "c9838a52cf59b05589b01e7c31f531ee",
+      "title": "Dust hits $6M ARR helping enterprises build AI agents that actually do stuff instead of just talking",
+      "url": "https://venturebeat.com/ai/dust-hits-6m-arr-helping-enterprises-build-ai-agents-that-actually-do-stuff-instead-of-just-talking/",
+      "source": "VentureBeat",
+      "summary": "一家名為Dust的人工智慧平台幫助企業建立AI代理人，不僅能對話，還能實際完成業務流程，年收入達到600萬美元，是去年的6倍。這顯示企業AI採用已從簡單的聊天機器人轉向能在業務應用中採取具體行動的系統。Dust的AI代理人不僅能回答問題，還能自動創建GitHub問題、安排日曆會議、更新客戶記錄，甚至根據內部編碼標準推送代碼審查，同時保持企業級安全協議。",
+      "audio_file": "audio/articles/c9838a52cf59b05589b01e7c31f531ee.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/c9838a52cf59b05589b01e7c31f531ee.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-04T15:08:14.305519",
+      "published_date": "2025-07-03T17:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "607f0974fed82d021371c239a6f145eb",
+      "title": "HOLY SMOKES! A new, 200% faster DeepSeek R1-0528 variant appears from German lab TNG Technology Consulting GmbH",
+      "url": "https://venturebeat.com/ai/holy-smokes-a-new-200-faster-deepseek-r1-0528-variant-appears-from-german-lab-tng-technology-consulting-gmbh/",
+      "source": "VentureBeat",
+      "summary": "德國TNG Technology Consulting GmbH實驗室推出全新DeepSeek R1-0528變種，比原版快200%。這個新模型名為DeepSeek-TNG R1T2 Chimera，效率更高、速度更快，並且產生的答案更為簡潔，這意味著推理速度更快、計算成本更低。這項創新受到AI開發者的熱烈迴響，有望為AI領域帶來更多進步。",
+      "audio_file": "audio/articles/607f0974fed82d021371c239a6f145eb.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/607f0974fed82d021371c239a6f145eb.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-04T15:08:22.229778",
+      "published_date": "2025-07-03T13:32:44+00:00",
+      "content_type": "news"
+    }
+  ]
+}

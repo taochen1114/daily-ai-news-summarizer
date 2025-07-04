@@ -1,0 +1,72 @@
+[
+  {
+    "id": "2507.02004",
+    "title": "STELLA: Self-Evolving LLM Agent for Biomedical Research",
+    "url": "https://arxiv.org/abs/2507.02004",
+    "authors": "Ruofan Jin, Zaixi Zhang, Mengdi Wang, Le Cong",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "q-bio.BM"
+    ],
+    "summary": "這篇論文介紹了一個名為「STELLA」的自我演化LLM代理人，專注於生物醫學研究。這個系統具有以下重要特點：\n\n1. 核心論點：STELLA能夠自主學習、演化和優化，以提升其在生物醫學領域的應用效能。\n   \n2. 創新點：透過自我演化的機制，STELLA能夠不斷改進自身的知識庫和決策能力，使其在處理複雜生物醫學問題時更具效率和準確性。\n\n3. 價值：STELLA的應用有助於加速生物醫學研究的進展，提高研究效率，並有潛力為醫學領域帶來新的突破和創新。",
+    "published_date": "2025-07-04",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-04T15:06:59.618614",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-04T15:07:05.164875",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.02004.mp3",
+    "audio_file": "audio/articles/2507.02004.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-07-04T15:07:34.671510",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2507.02073",
+    "title": "HCVR: A Hybrid Approach with Correlation-aware Voting Rules for Feature Selection",
+    "url": "https://arxiv.org/abs/2507.02073",
+    "authors": "Nikita Bhedasgaonkar, Rushikesh K. Joshi",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文探討了一種名為HCVR的混合方法，用於特徵選擇。簡單來說，就是一種結合了相關性感知投票規則的方法。這個方法的核心是利用特徵之間的相關性來選擇最佳特徵，以提高機器學習模型的性能。作者提出的這種方法在特徵選擇方面有著獨特的創新，可以幫助提高模型的預測準確性，同時減少特徵的維度，提高模型的效率。這對於提升人工智慧應用的效果有著重要的價值，尤其是在處理大量特徵的情況下，能夠幫助提高模型的準確性和效率。",
+    "published_date": "2025-07-04",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-04T15:06:59.618647",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-04T15:07:07.839987",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.02073.mp3",
+    "audio_file": "audio/articles/2507.02073.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-07-04T15:07:45.701502",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2507.02076",
+    "title": "Reasoning on a Budget: A Survey of Adaptive and Controllable Test-Time Compute in LLMs",
+    "url": "https://arxiv.org/abs/2507.02076",
+    "authors": "Mohammad Ali Alomrani, Yingxue Zhang, Derek Li, Qianyi Sun, Soumyasundar Pal, Zhanguang Zhang, Yaochen Hu, Rohan Deepak Ajwani, Antonios Valkanas, Raika Karimi, Peng Cheng, Yunzhou Wang, Pengyi Liao, Hanrui Huang, Bin Wang, Jianye Hao, Mark Coates",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文探討了在語言模型中如何在有限計算資源下進行推論的議題。研究團隊提出了一種新方法，讓模型在測試時能夠根據預算進行自適應和可控制的計算。這種方法有助於提高模型的效率和靈活性，同時保持推論的準確性。這項研究的創新之處在於提供了一種在有限計算資源下進行推論的解決方案，對於提升語言模型的實用性和應用價值具有重要意義。透過這種方法，我們可以更有效地運用人工智慧技術，提升模型的性能並節省計算成本。",
+    "published_date": "2025-07-04",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-04T15:06:59.618670",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-04T15:07:12.654428",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.02076.mp3",
+    "audio_file": "audio/articles/2507.02076.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-07-04T15:07:58.422311",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  }
+]
