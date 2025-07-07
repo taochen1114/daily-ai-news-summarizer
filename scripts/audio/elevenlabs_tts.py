@@ -13,7 +13,7 @@ from config import ELEVENLABS_API_KEY, AUDIO_DIR
 class ElevenLabsTTS:
     """ElevenLabs TTS服务"""
     
-    def __init__(self, voice_name="Bella"):
+    def __init__(self, voice_name="Rachel"):
         # 设置API密钥
         set_api_key(ELEVENLABS_API_KEY)
         

@@ -1,0 +1,51 @@
+{
+  "date": "2025-07-07",
+  "total_articles": 3,
+  "sources": [
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "731ed7563df839b896691dd180577990",
+      "title": "How Capital One built production multi-agent AI workflows to power enterprise use cases",
+      "url": "https://venturebeat.com/ai/how-capital-one-built-production-multi-agent-ai-workflows-to-power-enterprise-use-cases/",
+      "source": "VentureBeat",
+      "summary": "Capital One運用多智能體人工智慧工作流程，強化企業應用案例，提供更好的客戶體驗。他們建立了一個系統，讓多個AI智能體協同工作，不僅提供資訊給買車客戶，還根據客戶需求採取具體行動。這個系統能處理超過1億名客戶的需求，為客戶提供更完善的服務。這項創新技術展示了如何在業務中平衡風險管理、創新和客戶滿意度。",
+      "audio_file": "audio/articles/731ed7563df839b896691dd180577990.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/731ed7563df839b896691dd180577990.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-07T23:52:40.360420",
+      "published_date": "2025-07-07T14:50:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "1e6dc0db4b93d6437117b38381419aa3",
+      "title": "Cracking AI’s storage bottleneck and supercharging inference at the edge",
+      "url": "https://venturebeat.com/ai/cracking-ais-storage-bottleneck-and-supercharging-inference-at-the-edge/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞講的是如何解決AI在資料儲存上的瓶頸問題，並在邊緣端加速推論運算。透過創新的儲存技術，企業可以更有效運用AI，尤其在醫療影像等領域。一個名為MONAI的醫學影像框架，透過先進的儲存技術，成功儲存了超過兩百萬張全身CT掃描影像。這顯示出隨著企業AI基礎設施的快速演進，儲存硬體需根據不同的使用情境進行調整，以確保效能和效率。",
+      "audio_file": "audio/articles/1e6dc0db4b93d6437117b38381419aa3.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/1e6dc0db4b93d6437117b38381419aa3.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-07T23:52:48.408183",
+      "published_date": "2025-07-07T12:50:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "9ee81605a1397cc2f0d923fe7f63458b",
+      "title": "Test2",
+      "url": "https://venturebeat.com/business/test2/",
+      "source": "VentureBeat",
+      "summary": "這則新聞主要介紹了VentureBeat的AI相關內容，包括人工智慧、機器學習、深度學習等議題。文章提到了AI在商業應用上的價值，特別是生成式AI的應用及實際部署。VentureBeat提供了每日商業用例的洞察，讓讀者能夠了解公司如何運用AI技術，從而分享洞察以獲取最大的投資回報。",
+      "audio_file": "audio/articles/9ee81605a1397cc2f0d923fe7f63458b.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/9ee81605a1397cc2f0d923fe7f63458b.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-07T23:52:55.426172",
+      "published_date": "2025-07-07T11:14:44+00:00",
+      "content_type": "news"
+    }
+  ]
+}
