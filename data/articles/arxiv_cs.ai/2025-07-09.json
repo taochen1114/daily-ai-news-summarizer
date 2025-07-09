@@ -1,0 +1,55 @@
+[
+  {
+    "id": "2507.05267",
+    "title": "Strongly Solving $7 \\times 6$ Connect-Four on Consumer Grade Hardware",
+    "url": "https://arxiv.org/abs/2507.05267",
+    "authors": "Markus B\\\"ock",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文主要探討如何在一般消費級硬體上強力解決 $7 \\times 6$ 連四遊戲。作者 Markus B\\\"ock 提出了一種新方法，讓電腦在這個遊戲中表現得更強。這個方法的創新之處在於利用了硬體資源的特性，讓電腦在遊戲中做出更聰明的決策。這對於提升遊戲的挑戰性和趣味性有很大的幫助。這項研究的價值在於為我們展示了如何運用有限的硬體資源來解決複雜的問題，同時也為遊戲人工智慧領域帶來了新的思路和方法。",
+    "published_date": "2025-07-09",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-09T15:52:06.212832",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-09T15:52:14.061328"
+  },
+  {
+    "id": "2507.05283",
+    "title": "Chat2SPaT: A Large Language Model Based Tool for Automating Traffic Signal Control Plan Management",
+    "url": "https://arxiv.org/abs/2507.05283",
+    "authors": "Yue Wang, Miao Zhou, Guijing Huang, Rui Zhuo, Chao Yi, Zhenliang Ma",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "summary": "這篇論文介紹了一個名為「Chat2SPaT」的大型語言模型工具，可以自動化交通信號控制計畫管理。這個工具的核心是利用語言模型來幫助管理交通信號控制計畫，讓交通流量更有效率。簡單來說，就是讓機器學習幫忙管理交通燈，讓交通更順暢。這個工具的創新之處在於運用大型語言模型來處理交通控制問題，提供了一個新的解決方案。這對城市交通管理有很大的價值，可以幫助提升交通效率，減少擁擠和等待時間。Chat2SPaT的出現，將有助於改善城市交通流量管理，讓我們的出行更加便利。",
+    "published_date": "2025-07-09",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-09T15:52:06.212861",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-09T15:52:19.944281"
+  },
+  {
+    "id": "2507.05297",
+    "title": "Fuzzy Classification Aggregation for a Continuum of Agents",
+    "url": "https://arxiv.org/abs/2507.05297",
+    "authors": "Zijun Meng",
+    "categories": [
+      "cs.AI",
+      "econ.TH"
+    ],
+    "summary": "這篇論文主要探討了一種模糊分類聚合方法，適用於一群連續的智能體。作者孟子駿提出了一種新的方法，可以有效地整合多個智能體的分類結果，讓整體分類更準確。這項研究的創新之處在於利用模糊分類技術，讓不同智能體之間的分類結果更加一致，提升整體系統的性能。這個方法的價值在於可以應用在各種領域，如群體智能、機器學習等，提高系統的準確性和效率。透過這種方法，我們可以更好地利用多個智能體的分類能力，達到更好的結果。",
+    "published_date": "2025-07-09",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-09T15:52:06.212883",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-09T15:52:23.456884"
+  }
+]
