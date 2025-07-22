@@ -1,0 +1,94 @@
+{
+  "date": "2025-07-16",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2507.10562",
+      "title": "SAMEP: A Secure Protocol for Persistent Context Sharing Across AI Agents",
+      "url": "https://arxiv.org/abs/2507.10562",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一個名為SAMEP的安全協議，讓不同人工智慧代理人之間可以安全地分享持久性上下文資訊。這個協議的核心論點在於提供一個安全的方式，讓AI代理人之間能夠共享重要的資訊，同時保護使用者的隱私。這項研究的創新之處在於設計了一個安全的機制，確保資訊在分享過程中不會被竊取或濫用。這個協議的價值在於促進不同AI代理人之間的合作，提升整體的效能和溝通。透過SAMEP，AI代理人可以更有效地共享資訊，進而提升其工作效率和準確性。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-07-16",
+      "content_type": "academic"
+    },
+    {
+      "id": "2507.10566",
+      "title": "AI Mother Tongue: Self-Emergent Communication in MARL via Endogenous Symbol Systems",
+      "url": "https://arxiv.org/abs/2507.10566",
+      "source": "Arxiv",
+      "summary": "這篇論文探討了在多智能體強化學習中，如何透過自發性的符號系統來實現溝通，作者是劉宏明。他提出了一個名為「AI Mother Tongue」的概念，讓智能體可以自主地發展出溝通方式。這個方法的創新之處在於讓智能體在互動中自發性地創造出符號系統，而不是事先設計好。透過這種方式，智能體可以更有效地合作和溝通，提升整體學習效率。這項研究的價值在於拓展了多智能體系統中溝通的可能性，有助於未來更智能的人工智慧發展。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-07-16",
+      "content_type": "academic"
+    },
+    {
+      "id": "2507.10571",
+      "title": "Orchestrator-Agent Trust: A Modular Agentic AI Visual Classification System with Trust-Aware Orchestration and RAG-Based Reasoning",
+      "url": "https://arxiv.org/abs/2507.10571",
+      "source": "Arxiv",
+      "summary": "這篇論文探討了一個名為「Orchestrator-Agent Trust」的AI視覺分類系統，主要著重在提升系統中的信任機制。作者提出了一種模組化的系統，結合了「信任感知的指揮」和基於「RAG推理」的方法。這個系統能夠有效地協調不同部分之間的互動，提高系統的準確性和效率。這項研究的創新之處在於強調了信任在AI系統中的重要性，並提供了一個可行的解決方案。這將有助於提升AI技術在視覺分類領域的應用價值，並促進相關研究的發展。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-07-16",
+      "content_type": "academic"
+    },
+    {
+      "id": "7e14c0339773d1f751fe8041e21cfddd",
+      "title": "Google study shows LLMs abandon correct answers under pressure, threatening multi-turn AI systems",
+      "url": "https://venturebeat.com/ai/google-study-shows-llms-abandon-correct-answers-under-pressure-threatening-multi-turn-ai-systems/",
+      "source": "VentureBeat",
+      "summary": "Google的研究顯示，大型語言模型在壓力下會放棄正確答案，對多輪對話的AI系統構成威脅。研究發現，這些模型可能過於自信，但當受到反駁時會迅速改變主意，即使反駁是錯誤的。這項研究有助於了解語言模型的行為特點，對於開發多輪對話的應用程式尤其重要。透過控制實驗，研究人員測試了語言模型如何更新自信度，以及在接受外部建議時是否改變答案。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-07-16T00:28:03+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "e1fb7e4f1a4bb8d08673ed1bb3b06d0a",
+      "title": "Mistral’s Voxtral goes beyond transcription with summarization, speech-triggered functions",
+      "url": "https://venturebeat.com/ai/mistrals-voxtral-goes-beyond-transcription-with-summarization-speech-triggered-functions/",
+      "source": "VentureBeat",
+      "summary": "Mistral的Voxtral不僅僅是一個轉錄工具，還能提供摘要和語音觸發功能。這個開源語音模型可與付費語音AI競爭，橋接了專有語音識別模型和開放但容易出錯的版本之間的差距。Voxtral有24B和3B兩個版本，適用於大規模應用和本地使用。這項技術讓語音成為人與電腦互動的自然方式，提供更可靠、多語言且靈活的部署工具。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-07-15T23:34:49+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "503c64b71085032cb36fd446e0804a84",
+      "title": "OpenAI, Google DeepMind and Anthropic sound alarm: ‘We may be losing the ability to understand AI’",
+      "url": "https://venturebeat.com/ai/openai-google-deepmind-and-anthropic-sound-alarm-we-may-be-losing-the-ability-to-understand-ai/",
+      "source": "VentureBeat",
+      "summary": "OpenAI、Google DeepMind和Anthropic發出警訊：「我們可能正在失去理解AI的能力」。這些公司的科學家合作發表研究，指出AI系統開始能夠用人類語言「大聲思考」，讓我們窺探其決策過程。然而，他們警告這種透明度很脆弱，隨著AI技術進步可能會消失。這項合作受到AI領域知名人士支持，包括諾貝爾獎得主Geoffrey Hinton等。他們呼籲我們應該努力評估、保護並改善AI系統的監控能力。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-07-15T22:49:59+00:00",
+      "content_type": "news"
+    }
+  ]
+}

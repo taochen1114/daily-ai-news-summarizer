@@ -1,0 +1,61 @@
+[
+  {
+    "id": "2507.10562",
+    "title": "SAMEP: A Secure Protocol for Persistent Context Sharing Across AI Agents",
+    "url": "https://arxiv.org/abs/2507.10562",
+    "authors": "Hari Masoor",
+    "categories": [
+      "cs.AI",
+      "cs.CR",
+      "cs.DB",
+      "cs.LG"
+    ],
+    "summary": "這篇論文提出了一個名為SAMEP的安全協議，讓不同人工智慧代理人之間可以安全地分享持久性上下文資訊。這個協議的核心論點在於提供一個安全的方式，讓AI代理人之間能夠共享重要的資訊，同時保護使用者的隱私。這項研究的創新之處在於設計了一個安全的機制，確保資訊在分享過程中不會被竊取或濫用。這個協議的價值在於促進不同AI代理人之間的合作，提升整體的效能和溝通。透過SAMEP，AI代理人可以更有效地共享資訊，進而提升其工作效率和準確性。",
+    "published_date": "2025-07-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-16T15:48:07.339476",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-16T15:48:37.837578"
+  },
+  {
+    "id": "2507.10566",
+    "title": "AI Mother Tongue: Self-Emergent Communication in MARL via Endogenous Symbol Systems",
+    "url": "https://arxiv.org/abs/2507.10566",
+    "authors": "Hung Ming Liu",
+    "categories": [
+      "cs.AI",
+      "cs.GT",
+      "cs.LG",
+      "cs.MA",
+      "cs.NE"
+    ],
+    "summary": "這篇論文探討了在多智能體強化學習中，如何透過自發性的符號系統來實現溝通，作者是劉宏明。他提出了一個名為「AI Mother Tongue」的概念，讓智能體可以自主地發展出溝通方式。這個方法的創新之處在於讓智能體在互動中自發性地創造出符號系統，而不是事先設計好。透過這種方式，智能體可以更有效地合作和溝通，提升整體學習效率。這項研究的價值在於拓展了多智能體系統中溝通的可能性，有助於未來更智能的人工智慧發展。",
+    "published_date": "2025-07-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-16T15:48:07.339508",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-16T15:48:40.798468"
+  },
+  {
+    "id": "2507.10571",
+    "title": "Orchestrator-Agent Trust: A Modular Agentic AI Visual Classification System with Trust-Aware Orchestration and RAG-Based Reasoning",
+    "url": "https://arxiv.org/abs/2507.10571",
+    "authors": "Konstantinos I. Roumeliotis, Ranjan Sapkota, Manoj Karkee, Nikolaos D. Tselikas",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "summary": "這篇論文探討了一個名為「Orchestrator-Agent Trust」的AI視覺分類系統，主要著重在提升系統中的信任機制。作者提出了一種模組化的系統，結合了「信任感知的指揮」和基於「RAG推理」的方法。這個系統能夠有效地協調不同部分之間的互動，提高系統的準確性和效率。這項研究的創新之處在於強調了信任在AI系統中的重要性，並提供了一個可行的解決方案。這將有助於提升AI技術在視覺分類領域的應用價值，並促進相關研究的發展。",
+    "published_date": "2025-07-16",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-16T15:48:07.339530",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-16T15:48:44.308139"
+  }
+]
