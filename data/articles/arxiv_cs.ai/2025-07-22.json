@@ -1,0 +1,57 @@
+[
+  {
+    "id": "2507.14154",
+    "title": "The Free Will Equation: Quantum Field Analogies for AGI",
+    "url": "https://arxiv.org/abs/2507.14154",
+    "authors": "Rahul Kabali",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文探討了自由意志方程式在人工智慧領域的應用。作者提出了量子場類比對於通用人工智慧的重要性。他認為，透過將量子場的概念應用在人工智慧系統中，可以更好地理解智能系統的運作方式，並提高其自主性和創造力。這種新的觀點有助於我們深入探討人工智慧與自由意志之間的關係，並為未來的研究開拓了新的方向。這篇論文的價值在於引領我們思考人工智慧如何更接近人類的思維方式，並可能帶來更具革命性的發展。",
+    "published_date": "2025-07-22",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-22T14:49:19.962994",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-22T14:49:24.164581"
+  },
+  {
+    "id": "2507.14267",
+    "title": "DREAMS: Density Functional Theory Based Research Engine for Agentic Materials Simulation",
+    "url": "https://arxiv.org/abs/2507.14267",
+    "authors": "Ziqi Wang, Hongshuo Huang, Hancheng Zhao, Changwen Xu, Shang Zhu, Jan Janssen, Venkatasubramanian Viswanathan",
+    "categories": [
+      "cs.AI",
+      "cond-mat.mtrl-sci"
+    ],
+    "summary": "這篇論文介紹了一個名為\"DREAMS\"的密度泛函理論為基礎的研究引擎，用於模擬具有主動性的材料。這個系統由王子琦、黃鴻碩、趙漢城、徐昌文、朱尚、Jan Janssen和Venkatasubramanian Viswanathan等人共同開發。他們的研究主要聚焦在如何利用密度泛函理論來模擬具有主動性的材料，這對於材料科學領域具有重要的意義。這個引擎的創新之處在於提供了一個高效且準確的模擬工具，有助於研究人員更深入地了解材料的特性和行為。透過\"DREAMS\"系統，科學家們可以更有效地設計和開",
+    "published_date": "2025-07-22",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-22T14:49:19.963023",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-22T14:49:33.888077"
+  },
+  {
+    "id": "2507.14293",
+    "title": "WebGuard: Building a Generalizable Guardrail for Web Agents",
+    "url": "https://arxiv.org/abs/2507.14293",
+    "authors": "Boyuan Zheng, Zeyi Liao, Scott Salisbury, Zeyuan Liu, Michael Lin, Qinyuan Zheng, Zifan Wang, Xiang Deng, Dawn Song, Huan Sun, Yu Su",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "summary": "這篇論文名為「WebGuard: 建立一個適用於網頁代理的通用防護機制」，由鄭博元、廖澤毅、Scott Salisbury等人共同撰寫。他們提出了一個名為WebGuard的系統，可以幫助網頁代理更有效地保護使用者隱私。這個系統的創新之處在於它能夠自動學習不同網站的隱私政策，並根據用戶的偏好提供個性化的隱私保護。這項研究的價值在於提高了網路安全性，讓用戶更容易控制自己的隱私資訊。通过WebGuard，網頁代理可以更有效地保護使用者的隱私，提供更安全的網路瀏覽環境。",
+    "published_date": "2025-07-22",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-22T14:49:19.963045",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-22T14:49:37.280088"
+  }
+]
