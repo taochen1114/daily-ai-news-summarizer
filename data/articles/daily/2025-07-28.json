@@ -1,0 +1,51 @@
+{
+  "date": "2025-07-28",
+  "total_articles": 3,
+  "sources": [
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "9f9192fe15d6a148fe6d452ecb167a16",
+      "title": "When progress doesn’t feel like home: Why many are hesitant to join the AI migration",
+      "url": "https://venturebeat.com/ai/when-progress-doesnt-feel-like-home-why-many-are-hesitant-to-join-the-ai-migration/",
+      "source": "VentureBeat",
+      "summary": "有些人對加入AI潮流持猶豫態度，可能是因為他們認為AI無法像人類一樣理解事物。一些教練提到了「中國屋」思想實驗，質疑AI是否真的能像人類一樣思考。然而，許多人對AI的潛力仍持開放態度，認為AI已經在醫療領域發揮了重要作用。這引發了一場關於AI的哲學討論，探討人類與機器之間的差異。",
+      "audio_file": "audio/articles/9f9192fe15d6a148fe6d452ecb167a16.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/9f9192fe15d6a148fe6d452ecb167a16.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-28T11:24:14.710437",
+      "published_date": "2025-07-27T20:15:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "065cedbd17c7cb0c5de92cc9ae6c2801",
+      "title": "Why AI is making us lose our minds (and not in the way you’d think)",
+      "url": "https://venturebeat.com/ai/why-ai-is-making-us-lose-our-minds-and-not-in-the-way-youd-think/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞談到AI如何改變我們的生活，讓我們變得更依賴、更懶惰，甚至可能失去工作機會。雖然AI提供了許多便利，但也讓我們變得過度依賴，甚至可能失去自主性。作者提醒我們要警惕這種情況，並學會管理AI，而不是完全依賴它。這篇文章提醒我們要謹慎應對AI帶來的影響，以免失去自主性和工作機會。",
+      "audio_file": "audio/articles/065cedbd17c7cb0c5de92cc9ae6c2801.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/065cedbd17c7cb0c5de92cc9ae6c2801.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-28T11:24:20.520115",
+      "published_date": "2025-07-26T20:45:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "9e74c7e727636e8bc661e0486087c2ed",
+      "title": "Meta announces its Superintelligence Labs Chief Scientist: former OpenAI GPT-4 co-creator Shengjia Zhao",
+      "url": "https://venturebeat.com/ai/meta-announces-its-superintelligence-labs-chief-scientist-former-openai-gpt-4-co-creator-shengjia-zhao/",
+      "source": "VentureBeat",
+      "summary": "Meta宣布任命前OpenAI GPT-4共同創作者趙聲嘉為其超智能實驗室首席科學家。這表示Meta正積極發展更強大的人工智慧系統，超越目前最聰明的人類。趙聲嘉將與Mark Zuckerberg和前Scale AI CEO Alexandr Wang一起領導該實驗室的科學議程。這將有助於推動人工智慧技術的發展，並可能影響未來的科技發展方向。",
+      "audio_file": "audio/articles/9e74c7e727636e8bc661e0486087c2ed.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/9e74c7e727636e8bc661e0486087c2ed.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-28T11:24:28.562384",
+      "published_date": "2025-07-26T00:58:24+00:00",
+      "content_type": "news"
+    }
+  ]
+}

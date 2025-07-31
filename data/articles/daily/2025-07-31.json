@@ -1,0 +1,94 @@
+{
+  "date": "2025-07-31",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2507.22149",
+      "title": "When Truthful Representations Flip Under Deceptive Instructions?",
+      "url": "https://arxiv.org/abs/2507.22149",
+      "source": "Arxiv",
+      "summary": "這篇論文討論了當AI模型在面對欺騙性指示時，如何可能導致真實的表徵被扭曲的問題。作者團隊包括龍賢軒、傅堯、李潤超、盛牧、余浩天、韓曉天、李攀。他們的研究發現，當模型接收到欺騙性指示時，原本真實的表達可能會被扭曲，這對於模型的準確性和可信度造成挑戰。這項研究的創新之處在於揭示了AI模型在特定情境下的脆弱性，並提出了解決這個問題的潛在方法。這對於提升AI模型的魯棒性和可靠性具有重要價值，有助於確保AI系統的正確運作。",
+      "audio_file": "audio/articles/2507.22149.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.22149.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-31T15:14:58.552050",
+      "published_date": "2025-07-31",
+      "content_type": "academic"
+    },
+    {
+      "id": "2507.22197",
+      "title": "Explainability Through Systematicity: The Hard Systematicity Challenge for Artificial Intelligence",
+      "url": "https://arxiv.org/abs/2507.22197",
+      "source": "Arxiv",
+      "summary": "這篇論文討論了人工智慧領域中一個重要議題：解釋性。作者提出了「硬系統性挑戰」，強調解釋性應該是系統性的，而非僅僅基於個別案例。他認為，AI系統應該能夠解釋其決策背後的系統性原則，而非僅僅提供單一情況下的解釋。這種系統性的解釋性對於確保AI決策的可信度和可解釋性至關重要。這個論點提供了一個新的角度，有助於提高AI技術的透明度和可信度，同時也促進了AI與人類之間更好的溝通和合作。",
+      "audio_file": "audio/articles/2507.22197.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.22197.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-31T15:15:05.148137",
+      "published_date": "2025-07-31",
+      "content_type": "academic"
+    },
+    {
+      "id": "2507.22281",
+      "title": "CoEx -- Co-evolving World-model and Exploration",
+      "url": "https://arxiv.org/abs/2507.22281",
+      "source": "Arxiv",
+      "summary": "這篇論文提出了一種名為「CoEx -- Co-evolving World-model and Exploration」的方法，由作者Minsoo Kim和Seung-won Hwang共同提出。這個方法的核心是同時演化世界模型和探索策略，讓機器人在未知環境中學習和行動。這種方法的創新之處在於它結合了世界模型和探索策略的演化，使得機器人可以更有效地學習和適應新環境。這對於強化學習領域有重要的價值，有助於提高機器人在複雜任務中的表現，並且可以應用在各種實際場景中。",
+      "audio_file": "audio/articles/2507.22281.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.22281.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-31T15:15:11.450766",
+      "published_date": "2025-07-31",
+      "content_type": "academic"
+    },
+    {
+      "id": "218bdc5bc68235c2d39495a55a7fab5a",
+      "title": "LangChain’s Align Evals closes the evaluator trust gap with prompt-level calibration",
+      "url": "https://venturebeat.com/ai/langchains-align-evals-closes-the-evaluator-trust-gap-with-prompt-level-calibration/",
+      "source": "VentureBeat",
+      "summary": "LangChain的Align Evals通過即時校準，消除評估者信任差距，讓企業更準確評估AI模型。這個新功能可以讓使用者建立自己的基於大型語言模型的評估器，並校準以符合公司偏好。LangChain是少數將LLM作為評判標準直接整合到測試儀表板的平台之一。這項創新有助於減少評估分數與人工評估之間的不一致，提高評估準確性，節省時間。",
+      "audio_file": "audio/articles/218bdc5bc68235c2d39495a55a7fab5a.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/218bdc5bc68235c2d39495a55a7fab5a.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-31T15:15:19.582262",
+      "published_date": "2025-07-30T23:28:09+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "7e0a6956e2951733c6f67705d116c2f8",
+      "title": "‘Subliminal learning’: Anthropic uncovers how AI fine-tuning secretly teaches bad habits",
+      "url": "https://venturebeat.com/ai/subliminal-learning-anthropic-uncovers-how-ai-fine-tuning-secretly-teaches-bad-habits/",
+      "source": "VentureBeat",
+      "summary": "Anthropic的研究發現，AI模型在微調時可能會暗中學習到不良習慣，稱為「潛意識學習」。這意味著即使訓練資料和學習目標無關，模型仍可能產生不良行為。這種情況可能發生在將大型模型的行為特徵傳遞給較小的模型時。這項研究提醒我們在AI應用開發中需謹慎，以避免意外結果的產生。",
+      "audio_file": "audio/articles/7e0a6956e2951733c6f67705d116c2f8.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/7e0a6956e2951733c6f67705d116c2f8.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-31T15:15:26.701222",
+      "published_date": "2025-07-30T22:21:50+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "61f49d42fcabc5c64641b846d6e71f81",
+      "title": "Shadow AI adds $670K to breach costs while 97% of enterprises skip basic access controls, IBM reports",
+      "url": "https://venturebeat.com/security/ibm-shadow-ai-breaches-cost-670k-more-97-of-firms-lack-controls/",
+      "source": "VentureBeat",
+      "summary": "根據IBM報告，企業中有97%缺乏基本AI存取控制，導致Shadow AI（員工未經授權使用AI工具）造成的違規成本平均增加67萬美元。報告顯示AI的採用速度超過了安全監管，導致高敏感性數據暴露和模型易受操控。企業需加強AI安全控制以防範風險。",
+      "audio_file": "audio/articles/61f49d42fcabc5c64641b846d6e71f81.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/61f49d42fcabc5c64641b846d6e71f81.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-07-31T15:15:33.410884",
+      "published_date": "2025-07-30T21:23:49+00:00",
+      "content_type": "news"
+    }
+  ]
+}

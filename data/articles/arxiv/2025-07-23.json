@@ -1,0 +1,60 @@
+[
+  {
+    "id": "2507.14154",
+    "title": "The Free Will Equation: Quantum Field Analogies for AGI",
+    "url": "https://arxiv.org/abs/2507.14154",
+    "authors": "Rahul Kabali",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文探討了自由意志方程式在人工智慧領域的應用。作者 Rahul Kabali 提出了量子場類比對於通用人工智慧（AGI）的重要性。他認為，通過將自由意志概念與量子場理論相結合，可以更好地理解和設計具有自主決策能力的人工智慧系統。這種新的觀點有助於提高人工智慧的智能水平，並為未來的研究開拓了新的方向。這項研究對於加深我們對於人工智慧如何模擬人類思維和決策過程的理解具有重要價值。",
+    "published_date": "2025-07-22",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-23T09:12:26.720814",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-23T09:12:32.324671",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2507.14267",
+    "title": "DREAMS: Density Functional Theory Based Research Engine for Agentic Materials Simulation",
+    "url": "https://arxiv.org/abs/2507.14267",
+    "authors": "Ziqi Wang, Hongshuo Huang, Hancheng Zhao, Changwen Xu, Shang Zhu, Jan Janssen, Venkatasubramanian Viswanathan",
+    "categories": [
+      "cs.AI",
+      "cond-mat.mtrl-sci"
+    ],
+    "summary": "這篇論文名為「DREAMS: 基於密度泛函理論的代理材料模擬研究引擎」，主要由王子琦、黃鴻碩、趙漢城、徐昌文、朱尚、Jan Janssen和Venkatasubramanian Viswanathan共同撰寫。他們提出了一個新的材料模擬引擎，利用密度泛函理論來模擬代理材料的特性。這個引擎的創新之處在於可以更準確地預測材料的性質，有助於加速新材料的開發和設計。這項研究對於材料科學領域具有重要價值，有助於提高材料研究的效率和準確性。",
+    "published_date": "2025-07-22",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-23T09:12:26.720844",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-23T09:12:36.187383",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2507.14293",
+    "title": "WebGuard: Building a Generalizable Guardrail for Web Agents",
+    "url": "https://arxiv.org/abs/2507.14293",
+    "authors": "Boyuan Zheng, Zeyi Liao, Scott Salisbury, Zeyuan Liu, Michael Lin, Qinyuan Zheng, Zifan Wang, Xiang Deng, Dawn Song, Huan Sun, Yu Su",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "summary": "這篇論文主要介紹了一個名為「WebGuard」的系統，它可以幫助網路代理人（web agents）更有效地保護使用者的隱私安全。這個系統的核心在於建立一個通用的防護機制，可以適用於各種不同的網路情境。研究團隊提出了一種新的方法，可以在不影響使用者瀏覽網頁的情況下，有效地防止網路代理人收集敏感資訊。這項研究的價值在於提供了一個通用且有效的解決方案，有助於保護使用者在網路瀏覽時的隱私安全，同時也促進了網路代理人的發展與應用。",
+    "published_date": "2025-07-22",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-23T09:12:26.720866",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-23T09:12:38.965055",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  }
+]

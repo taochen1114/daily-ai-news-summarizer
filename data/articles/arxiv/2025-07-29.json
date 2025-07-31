@@ -1,0 +1,73 @@
+[
+  {
+    "id": "2507.19489",
+    "title": "MAIA: A Collaborative Medical AI Platform for Integrated Healthcare Innovation",
+    "url": "https://arxiv.org/abs/2507.19489",
+    "authors": "Simone Bendazzoli, Sanna Persson, Mehdi Astaraki, Sebastian Pettersson, Vitali Grozman, Rodrigo Moreno",
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.HC",
+      "cs.SE"
+    ],
+    "summary": "這篇論文介紹了一個名為MAIA的醫療人工智慧平台，旨在促進整合醫療創新。其核心論點包括：1. MAIA是一個協作平台，能夠整合不同醫療資訊來源，提供全面的醫療解決方案。2. 透過MAIA，醫療專業人員可以共同合作，分享知識，提升醫療服務品質。3. MAIA的價值在於加速醫療創新，提高醫療效率，改善患者照護。這個平台的創新之處在於結合了人工智慧技術和醫療專業知識，打造了一個互動合作的環境，有助於推動醫療領域的進步。",
+    "published_date": "2025-07-29",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-29T12:03:43.798774",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-29T12:03:48.705515",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.19489.mp3",
+    "audio_file": "audio/articles/2507.19489.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-07-29T12:04:12.549265",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2507.19543",
+    "title": "Agent WARPP: Workflow Adherence via Runtime Parallel Personalization",
+    "url": "https://arxiv.org/abs/2507.19543",
+    "authors": "Maria Emilia Mazzolenis, Ruirui Zhang",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "summary": "這篇論文提出了一個名為Agent WARPP的系統，可以幫助人工智慧代理人在執行任務時更有效率地遵循工作流程。這個系統能夠在執行過程中根據個別代理人的需求和偏好進行即時個人化調整，提高工作效率。作者強調了Agent WARPP的創新之處，即在於能夠在遵循工作流程的同時實現個人化，這對於提高代理人的工作效率和滿意度具有重要價值。這項研究有助於改善人工智慧代理人在執行任務時的表現，提升整體工作效率。",
+    "published_date": "2025-07-29",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-29T12:03:43.798806",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-29T12:03:51.449790",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.19543.mp3",
+    "audio_file": "audio/articles/2507.19543.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-07-29T12:04:20.486494",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2507.19593",
+    "title": "Hypergames: Modeling Misaligned Perceptions and Nested Beliefs for Multi-agent Systems",
+    "url": "https://arxiv.org/abs/2507.19593",
+    "authors": "Vince Trencsenyi, Agnieszka Mensfelt, Kostas Stathis",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "summary": "這篇論文主要探討了一種名為「Hypergames」的模型，用來描述多智能體系統中的錯位知覺和嵌套信念。作者包括Vince Trencsenyi、Agnieszka Mensfelt和Kostas Stathis。\n\n核心論點：\n- Hypergames模型能夠有效地捕捉多智能體系統中的錯位知覺和嵌套信念。\n- 這種模型有助於理解智能體之間的互動和決策過程。\n\n創新點：\n- 通過Hypergames模型，能夠更好地模擬現實世界中智能體之間的互動情況。\n- 這種模型有助於提高多智能體系統的效率和性能。\n\n價值：\n- Hypergames模型為研究者提供了一個新的工具，用於研究多智能體系",
+    "published_date": "2025-07-29",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-29T12:03:43.798828",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-29T12:03:55.579683",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2507.19593.mp3",
+    "audio_file": "audio/articles/2507.19593.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-07-29T12:04:27.964877",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  }
+]

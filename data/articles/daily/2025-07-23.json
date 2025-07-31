@@ -1,0 +1,94 @@
+{
+  "date": "2025-07-23",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2507.14154",
+      "title": "The Free Will Equation: Quantum Field Analogies for AGI",
+      "url": "https://arxiv.org/abs/2507.14154",
+      "source": "Arxiv",
+      "summary": "這篇論文探討了自由意志方程式在人工智慧領域的應用。作者 Rahul Kabali 提出了量子場類比對於通用人工智慧（AGI）的重要性。他認為，通過將自由意志概念與量子場理論相結合，可以更好地理解和設計具有自主決策能力的人工智慧系統。這種新的觀點有助於提高人工智慧的智能水平，並為未來的研究開拓了新的方向。這項研究對於加深我們對於人工智慧如何模擬人類思維和決策過程的理解具有重要價值。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-07-22",
+      "content_type": "academic"
+    },
+    {
+      "id": "2507.14267",
+      "title": "DREAMS: Density Functional Theory Based Research Engine for Agentic Materials Simulation",
+      "url": "https://arxiv.org/abs/2507.14267",
+      "source": "Arxiv",
+      "summary": "這篇論文名為「DREAMS: 基於密度泛函理論的代理材料模擬研究引擎」，主要由王子琦、黃鴻碩、趙漢城、徐昌文、朱尚、Jan Janssen和Venkatasubramanian Viswanathan共同撰寫。他們提出了一個新的材料模擬引擎，利用密度泛函理論來模擬代理材料的特性。這個引擎的創新之處在於可以更準確地預測材料的性質，有助於加速新材料的開發和設計。這項研究對於材料科學領域具有重要價值，有助於提高材料研究的效率和準確性。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-07-22",
+      "content_type": "academic"
+    },
+    {
+      "id": "2507.14293",
+      "title": "WebGuard: Building a Generalizable Guardrail for Web Agents",
+      "url": "https://arxiv.org/abs/2507.14293",
+      "source": "Arxiv",
+      "summary": "這篇論文主要介紹了一個名為「WebGuard」的系統，它可以幫助網路代理人（web agents）更有效地保護使用者的隱私安全。這個系統的核心在於建立一個通用的防護機制，可以適用於各種不同的網路情境。研究團隊提出了一種新的方法，可以在不影響使用者瀏覽網頁的情況下，有效地防止網路代理人收集敏感資訊。這項研究的價值在於提供了一個通用且有效的解決方案，有助於保護使用者在網路瀏覽時的隱私安全，同時也促進了網路代理人的發展與應用。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-07-22",
+      "content_type": "academic"
+    },
+    {
+      "id": "e90b8ca22649a358ba994d1fb0b7e6cb",
+      "title": "Mixture-of-recursions delivers 2x faster inference—Here’s how to implement it",
+      "url": "https://venturebeat.com/ai/mixture-of-recursions-delivers-2x-faster-inference-heres-how-to-implement-it/",
+      "source": "VentureBeat",
+      "summary": "這篇新聞介紹了一種名為「Mixture-of-Recursions」的新型Transformer架構，可以讓大型語言模型更節省記憶體和計算資源，進而提升模型準確度並加快推論速度。這個架構的出現解決了大型語言模型在記憶體和計算需求上的挑戰，對於提升模型效率有著重要的意義。通过「Mixture-of-Recursions」，可以在相同參數和計算預算下，實現更高的模型通過率和更快的推論速度。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-07-23T00:05:33+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "b8a8f42b38ad32866d7f5eb84d0a9f7b",
+      "title": "Anthropic researchers discover the weird AI problem: Why thinking longer makes models dumber",
+      "url": "https://venturebeat.com/ai/anthropic-researchers-discover-the-weird-ai-problem-why-thinking-longer-makes-models-dumber/",
+      "source": "VentureBeat",
+      "summary": "Anthropic研究人員發現了一個奇怪的AI問題：為什麼思考時間越長，模型就變得越笨。他們的研究顯示，對於大型語言模型來說，延長推理時間實際上會降低其性能，這挑戰了AI行業最新擴展努力的核心假設。這項研究可能對依賴擴展推理能力的企業AI系統產生重要影響。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-07-22T22:27:31+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "dce2edf143b9d6863c23fe0b0f001e91",
+      "title": "Intuit brings agentic AI to the mid-market saving organizations 17 to 20 hours a month",
+      "url": "https://venturebeat.com/ai/intuit-brings-agentic-ai-to-the-mid-market-saving-organizations-17-to-20-hours-a-month/",
+      "source": "VentureBeat",
+      "summary": "Intuit推出了具有主動性的AI服務，幫助中型企業每個月節省17到20小時的時間。這項服務針對中市場企業，幫助他們更高效地運作，解決了他們在擴張時遇到的技術困境。透過AI代理人，Intuit致力於幫助企業更快收款，提升運作效率，讓中型企業能夠更輕鬆地應對日常挑戰。",
+      "audio_file": "",
+      "audio_path": "",
+      "audio_generated": false,
+      "audio_generated_date": "",
+      "published_date": "2025-07-22T22:08:16+00:00",
+      "content_type": "news"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "2507.22149",
+    "title": "When Truthful Representations Flip Under Deceptive Instructions?",
+    "url": "https://arxiv.org/abs/2507.22149",
+    "authors": "Xianxuan Long, Yao Fu, Runchao Li, Mu Sheng, Haotian Yu, Xiaotian Han, Pan Li",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "summary": "這篇論文討論了當AI模型在面對欺騙性指示時，如何可能導致真實的表徵被扭曲的問題。作者團隊包括龍賢軒、傅堯、李潤超、盛牧、余浩天、韓曉天、李攀。他們的研究發現，當模型接收到欺騙性指示時，原本真實的表達可能會被扭曲，這對於模型的準確性和可信度造成挑戰。這項研究的創新之處在於揭示了AI模型在特定情境下的脆弱性，並提出了解決這個問題的潛在方法。這對於提升AI模型的魯棒性和可靠性具有重要價值，有助於確保AI系統的正確運作。",
+    "published_date": "2025-07-31",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-31T15:14:25.922640",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-31T15:14:33.237330"
+  },
+  {
+    "id": "2507.22197",
+    "title": "Explainability Through Systematicity: The Hard Systematicity Challenge for Artificial Intelligence",
+    "url": "https://arxiv.org/abs/2507.22197",
+    "authors": "Matthieu Queloz",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CY"
+    ],
+    "summary": "這篇論文討論了人工智慧領域中一個重要議題：解釋性。作者提出了「硬系統性挑戰」，強調解釋性應該是系統性的，而非僅僅基於個別案例。他認為，AI系統應該能夠解釋其決策背後的系統性原則，而非僅僅提供單一情況下的解釋。這種系統性的解釋性對於確保AI決策的可信度和可解釋性至關重要。這個論點提供了一個新的角度，有助於提高AI技術的透明度和可信度，同時也促進了AI與人類之間更好的溝通和合作。",
+    "published_date": "2025-07-31",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-31T15:14:25.922671",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-31T15:14:38.444081"
+  },
+  {
+    "id": "2507.22281",
+    "title": "CoEx -- Co-evolving World-model and Exploration",
+    "url": "https://arxiv.org/abs/2507.22281",
+    "authors": "Minsoo Kim, Seung-won Hwang",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "summary": "這篇論文提出了一種名為「CoEx -- Co-evolving World-model and Exploration」的方法，由作者Minsoo Kim和Seung-won Hwang共同提出。這個方法的核心是同時演化世界模型和探索策略，讓機器人在未知環境中學習和行動。這種方法的創新之處在於它結合了世界模型和探索策略的演化，使得機器人可以更有效地學習和適應新環境。這對於強化學習領域有重要的價值，有助於提高機器人在複雜任務中的表現，並且可以應用在各種實際場景中。",
+    "published_date": "2025-07-31",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-07-31T15:14:25.922693",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-07-31T15:14:41.767246"
+  }
+]
