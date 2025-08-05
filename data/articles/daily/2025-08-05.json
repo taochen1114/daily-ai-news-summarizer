@@ -1,0 +1,94 @@
+{
+  "date": "2025-08-05",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2508.00081",
+      "title": "Rethinking Evidence Hierarchies in Medical Language Benchmarks: A Critical Evaluation of HealthBench",
+      "url": "https://arxiv.org/abs/2508.00081",
+      "source": "Arxiv",
+      "summary": "這篇論文討論了在醫學語言標準中重新思考證據層次的重要性，並對HealthBench進行了批判性評估。作者提出了以下核心論點：\n1. 傳統的證據層次在醫學AI領域中可能不盡適用，需要重新檢視。\n2. HealthBench的評估有助於揭示現有標準的局限性，並提出改進建議。\n3. 這項研究對於提高醫學語言標準的準確性和可靠性具有重要價值。\n\n總結來說，這篇論文呼籲重新評估醫學AI領域中的證據層次，並強調對於HealthBench的批判性評估對於提升醫學語",
+      "audio_file": "audio/articles/2508.00081.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2508.00081.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-08-05T10:59:10.654083",
+      "published_date": "2025-08-04",
+      "content_type": "academic"
+    },
+    {
+      "id": "2508.00106",
+      "title": "Hyperproperty-Constrained Secure Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2508.00106",
+      "source": "Arxiv",
+      "summary": "這篇論文探討了一個名為「Hyperproperty-Constrained Secure Reinforcement Learning」的議題，主要由Ernest Bonnah、Luan Viet Nguyen和Khaza Anuarul Hoque共同合作完成。他們的研究重點在於如何在強化學習中加入安全性機制，以確保系統在學習過程中不會違反特定的安全性要求。這項研究的創新之處在於提出了一種新的方法，可以在保證系統學習效果的同時，確保系統不會偏離安全性要求。這對於應用在安全性要求嚴格的領域，如自動駕駛或醫療診斷系統，具有重要的價值。透過這項研究，未來可以更有效地將強化學習應用在各種需要安全性",
+      "audio_file": "audio/articles/2508.00106.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2508.00106.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-08-05T10:59:21.846232",
+      "published_date": "2025-08-04",
+      "content_type": "academic"
+    },
+    {
+      "id": "2508.00116",
+      "title": "No AI Without PI! Object-Centric Process Mining as the Enabler for Generative, Predictive, and Prescriptive Artificial Intelligence",
+      "url": "https://arxiv.org/abs/2508.00116",
+      "source": "Arxiv",
+      "summary": "這篇論文的主要論點是指出，在人工智慧領域中，沒有處理資料的過程（Process）就無法有好的人工智慧（AI）。作者提出了以物件為中心的流程挖掘技術，可以成為生成式、預測性和指導性人工智慧的關鍵。這項技術的創新之處在於能夠幫助AI系統更好地理解和應用資料，提供更準確的預測和建議。簡而言之，這項研究為發展更具前瞻性和指導性的人工智慧技術提供了重要的基礎。",
+      "audio_file": "audio/articles/2508.00116.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2508.00116.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-08-05T10:59:30.931630",
+      "published_date": "2025-08-04",
+      "content_type": "academic"
+    },
+    {
+      "id": "5e3ef7793a58c1d45b051c2c6418b0fd",
+      "title": "ChatGPT rockets to 700M weekly users ahead of GPT-5 launch with reasoning superpowers",
+      "url": "https://venturebeat.com/ai/chatgpt-rockets-to-700m-weekly-users-ahead-of-gpt-5-launch-with-reasoning-superpowers/",
+      "source": "VentureBeat",
+      "summary": "OpenAI的ChatGPT在推出GPT-5之前，已經吸引了7億週活躍用戶，成為歷史上被採用最快的軟體之一。這顯示人們對AI工具的需求從實驗性質轉變為必需品。OpenAI計劃在八月初推出GPT-5，希望在競爭對手追趕之前主導AI領域。這代表AI技術正快速發展，對解決更複雜問題有著重要作用。",
+      "audio_file": "audio/articles/5e3ef7793a58c1d45b051c2c6418b0fd.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/5e3ef7793a58c1d45b051c2c6418b0fd.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-08-05T10:59:38.991749",
+      "published_date": "2025-08-04T20:42:05+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "ca428b6788daf3043eab90b832caafed",
+      "title": "Qwen-Image is a powerful, open source new AI image generator with support for embedded text in English & Chinese",
+      "url": "https://venturebeat.com/ai/qwen-image-is-a-powerful-open-source-new-ai-image-generator-with-support-for-embedded-text-in-english-chinese/",
+      "source": "VentureBeat",
+      "summary": "Alibaba的Qwen團隊推出了一款強大的開源AI圖像生成器Qwen-Image，支援英文和中文嵌入式文字，特別擅長準確呈現文字在圖像中的位置，可用於製作電影海報、簡報、書法、手寫詩歌等，讓使用者輕鬆生成具有清晰文字的內容。這款模型在處理複雜排版、多行文字、段落語義和雙語內容方面表現出色，為圖像生成領域帶來新的價值。",
+      "audio_file": "audio/articles/ca428b6788daf3043eab90b832caafed.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/ca428b6788daf3043eab90b832caafed.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-08-05T10:59:49.973940",
+      "published_date": "2025-08-04T18:07:53+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "2ab2e9a97baa5ccca2a4cd09f8750063",
+      "title": "Why tomorrow’s best devs won’t just code — they’ll curate, coordinate and command AI",
+      "url": "https://venturebeat.com/programming-development/why-tomorrows-best-devs-wont-just-code-theyll-curate-coordinate-and-command-ai/",
+      "source": "VentureBeat",
+      "summary": "未來優秀的開發人員不僅僅會寫程式碼，還要擔任AI的策展、協調和指揮角色。AI已經能處理許多初級開發工作，改變了軟體工程的學習方式和就業前景。新手開發者需要更多的系統理解和與AI合作的能力。這代表著軟體產業正經歷結構性轉變，需要更多具備跨領域能力的人才。",
+      "audio_file": "audio/articles/2ab2e9a97baa5ccca2a4cd09f8750063.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2ab2e9a97baa5ccca2a4cd09f8750063.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-08-05T10:59:56.593342",
+      "published_date": "2025-08-03T20:05:00+00:00",
+      "content_type": "news"
+    }
+  ]
+}

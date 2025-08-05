@@ -1,0 +1,72 @@
+[
+  {
+    "id": "2508.00081",
+    "title": "Rethinking Evidence Hierarchies in Medical Language Benchmarks: A Critical Evaluation of HealthBench",
+    "url": "https://arxiv.org/abs/2508.00081",
+    "authors": "Fred Mutisya, Shikoh Gitau, Nasubo Ongoma, Keith Mbae, Elizabeth Wamicha",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文討論了在醫學語言標準中重新思考證據層次的重要性，並對HealthBench進行了批判性評估。作者提出了以下核心論點：\n1. 傳統的證據層次在醫學AI領域中可能不盡適用，需要重新檢視。\n2. HealthBench的評估有助於揭示現有標準的局限性，並提出改進建議。\n3. 這項研究對於提高醫學語言標準的準確性和可靠性具有重要價值。\n\n總結來說，這篇論文呼籲重新評估醫學AI領域中的證據層次，並強調對於HealthBench的批判性評估對於提升醫學語",
+    "published_date": "2025-08-04",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-08-05T10:58:26.050886",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-08-05T10:58:38.947985",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2508.00081.mp3",
+    "audio_file": "audio/articles/2508.00081.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-08-05T10:59:10.654083",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2508.00106",
+    "title": "Hyperproperty-Constrained Secure Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2508.00106",
+    "authors": "Ernest Bonnah, Luan Viet Nguyen, Khaza Anuarul Hoque",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.LO",
+      "cs.SY",
+      "eess.SY"
+    ],
+    "summary": "這篇論文探討了一個名為「Hyperproperty-Constrained Secure Reinforcement Learning」的議題，主要由Ernest Bonnah、Luan Viet Nguyen和Khaza Anuarul Hoque共同合作完成。他們的研究重點在於如何在強化學習中加入安全性機制，以確保系統在學習過程中不會違反特定的安全性要求。這項研究的創新之處在於提出了一種新的方法，可以在保證系統學習效果的同時，確保系統不會偏離安全性要求。這對於應用在安全性要求嚴格的領域，如自動駕駛或醫療診斷系統，具有重要的價值。透過這項研究，未來可以更有效地將強化學習應用在各種需要安全性",
+    "published_date": "2025-08-04",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-08-05T10:58:26.050918",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-08-05T10:58:42.172975",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2508.00106.mp3",
+    "audio_file": "audio/articles/2508.00106.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-08-05T10:59:21.846232",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2508.00116",
+    "title": "No AI Without PI! Object-Centric Process Mining as the Enabler for Generative, Predictive, and Prescriptive Artificial Intelligence",
+    "url": "https://arxiv.org/abs/2508.00116",
+    "authors": "Wil M. P. van der Aalst",
+    "categories": [
+      "cs.AI"
+    ],
+    "summary": "這篇論文的主要論點是指出，在人工智慧領域中，沒有處理資料的過程（Process）就無法有好的人工智慧（AI）。作者提出了以物件為中心的流程挖掘技術，可以成為生成式、預測性和指導性人工智慧的關鍵。這項技術的創新之處在於能夠幫助AI系統更好地理解和應用資料，提供更準確的預測和建議。簡而言之，這項研究為發展更具前瞻性和指導性的人工智慧技術提供了重要的基礎。",
+    "published_date": "2025-08-04",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-08-05T10:58:26.050940",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-08-05T10:58:44.713763",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2508.00116.mp3",
+    "audio_file": "audio/articles/2508.00116.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-08-05T10:59:30.931630",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  }
+]
