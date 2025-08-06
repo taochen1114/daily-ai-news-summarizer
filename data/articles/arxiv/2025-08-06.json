@@ -1,0 +1,72 @@
+[
+  {
+    "id": "2508.02694",
+    "title": "Efficient Agents: Building Effective Agents While Reducing Cost",
+    "url": "https://arxiv.org/abs/2508.02694",
+    "authors": "Ningning Wang, Xavier Hu, Pai Liu, He Zhu, Yue Hou, Heyuan Huang, Shengyu Zhang, Jian Yang, Jiaheng Liu, Ge Zhang, Changwang Zhang, Jun Wang, Yuchen Eleanor Jiang, Wangchunshu Zhou",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "summary": "這篇論文主要探討如何在降低成本的同時建立高效能的智能代理人。作者團隊提出了一種有效的方法，可以在不增加成本的情況下提高代理人的表現。他們強調了在訓練代理人時如何更有效地利用資源，以達到更好的效果。這項研究的創新之處在於提供了一種在成本效益方面更為優越的方法，同時確保代理人的表現不會因此受到影響。這將有助於提高人工智慧系統的效率，同時節省開發成本。這項研究對於提升智能代理人的性能和降低相關成本具有重要價值。",
+    "published_date": "2025-08-06",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-08-06T17:15:50.224303",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-08-06T17:15:58.659276",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2508.02694.mp3",
+    "audio_file": "audio/articles/2508.02694.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-08-06T17:16:27.378764",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2508.02697",
+    "title": "Planning with Dynamically Changing Domains",
+    "url": "https://arxiv.org/abs/2508.02697",
+    "authors": "Mikhail Soutchanski, Yongmei Liu",
+    "categories": [
+      "cs.AI",
+      "cs.CE"
+    ],
+    "summary": "這篇論文討論的是在動態變化的情況下進行規劃的議題。作者 Mikhail Soutchanski 和 Yongmei Liu 提出了一種新方法，可以應對領域狀況不斷變化的挑戰。他們的研究主要著重於如何在這樣的環境下有效地進行規劃，以確保系統能夠靈活地適應變化。這項研究的創新之處在於提出了一套能夠處理動態變化的規劃方法，這對於提高系統的適應性和效率具有重要價值。這項研究有助於提升人工智慧系統在實際應用中的表現，並有潛力應用在各種領域中。",
+    "published_date": "2025-08-06",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-08-06T17:15:50.224335",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-08-06T17:16:02.750434",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2508.02697.mp3",
+    "audio_file": "audio/articles/2508.02697.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-08-06T17:16:36.630911",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  },
+  {
+    "id": "2508.02734",
+    "title": "Recovering Individual-Level Activity Sequences from Location-Based Service Data Using a Novel Transformer-Based Model",
+    "url": "https://arxiv.org/abs/2508.02734",
+    "authors": "Weiyu Luo, Chenfeng Xiong",
+    "categories": [
+      "cs.AI",
+      "cs.CE"
+    ],
+    "summary": "這篇論文主要探討如何利用一種新型的基於Transformer的模型，從基於位置的服務數據中恢復個人級別的活動序列。這個模型的創新之處在於能夠更準確地預測人們的活動軌跡，並從中發現個人的活動模式和偏好。研究者們通過這項研究為未來的位置服務應用提供了更有效的數據分析方法，有助於提升個性化服務的品質和效率。這項研究的價值在於提供了一種新的角度來理解人們在不同地點的活動行為，有助於改善相關應用的使用者體驗。",
+    "published_date": "2025-08-06",
+    "source": "Arxiv",
+    "content_type": "academic",
+    "processed": true,
+    "fetch_date": "2025-08-06T17:15:50.224357",
+    "summary_model": "gpt-3.5-turbo",
+    "processed_date": "2025-08-06T17:16:06.325081",
+    "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2508.02734.mp3",
+    "audio_file": "audio/articles/2508.02734.mp3",
+    "audio_generated": true,
+    "audio_generated_date": "2025-08-06T17:16:46.567122",
+    "audio_error": "[Errno 66] Directory not empty: '/Users/yuntao/Documents/AI_Developer/daily-ai-news-summarizer/temp_audio'"
+  }
+]

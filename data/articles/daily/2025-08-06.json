@@ -1,0 +1,94 @@
+{
+  "date": "2025-08-06",
+  "total_articles": 6,
+  "sources": [
+    {
+      "name": "Arxiv",
+      "count": 3
+    },
+    {
+      "name": "VentureBeat",
+      "count": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": "2508.02694",
+      "title": "Efficient Agents: Building Effective Agents While Reducing Cost",
+      "url": "https://arxiv.org/abs/2508.02694",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討如何在降低成本的同時建立高效能的智能代理人。作者團隊提出了一種有效的方法，可以在不增加成本的情況下提高代理人的表現。他們強調了在訓練代理人時如何更有效地利用資源，以達到更好的效果。這項研究的創新之處在於提供了一種在成本效益方面更為優越的方法，同時確保代理人的表現不會因此受到影響。這將有助於提高人工智慧系統的效率，同時節省開發成本。這項研究對於提升智能代理人的性能和降低相關成本具有重要價值。",
+      "audio_file": "audio/articles/2508.02694.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2508.02694.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-08-06T17:16:27.378764",
+      "published_date": "2025-08-06",
+      "content_type": "academic"
+    },
+    {
+      "id": "2508.02697",
+      "title": "Planning with Dynamically Changing Domains",
+      "url": "https://arxiv.org/abs/2508.02697",
+      "source": "Arxiv",
+      "summary": "這篇論文討論的是在動態變化的情況下進行規劃的議題。作者 Mikhail Soutchanski 和 Yongmei Liu 提出了一種新方法，可以應對領域狀況不斷變化的挑戰。他們的研究主要著重於如何在這樣的環境下有效地進行規劃，以確保系統能夠靈活地適應變化。這項研究的創新之處在於提出了一套能夠處理動態變化的規劃方法，這對於提高系統的適應性和效率具有重要價值。這項研究有助於提升人工智慧系統在實際應用中的表現，並有潛力應用在各種領域中。",
+      "audio_file": "audio/articles/2508.02697.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2508.02697.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-08-06T17:16:36.630911",
+      "published_date": "2025-08-06",
+      "content_type": "academic"
+    },
+    {
+      "id": "2508.02734",
+      "title": "Recovering Individual-Level Activity Sequences from Location-Based Service Data Using a Novel Transformer-Based Model",
+      "url": "https://arxiv.org/abs/2508.02734",
+      "source": "Arxiv",
+      "summary": "這篇論文主要探討如何利用一種新型的基於Transformer的模型，從基於位置的服務數據中恢復個人級別的活動序列。這個模型的創新之處在於能夠更準確地預測人們的活動軌跡，並從中發現個人的活動模式和偏好。研究者們通過這項研究為未來的位置服務應用提供了更有效的數據分析方法，有助於提升個性化服務的品質和效率。這項研究的價值在於提供了一種新的角度來理解人們在不同地點的活動行為，有助於改善相關應用的使用者體驗。",
+      "audio_file": "audio/articles/2508.02734.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2508.02734.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-08-06T17:16:46.567122",
+      "published_date": "2025-08-06",
+      "content_type": "academic"
+    },
+    {
+      "id": "626b8d66de71986c95feb8c7b884cea9",
+      "title": "Google Cloud’s data agents promise to end the 80% toil problem plaguing enterprise data teams",
+      "url": "https://venturebeat.com/data-infrastructure/google-clouds-data-agents-promise-to-end-the-80-toil-problem-plaguing-enterprise-data-teams/",
+      "source": "VentureBeat",
+      "summary": "Google Cloud推出的資料代理人承諾解決企業資料團隊面臨的80%繁瑣問題，幫助自動化資料準備和分析工作，讓企業更輕鬆地進行數據分析和人工智慧應用。這些AI代理人包括資料工程代理人、資料科學代理人和對話分析代理人，能自動化資料處理流程、轉換筆記本為智能工作空間，以及處理高級Python分析。這項技術的推出有助於提高企業數據團隊的工作效率，減少繁瑣工作時間，讓他們更專注於創新和價值創造。",
+      "audio_file": "audio/articles/626b8d66de71986c95feb8c7b884cea9.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/626b8d66de71986c95feb8c7b884cea9.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-08-06T17:16:56.463100",
+      "published_date": "2025-08-06T01:00:00+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "6c2a0e4bfcdeee3c0bc9910ad007a1e6",
+      "title": "Anthropic’s new Claude 4.1 dominates coding tests days before GPT-5 arrives",
+      "url": "https://venturebeat.com/ai/anthropics-new-claude-4-1-dominates-coding-tests-days-before-gpt-5-arrives/",
+      "source": "VentureBeat",
+      "summary": "Anthropic推出新的Claude 4.1人工智慧模型，在GPT-5上市前大放異彩，在軟體工程任務中表現優異，超越了競爭對手OpenAI和Google。公司業績驚人增長，但也面臨收入高度依賴少數客戶的風險。這次升級讓Anthropic在AI輔助編碼領域保持領先地位，展現出強大競爭力。",
+      "audio_file": "audio/articles/6c2a0e4bfcdeee3c0bc9910ad007a1e6.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/6c2a0e4bfcdeee3c0bc9910ad007a1e6.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-08-06T17:17:05.522470",
+      "published_date": "2025-08-05T19:04:56+00:00",
+      "content_type": "news"
+    },
+    {
+      "id": "2a3674d38786697b459c67817b795582",
+      "title": "OpenAI returns to open source roots with new models gpt-oss-120b and gpt-oss-20b",
+      "url": "https://venturebeat.com/ai/openai-returns-to-open-source-roots-with-new-models-gpt-oss-120b-and-gpt-oss-20b/",
+      "source": "VentureBeat",
+      "summary": "OpenAI宣布推出兩款新的開源大型語言模型gpt-oss-120b和gpt-oss-20b，回歸開源精神。這些模型分別有1200億和20億參數，可處理文字輸入並輸出文字回覆，性能優於部分付費模型。重要的是，這些模型免費提供給企業和獨立開發者使用，並可連接網路搜尋進行研究。",
+      "audio_file": "audio/articles/2a3674d38786697b459c67817b795582.mp3",
+      "audio_path": "https://lqozyncypoyfxhyannqb.supabase.co/storage/v1/object/public/ai-news-storage/audio/articles/2a3674d38786697b459c67817b795582.mp3",
+      "audio_generated": true,
+      "audio_generated_date": "2025-08-06T17:17:11.831654",
+      "published_date": "2025-08-05T17:00:00+00:00",
+      "content_type": "news"
+    }
+  ]
+}
